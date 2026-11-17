@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <defs>
+    <linearGradient id="sk-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6FB8EA"/>
+      <stop offset="1" stop-color="#CDEAFA"/>
+    </linearGradient>
+    <linearGradient id="sk-snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E2ECF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky (not a part) -->
+  <rect x="0" y="0" width="480" height="360" fill="url(#sk-sky)"/>
+
+  <g data-part="sun">
+    <g stroke="#E0A820" stroke-width="4" stroke-linecap="round">
+      <line x1="436" y1="16" x2="436" y2="6"/>
+      <line x1="436" y1="80" x2="436" y2="90"/>
+      <line x1="404" y1="48" x2="394" y2="48"/>
+      <line x1="468" y1="48" x2="478" y2="48"/>
+      <line x1="413.4" y1="25.4" x2="406.3" y2="18.3"/>
+      <line x1="458.6" y1="25.4" x2="465.7" y2="18.3"/>
+      <line x1="413.4" y1="70.6" x2="406.3" y2="77.7"/>
+      <line x1="458.6" y1="70.6" x2="465.7" y2="77.7"/>
+    </g>
+    <circle cx="436" cy="48" r="24" fill="#F6C945" stroke="#D9A520" stroke-width="4"/>
+    <circle cx="436" cy="48" r="44" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="cloud">
+    <g fill="#FFFFFF" stroke="#9DB8CC" stroke-width="3">
+      <circle cx="90" cy="46" r="13"/>
+      <circle cx="112" cy="35" r="17"/>
+      <circle cx="134" cy="46" r="13"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="90" cy="46" r="11"/>
+      <circle cx="112" cy="35" r="15"/>
+      <circle cx="134" cy="46" r="11"/>
+      <rect x="90" y="40" width="44" height="17"/>
+    </g>
+    <line x1="78" y1="59" x2="146" y2="59" stroke="#9DB8CC" stroke-width="3" stroke-linecap="round"/>
+    <rect x="72" y="14" width="80" height="50" fill="transparent" stroke="none"/>
+  </g>
+  <g data-part="cloud">
+    <g fill="#FFFFFF" stroke="#9DB8CC" stroke-width="3">
+      <circle cx="282" cy="36" r="10"/>
+      <circle cx="299" cy="27" r="14"/>
+      <circle cx="316" cy="36" r="10"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="282" cy="36" r="8"/>
+      <circle cx="299" cy="27" r="12"/>
+      <circle cx="316" cy="36" r="8"/>
+      <rect x="282" y="31" width="34" height="14"/>
+    </g>
+    <line x1="272" y1="46" x2="326" y2="46" stroke="#9DB8CC" stroke-width="3" stroke-linecap="round"/>
+    <rect x="266" y="8" width="66" height="44" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="mountains">
+    <polygon points="-4,182 -4,128 40,110 70,92 110,128 165,62 220,120 250,104 300,78 350,118 385,100 420,128 480,96 484,98 484,182" fill="#8EA8C6"/>
+    <g fill="#7690B0">
+      <polygon points="70,92 110,128 84,176"/>
+      <polygon points="165,62 220,120 180,176"/>
+      <polygon points="300,78 350,118 312,176"/>
+      <polygon points="385,100 420,128 395,176"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#9FB4CB" stroke-width="2" stroke-linejoin="round">
+      <polygon points="58,99.2 70,92 82,102.8 77,101 72,105 67,100 62,103"/>
+      <polygon points="140,92 165,62 192,90.5 184,86 176,93 168,85 160,94 152,87 146,93"/>
+      <polygon points="270,93.6 300,78 325,98 318,93 310,99 302,91 294,99 286,92 278,97"/>
+      <polygon points="370,107.7 385,100 398,110.4 392,108 386,112 380,107 375,110"/>
+      <polygon points="455,109.3 480,96 484,98 484,112 474,108 466,114 460,109"/>
+    </g>
+    <polyline points="-4,128 40,110 70,92 110,128 165,62 220,120 250,104 300,78 350,118 385,100 420,128 480,96 484,98" fill="none" stroke="#4F6B88" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- snowy slope (not a part) -->
+  <path d="M-4 166 Q120 140 240 150 Q360 160 484 142 V364 H-4 Z" fill="url(#sk-snow)"/>
+  <path d="M-4 166 Q120 140 240 150 Q360 160 484 142" fill="none" stroke="#A9C1D6" stroke-width="3"/>
+  <g fill="#DCE8F3">
+    <path d="M-4 222 Q70 206 140 226 Q70 222 -4 236 Z"/>
+    <path d="M190 268 Q260 252 330 262 Q260 264 190 278 Z"/>
+    <path d="M330 274 Q410 258 484 270 V282 Q410 272 330 284 Z"/>
+    <path d="M60 330 Q120 318 190 334 Q120 330 60 342 Z"/>
+  </g>
+
+  <g data-part="trees">
+    <g transform="translate(24 196) scale(0.75)">
+      <rect x="-5" y="-14" width="10" height="14" fill="#7A4A26" stroke="#4A2E14" stroke-width="2.5"/>
+      <g fill="#2F7D4E" stroke="#1B4D30" stroke-width="3" stroke-linejoin="round">
+        <polygon points="-28,-12 28,-12 0,-50"/>
+        <polygon points="-23,-34 23,-34 0,-68"/>
+        <polygon points="-17,-54 17,-54 0,-86"/>
+      </g>
+      <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+        <path d="M-25 -13 Q-12 -19 0 -14 Q12 -19 25 -13"/>
+        <path d="M-20 -36 Q-10 -41 0 -37 Q10 -41 20 -36"/>
+        <path d="M-14 -56 Q-7 -60 0 -57 Q7 -60 14 -56"/>
+      </g>
+      <polygon points="0,-86 -7,-74 -3,-76 0,-72 3,-76 7,-74" fill="#FFFFFF"/>
+    </g>
+    <g transform="translate(58 190) scale(0.62)">
+      <rect x="-5" y="-14" width="10" height="14" fill="#7A4A26" stroke="#4A2E14" stroke-width="2.5"/>
+      <g fill="#2F7D4E" stroke="#1B4D30" stroke-width="3" stroke-linejoin="round">
+        <polygon points="-28,-12 28,-12 0,-50"/>
+        <polygon points="-23,-34 23,-34 0,-68"/>
+        <polygon points="-17,-54 17,-54 0,-86"/>
+      </g>
+      <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+        <path d="M-25 -13 Q-12 -19 0 -14 Q12 -19 25 -13"/>
+        <path d="M-20 -36 Q-10 -41 0 -37 Q10 -41 20 -36"/>
+        <path d="M-14 -56 Q-7 -60 0 -57 Q7 -60 14 -56"/>
+      </g>
+      <polygon points="0,-86 -7,-74 -3,-76 0,-72 3,-76 7,-74" fill="#FFFFFF"/>
+    </g>
+  </g>
+  <g data-part="trees">
+    <g transform="translate(290 172) scale(0.58)">
+      <rect x="-5" y="-14" width="10" height="14" fill="#7A4A26" stroke="#4A2E14" stroke-width="2.5"/>
+      <g fill="#2F7D4E" stroke="#1B4D30" stroke-width="3" stroke-linejoin="round">
+        <polygon points="-28,-12 28,-12 0,-50"/>
+        <polygon points="-23,-34 23,-34 0,-68"/>
+        <polygon points="-17,-54 17,-54 0,-86"/>
+      </g>
+      <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+        <path d="M-25 -13 Q-12 -19 0 -14 Q12 -19 25 -13"/>
+        <path d="M-20 -36 Q-10 -41 0 -37 Q10 -41 20 -36"/>
+        <path d="M-14 -56 Q-7 -60 0 -57 Q7 -60 14 -56"/>
+      </g>
+      <polygon points="0,-86 -7,-74 -3,-76 0,-72 3,-76 7,-74" fill="#FFFFFF"/>
+    </g>
+  </g>
+  <g data-part="trees">
+    <g transform="translate(474 252) scale(0.9)">
+      <rect x="-5" y="-14" width="10" height="14" fill="#7A4A26" stroke="#4A2E14" stroke-width="2.5"/>
+      <g fill="#2F7D4E" stroke="#1B4D30" stroke-width="3" stroke-linejoin="round">
+        <polygon points="-28,-12 28,-12 0,-50"/>
+        <polygon points="-23,-34 23,-34 0,-68"/>
+        <polygon points="-17,-54 17,-54 0,-86"/>
+      </g>
+      <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+        <path d="M-25 -13 Q-12 -19 0 -14 Q12 -19 25 -13"/>
+        <path d="M-20 -36 Q-10 -41 0 -37 Q10 -41 20 -36"/>
+        <path d="M-14 -56 Q-7 -60 0 -57 Q7 -60 14 -56"/>
+      </g>
+      <polygon points="0,-86 -7,-74 -3,-76 0,-72 3,-76 7,-74" fill="#FFFFFF"/>
+    </g>
+  </g>
+  <g data-part="trees">
+    <g transform="translate(40 358) scale(0.9)">
+      <rect x="-5" y="-14" width="10" height="14" fill="#7A4A26" stroke="#4A2E14" stroke-width="2.5"/>
+      <g fill="#2F7D4E" stroke="#1B4D30" stroke-width="3" stroke-linejoin="round">
+        <polygon points="-28,-12 28,-12 0,-50"/>
+        <polygon points="-23,-34 23,-34 0,-68"/>
+        <polygon points="-17,-54 17,-54 0,-86"/>
+      </g>
+      <g fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round">
+        <path d="M-25 -13 Q-12 -19 0 -14 Q12 -19 25 -13"/>
+        <path d="M-20 -36 Q-10 -41 0 -37 Q10 -41 20 -36"/>
+        <path d="M-14 -56 Q-7 -60 0 -57 Q7 -60 14 -56"/>
+      </g>
+      <polygon points="0,-86 -7,-74 -3,-76 0,-72 3,-76 7,-74" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <g data-part="ski_lift">
+    <polygon points="-4,239 170,96 170,130 -4,272" fill="transparent" stroke="none"/>
+    <rect x="64" y="176" width="32" height="134" fill="transparent" stroke="none"/>
+    <!-- far pylon -->
+    <rect x="158" y="114" width="8" height="48" fill="#8D99A6" stroke="#455463" stroke-width="2.5"/>
+    <!-- main pylon -->
+    <rect x="68" y="298" width="24" height="10" rx="2" fill="#B0BEC5" stroke="#455463" stroke-width="2.5"/>
+    <rect x="74" y="184" width="12" height="116" fill="#8D99A6" stroke="#455463" stroke-width="3"/>
+    <path d="M75 196 L85 214 M85 214 L75 232 M75 232 L85 250 M85 250 L75 268 M75 268 L85 286" fill="none" stroke="#5F6E7C" stroke-width="2"/>
+    <rect x="62" y="180" width="36" height="8" rx="2" fill="#F2B233" stroke="#455463" stroke-width="2.5"/>
+    <!-- cable -->
+    <line x1="-4" y1="255" x2="164" y2="115.9" stroke="#37474F" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="80" cy="185.5" r="5" fill="#455463"/>
+    <circle cx="162" cy="117.6" r="4.5" fill="#455463"/>
+    <!-- chair 1 -->
+    <g stroke-linejoin="round">
+      <circle cx="36" cy="221.9" r="4" fill="#37474F"/>
+      <line x1="36" y1="221.9" x2="36" y2="245.9" stroke="#37474F" stroke-width="3"/>
+      <path d="M19 245.9 H53 M19 245.9 V268 M53 245.9 V268" fill="none" stroke="#37474F" stroke-width="3" stroke-linecap="round"/>
+      <rect x="21" y="249" width="30" height="11" rx="2" fill="#E53935" stroke="#8E1F1B" stroke-width="2.5"/>
+      <rect x="17" y="263" width="38" height="7" rx="2" fill="#E53935" stroke="#8E1F1B" stroke-width="2.5"/>
+    </g>
+    <!-- chair 2 -->
+    <g stroke-linejoin="round">
+      <circle cx="128" cy="145.7" r="4" fill="#37474F"/>
+      <line x1="128" y1="145.7" x2="128" y2="169.7" stroke="#37474F" stroke-width="3"/>
+      <path d="M111 169.7 H145 M111 169.7 V191.8 M145 169.7 V191.8" fill="none" stroke="#37474F" stroke-width="3" stroke-linecap="round"/>
+      <rect x="113" y="172.8" width="30" height="11" rx="2" fill="#E53935" stroke="#8E1F1B" stroke-width="2.5"/>
+      <rect x="109" y="186.8" width="38" height="7" rx="2" fill="#E53935" stroke="#8E1F1B" stroke-width="2.5"/>
+    </g>
+  </g>
+
+  <g data-part="hut">
+    <path d="M354 248 Q410 238 468 248 Q470 254 466 256 H356 Q352 254 354 248 Z" fill="#FFFFFF" stroke="#A9C1D6" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="436" y="146" width="14" height="40" fill="#9E9E9E" stroke="#4E4E4E" stroke-width="3"/>
+    <rect x="364" y="196" width="92" height="52" fill="#A86E3C" stroke="#4A2E14" stroke-width="3.5" stroke-linejoin="round"/>
+    <g stroke="#7E4E22" stroke-width="2" stroke-linecap="round">
+      <line x1="366" y1="206" x2="454" y2="206"/>
+      <line x1="366" y1="216" x2="454" y2="216"/>
+      <line x1="366" y1="226" x2="454" y2="226"/>
+      <line x1="366" y1="236" x2="454" y2="236"/>
+    </g>
+    <rect x="398" y="214" width="24" height="34" fill="#6B3F1D" stroke="#3E2410" stroke-width="3"/>
+    <circle cx="417" cy="232" r="2.2" fill="#F2C94C"/>
+    <g fill="#FFE08A" stroke="#4A2E14" stroke-width="3">
+      <rect x="371" y="210" width="20" height="18"/>
+      <rect x="429" y="210" width="20" height="18"/>
+    </g>
+    <g stroke="#4A2E14" stroke-width="2">
+      <line x1="381" y1="210" x2="381" y2="228"/><line x1="371" y1="219" x2="391" y2="219"/>
+      <line x1="439" y1="210" x2="439" y2="228"/><line x1="429" y1="219" x2="449" y2="219"/>
+    </g>
+    <g fill="#FFFFFF" stroke="#9FB4CB" stroke-width="1.5">
+      <rect x="368" y="227" width="26" height="4" rx="2"/>
+      <rect x="426" y="227" width="26" height="4" rx="2"/>
+    </g>
+    <polygon points="346,204 410,156 474,204" fill="#7A4A26" stroke="#3E2410" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M362 196 L410 160 L458 196" fill="none" stroke="#5E361A" stroke-width="2"/>
+    <path d="M344 201 L410 152 L476 201" fill="none" stroke="#9FB4CB" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M344 201 L410 152 L476 201" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="443" cy="145" rx="10" ry="4.5" fill="#FFFFFF" stroke="#9FB4CB" stroke-width="2"/>
+  </g>
+
+  <g data-part="skis">
+    <rect x="306" y="174" width="42" height="84" fill="transparent" stroke="none"/>
+    <g transform="rotate(-7 322 248)">
+      <rect x="317" y="180" width="10" height="68" rx="5" fill="#E53935" stroke="#7A1E14" stroke-width="2.5"/>
+      <line x1="322" y1="186" x2="322" y2="240" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <rect x="315" y="212" width="14" height="9" rx="2" fill="#37474F"/>
+    </g>
+    <g transform="rotate(7 332 248)">
+      <rect x="327" y="180" width="10" height="68" rx="5" fill="#1E88E5" stroke="#0D3C6E" stroke-width="2.5"/>
+      <line x1="332" y1="186" x2="332" y2="240" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <rect x="325" y="212" width="14" height="9" rx="2" fill="#37474F"/>
+    </g>
+    <ellipse cx="327" cy="249" rx="20" ry="6" fill="#FFFFFF" stroke="#A9C1D6" stroke-width="2.5"/>
+  </g>
+
+  <g data-part="skier">
+    <ellipse cx="216" cy="230" rx="38" ry="5" fill="#C9DAEA"/>
+    <g transform="translate(215 214) rotate(16)">
+      <line x1="16" y1="-50" x2="-28" y2="-4" stroke="#455A64" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-25" cy="-7" r="3.5" fill="none" stroke="#455A64" stroke-width="2"/>
+      <path d="M-44 0 H32 Q42 0 45 -10" fill="none" stroke="#0D3C6E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-44 0 H32 Q42 0 45 -10" fill="none" stroke="#1E88E5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="-8" y="-12" width="18" height="10" rx="3" fill="#263238"/>
+      <path d="M0 -8 L12 -26 L-4 -42" fill="none" stroke="#1A237E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 -8 L12 -26 L-4 -42" fill="none" stroke="#3949AB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-4 -42 L2 -64" fill="none" stroke="#8A4A00" stroke-width="22" stroke-linecap="round"/>
+      <path d="M-4 -42 L2 -64" fill="none" stroke="#FB8C00" stroke-width="18" stroke-linecap="round"/>
+      <path d="M2 -60 L22 -48" fill="none" stroke="#8A4A00" stroke-width="11" stroke-linecap="round"/>
+      <path d="M2 -60 L22 -48" fill="none" stroke="#FB8C00" stroke-width="7" stroke-linecap="round"/>
+      <line x1="24" y1="-48" x2="-16" y2="-2" stroke="#455A64" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-13" cy="-5" r="3.5" fill="none" stroke="#455A64" stroke-width="2"/>
+      <circle cx="24" cy="-47" r="4.5" fill="#263238"/>
+      <circle cx="8" cy="-78" r="9" fill="#F5C9A0" stroke="#8A5A3A" stroke-width="2.5"/>
+      <path d="M-1 -80 A9 9 0 0 1 17 -80 Z" fill="#E53935" stroke="#8E1F1B" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="8" cy="-90" r="3.5" fill="#FFFFFF" stroke="#8E1F1B" stroke-width="2"/>
+      <rect x="8" y="-80" width="11" height="6" rx="3" fill="#FFCA28" stroke="#263238" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g data-part="snowboarder">
+    <ellipse cx="292" cy="338" rx="44" ry="6" fill="#C9DAEA"/>
+    <g transform="translate(290 328) rotate(-12)">
+      <path d="M-15 -8 L-12 -24 L-2 -38 M15 -8 L12 -24 L2 -38" fill="none" stroke="#311B92" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-15 -8 L-12 -24 L-2 -38 M15 -8 L12 -24 L2 -38" fill="none" stroke="#5E35B1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="-46" y="-4" width="92" height="10" rx="5" fill="#D81B60" stroke="#6A0F33" stroke-width="2.5"/>
+      <line x1="-36" y1="1" x2="36" y2="1" stroke="#F8BBD0" stroke-width="2" stroke-linecap="round"/>
+      <rect x="-23" y="-12" width="15" height="9" rx="3" fill="#263238"/>
+      <rect x="8" y="-12" width="15" height="9" rx="3" fill="#263238"/>
+      <path d="M0 -58 L-28 -48 M4 -58 L32 -52" fill="none" stroke="#1B5E20" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 -58 L-28 -48 M4 -58 L32 -52" fill="none" stroke="#43A047" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0 -38 L2 -62" fill="none" stroke="#1B5E20" stroke-width="22" stroke-linecap="round"/>
+      <path d="M0 -38 L2 -62" fill="none" stroke="#43A047" stroke-width="18" stroke-linecap="round"/>
+      <circle cx="-30" cy="-47" r="4.5" fill="#FDD835" stroke="#263238" stroke-width="2"/>
+      <circle cx="34" cy="-52" r="4.5" fill="#FDD835" stroke="#263238" stroke-width="2"/>
+      <circle cx="3" cy="-74" r="9" fill="#F5C9A0" stroke="#8A5A3A" stroke-width="2.5"/>
+      <path d="M-6 -76 A9 9 0 0 1 12 -76 Z" fill="#FDD835" stroke="#A88A00" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="3" cy="-86" r="3.5" fill="#E53935" stroke="#8E1F1B" stroke-width="2"/>
+      <rect x="-6" y="-76" width="18" height="6" rx="3" fill="#4FC3F7" stroke="#263238" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g data-part="snowman">
+    <ellipse cx="150" cy="344" rx="34" ry="5" fill="#C9DAEA"/>
+    <g stroke="#6B4423" stroke-width="4" stroke-linecap="round" fill="none">
+      <path d="M132 276 L110 258 M118 263 L112 270"/>
+      <path d="M168 276 L190 260 M182 266 L188 272"/>
+    </g>
+    <g fill="#DCE7F2" stroke="#7F9AB6" stroke-width="3">
+      <circle cx="150" cy="316" r="27"/>
+      <circle cx="150" cy="277" r="20"/>
+      <circle cx="150" cy="246" r="15"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="146" cy="312" r="21"/>
+      <circle cx="147" cy="274" r="15"/>
+      <circle cx="148" cy="244" r="11"/>
+    </g>
+    <path d="M134 259 Q150 266 166 259 L166 266 Q150 273 134 266 Z" fill="#E53935" stroke="#8E1F1B" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M155 264 L160 286 L168 284 L163 263 Z" fill="#E53935" stroke="#8E1F1B" stroke-width="2" stroke-linejoin="round"/>
+    <g fill="#263238">
+      <circle cx="150" cy="278" r="3"/>
+      <circle cx="150" cy="290" r="3"/>
+      <circle cx="150" cy="310" r="3.2"/>
+      <circle cx="150" cy="322" r="3.2"/>
+      <circle cx="144" cy="242" r="2.3"/>
+      <circle cx="156" cy="242" r="2.3"/>
+      <circle cx="143" cy="253" r="1.4"/>
+      <circle cx="147" cy="255" r="1.4"/>
+      <circle cx="151" cy="255" r="1.4"/>
+    </g>
+    <polygon points="151,246 180,251 151,255" fill="#FB8C00" stroke="#B85C00" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="138" y="215" width="24" height="18" fill="#263238"/>
+    <rect x="138" y="226" width="24" height="4" fill="#E53935"/>
+    <rect x="131" y="231" width="38" height="5" rx="2" fill="#263238"/>
+  </g>
+
+  <g data-part="sledge">
+    <ellipse cx="420" cy="344" rx="48" ry="5" fill="#C9DAEA"/>
+    <g transform="translate(420 334)">
+      <path d="M-46 6 H30 Q46 6 46 -8 Q46 -16 38 -14" fill="none" stroke="#5D3A1A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g stroke="#5D3A1A" stroke-width="4" stroke-linecap="round">
+        <line x1="-36" y1="6" x2="-36" y2="-8"/>
+        <line x1="-6" y1="6" x2="-6" y2="-8"/>
+        <line x1="24" y1="6" x2="24" y2="-8"/>
+      </g>
+      <path d="M-14 -18 L18 -18 L22 -24" fill="none" stroke="#0D3C6E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-14 -18 L18 -18 L22 -24" fill="none" stroke="#1E88E5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="-44" y="-14" width="76" height="8" rx="3" fill="#C68A4E" stroke="#5D3A1A" stroke-width="2.5"/>
+      <path d="M-26 -13 V-7 M-8 -13 V-7 M10 -13 V-7" stroke="#8A5A2B" stroke-width="2"/>
+      <rect x="18" y="-30" width="11" height="10" rx="3" fill="#263238"/>
+      <path d="M-16 -20 L-14 -44" fill="none" stroke="#0D3C6E" stroke-width="20" stroke-linecap="round"/>
+      <path d="M-16 -20 L-14 -44" fill="none" stroke="#1E88E5" stroke-width="16" stroke-linecap="round"/>
+      <path d="M40 -12 Q24 -24 6 -29" fill="none" stroke="#8D6E63" stroke-width="2"/>
+      <path d="M-12 -38 L4 -30" fill="none" stroke="#0D3C6E" stroke-width="10" stroke-linecap="round"/>
+      <path d="M-12 -38 L4 -30" fill="none" stroke="#1E88E5" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="6" cy="-29" r="4" fill="#E53935" stroke="#8E1F1B" stroke-width="1.5"/>
+      <circle cx="-12" cy="-56" r="9" fill="#F5C9A0" stroke="#8A5A3A" stroke-width="2.5"/>
+      <circle cx="-8" cy="-57" r="1.5" fill="#263238"/>
+      <path d="M-21 -58 A9 9 0 0 1 -3 -58 Z" fill="#E53935" stroke="#8E1F1B" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="-12" cy="-68" r="3.5" fill="#FFFFFF" stroke="#8E1F1B" stroke-width="2"/>
+    </g>
+    <rect x="370" y="260" width="100" height="90" fill="transparent" stroke="none"/>
+  </g>
+</svg>

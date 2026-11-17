@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420">
+  <!-- the man was drawn on a 320 wide canvas; shifted right to leave room for the dog and the flowers -->
+  <g transform="translate(80 0)">
+  <!-- soft backdrop and ground shadow (not parts) -->
+  <rect x="-80" y="0" width="480" height="420" fill="#EAF3F8"/>
+  <ellipse cx="160" cy="206" rx="232" ry="198" fill="#F5FAFC"/>
+  <ellipse cx="160" cy="400" rx="92" ry="11" fill="#CFDDE4"/>
+
+  <g data-part="legs">
+    <g fill="#F2C9A0" stroke="#B07A50" stroke-width="4" stroke-linejoin="round">
+      <path d="M122 290 H154 L152 330 L149 376 H129 L126 330 Z"/>
+      <path d="M166 290 H198 L194 330 L191 376 H171 L168 330 Z"/>
+    </g>
+    <!-- knee-length grey shorts: clothing nested in the body part it covers,
+         so a tap on them counts for both -->
+    <g data-part="shorts">
+      <path d="M110 230 H210 L215 306 H167 L160 260 L153 306 H105 Z" fill="#9E9E9E" stroke="#4F4F4F" stroke-width="4" stroke-linejoin="round"/>
+      <g fill="none" stroke="#6E6E6E" stroke-width="2.5" stroke-linecap="round">
+        <path d="M108 296 H152 M168 296 H212"/>
+        <path d="M160 240 V258"/>
+        <path d="M118 246 Q130 252 138 246 M182 246 Q190 252 202 246"/>
+      </g>
+    </g>
+  </g>
+
+  <g data-part="knees">
+    <g fill="none" stroke="#C48A5E" stroke-width="3" stroke-linecap="round">
+      <path d="M131 320 Q139 313 147 320"/>
+      <path d="M132 331 Q139 337 146 331"/>
+      <path d="M173 320 Q181 313 189 320"/>
+      <path d="M174 331 Q181 337 188 331"/>
+    </g>
+    <circle cx="139" cy="326" r="22" fill="transparent" stroke="none"/>
+    <circle cx="181" cy="326" r="22" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="feet">
+    <!-- the shoes are all there is to see of the feet -->
+    <g data-part="shoes">
+    <g fill="#8D5A2B" stroke="#4A2E14" stroke-width="4" stroke-linejoin="round">
+      <path d="M112 388 Q112 372 128 370 H148 Q156 372 155 386 Q154 400 134 400 Q112 400 112 388 Z"/>
+      <path d="M208 388 Q208 372 192 370 H172 Q164 372 165 386 Q166 400 186 400 Q208 400 208 388 Z"/>
+    </g>
+    <g fill="none" stroke="#5E3A18" stroke-width="2.5" stroke-linecap="round">
+      <path d="M115 392 Q134 398 153 392 M167 392 Q186 398 205 392"/>
+      <path d="M134 376 H146 M136 382 H147 M186 376 H174 M184 382 H173"/>
+    </g>
+    <rect x="108" y="366" width="52" height="40" fill="transparent" stroke="none"/>
+    <rect x="160" y="366" width="52" height="40" fill="transparent" stroke="none"/>
+    </g>
+  </g>
+
+  <g data-part="arms">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M98 160 L80 204 L64 256" stroke="#B07A50" stroke-width="25"/>
+      <path d="M222 160 L240 204 L256 256" stroke="#B07A50" stroke-width="25"/>
+      <path d="M98 160 L80 204 L64 256" stroke="#F2C9A0" stroke-width="17"/>
+      <path d="M222 160 L240 204 L256 256" stroke="#F2C9A0" stroke-width="17"/>
+    </g>
+    <!-- an anchor tattoo on his right forearm (left in the picture), part of the arm -->
+    <g data-part="tattoo">
+      <g transform="translate(70.5 234) rotate(17)" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="0" cy="-12" r="3" fill="none" stroke="#1F3A6E" stroke-width="2.2"/>
+        <path d="M0 -9 V12 M-5.5 -5.5 H5.5" fill="none" stroke="#1F3A6E" stroke-width="2.6"/>
+        <path d="M-7 5 Q-6 12.5 0 12.5 Q6 12.5 7 5" fill="none" stroke="#1F3A6E" stroke-width="2.6"/>
+        <path d="M-7 2.5 L-9.5 7.5 L-4.5 6.5 Z M7 2.5 L9.5 7.5 L4.5 6.5 Z" fill="#1F3A6E" stroke="#1F3A6E" stroke-width="1.2"/>
+        <path d="M0 3.4 C-1.2 1 -4.6 1.4 -4 4.2 C-3.6 6 -1.4 7.2 0 8.4 C1.4 7.2 3.6 6 4 4.2 C4.6 1.4 1.2 1 0 3.4 Z" fill="#D32F2F" stroke="#1F3A6E" stroke-width="1"/>
+        <rect x="-16" y="-17" width="32" height="34" fill="transparent" stroke="none"/>
+      </g>
+    </g>
+    <!-- short T-shirt sleeves: part of the arm, and of the shirt -->
+    <g data-part="shirt">
+      <g fill="#1976D2" stroke="#0D47A1" stroke-width="4" stroke-linejoin="round">
+        <path d="M110 124 Q90 128 82 146 L73 176 Q92 188 112 188 Z"/>
+        <path d="M210 124 Q230 128 238 146 L247 176 Q228 188 208 188 Z"/>
+      </g>
+      <path d="M77 167 Q92 178 108 179 M243 167 Q228 178 212 179" fill="none" stroke="#0D47A1" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g data-part="elbows">
+    <g fill="none" stroke="#C48A5E" stroke-width="3" stroke-linecap="round">
+      <path d="M73 203 Q80 210 87 205"/>
+      <path d="M247 203 Q240 210 233 205"/>
+    </g>
+    <circle cx="80" cy="205" r="22" fill="transparent" stroke="none"/>
+    <circle cx="240" cy="205" r="22" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="hands">
+    <g fill="#F2C9A0" stroke="#B07A50" stroke-width="3.5" stroke-linejoin="round">
+      <path d="M72 262 Q82 266 80 278 Q78 285 72 281 Z"/>
+      <path d="M248 262 Q238 266 240 278 Q242 285 248 281 Z"/>
+      <path d="M54 256 Q49 270 51 284 Q53 297 63 297 Q73 297 74 284 L75 266 Q75 255 65 253 Z"/>
+      <path d="M266 256 Q271 270 269 284 Q267 297 257 297 Q247 297 246 284 L245 266 Q245 255 255 253 Z"/>
+    </g>
+    <path d="M57 284 V291 M63 286 V294 M69 284 V291 M263 284 V291 M257 286 V294 M251 284 V291" fill="none" stroke="#C48A5E" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="63" cy="276" r="25" fill="transparent" stroke="none"/>
+    <circle cx="257" cy="276" r="25" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="neck">
+    <rect x="147" y="84" width="26" height="46" fill="#F2C9A0" stroke="#B07A50" stroke-width="4"/>
+    <path d="M149 100 Q160 108 171 100 L171 106 Q160 113 149 106 Z" fill="#DDAA80" opacity="0.7"/>
+    <rect x="137" y="98" width="46" height="30" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- the T-shirt body: belly (lower), chest (upper middle) and shoulders (upper corners) do not overlap;
+       all three together are the shirt -->
+  <g data-part="shirt">
+  <g data-part="belly">
+    <path d="M103.5 186 L108 238 Q160 246 212 238 L216.5 186 Z" fill="#1976D2"/>
+    <path d="M103.5 186 L108 238 Q160 246 212 238 L216.5 186" fill="none" stroke="#0D47A1" stroke-width="4.5" stroke-linejoin="round"/>
+    <path d="M112 230 Q160 237 208 230" fill="none" stroke="#0D47A1" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M140 210 Q150 214 160 212 M168 218 Q178 220 186 216" fill="none" stroke="#1565C0" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="chest">
+    <path d="M130 119.5 Q135 118.4 140 118 Q160 138 180 118 Q185 118.4 190 119.5 A22 18 0 0 0 219.6 150 L216.5 186 H103.5 L100.4 150 A22 18 0 0 0 130 119.5 Z" fill="#1976D2"/>
+    <path d="M100.4 150 L103.5 187 M219.6 150 L216.5 187 M129 119.6 Q135 118.4 140 118 M180 118 Q185 118.4 191 119.6" fill="none" stroke="#0D47A1" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M140 118 Q160 140 180 118" fill="none" stroke="#0D47A1" stroke-width="7" stroke-linecap="round"/>
+    <rect x="178" y="152" width="22" height="22" rx="2" fill="#1E80DA" stroke="#0D47A1" stroke-width="3"/>
+    <line x1="178" y1="158" x2="200" y2="158" stroke="#0D47A1" stroke-width="2.5"/>
+  </g>
+
+  <g data-part="shoulders">
+    <path d="M130 119.5 Q119 120.5 108 126 Q100 132 100 146 L100.4 150 A22 18 0 0 0 130 119.5 Z" fill="#1976D2"/>
+    <path d="M190 119.5 Q201 120.5 212 126 Q220 132 220 146 L219.6 150 A22 18 0 0 1 190 119.5 Z" fill="#1976D2"/>
+    <path d="M131 119.4 Q119 120.5 108 126 Q100 132 100 146 L100.4 151 M189 119.4 Q201 120.5 212 126 Q220 132 220 146 L219.6 151" fill="none" stroke="#0D47A1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M126 125 Q114 126 109 131 Q105 136 105 143 M194 125 Q206 126 211 131 Q215 136 215 143" fill="none" stroke="#64B5F6" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+    <ellipse cx="112" cy="134" rx="22" ry="18" fill="transparent" stroke="none"/>
+    <ellipse cx="208" cy="134" rx="22" ry="18" fill="transparent" stroke="none"/>
+  </g>
+  </g>
+
+  <g data-part="head">
+    <g transform="translate(160 56)">
+      <ellipse cx="-34" cy="2" rx="7" ry="10" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+      <ellipse cx="34" cy="2" rx="7" ry="10" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+      <path d="M-35 -2 Q-39 2 -35 7 M35 -2 Q39 2 35 7" fill="none" stroke="#C48A5E" stroke-width="2.5" stroke-linecap="round"/>
+      <ellipse cx="0" cy="0" rx="33" ry="38" fill="#F2C9A0" stroke="#B07A50" stroke-width="5"/>
+    </g>
+  </g>
+
+  <g data-part="hair">
+    <g transform="translate(160 56)">
+      <path d="M-34 -2 Q-38 -44 0 -43 Q38 -44 34 -2 Q28 -22 6 -24 Q-2 -19 -8 -24 Q-26 -22 -34 -2 Z" fill="#6D4C41" stroke="#4E342E" stroke-width="4.5" stroke-linejoin="round"/>
+      <path d="M-16 -34 Q-6 -38 4 -35 M10 -36 Q20 -36 26 -30" fill="none" stroke="#4E342E" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g data-part="face">
+    <g transform="translate(160 56)">
+      <path d="M-32 4 C-32 30 -18 44 0 44 C18 44 32 30 32 4 L27 6 C26 20 20 32 0 33 C-20 32 -26 20 -27 6 Z" fill="#6D4C41" stroke="#4E342E" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-13 21 Q-6 15 0 18 Q6 15 13 21 Q6 20 0 22 Q-6 20 -13 21 Z" fill="#6D4C41" stroke="#4E342E" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M-7 27 Q0 31 7 27" fill="none" stroke="#8D4A3A" stroke-width="3" stroke-linecap="round"/>
+      <g fill="none" stroke="#4E342E" stroke-width="4" stroke-linecap="round">
+        <path d="M-20 -10 Q-12 -15 -4 -11"/>
+        <path d="M20 -10 Q12 -15 4 -11"/>
+      </g>
+      <circle cx="-12" cy="-1" r="4.5" fill="#3E2723"/>
+      <circle cx="12" cy="-1" r="4.5" fill="#3E2723"/>
+      <circle cx="-10.5" cy="-2.5" r="1.4" fill="#FFFFFF"/>
+      <circle cx="13.5" cy="-2.5" r="1.4" fill="#FFFFFF"/>
+      <path d="M0 4 Q5 11 -1 13" fill="none" stroke="#B07A50" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <ellipse cx="0" cy="13" rx="27" ry="28" fill="transparent" stroke="none"/>
+    </g>
+  </g>
+  </g>
+
+  <!-- ground shadows under the dog and the flower pot (not parts) -->
+  <ellipse cx="62" cy="400" rx="52" ry="7" fill="#CFDDE4"/>
+  <ellipse cx="412" cy="400" rx="44" ry="7" fill="#CFDDE4"/>
+
+  <!-- a friendly dog sitting on the left, looking up at him -->
+  <g data-part="dog" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="none">
+      <path d="M40 394 Q14 398 10 380 Q8 368 16 362" stroke="#4A2A12" stroke-width="13"/>
+      <path d="M40 394 Q14 398 10 380 Q8 368 16 362" stroke="#C77B3B" stroke-width="6"/>
+    </g>
+    <path d="M26 380 Q26 326 66 300 L92 298 Q104 338 100 396 H44 Q28 394 26 380 Z" fill="#C77B3B" stroke="#4A2A12" stroke-width="4"/>
+    <path d="M78 302 Q96 310 98 346 Q92 358 84 348 Q82 326 72 306 Z" fill="#FFF8EE"/>
+    <rect x="90" y="330" width="13" height="62" rx="6" fill="#B06A2E" stroke="#4A2A12" stroke-width="4"/>
+    <ellipse cx="48" cy="368" rx="27" ry="25" fill="#C77B3B" stroke="#4A2A12" stroke-width="4"/>
+    <ellipse cx="58" cy="395" rx="17" ry="6.5" fill="#FFF8EE" stroke="#4A2A12" stroke-width="3.5"/>
+    <rect x="77" y="334" width="14" height="60" rx="6" fill="#C77B3B" stroke="#4A2A12" stroke-width="4"/>
+    <ellipse cx="102" cy="394" rx="10" ry="6" fill="#FFF8EE" stroke="#4A2A12" stroke-width="3.5"/>
+    <ellipse cx="88" cy="396" rx="11" ry="6" fill="#FFF8EE" stroke="#4A2A12" stroke-width="3.5"/>
+    <path d="M68 300 Q82 312 96 300" fill="none" stroke="#7A1414" stroke-width="10"/>
+    <path d="M68 300 Q82 312 96 300" fill="none" stroke="#D93030" stroke-width="5"/>
+    <circle cx="82" cy="312" r="5" fill="#F2C94C" stroke="#9A7A1A" stroke-width="2.5"/>
+    <ellipse cx="82" cy="278" rx="23" ry="21" fill="#C77B3B" stroke="#4A2A12" stroke-width="4"/>
+    <g transform="rotate(-24 102 268)">
+      <ellipse cx="102" cy="270" rx="15" ry="10" fill="#FFF8EE" stroke="#4A2A12" stroke-width="3.5"/>
+      <ellipse cx="115" cy="266" rx="5" ry="4" fill="#3A2A22"/>
+      <path d="M100 279 Q108 282 114 277" fill="none" stroke="#4A2A12" stroke-width="2.5"/>
+    </g>
+    <path d="M66 262 Q52 268 56 292 Q62 302 70 292 Q72 276 76 264 Z" fill="#7A4520" stroke="#4A2A12" stroke-width="3.5"/>
+    <circle cx="88" cy="270" r="3.8" fill="#3E2723"/>
+    <circle cx="89.4" cy="268.6" r="1.2" fill="#FFFFFF"/>
+    <path d="M82 262 Q88 258 94 261" fill="none" stroke="#4A2A12" stroke-width="2.5"/>
+  </g>
+
+  <!-- flowers in a pot on the right -->
+  <g data-part="flowers" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="none" stroke="#2E7D32" stroke-width="4">
+      <path d="M412 346 Q404 316 392 294"/>
+      <path d="M412 346 Q414 304 418 272"/>
+      <path d="M412 346 Q426 322 440 302"/>
+    </g>
+    <path d="M404 324 Q388 318 386 328 Q396 334 406 330 Z" fill="#7CB342" stroke="#2E7D32" stroke-width="2.5"/>
+    <path d="M422 320 Q436 310 442 318 Q434 328 422 326 Z" fill="#7CB342" stroke="#2E7D32" stroke-width="2.5"/>
+    <g stroke-width="2.5">
+      <g transform="translate(392 292)" fill="#E53935" stroke="#9A1F1C"><circle cx="0" cy="-9" r="7.5"/><circle cx="8.6" cy="-2.8" r="7.5"/><circle cx="5.3" cy="7.3" r="7.5"/><circle cx="-5.3" cy="7.3" r="7.5"/><circle cx="-8.6" cy="-2.8" r="7.5"/></g>
+      <g transform="translate(418 270)" fill="#FDD835" stroke="#B8962A"><circle cx="0" cy="-9" r="7.5"/><circle cx="8.6" cy="-2.8" r="7.5"/><circle cx="5.3" cy="7.3" r="7.5"/><circle cx="-5.3" cy="7.3" r="7.5"/><circle cx="-8.6" cy="-2.8" r="7.5"/></g>
+      <g transform="translate(442 300)" fill="#AB47BC" stroke="#6A1B7A"><circle cx="0" cy="-9" r="7.5"/><circle cx="8.6" cy="-2.8" r="7.5"/><circle cx="5.3" cy="7.3" r="7.5"/><circle cx="-5.3" cy="7.3" r="7.5"/><circle cx="-8.6" cy="-2.8" r="7.5"/></g>
+    </g>
+    <circle cx="392" cy="292" r="5" fill="#FFB300" stroke="#9A1F1C" stroke-width="2"/>
+    <circle cx="418" cy="270" r="5" fill="#F57C00" stroke="#B8962A" stroke-width="2"/>
+    <circle cx="442" cy="300" r="5" fill="#FFB300" stroke="#6A1B7A" stroke-width="2"/>
+    <path d="M384 354 H440 L432 400 H392 Z" fill="#C8693A" stroke="#7A3A1A" stroke-width="4"/>
+    <rect x="378" y="342" width="68" height="15" rx="3" fill="#D97B48" stroke="#7A3A1A" stroke-width="4"/>
+    <path d="M394 372 Q412 378 430 372" fill="none" stroke="#A9532A" stroke-width="2.5"/>
+  </g>
+</svg>

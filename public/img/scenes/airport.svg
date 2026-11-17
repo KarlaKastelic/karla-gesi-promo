@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <!-- soft blue sky with a few clouds (not parts) -->
+  <rect x="0" y="0" width="480" height="230" fill="#CDEBFA"/>
+  <g data-naughty="cloud">
+    <g fill="#FFFFFF" stroke="#B9DDF0" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M110 44 Q110 32 122 32 Q126 22 138 24 Q148 18 156 28 Q168 28 168 40 Q168 48 158 48 H118 Q110 48 110 44 Z"/>
+    </g>
+  </g>
+  <g data-naughty="cloud">
+    <g fill="#FFFFFF" stroke="#B9DDF0" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M386 30 Q386 20 396 20 Q402 12 412 16 Q422 12 428 22 Q438 22 438 32 Q438 38 430 38 H392 Q386 38 386 30 Z"/>
+    </g>
+  </g>
+
+  <!-- road and pavement (not parts) -->
+  <rect x="0" y="222" width="480" height="90" fill="#CBCFD3"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="22 16" opacity="0.8">
+    <path d="M0 236 H480"/>
+  </g>
+  <rect x="0" y="310" width="480" height="50" fill="#E6E8EA"/>
+  <rect x="0" y="306" width="480" height="7" fill="#F5F6F7" stroke="#A9AFB5" stroke-width="2"/>
+  <g stroke="#D3D7DB" stroke-width="2"><line x1="60" y1="313" x2="50" y2="360"/><line x1="150" y1="313" x2="146" y2="360"/><line x1="240" y1="313" x2="240" y2="360"/><line x1="330" y1="313" x2="334" y2="360"/><line x1="420" y1="313" x2="430" y2="360"/></g>
+
+  <g data-part="tower" stroke-linejoin="round" stroke-linecap="round">
+    <!-- antenna -->
+    <path d="M52 44 V20" fill="none" stroke="#455A64" stroke-width="3"/>
+    <circle cx="52" cy="18" r="3.5" fill="#E53935" stroke="#8E1B1B" stroke-width="1.5"/>
+    <!-- tall shaft -->
+    <path d="M40 224 L45 80 H59 L64 224 Z" fill="#ECEFF1" stroke="#607D8B" stroke-width="3"/>
+    <path d="M49 96 V214" fill="none" stroke="#CFD8DC" stroke-width="3"/>
+    <!-- glass cab, wider at the top -->
+    <rect x="34" y="74" width="36" height="8" fill="#B0BEC5" stroke="#607D8B" stroke-width="2.5"/>
+    <path d="M26 52 H78 L71 75 H33 Z" fill="#4FC3F7" stroke="#37474F" stroke-width="3"/>
+    <path d="M39 53 L42 74 M52 53 V74 M65 53 L62 74" fill="none" stroke="#37474F" stroke-width="2"/>
+    <path d="M30 57 L34 70" fill="none" stroke="#E1F5FE" stroke-width="2.5"/>
+    <rect x="23" y="44" width="58" height="9" rx="2" fill="#ECEFF1" stroke="#37474F" stroke-width="3"/>
+  </g>
+
+  <g data-part="terminal" stroke-linejoin="round" stroke-linecap="round">
+    <!-- building and its big glass front -->
+    <rect x="108" y="118" width="380" height="106" fill="#ECEFF1" stroke="#607D8B" stroke-width="3"/>
+    <rect x="118" y="128" width="370" height="90" fill="#9FD3EF" stroke="#455A64" stroke-width="2.5"/>
+    <g fill="none" stroke="#CFEBFA" stroke-width="5" opacity="0.8">
+      <path d="M128 200 L160 136 M140 210 L176 138 M262 200 L294 136 M378 204 L410 140"/>
+    </g>
+    <g fill="none" stroke="#546E7A" stroke-width="2.5">
+      <path d="M118 158 H488 M118 188 H488"/>
+      <path d="M152 128 V218 M186 128 V218 M220 128 V218 M254 128 V218 M288 128 V218 M322 128 V218 M356 128 V218 M390 128 V218 M454 128 V218"/>
+    </g>
+    <!-- sliding entrance doors -->
+    <rect x="402" y="164" width="44" height="54" fill="#5E9FC2" stroke="#37474F" stroke-width="3"/>
+    <path d="M424 164 V218" fill="none" stroke="#37474F" stroke-width="2.5"/>
+    <path d="M419 186 V196 M429 186 V196" fill="none" stroke="#ECEFF1" stroke-width="2.5"/>
+    <rect x="396" y="152" width="56" height="10" rx="2" fill="#ECEFF1" stroke="#37474F" stroke-width="2.5"/>
+    <!-- curved roof -->
+    <path d="M98 122 Q290 92 492 112 V124 Q290 106 98 132 Z" fill="#B0BEC5" stroke="#455A64" stroke-width="3"/>
+  </g>
+
+  <g data-part="plane" stroke-linejoin="round" stroke-linecap="round">
+    <!-- trail of the take-off -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.9"><path d="M206 104 L176 112 M210 96 L184 101"/></g>
+    <g transform="translate(286 70) rotate(-14)">
+      <!-- far wing -->
+      <path d="M8 -6 L30 -22 L38 -22 L24 -6 Z" fill="#CFD8DC" stroke="#546E7A" stroke-width="2.5"/>
+      <!-- tail fin -->
+      <path d="M-58 -6 L-72 -36 L-58 -36 L-36 -7 Z" fill="#1E88E5" stroke="#0D47A1" stroke-width="2.5"/>
+      <!-- body -->
+      <path d="M-66 -2 Q-66 -9 -56 -9 L44 -9 Q62 -9 72 0 Q64 9 50 9 L-52 9 Q-62 7 -66 -2 Z" fill="#FFFFFF" stroke="#546E7A" stroke-width="3"/>
+      <path d="M-62 4 H62" fill="none" stroke="#1E88E5" stroke-width="3"/>
+      <path d="M58 -5 Q64 -5 67 -1 H58 Z" fill="#37474F"/>
+      <g fill="#64B5F6"><circle cx="-40" cy="-3" r="2"/><circle cx="-30" cy="-3" r="2"/><circle cx="-20" cy="-3" r="2"/><circle cx="-10" cy="-3" r="2"/><circle cx="0" cy="-3" r="2"/><circle cx="10" cy="-3" r="2"/><circle cx="20" cy="-3" r="2"/><circle cx="30" cy="-3" r="2"/><circle cx="40" cy="-3" r="2"/></g>
+      <!-- tail plane -->
+      <path d="M-60 0 L-80 6 L-72 10 L-48 4 Z" fill="#1E88E5" stroke="#0D47A1" stroke-width="2.5"/>
+      <!-- near wing and engine -->
+      <path d="M4 4 L-22 30 L-12 30 L24 5 Z" fill="#ECEFF1" stroke="#546E7A" stroke-width="2.5"/>
+      <rect x="-14" y="12" width="20" height="9" rx="4.5" fill="#90A4AE" stroke="#455A64" stroke-width="2.5"/>
+    </g>
+    <rect x="200" y="30" width="170" height="80" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- soft shadows (not parts) -->
+  <ellipse cx="100" cy="306" rx="96" ry="6" fill="#000000" opacity="0.12"/>
+  <ellipse cx="232" cy="345" rx="40" ry="5" fill="#000000" opacity="0.1"/>
+  <ellipse cx="370" cy="345" rx="58" ry="5" fill="#000000" opacity="0.1"/>
+
+  <!-- a pigeon on the pavement, between the car and Bojan -->
+  <g data-part="pigeon" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="104" cy="349" rx="20" ry="3" fill="#000000" opacity="0.12"/>
+    <g transform="translate(104 348)">
+      <!-- tail -->
+      <path d="M-14 -14 L-27 -10 L-26 -5 L-12 -7 Z" fill="#546E7A" stroke="#37474F" stroke-width="2.5"/>
+      <!-- legs -->
+      <path d="M-4 -5 V0 M-7 0 H-1 M3 -5 V0 M0 0 H6" fill="none" stroke="#E57373" stroke-width="2.2"/>
+      <!-- body -->
+      <ellipse cx="-2" cy="-13" rx="16" ry="9.5" fill="#B0BEC5" stroke="#455A64" stroke-width="2.5"/>
+      <!-- wing with two dark bars -->
+      <path d="M-15 -15 Q-3 -22 8 -13 Q-3 -6 -15 -11 Z" fill="#90A4AE" stroke="#455A64" stroke-width="2"/>
+      <path d="M-9 -15.5 L-6 -11 M-4 -16 L-1 -11.5" fill="none" stroke="#37474F" stroke-width="2"/>
+      <!-- shiny green and purple neck -->
+      <path d="M5 -19 Q8 -26 11 -29 L19 -25 Q17 -17 12 -12 Q8 -14 5 -19 Z" fill="#26A69A" stroke="#455A64" stroke-width="2"/>
+      <path d="M9 -17 Q12 -21 17 -21 Q16 -16 12 -13 Z" fill="#8E5BA8"/>
+      <!-- head -->
+      <circle cx="15" cy="-29" r="6.5" fill="#78909C" stroke="#455A64" stroke-width="2.5"/>
+      <circle cx="17" cy="-30" r="2" fill="#FF8F00"/>
+      <circle cx="17.3" cy="-30" r="0.9" fill="#212121"/>
+      <!-- beak -->
+      <path d="M21 -29.5 L27.5 -27.5 L21 -26 Z" fill="#455A64" stroke="#37474F" stroke-width="1.2"/>
+      <ellipse cx="21.6" cy="-29.3" rx="1.6" ry="1" fill="#ECEFF1"/>
+    </g>
+    <rect x="74" y="312" width="58" height="42" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="car" stroke-linejoin="round" stroke-linecap="round">
+    <!-- red Honda Civic hatchback, facing left -->
+    <path d="M10 292 Q4 292 4 284 L5 268 Q6 259 18 255 L70 245 Q80 241 92 239 L110 216 Q114 212 122 212 H152 Q162 212 168 218 L188 238 Q195 243 195 252 L196 284 Q196 292 188 292 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="3.5"/>
+    <!-- windows with a dark middle pillar -->
+    <path d="M97 238 L112 219 Q114 216 118 216 H121 V238 Z" fill="#B3E5FC" stroke="#8E1B1B" stroke-width="2.5"/>
+    <path d="M128 216 H151 Q157 216 161 220 L179 238 H128 Z" fill="#B3E5FC" stroke="#8E1B1B" stroke-width="2.5"/>
+    <rect x="121" y="216" width="7" height="22" fill="#4A0E0E"/>
+    <path d="M110 233 L115 224 M140 233 L147 222" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <!-- black spoiler on the hatch -->
+    <path d="M174 226 Q186 230 193 239" fill="none" stroke="#212121" stroke-width="4"/>
+    <!-- lines, handles, mirror -->
+    <path d="M20 264 Q100 252 192 256" fill="none" stroke="#FF8A80" stroke-width="2.5"/>
+    <path d="M92 240 Q86 264 88 290 M124 238 V290 M184 240 Q188 254 186 266" fill="none" stroke="#8E1B1B" stroke-width="2"/>
+    <rect x="102" y="244" width="13" height="4" rx="2" fill="#8E1B1B"/>
+    <rect x="158" y="244" width="13" height="4" rx="2" fill="#8E1B1B"/>
+    <path d="M92 239 Q94 232 102 233 L102 240 Q96 242 92 239 Z" fill="#B71C1C" stroke="#8E1B1B" stroke-width="2"/>
+    <path d="M6 262 Q14 256 34 253 L36 258 Q20 262 7 266 Z" fill="#FFF9C4" stroke="#8E1B1B" stroke-width="2"/>
+    <path d="M189 241 L195 248 V258 L189 256 Z" fill="#B71C1C" stroke="#7A1010" stroke-width="2"/>
+    <path d="M5 280 H26" fill="none" stroke="#263238" stroke-width="4"/>
+    <path d="M72 291 H140" fill="none" stroke="#37474F" stroke-width="4"/>
+    <!-- wheel arches and wheels -->
+    <path d="M26 292 A22 22 0 0 1 70 292 Z" fill="#4A0E0E" stroke="#8E1B1B" stroke-width="2"/>
+    <path d="M142 292 A22 22 0 0 1 186 292 Z" fill="#4A0E0E" stroke="#8E1B1B" stroke-width="2"/>
+    <g fill="#263238" stroke="#11181C" stroke-width="2.5"><circle cx="48" cy="288" r="18"/><circle cx="164" cy="288" r="18"/></g>
+    <g fill="#CFD8DC" stroke="#607D8B" stroke-width="2"><circle cx="48" cy="288" r="10"/><circle cx="164" cy="288" r="10"/></g>
+    <path d="M48 279 V297 M39 288 H57 M157 281 L171 295 M171 281 L157 295" fill="none" stroke="#90A4AE" stroke-width="2"/>
+    <g fill="#546E7A"><circle cx="48" cy="288" r="3"/><circle cx="164" cy="288" r="3"/></g>
+
+    <!-- young-driver badge: white L on green -->
+    <g data-part="badge">
+      <rect x="127" y="244" width="24" height="24" rx="3" fill="#2E7D32" stroke="#FFFFFF" stroke-width="2.5"/>
+      <rect x="125.5" y="242.5" width="27" height="27" rx="4" fill="none" stroke="#1B5E20" stroke-width="1.5"/>
+      <path d="M134 249 V263 H145" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"/>
+      <rect x="124" y="241" width="30" height="30" fill="transparent" stroke="none"/>
+    </g>
+  </g>
+
+  <g data-part="bojan" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(153 110.5) scale(1.25)">
+      <!-- far arm down by his side -->
+      <path d="M50 88 L45 110 L47 128" fill="none" stroke="#B07A50" stroke-width="15"/>
+      <path d="M50 88 L45 110 L47 128" fill="none" stroke="#F2C9A0" stroke-width="9"/>
+      <g data-part="shirt"><!-- his T-shirt, far sleeve -->
+      <path d="M50 84 L47 96" fill="none" stroke="#0D47A1" stroke-width="20"/>
+      <path d="M50 84 L47.5 95" fill="none" stroke="#1976D2" stroke-width="14"/>
+      </g>
+      <ellipse cx="47" cy="130" rx="7" ry="7" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <!-- legs and shoes -->
+      <g data-part="trousers"><!-- his trousers -->
+      <path d="M55 128 L52 178" fill="none" stroke="#263238" stroke-width="18"/>
+      <path d="M55 128 L52 178" fill="none" stroke="#455A64" stroke-width="12"/>
+      <path d="M71 128 L74 178" fill="none" stroke="#263238" stroke-width="18"/>
+      <path d="M71 128 L74 178" fill="none" stroke="#455A64" stroke-width="12"/>
+      </g>
+      <path d="M38 186 Q38 176 50 176 Q60 176 62 186 Z" fill="#4E342E" stroke="#2B1B17" stroke-width="3"/>
+      <path d="M64 186 Q64 176 76 176 Q86 177 88 186 Z" fill="#4E342E" stroke="#2B1B17" stroke-width="3"/>
+      <!-- neck and blue T-shirt -->
+      <rect x="56" y="58" width="14" height="18" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <g data-part="shirt"><!-- his T-shirt -->
+      <path d="M44 132 V96 Q42 80 56 74 Q63 80 70 74 Q84 80 82 96 V132 Z" fill="#1976D2" stroke="#0D47A1" stroke-width="4"/>
+      </g>
+      <g data-part="trousers"><!-- his belt -->
+      <rect x="46" y="124" width="34" height="12" rx="4" fill="#455A64" stroke="#263238" stroke-width="3.5"/>
+      <rect x="59" y="126" width="9" height="8" rx="1.5" fill="#FFD54F" stroke="#8A6A1B" stroke-width="1.5"/>
+      </g>
+      <!-- head, three-quarter view, a little sad -->
+      <g transform="translate(66 40) scale(0.6)">
+        <ellipse cx="0" cy="0" rx="33" ry="38" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+        <path d="M-34 10 Q-40 -40 2 -40 Q34 -40 34 -8 Q24 -24 6 -24 Q-12 -22 -16 -2 Q-22 10 -34 10 Z" fill="#2B211C" stroke="#17110E" stroke-width="4.5"/>
+        <ellipse cx="-20" cy="6" rx="7" ry="10" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+        <!-- eyebrows raised in the middle -->
+        <path d="M-4 -9 Q3 -12 10 -16 M16 -16 Q23 -12 30 -9" fill="none" stroke="#4E342E" stroke-width="3.5"/>
+        <g stroke="none"><circle cx="4" cy="0" r="6.5" fill="#6D4C41"/><circle cx="22" cy="0" r="6.5" fill="#6D4C41"/><circle cx="4" cy="1" r="3.2" fill="#1A1A1A"/><circle cx="22" cy="1" r="3.2" fill="#1A1A1A"/><circle cx="5.6" cy="-0.8" r="1.4" fill="#FFFFFF"/><circle cx="23.6" cy="-0.8" r="1.4" fill="#FFFFFF"/></g>
+        <path d="M16 5 V13" fill="none" stroke="#B07A50" stroke-width="4.5"/>
+        <!-- mouth turned a little down -->
+        <path d="M4 27 Q15 20 27 26" fill="none" stroke="#6D3325" stroke-width="4"/>
+      </g>
+      <!-- near arm raised high, waving -->
+      <path d="M76 86 L100 62 L106 36" fill="none" stroke="#B07A50" stroke-width="15"/>
+      <path d="M76 86 L100 62 L106 36" fill="none" stroke="#F2C9A0" stroke-width="9"/>
+      <g data-part="shirt"><!-- his T-shirt, near sleeve -->
+      <path d="M74 86 L86 74" fill="none" stroke="#0D47A1" stroke-width="20"/>
+      <path d="M74 86 L85 75" fill="none" stroke="#1976D2" stroke-width="14"/>
+      </g>
+      <!-- open hand -->
+      <g fill="none">
+        <path d="M100 26 L97 14 M104 24 L103 10 M109 24 L110 10 M113 26 L117 15 M100 33 L93 29" stroke="#B07A50" stroke-width="7"/>
+        <path d="M100 26 L97 14 M104 24 L103 10 M109 24 L110 10 M113 26 L117 15 M100 33 L93 29" stroke="#F2C9A0" stroke-width="3.5"/>
+      </g>
+      <ellipse cx="106" cy="31" rx="8.5" ry="8" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <!-- waving marks -->
+      <path d="M120 20 Q124 28 120 36 M126 15 Q132 28 126 41" fill="none" stroke="#8D6E63" stroke-width="2.5"/>
+    </g>
+  </g>
+
+  <g data-part="suitcase" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(345 110.5) scale(1.25)">
+      <!-- pulled-up handle -->
+      <path d="M34 132 V118 M50 132 V118" fill="none" stroke="#455A64" stroke-width="4"/>
+      <path d="M34 132 V118 M50 132 V118" fill="none" stroke="#B0BEC5" stroke-width="1.8"/>
+      <rect x="30" y="114" width="24" height="6" rx="3" fill="#37474F" stroke="#212121" stroke-width="2"/>
+      <!-- wheels -->
+      <g fill="#37474F" stroke="#212121" stroke-width="1.5"><circle cx="29" cy="182.5" r="3.5"/><circle cx="55" cy="182.5" r="3.5"/></g>
+      <!-- orange hard shell -->
+      <rect x="22" y="130" width="40" height="51" rx="6" fill="#FB8C00" stroke="#A84E00" stroke-width="3"/>
+      <path d="M32 134 V177 M42 134 V177 M52 134 V177" fill="none" stroke="#E07000" stroke-width="2.5"/>
+      <path d="M22 155 H62" fill="none" stroke="#A84E00" stroke-width="2"/>
+      <path d="M26 136 Q27 133 30 133" fill="none" stroke="#FFCC80" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g data-part="nika" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(345 110.5) scale(1.25)">
+      <!-- long hair behind (she looks back to the left) -->
+      <path d="M8 30 Q32 26 32 52 Q34 78 40 94 Q24 100 12 88 Q8 72 6 58 Z" fill="#2B211C" stroke="#17110E" stroke-width="3.5"/>
+      <!-- black backpack, the bag behind her -->
+      <g data-part="backpack">
+        <path d="M-10 68 Q-10 60 0 60 Q10 60 10 68" fill="none" stroke="#111111" stroke-width="3.5"/>
+        <rect x="-24" y="66" width="48" height="54" rx="10" fill="#2B2B2B" stroke="#000000" stroke-width="3"/>
+      </g>
+      <!-- arms, bare (sleeveless top) -->
+      <path d="M-13 84 L-26 104 L-35 118" fill="none" stroke="#B07A50" stroke-width="16.5"/>
+      <path d="M-13 84 L-26 104 L-35 118" fill="none" stroke="#F2C9A0" stroke-width="11.5"/>
+      <path d="M13 84 L27 104 L40 116" fill="none" stroke="#B07A50" stroke-width="16.5"/>
+      <path d="M13 84 L27 104 L40 116" fill="none" stroke="#F2C9A0" stroke-width="11.5"/>
+      <!-- long grey trousers -->
+      <g data-part="trousers">
+        <path d="M-14 108 H14 L16 179 H3 L1 134 H-1 L-3 179 H-16 Z" fill="#7E868E" stroke="#3E464D" stroke-width="3"/>
+        <path d="M-9 140 L-9.5 176 M9 140 L9.5 176" fill="none" stroke="#9AA2AA" stroke-width="2"/>
+      </g>
+      <!-- white trainers -->
+      <path d="M-22 186 Q-22 178 -12 178 H-2 Q0 182 0 186 Z" fill="#FFFFFF" stroke="#546E7A" stroke-width="2.5"/>
+      <path d="M22 186 Q22 178 12 178 H2 Q0 182 0 186 Z" fill="#FFFFFF" stroke="#546E7A" stroke-width="2.5"/>
+      <!-- neck -->
+      <rect x="-6" y="62" width="12" height="16" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <!-- white sleeveless top -->
+      <g data-part="shirt">
+        <path d="M-14 113 L-14 96 Q-14 88 -11 80 L-8 77 Q0 84 8 77 L11 80 Q14 88 14 96 L14 113 Z" fill="#FFFFFF" stroke="#78909C" stroke-width="3"/>
+      </g>
+      <!-- backpack straps over her shoulders -->
+      <g data-part="backpack">
+        <path d="M-9 76 Q-13 90 -12 110 M9 76 Q13 90 12 110" fill="none" stroke="#111111" stroke-width="5.5"/>
+        <rect x="-15" y="96" width="6" height="5" rx="1" fill="#757575" stroke="#111111" stroke-width="1.2"/>
+        <rect x="9" y="96" width="6" height="5" rx="1" fill="#757575" stroke="#111111" stroke-width="1.2"/>
+      </g>
+      <!-- head, three-quarter view looking back to the left, a soft smile -->
+      <g transform="translate(0 46) scale(-0.54 0.54)">
+        <ellipse cx="0" cy="0" rx="32" ry="37" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+        <path d="M-36 18 Q-44 -42 2 -42 Q36 -40 34 -6 Q26 -26 6 -26 Q-10 -24 -14 -2 Q-18 18 -36 18 Z" fill="#2B211C" stroke="#17110E" stroke-width="5"/>
+        <path d="M-3 -12 Q4 -16 12 -15 M17 -15 Q24 -16 30 -12" fill="none" stroke="#3B2314" stroke-width="3.5"/>
+        <g stroke="none"><circle cx="5" cy="0" r="6.5" fill="#6D4C41"/><circle cx="23" cy="0" r="6.5" fill="#6D4C41"/><circle cx="5" cy="0" r="3.2" fill="#1A1A1A"/><circle cx="23" cy="0" r="3.2" fill="#1A1A1A"/><circle cx="6.6" cy="-1.8" r="1.4" fill="#FFFFFF"/><circle cx="24.6" cy="-1.8" r="1.4" fill="#FFFFFF"/></g>
+        <circle cx="6" cy="13" r="5" fill="#F48FB1" opacity="0.7"/>
+        <path d="M18 6 V13" fill="none" stroke="#B07A50" stroke-width="4.5"/>
+        <path d="M7 21 Q16 28 26 21" fill="none" stroke="#AD1457" stroke-width="4"/>
+      </g>
+      <!-- tattoo on her upper arm: the Škis from tarok, as a little jester
+           in black ink – cap with bells, face, ruff, harlequin diamonds -->
+      <g data-part="tattoo">
+        <g transform="translate(23.6 98.4) rotate(-35) scale(0.8)" stroke-linejoin="round" stroke-linecap="round">
+          <!-- cap with three points and bells -->
+          <path d="M-3.4 -3.6 L-5.6 -8 L-1.7 -5.4 L0 -9.4 L1.7 -5.4 L5.6 -8 L3.4 -3.6 Z" fill="#1F2A44"/>
+          <g fill="#1F2A44"><circle cx="-5.8" cy="-8.3" r="0.9"/><circle cx="0" cy="-9.8" r="0.9"/><circle cx="5.8" cy="-8.3" r="0.9"/></g>
+          <!-- face -->
+          <circle cx="0" cy="-1.6" r="2.4" fill="none" stroke="#1F2A44" stroke-width="0.6"/>
+          <g fill="#1F2A44"><circle cx="-0.9" cy="-2" r="0.35"/><circle cx="0.9" cy="-2" r="0.35"/></g>
+          <path d="M-1 -0.8 Q0 -0.1 1 -0.8" fill="none" stroke="#1F2A44" stroke-width="0.45"/>
+          <!-- ruff -->
+          <path d="M-3.6 1 L-2.4 2.1 L-1.2 1.1 L0 2.2 L1.2 1.1 L2.4 2.1 L3.6 1" fill="none" stroke="#1F2A44" stroke-width="0.6"/>
+          <!-- body in harlequin diamonds -->
+          <path d="M-3 2.4 L3 2.4 L2.4 8 L-2.4 8 Z" fill="none" stroke="#1F2A44" stroke-width="0.6"/>
+          <g fill="#1F2A44">
+            <path d="M-1.5 2.9 L-0.6 4.2 L-1.5 5.5 L-2.4 4.2 Z"/>
+            <path d="M1.5 2.9 L2.4 4.2 L1.5 5.5 L0.6 4.2 Z"/>
+            <path d="M0 5.2 L0.9 6.5 L0 7.8 L-0.9 6.5 Z"/>
+          </g>
+        </g>
+        <rect x="10" y="84" width="21" height="21" fill="transparent" stroke="none"/>
+      </g>
+      <!-- white headphones hanging from her hand -->
+      <g data-part="headphones">
+        <path d="M-46 134 Q-48 114 -35 114 Q-22 114 -24 134" fill="none" stroke="#607D8B" stroke-width="7"/>
+        <path d="M-46 134 Q-48 114 -35 114 Q-22 114 -24 134" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+        <g fill="#FFFFFF" stroke="#607D8B" stroke-width="2.5"><ellipse cx="-46" cy="140" rx="5.5" ry="7.5"/><ellipse cx="-24" cy="140" rx="5.5" ry="7.5"/></g>
+        <g fill="#CFD8DC"><ellipse cx="-44" cy="140" rx="2.5" ry="4.5"/><ellipse cx="-26" cy="140" rx="2.5" ry="4.5"/></g>
+        <rect x="-54" y="108" width="36" height="42" fill="transparent" stroke="none"/>
+      </g>
+      <!-- hands -->
+      <circle cx="-35" cy="118" r="6" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <circle cx="41" cy="117" r="6" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

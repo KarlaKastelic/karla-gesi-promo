@@ -1,0 +1,131 @@
+<section class="page-head">
+  <div class="container">
+    <span class="eyebrow">Kako začeti</span>
+    <h1>Od povezave do prve igre v nekaj minutah</h1>
+    <p class="lead">
+      GESI je brezplačna spletna aplikacija: ničesar ni treba plačati ali nameščati iz trgovine z aplikacijami. Potrebujete le tablico, telefon ali
+      računalnik s sodobnim brskalnikom.
+    </p>
+    <div class="btn-row">
+      <a [href]="site.appUrl" target="_blank" rel="noopener" class="btn btn--primary">
+        Odpri {{ site.appHost }} <span aria-hidden="true">↗</span>
+      </a>
+      <a [href]="site.guideUrl" target="_blank" rel="noopener" class="btn">Celotna navodila za uporabo</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container steps-wrap">
+    <ol class="big-steps">
+      @for (s of steps; track s.title; let i = $index) {
+        <li class="card">
+          <span class="big-steps__num" aria-hidden="true">{{ i + 1 }}</span>
+          <h2>{{ s.title }}</h2>
+          <p>{{ s.text }}</p>
+          @if (i === 1 && site.passwordRequired) {
+            <p class="note small">Geslo trenutno dobite od avtorice – <a routerLink="/kontakt">zaprosite zanj tukaj</a>.</p>
+          }
+        </li>
+      }
+    </ol>
+    <app-phone class="steps-phone" screen="domov" alt="Začetni zaslon aplikacije GESI" caption="Začetni zaslon" />
+  </div>
+</section>
+
+<section class="section section--surface">
+  <div class="container in-game">
+    <div>
+      <span class="eyebrow">Med igro</span>
+      <h2>Gumbi, ki so povsod</h2>
+      <p class="lead">Vse igre so zgrajene enako, zato se igralec hitro znajde.</p>
+      <ul class="btn-list">
+        @for (b of buttons; track b.name) {
+          <li>
+            <span class="btn-list__icon" aria-hidden="true">{{ b.icon }}</span>
+            <span><strong>{{ b.name }}</strong> – {{ b.text }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+    <div class="in-game__phones">
+      <app-phone screen="ugani" alt="Tipična naloga: Kaj je to? s štirimi odgovori" caption="Tipična naloga" size="small" />
+      <app-phone screen="hitre-nastavitve" alt="Hitre nastavitve med igro" caption="Hitre nastavitve" size="small" />
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Nastavitve</span>
+      <h2>Prilagodite GESI igralcu</h2>
+      <p class="lead">
+        Težavnost ima tri stopnje: <strong>Najmanj</strong> (najpreprosteje – priporočeno za začetek),
+        <strong>Največ</strong> in <strong>Po meri</strong>. Vse spremembe se shranijo takoj.
+      </p>
+    </div>
+    <div class="table-wrap">
+      <table class="settings-table">
+        <caption class="visually-hidden">Najpomembnejše nastavitve</caption>
+        <thead>
+          <tr><th scope="col">Nastavitev</th><th scope="col">Kaj naredi</th></tr>
+        </thead>
+        <tbody>
+          @for (row of settings; track row[0]) {
+            <tr><th scope="row">{{ row[0] }}</th><td>{{ row[1] }}</td></tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section section--surface">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Iz naših izkušenj</span>
+      <h2>Nasveti za vadbo</h2>
+    </div>
+    <div class="grid grid--3">
+      @for (t of tips; track t[0]) {
+        <div class="card tip">
+          <h3>{{ t[0] }}</h3>
+          <p>{{ t[1] }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section" id="ustanove">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Za ustanove</span>
+      <h2>Zasebnost in varnost</h2>
+    </div>
+    <div class="grid grid--3">
+      @for (t of trust; track t.title) {
+        <div class="card">
+          <div class="icon-badge" aria-hidden="true">{{ t.icon }}</div>
+          <h3>{{ t.title }}</h3>
+          <p>{{ t.text }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section section--surface" id="vprasanja">
+  <div class="container faq">
+    <h2>Pogosta vprašanja</h2>
+    @for (f of faq; track f.q) {
+      <details class="faq__item">
+        <summary>{{ f.q }}</summary>
+        <p>{{ f.a }}</p>
+      </details>
+    }
+  </div>
+</section>
+
+<app-cta-band />

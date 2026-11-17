@@ -1,0 +1,488 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <!-- warm back wall and wooden floor (not parts) -->
+  <rect x="0" y="0" width="480" height="236" fill="#F3D3A2"/>
+  <g fill="#EEC68E">
+    <rect x="12" y="0" width="10" height="236"/><rect x="152" y="0" width="10" height="236"/><rect x="200" y="0" width="10" height="236"/>
+    <rect x="270" y="0" width="10" height="236"/><rect x="318" y="0" width="10" height="236"/>
+  </g>
+  <rect x="0" y="236" width="480" height="124" fill="#B4794A"/>
+  <g stroke="#93603A" stroke-width="2.5">
+    <line x1="0" y1="262" x2="480" y2="262"/><line x1="0" y1="292" x2="480" y2="292"/><line x1="0" y1="326" x2="480" y2="326"/>
+    <line x1="90" y1="236" x2="84" y2="262"/><line x1="300" y1="262" x2="296" y2="292"/><line x1="200" y1="326" x2="196" y2="360"/><line x1="420" y1="292" x2="418" y2="326"/>
+  </g>
+  <rect x="0" y="228" width="480" height="9" fill="#8D5A3B" stroke="#5A3414" stroke-width="2.5"/>
+
+  <!-- paper bunting (not a part) -->
+  <g fill="none" stroke="#5D4037" stroke-width="2">
+    <path d="M0,4 Q75,30 150,4"/><path d="M150,4 Q240,30 330,4"/><path d="M330,4 Q405,30 480,4"/>
+  </g>
+  <g stroke="#5D4037" stroke-width="1.5" stroke-linejoin="round">
+    <polygon points="11.3,7.6 24.7,11.2 18.0,21.5" fill="#E53935"/>
+    <polygon points="32.3,12.8 45.8,15.0 39.0,26.0" fill="#FDD835"/>
+    <polygon points="53.3,15.9 66.8,16.8 60.0,28.5" fill="#1E88E5"/>
+    <polygon points="74.3,17.0 87.8,16.6 81.0,28.9" fill="#43A047"/>
+    <polygon points="95.3,16.1 108.8,14.4 102.0,27.3" fill="#FB8C00"/>
+    <polygon points="116.2,13.1 129.8,10.1 123.0,23.7" fill="#8E24AA"/>
+    <polygon points="163.5,7.6 179.7,11.2 171.6,21.5" fill="#E53935"/>
+    <polygon points="188.7,12.8 204.9,15.0 196.8,26.0" fill="#FDD835"/>
+    <polygon points="213.9,15.9 230.1,16.8 222.0,28.5" fill="#1E88E5"/>
+    <polygon points="250.0,17.0 266.2,16.6 258.1,28.9" fill="#43A047"/>
+    <polygon points="275.3,16.1 291.5,14.4 283.4,27.3" fill="#FB8C00"/>
+    <polygon points="296.5,12.1 312.7,9.1 304.6,22.7" fill="#8E24AA"/>
+    <polygon points="341.3,7.6 354.8,11.2 348.0,21.5" fill="#E53935"/>
+    <polygon points="362.3,12.8 375.8,15.0 369.0,26.0" fill="#FDD835"/>
+    <polygon points="383.3,15.9 396.8,16.8 390.0,28.5" fill="#1E88E5"/>
+    <polygon points="404.2,17.0 417.8,16.6 411.0,28.9" fill="#43A047"/>
+    <polygon points="425.3,16.1 438.8,14.4 432.0,27.3" fill="#FB8C00"/>
+    <polygon points="446.3,13.1 459.8,10.1 453.0,23.7" fill="#8E24AA"/>
+  </g>
+  <!-- confetti (not a part) -->
+  <g stroke="none">
+    <rect x="170" y="44" width="5" height="3" fill="#E53935" transform="rotate(30 172 45)"/>
+    <rect x="300" y="50" width="5" height="3" fill="#1E88E5" transform="rotate(-25 302 51)"/>
+    <rect x="186" y="96" width="5" height="3" fill="#43A047" transform="rotate(60 188 97)"/>
+    <rect x="290" y="104" width="5" height="3" fill="#FDD835" transform="rotate(15 292 105)"/>
+    <rect x="336" y="72" width="5" height="3" fill="#8E24AA" transform="rotate(-50 338 73)"/>
+    <rect x="150" y="128" width="5" height="3" fill="#FB8C00" transform="rotate(40 152 129)"/>
+    <circle cx="206" cy="70" r="2" fill="#FB8C00"/><circle cx="326" cy="128" r="2" fill="#E53935"/><circle cx="276" cy="86" r="2" fill="#8E24AA"/>
+  </g>
+  <!-- balloons (not a part) -->
+  <g stroke-linejoin="round">
+    <path d="M444 59 Q440 66 446 74 M465 62 Q468 68 462 74" fill="none" stroke="#5D4037" stroke-width="1.5"/>
+    <ellipse cx="444" cy="45" rx="11" ry="14" fill="#FDD835" stroke="#B8902A" stroke-width="3"/>
+    <ellipse cx="465" cy="50" rx="10" ry="13" fill="#E53935" stroke="#8E1B1B" stroke-width="3"/>
+    <path d="M440 38 Q442 34 446 34 M461 43 Q463 39 467 39" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- night sky through the window -->
+  <g data-part="window">
+    <rect x="16" y="34" width="116" height="106" fill="#FFF3E0" stroke="#6D4C41" stroke-width="4"/>
+    <rect x="23" y="41" width="102" height="92" fill="#1B2556"/>
+    <g fill="#FFF59D"><circle cx="34" cy="98" r="1.3"/><circle cx="70" cy="46" r="1.3"/><circle cx="118" cy="90" r="1.3"/><circle cx="28" cy="50" r="1.1"/><circle cx="76" cy="96" r="1.1"/></g>
+    <!-- town roofs -->
+    <path d="M23 133 V118 L32 110 L41 118 V113 H54 V120 L64 108 L74 118 V112 H86 V121 L96 113 L106 121 V116 H125 V133 Z" fill="#0F1638"/>
+    <g fill="#FFD54F"><rect x="29" y="122" width="4" height="4"/><rect x="58" y="122" width="4" height="4"/><rect x="78" y="118" width="4" height="4"/><rect x="112" y="122" width="4" height="4"/></g>
+  </g>
+
+  <g data-part="fireworks" stroke-linecap="round">
+    <!-- pink burst -->
+    <g stroke="#FF4F9A" stroke-width="2.5" fill="#FF9AC6">
+      <path d="M53 62 L63 62 M52.3 64.5 L61 69.5 M50.5 66.3 L55.5 75 M48 67 L48 77 M45.5 66.3 L40.5 75 M43.7 64.5 L35 69.5 M43 62 L33 62 M43.7 59.5 L35 54.5 M45.5 57.7 L40.5 49 M48 57 L48 47 M50.5 57.7 L55.5 49 M52.3 59.5 L61 54.5"/>
+      <g stroke="none"><circle cx="67" cy="62" r="1.8"/><circle cx="64.5" cy="71.5" r="1.8"/><circle cx="57.5" cy="78.5" r="1.8"/><circle cx="48" cy="81" r="1.8"/><circle cx="38.5" cy="78.5" r="1.8"/><circle cx="31.5" cy="71.5" r="1.8"/><circle cx="29" cy="62" r="1.8"/><circle cx="31.5" cy="52.5" r="1.8"/><circle cx="38.5" cy="45.5" r="1.8"/><circle cx="48" cy="43" r="1.8"/><circle cx="57.5" cy="45.5" r="1.8"/><circle cx="64.5" cy="52.5" r="1.8"/></g>
+      <circle cx="48" cy="62" r="2.5" fill="#FFFFFF" stroke="none"/>
+    </g>
+    <!-- gold burst -->
+    <g stroke="#FFC400" stroke-width="2.5" fill="#FFE57F">
+      <path d="M103.8 61.2 L112.4 63.8 M102.4 63.2 L107.8 70.4 M100.1 64 L100.2 73 M97.7 63.3 L92.5 70.6 M96.2 61.3 L87.7 64.2 M96.2 58.8 L87.6 56.2 M97.6 56.8 L92.2 49.6 M99.9 56 L99.8 47 M102.3 56.7 L107.5 49.4 M103.8 58.7 L112.3 55.8"/>
+      <g stroke="none"><circle cx="116.2" cy="65" r="1.8"/><circle cx="110.2" cy="73.6" r="1.8"/><circle cx="100.2" cy="77" r="1.8"/><circle cx="90.2" cy="73.9" r="1.8"/><circle cx="83.9" cy="65.5" r="1.8"/><circle cx="83.8" cy="55" r="1.8"/><circle cx="89.8" cy="46.4" r="1.8"/><circle cx="99.8" cy="43" r="1.8"/><circle cx="109.8" cy="46.1" r="1.8"/><circle cx="116.1" cy="54.5" r="1.8"/></g>
+      <circle cx="100" cy="60" r="2.5" fill="#FFFFFF" stroke="none"/>
+    </g>
+    <!-- green burst with its rising trail -->
+    <g stroke="#4CFF8F" stroke-width="2.2" fill="#B9FFD3">
+      <path d="M102.9 103.6 L108.8 104.8 M101.7 105.5 L105 110.5 M99.4 105.9 L98.2 111.8 M97.5 104.7 L92.5 108 M97.1 102.4 L91.2 101.2 M98.3 100.5 L95 95.5 M100.6 100.1 L101.8 94.2 M102.5 101.3 L107.5 98"/>
+      <g stroke="none"><circle cx="111.8" cy="105.4" r="1.6"/><circle cx="106.6" cy="113" r="1.6"/><circle cx="97.6" cy="114.8" r="1.6"/><circle cx="90" cy="109.6" r="1.6"/><circle cx="88.2" cy="100.6" r="1.6"/><circle cx="93.4" cy="93" r="1.6"/><circle cx="102.4" cy="91.2" r="1.6"/><circle cx="110" cy="96.4" r="1.6"/></g>
+    </g>
+    <path d="M44 114 L44 100 M44 96 L44 92" fill="none" stroke="#FFE57F" stroke-width="2" stroke-dasharray="2 3"/>
+    <g fill="transparent" stroke="none">
+      <circle cx="48" cy="62" r="22"/>
+      <circle cx="100" cy="60" r="20"/>
+      <circle cx="100" cy="103" r="15"/>
+    </g>
+  </g>
+
+  <!-- window frame, bars, sill and curtains over the glass -->
+  <g data-part="window" stroke-linejoin="round">
+    <path d="M74 41 V133 M23 87 H125" fill="none" stroke="#FFF3E0" stroke-width="5"/>
+    <path d="M74 41 V133 M23 87 H125" fill="none" stroke="#6D4C41" stroke-width="1.5"/>
+    <rect x="10" y="138" width="128" height="8" rx="2" fill="#FFF3E0" stroke="#6D4C41" stroke-width="3"/>
+    <path d="M4 28 H24 Q20 70 22 96 Q16 120 20 150 H4 Z" fill="#B71C1C" stroke="#6A0F0F" stroke-width="3"/>
+    <path d="M144 28 H124 Q128 70 126 96 Q132 120 128 150 H144 Z" fill="#B71C1C" stroke="#6A0F0F" stroke-width="3"/>
+    <rect x="18" y="92" width="8" height="8" rx="2" fill="#FFC93C" stroke="#8D6200" stroke-width="2"/>
+    <rect x="122" y="92" width="8" height="8" rx="2" fill="#FFC93C" stroke="#8D6200" stroke-width="2"/>
+    <line x1="0" y1="28" x2="148" y2="28" stroke="#5D4037" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- wall clock: five to midnight -->
+  <g data-part="clock" stroke-linecap="round">
+    <path d="M240 26 L234 34 M240 26 L246 34" fill="none" stroke="#5D4037" stroke-width="2"/>
+    <circle cx="240" cy="60" r="27" fill="#C8902E" stroke="#6D4C1A" stroke-width="4"/>
+    <circle cx="240" cy="60" r="22.5" fill="#FFFDF4" stroke="#8D6E3A" stroke-width="2"/>
+    <path d="M240 43.5 L240 38 M256.5 60 L262 60 M240 76.5 L240 82 M223.5 60 L218 60" fill="none" stroke="#3E2723" stroke-width="3.5"/>
+    <path d="M249.5 43.5 L251 40.9 M256.5 50.5 L259.1 49 M256.5 69.5 L259.1 71 M249.5 76.5 L251 79.1 M230.5 76.5 L229 79.1 M223.5 69.5 L220.9 71 M223.5 50.5 L220.9 49 M230.5 43.5 L229 40.9" fill="none" stroke="#3E2723" stroke-width="2"/>
+    <!-- hour hand just before 12, minute hand on 11 -->
+    <path d="M240.2 63 L239.5 47" fill="none" stroke="#212121" stroke-width="4"/>
+    <path d="M242 63.5 L231 44.4" fill="none" stroke="#212121" stroke-width="2.5"/>
+    <circle cx="240" cy="60" r="2.8" fill="#C62828"/>
+    <circle cx="240" cy="60" r="30" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- fireplace with a warm fire -->
+  <g data-part="fireplace" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="376" y="82" width="92" height="152" fill="#B5583F" stroke="#5A2416" stroke-width="4"/>
+    <path d="M376 98 H468 M376 114 H468 M376 130 H468 M376 146 H468 M376 162 H468 M376 178 H468 M376 194 H468 M376 208 H468 M376 222 H468" fill="none" stroke="#8E3E2A" stroke-width="2"/>
+    <path d="M396 82 V98 M428 82 V98 M452 98 V114 M384 114 V130 M460 130 V146 M386 162 V178 M458 178 V194 M396 208 V222 M440 208 V222" fill="none" stroke="#8E3E2A" stroke-width="2"/>
+    <!-- glow on the wall round the opening -->
+    <ellipse cx="422" cy="156" rx="44" ry="46" fill="#FFB74D" opacity="0.35"/>
+    <!-- opening -->
+    <path d="M394 192 V128 Q394 110 422 110 Q450 110 450 128 V192 Z" fill="#2A1A14" stroke="#3E2410" stroke-width="3.5"/>
+    <ellipse cx="422" cy="176" rx="24" ry="16" fill="#FF7043" opacity="0.35"/>
+    <!-- flames -->
+    <path d="M402 186 Q398 164 408 152 Q408 164 414 166 Q412 146 422 130 Q426 148 432 154 Q436 144 440 140 Q448 162 442 186 Z" fill="#FF7A1A" stroke="#D84315" stroke-width="2.5"/>
+    <path d="M410 186 Q408 172 414 164 Q416 172 420 174 Q420 158 426 150 Q430 164 434 168 Q438 176 434 186 Z" fill="#FFB300"/>
+    <path d="M416 186 Q416 178 421 172 Q424 178 428 180 Q429 184 428 186 Z" fill="#FFF176"/>
+    <!-- logs -->
+    <rect x="400" y="184" width="44" height="8" rx="4" fill="#6D4223" stroke="#3E2410" stroke-width="2.5"/>
+    <path d="M404 192 L438 180" fill="none" stroke="#3E2410" stroke-width="9"/>
+    <path d="M404 192 L438 180" fill="none" stroke="#8B5A2B" stroke-width="5"/>
+    <!-- hearth stone -->
+    <rect x="370" y="192" width="104" height="10" fill="#A0A0A0" stroke="#555555" stroke-width="3"/>
+    <!-- mantel shelf with a green garland and gold baubles -->
+    <rect x="366" y="74" width="112" height="11" rx="2" fill="#6D4223" stroke="#3E2410" stroke-width="3"/>
+    <path d="M368 86 Q382 96 396 86 Q410 96 422 86 Q434 96 448 86 Q462 96 476 86" fill="none" stroke="#2E7D32" stroke-width="5"/>
+    <g fill="#FFC93C" stroke="#8D6200" stroke-width="1.5"><circle cx="382" cy="93" r="3"/><circle cx="409" cy="93" r="3"/><circle cx="435" cy="93" r="3"/><circle cx="462" cy="93" r="3"/></g>
+  </g>
+
+  <!-- rug under the dancers and fire glow on the floor (not parts) -->
+  <ellipse cx="74" cy="334" rx="72" ry="15" fill="#2E6B8A" stroke="#173F55" stroke-width="3"/>
+  <ellipse cx="74" cy="334" rx="58" ry="9" fill="none" stroke="#FFD54F" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <ellipse cx="422" cy="250" rx="70" ry="16" fill="#FFB74D" opacity="0.25"/>
+
+  <!-- Karla: blond, grey eyes, dark red dress, raising her glass -->
+  <g data-part="karla">
+    <g transform="translate(182 250) scale(1.2)" stroke-linecap="round" stroke-linejoin="round">
+      <!-- back arm down to her lap -->
+      <path d="M-11 -22 L-18 -9 L-14 4" fill="none" stroke="#B07A50" stroke-width="9"/>
+      <path d="M-11 -22 L-18 -9 L-14 4" fill="none" stroke="#F2C9A0" stroke-width="4.5"/>
+      <!-- neck -->
+      <rect x="-5" y="-41" width="11" height="17" fill="#F2C9A0" stroke="#B07A50" stroke-width="2.3"/>
+      <!-- dark red party dress -->
+      <path d="M-17 6 L-15 -21 Q-2 -30 13 -23 L17 6 Z" fill="#A51C30" stroke="#5E0F1B" stroke-width="2.7"/>
+      <path d="M-8 -26.5 Q0 -15 8 -27 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.8"/>
+      <path d="M-6 -27 Q0 -19 6 -27.5" fill="none" stroke="#E8B923" stroke-width="1.3"/>
+      <circle cx="0" cy="-20.5" r="1.8" fill="#E8B923"/>
+      <g fill="#FFD966"><circle cx="-9" cy="-14" r="1"/><circle cx="7" cy="-10" r="1"/><circle cx="-4" cy="-5" r="1"/><circle cx="11" cy="-17" r="1"/><circle cx="-12" cy="-2" r="1"/><circle cx="3" cy="0" r="1"/></g>
+      <!-- head -->
+      <g transform="translate(2 -57) scale(0.58)">
+        <path d="M22 -36 Q4 -50 -18 -46 Q-46 -36 -46 0 Q-48 30 -42 54 Q-30 62 -14 54 Q-16 36 -14 20 L20 -10 Z M30 -24 Q44 6 38 42 Q32 50 24 44 Q30 20 28 0 Z" fill="#F2C94C" stroke="#B8902A" stroke-width="4"/>
+        <ellipse cx="0" cy="0" rx="32" ry="37" fill="#F2C9A0" stroke="#B07A50" stroke-width="5"/>
+        <ellipse cx="-19" cy="8" rx="6.5" ry="9" fill="#F2C9A0" stroke="#B07A50" stroke-width="4"/>
+        <circle cx="-19" cy="23" r="5" fill="#FFC93C" stroke="#B8860B" stroke-width="3"/>
+        <path d="M-35 10 Q-42 -42 2 -42 Q36 -42 34 -6 Q28 -22 12 -26 Q-6 -28 -12 -12 Q-16 -2 -26 -4 Q-30 4 -35 10 Z" fill="#F2C94C" stroke="#B8902A" stroke-width="4.5"/>
+        <path d="M-12 -36 Q8 -36 24 -24 M-34 0 Q-38 -24 -26 -34" fill="none" stroke="#D4A63A" stroke-width="2.5"/>
+        <path d="M-2 -13 Q4 -18 10 -15 M18 -15 Q23 -18 28 -13" fill="none" stroke="#9C6B30" stroke-width="3.5"/>
+        <circle cx="4" cy="0" r="5.5" fill="#8A9BA8"/>
+        <circle cx="22" cy="0" r="5.5" fill="#8A9BA8"/>
+        <circle cx="4" cy="0" r="2.6" fill="#1B1B1B"/>
+        <circle cx="22" cy="0" r="2.6" fill="#1B1B1B"/>
+        <path d="M-3 -1 Q4 -9 11 -2 M15 -2 Q22 -9 29 -1 M-3 -1 L-7 -5" fill="none" stroke="#3E2723" stroke-width="3.5"/>
+        <path d="M16 6 Q19 12 14 14" fill="none" stroke="#B07A50" stroke-width="3.5"/>
+        <ellipse cx="-4" cy="15" rx="7" ry="4.5" fill="#F48FB1" opacity="0.6"/>
+        <ellipse cx="28" cy="14" rx="4.5" ry="4" fill="#F48FB1" opacity="0.6"/>
+        <path d="M2 20 Q14 24 28 18 Q26 32 14 32 Q4 31 2 20 Z" fill="#D9566B" stroke="#9C2F45" stroke-width="2.5"/>
+        <path d="M4 21 Q14 25 27 19.5 L26 23 Q14 28 5 24.5 Z" fill="#FFFFFF"/>
+      </g>
+      <!-- front arm raising the glass towards Bojan -->
+      <path d="M8 -23 L24 -37 L34 -64" fill="none" stroke="#B07A50" stroke-width="9"/>
+      <path d="M8 -23 L24 -37 L34 -64" fill="none" stroke="#F2C9A0" stroke-width="4.5"/>
+      <circle cx="34" cy="-64" r="4.8" fill="#F2C9A0" stroke="#B07A50" stroke-width="2.2"/>
+    </g>
+  </g>
+
+  <!-- Bojan: brown hair and eyes, light blue shirt, raising his glass (mirrored, faces left) -->
+  <g data-part="bojan">
+    <g transform="translate(300 250) scale(-1.2 1.2)" stroke-linecap="round" stroke-linejoin="round">
+      <!-- back arm down to his lap -->
+      <path d="M-12 -22 L-20 -8 L-17 4" fill="none" stroke="#1E5FA8" stroke-width="11"/>
+      <path d="M-12 -22 L-20 -8 L-17 4" fill="none" stroke="#90CAF9" stroke-width="7"/>
+      <!-- neck -->
+      <rect x="-6" y="-42" width="13" height="18" fill="#F2C9A0" stroke="#B07A50" stroke-width="2.5"/>
+      <!-- light blue shirt with an open collar -->
+      <path d="M-19 6 L-17 -22 Q-3 -32 15 -24 L19 6 Z" fill="#90CAF9" stroke="#1E5FA8" stroke-width="2.7"/>
+      <path d="M-5 -28.5 L1 -17 L7 -28.5 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.5"/>
+      <path d="M-7 -30 L1 -17 L-11 -23 Z M9 -30 L1 -17 L12 -23 Z" fill="#E3F2FD" stroke="#1E5FA8" stroke-width="1.8"/>
+      <path d="M1 -17 V6" fill="none" stroke="#1E5FA8" stroke-width="1.5"/>
+      <g fill="#FFFFFF" stroke="#1E5FA8" stroke-width="1"><circle cx="3" cy="-11" r="1.4"/><circle cx="3" cy="-3" r="1.4"/></g>
+      <!-- head with his big grin -->
+      <g transform="translate(2 -58) scale(0.6)">
+        <ellipse cx="0" cy="0" rx="33" ry="38" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+        <path d="M-34 10 Q-40 -40 2 -40 Q34 -40 34 -8 Q24 -24 6 -24 Q-12 -22 -16 -2 Q-22 10 -34 10 Z" fill="#2B211C" stroke="#17110E" stroke-width="4.5"/>
+        <ellipse cx="-20" cy="6" rx="7" ry="10" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+        <g stroke="none"><circle cx="4" cy="-1" r="6.5" fill="#6D4C41"/><circle cx="22" cy="-1" r="6.5" fill="#6D4C41"/><circle cx="4" cy="-1" r="3.2" fill="#1A1A1A"/><circle cx="22" cy="-1" r="3.2" fill="#1A1A1A"/><circle cx="5.6" cy="-2.8" r="1.4" fill="#FFFFFF"/><circle cx="23.6" cy="-2.8" r="1.4" fill="#FFFFFF"/></g>
+        <path d="M16 5 V13" stroke="#B07A50" stroke-width="4.5"/>
+        <path d="M-2 18 Q14 22 32 16 Q30 36 14 36 Q0 34 -2 18 Z" fill="#8D4A3A" stroke="#6D3325" stroke-width="3"/>
+        <path d="M0 19 Q14 23 31 17 L30 22 Q14 27 1 24 Z" fill="#FFFFFF"/>
+      </g>
+      <!-- front arm raising the glass towards Karla -->
+      <path d="M7 -22 L25 -38 L35 -62" fill="none" stroke="#1E5FA8" stroke-width="11"/>
+      <path d="M7 -22 L25 -38 L35 -62" fill="none" stroke="#90CAF9" stroke-width="7"/>
+      <path d="M33 -58 L37 -60" fill="none" stroke="#1E5FA8" stroke-width="2"/>
+      <circle cx="36" cy="-64" r="5.3" fill="#F2C9A0" stroke="#B07A50" stroke-width="2.2"/>
+    </g>
+  </g>
+
+  <!-- festive table with a white cloth and a gold runner -->
+  <g data-part="table" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="152" y="312" width="9" height="30" fill="#6D4223" stroke="#3E2410" stroke-width="2.5"/>
+    <rect x="327" y="312" width="9" height="30" fill="#6D4223" stroke="#3E2410" stroke-width="2.5"/>
+    <polygon points="154,246 334,246 348,272 140,272" fill="#FFFBF0" stroke="#8D6E63" stroke-width="3"/>
+    <path d="M140 272 H348 V314 Q340 323 332 314 Q324 323 316 314 Q308 323 300 314 Q292 323 284 314 Q276 323 268 314 Q260 323 252 314 Q244 323 236 314 Q228 323 220 314 Q212 323 204 314 Q196 323 188 314 Q180 323 172 314 Q164 323 156 314 Q148 323 140 314 Z" fill="#FFFBF0" stroke="#8D6E63" stroke-width="3"/>
+    <path d="M142 306 H346" fill="none" stroke="#E0B040" stroke-width="3"/>
+    <path d="M142 280 H346" fill="none" stroke="#F0E2C4" stroke-width="2"/>
+  </g>
+
+  <!-- tarok cards, fanned on the table -->
+  <g data-part="cards" stroke-linejoin="round">
+    <g transform="translate(167 273)">
+      <g transform="rotate(-38)"><rect x="-8" y="-28" width="16" height="25" rx="2" fill="#FFF8E1" stroke="#5D4037" stroke-width="2"/><path d="M0 -20 Q-4 -24 -5 -20 Q-5 -17 0 -13 Q5 -17 5 -20 Q4 -24 0 -20 Z" fill="#D32F2F"/></g>
+      <g transform="rotate(-19)"><rect x="-8" y="-28" width="16" height="25" rx="2" fill="#FFF8E1" stroke="#5D4037" stroke-width="2"/><rect x="-5" y="-25" width="10" height="19" fill="#5C8DD6"/><circle cx="0" cy="-19" r="3" fill="#F2C9A0"/><path d="M-4 -8 Q0 -16 4 -8 Z" fill="#E8B923"/></g>
+      <g transform="rotate(0)"><rect x="-8" y="-28" width="16" height="25" rx="2" fill="#FFF8E1" stroke="#5D4037" stroke-width="2"/><rect x="-5" y="-25" width="10" height="19" fill="#4CAF50"/><circle cx="0" cy="-19" r="3" fill="#F2C9A0"/><path d="M-4 -8 Q0 -16 4 -8 Z" fill="#C62828"/></g>
+      <g transform="rotate(19)"><rect x="-8" y="-28" width="16" height="25" rx="2" fill="#FFF8E1" stroke="#5D4037" stroke-width="2"/><path d="M0 -23 L4.5 -16.5 L0 -10 L-4.5 -16.5 Z" fill="#D32F2F"/></g>
+      <g transform="rotate(38)"><rect x="-8" y="-28" width="16" height="25" rx="2" fill="#FFF8E1" stroke="#5D4037" stroke-width="2"/><g fill="#212121"><circle cx="0" cy="-20" r="2.6"/><circle cx="-3" cy="-16" r="2.6"/><circle cx="3" cy="-16" r="2.6"/><path d="M0 -17 L-2 -11 H2 Z"/></g></g>
+      <circle cx="0" cy="-2" r="2" fill="#8D6E63"/>
+    </g>
+    <rect x="139" y="242" width="56" height="34" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- two red candles with flames -->
+  <g data-part="candles" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="#FFE082" opacity="0.45"><circle cx="203" cy="238" r="11"/><circle cx="279" cy="238" r="11"/></g>
+    <g stroke="#8D6200" stroke-width="2" fill="#E8B13B">
+      <ellipse cx="203" cy="268" rx="9" ry="3.5"/><rect x="199" y="260" width="8" height="8"/>
+      <ellipse cx="279" cy="268" rx="9" ry="3.5"/><rect x="275" y="260" width="8" height="8"/>
+    </g>
+    <g fill="#E53935" stroke="#8E1B1B" stroke-width="2">
+      <rect x="199.5" y="244" width="7" height="17" rx="1"/>
+      <rect x="275.5" y="244" width="7" height="17" rx="1"/>
+    </g>
+    <path d="M203 244 V240 M279 244 V240" fill="none" stroke="#3E2723" stroke-width="1.5"/>
+    <g fill="#FFB300" stroke="#E65100" stroke-width="1.5">
+      <path d="M203 226 Q209 235 206 240 Q203 242 200 240 Q197 235 203 226 Z"/>
+      <path d="M279 226 Q285 235 282 240 Q279 242 276 240 Q273 235 279 226 Z"/>
+    </g>
+    <g fill="#FFF59D"><ellipse cx="203" cy="236" rx="1.6" ry="3"/><ellipse cx="279" cy="236" rx="1.6" ry="3"/></g>
+    <rect x="193" y="224" width="20" height="48" fill="transparent" stroke="none"/>
+    <rect x="269" y="224" width="20" height="48" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- champagne bottle with gold foil and a little fizz -->
+  <g data-part="champagne" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M231 262 V224 Q231 214 237 209 V194 H243 V209 Q249 214 249 224 V262 Z" fill="#1F4D2B" stroke="#0E2614" stroke-width="3"/>
+    <path d="M236.5 191 H243.5 V207 Q248 211 248.5 216 H231.5 Q232 211 236.5 207 Z" fill="#F2C230" stroke="#A07800" stroke-width="2"/>
+    <rect x="233.5" y="232" width="13" height="15" rx="1.5" fill="#F7E7B4" stroke="#A07800" stroke-width="1.5"/>
+    <path d="M237 237 L240 235 L243 237 M237 242 H243" fill="none" stroke="#A07800" stroke-width="1.5"/>
+    <path d="M234.5 226 V256" fill="none" stroke="#3E7A4E" stroke-width="2"/>
+    <g fill="#FFF8DC" stroke="#E0B040" stroke-width="1"><circle cx="240" cy="185" r="2"/><circle cx="236" cy="179" r="1.6"/><circle cx="244" cy="177" r="1.8"/><circle cx="239" cy="171" r="1.5"/></g>
+    <rect x="227" y="166" width="26" height="98" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- two bottles of red wine -->
+  <g data-part="wine" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M316 272 V240 Q316 234 320 231 V220 H326 V231 Q330 234 330 240 V272 Z" fill="#4A1020" stroke="#23060D" stroke-width="3"/>
+    <rect x="319.5" y="216" width="7" height="8" fill="#B71C1C" stroke="#5E0F0F" stroke-width="1.5"/>
+    <rect x="317.5" y="246" width="11" height="13" fill="#FFF3E0" stroke="#8D6E63" stroke-width="1.2"/>
+    <circle cx="323" cy="252.5" r="3" fill="#8E1B3A"/>
+    <path d="M334 270 V238 Q334 232 338 229 V218 H344 V229 Q348 232 348 238 V270 Z" fill="#5A1428" stroke="#23060D" stroke-width="3"/>
+    <rect x="337.5" y="214" width="7" height="8" fill="#B71C1C" stroke="#5E0F0F" stroke-width="1.5"/>
+    <rect x="335.5" y="244" width="11" height="13" fill="#FFF3E0" stroke="#8D6E63" stroke-width="1.2"/>
+    <path d="M338 248 H344 M338 252 H344" fill="none" stroke="#8E1B3A" stroke-width="1.5"/>
+    <rect x="312" y="210" width="40" height="64" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- the two raised champagne glasses, clinking over the table -->
+  <g data-part="glasses" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(223 173) rotate(20)">
+      <ellipse cx="0" cy="10" rx="6" ry="2" fill="#E3F2FD" stroke="#5F7D8C" stroke-width="1.8"/>
+      <path d="M0 10 V-5" fill="none" stroke="#5F7D8C" stroke-width="2.2"/>
+      <path d="M0 -4 Q-6 -8 -6.5 -20 L-6 -34 H6 L6.5 -20 Q6 -8 0 -4 Z" fill="#EAF6FB" stroke="#5F7D8C" stroke-width="2"/>
+      <path d="M0 -6.5 Q-4.3 -9 -4.6 -20 L-4.4 -27 H4.4 L4.6 -20 Q4.3 -9 0 -6.5 Z" fill="#F5D76E"/>
+      <g fill="#FFFDE7"><circle cx="-1.5" cy="-12" r="1"/><circle cx="1.5" cy="-18" r="1"/><circle cx="-1" cy="-23" r="0.9"/></g>
+    </g>
+    <g transform="translate(257 173) rotate(-20)">
+      <ellipse cx="0" cy="10" rx="6" ry="2" fill="#E3F2FD" stroke="#5F7D8C" stroke-width="1.8"/>
+      <path d="M0 10 V-5" fill="none" stroke="#5F7D8C" stroke-width="2.2"/>
+      <path d="M0 -4 Q-6 -8 -6.5 -20 L-6 -34 H6 L6.5 -20 Q6 -8 0 -4 Z" fill="#EAF6FB" stroke="#5F7D8C" stroke-width="2"/>
+      <path d="M0 -6.5 Q-4.3 -9 -4.6 -20 L-4.4 -27 H4.4 L4.6 -20 Q4.3 -9 0 -6.5 Z" fill="#F5D76E"/>
+      <g fill="#FFFDE7"><circle cx="1.5" cy="-12" r="1"/><circle cx="-1.5" cy="-18" r="1"/><circle cx="1" cy="-23" r="0.9"/></g>
+    </g>
+    <!-- clink sparkle -->
+    <path d="M240 135 V127 M233 137 L228 132 M247 137 L252 132" fill="none" stroke="#E0A800" stroke-width="2.5"/>
+    <rect x="212" y="124" width="56" height="64" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- Andrej: grey hair and beard, white shirt, waistcoat and bow tie, dancing -->
+  <g data-part="andrej">
+    <g transform="translate(-18.5 168.8) scale(0.9)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- far arm out to the side -->
+    <path d="M52 86 L38 102 L30 90" fill="none" stroke="#78909C" stroke-width="15"/>
+    <path d="M52 86 L38 102 L30 90" fill="none" stroke="#FFFFFF" stroke-width="9"/>
+    <circle cx="30" cy="89" r="6.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    <!-- trousers and shoes -->
+    <path d="M56 128 L50 180" stroke="#1C262B" stroke-width="18"/>
+    <path d="M56 128 L50 180" stroke="#37474F" stroke-width="12"/>
+    <path d="M72 128 L82 178" stroke="#1C262B" stroke-width="18"/>
+    <path d="M72 128 L82 178" stroke="#37474F" stroke-width="12"/>
+    <path d="M36 188 Q36 178 48 178 Q58 178 58 188 Z" fill="#212121" stroke="#000000" stroke-width="3"/>
+    <path d="M76 188 Q76 178 88 178 Q100 180 100 188 Z" fill="#212121" stroke="#000000" stroke-width="3"/>
+    <rect x="58" y="58" width="14" height="18" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    <!-- white shirt with a dark waistcoat and a red bow tie -->
+    <path d="M46 132 V96 Q44 80 58 74 Q65 80 72 74 Q86 80 84 96 V132 Z" fill="#FFFFFF" stroke="#78909C" stroke-width="4"/>
+    <path d="M46 132 V96 Q45 82 55 76 L61 100 L64 132 Z" fill="#263238" stroke="#11181C" stroke-width="3"/>
+    <path d="M84 132 V96 Q85 82 75 76 L69 100 L66 132 Z" fill="#263238" stroke="#11181C" stroke-width="3"/>
+    <g fill="#E8B923"><circle cx="64" cy="108" r="2"/><circle cx="66" cy="120" r="2"/></g>
+    <path d="M57 74 L65 79 L57 84 Z M73 74 L65 79 L73 84 Z" fill="#D32F2F" stroke="#7F1D1A" stroke-width="2"/>
+    <circle cx="65" cy="79" r="2.5" fill="#B71C1C"/>
+    <g transform="translate(68 40) scale(0.6)">
+      <ellipse cx="0" cy="0" rx="33" ry="38" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+      <path d="M-34 8 Q-40 -42 2 -42 Q34 -42 34 -10 Q24 -24 6 -24 Q-12 -22 -16 -4 Q-22 8 -34 8 Z" fill="#BDBDBD" stroke="#757575" stroke-width="4.5"/>
+      <path d="M-24 10 Q-24 42 10 42 Q34 40 34 10 Q24 26 10 24 Q-8 24 -14 12 Z" fill="#9E9E9E" stroke="#616161" stroke-width="4"/>
+      <path d="M-31 -4 Q-30 -14 -24 -16 Q-22 -8 -24 -2 Z" fill="#9E9E9E" stroke="none"/>
+      <ellipse cx="-20" cy="4" rx="7" ry="10" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+      <circle cx="6" cy="0" r="5" fill="#3E2723"/>
+      <circle cx="24" cy="0" r="5" fill="#3E2723"/>
+      <path d="M6 -10 Q10 -13 14 -10 M20 -10 Q24 -13 28 -10" fill="none" stroke="#616161" stroke-width="4"/>
+      <path d="M18 6 V14" stroke="#B07A50" stroke-width="4.5"/>
+      <path d="M5 22 Q15 34 26 22 Z" fill="#C62828" stroke="#8E1B1B" stroke-width="3"/>
+    </g>
+    <!-- near arm up, holding Simona's hand -->
+    <path d="M78 84 L101 64 L101 26" fill="none" stroke="#78909C" stroke-width="15"/>
+    <path d="M78 84 L101 64 L101 26" fill="none" stroke="#FFFFFF" stroke-width="9"/>
+    <circle cx="101" cy="22" r="7" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- Simona: blond ponytail, grey eyes, emerald party dress, twirling (mirrored, faces left) -->
+  <g data-part="simona">
+    <g transform="translate(156.5 168.8) scale(-0.9 0.9)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- far arm out to the side -->
+    <path d="M52 86 L36 100 L24 92" fill="none" stroke="#B07A50" stroke-width="14"/>
+    <path d="M52 86 L36 100 L24 92" fill="none" stroke="#F2C9A0" stroke-width="8"/>
+    <circle cx="23" cy="91" r="6" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    <!-- legs and silver shoes -->
+    <path d="M60 150 L54 180 M72 150 L80 180" fill="none" stroke="#B07A50" stroke-width="11"/>
+    <path d="M60 150 L54 180 M72 150 L80 180" fill="none" stroke="#F2C9A0" stroke-width="6"/>
+    <path d="M40 188 Q40 180 50 179 Q60 179 60 188 Z" fill="#CFD8DC" stroke="#546E7A" stroke-width="3"/>
+    <path d="M74 188 Q74 180 84 179 Q94 180 96 188 Z" fill="#CFD8DC" stroke="#546E7A" stroke-width="3"/>
+    <rect x="59" y="58" width="12" height="18" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    <!-- swirling skirt -->
+    <path d="M50 114 H80 Q96 132 104 156 Q86 166 64 162 Q40 166 24 152 Q36 132 50 114 Z" fill="#00897B" stroke="#004D40" stroke-width="4"/>
+    <path d="M58 122 Q50 140 42 160 M70 122 Q76 142 84 162" fill="none" stroke="#00695C" stroke-width="3"/>
+    <!-- bodice -->
+    <path d="M48 120 V98 Q46 80 59 75 Q65 81 71 75 Q84 80 82 98 V120 Z" fill="#00897B" stroke="#004D40" stroke-width="4"/>
+    <path d="M58 76 Q65 90 72 76 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="2"/>
+    <path d="M48 116 H82" fill="none" stroke="#E8E8E8" stroke-width="4"/>
+    <g fill="#B2FFF0"><circle cx="56" cy="100" r="1.8"/><circle cx="74" cy="104" r="1.8"/><circle cx="64" cy="96" r="1.8"/><circle cx="48" cy="144" r="1.8"/><circle cx="66" cy="140" r="1.8"/><circle cx="86" cy="148" r="1.8"/><circle cx="58" cy="156" r="1.8"/></g>
+    <!-- head with the ponytail flying out -->
+    <g transform="translate(66 42) scale(0.56)">
+      <path d="M-30 -14 Q-60 -26 -78 4 Q-68 8 -58 2 Q-62 14 -72 22 Q-50 26 -40 8 Q-34 0 -28 2 Z" fill="#F4C542" stroke="#A67C00" stroke-width="4.5"/>
+      <ellipse cx="0" cy="0" rx="32" ry="37" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+      <path d="M-34 12 Q-42 -42 2 -42 Q36 -40 34 -6 Q26 -26 6 -26 Q-10 -24 -14 -4 Q-18 12 -34 12 Z" fill="#F4C542" stroke="#A67C00" stroke-width="5"/>
+      <circle cx="-30" cy="-12" r="6" fill="#E91E63" stroke="#880E4F" stroke-width="3"/>
+      <g stroke="none"><circle cx="5" cy="0" r="6.5" fill="#8A9BA8"/><circle cx="23" cy="0" r="6.5" fill="#8A9BA8"/><circle cx="5" cy="0" r="3.2" fill="#1A1A1A"/><circle cx="23" cy="0" r="3.2" fill="#1A1A1A"/><circle cx="6.6" cy="-1.8" r="1.4" fill="#FFFFFF"/><circle cx="24.6" cy="-1.8" r="1.4" fill="#FFFFFF"/></g>
+      <circle cx="8" cy="12" r="5" fill="#F48FB1" opacity="0.7"/>
+      <path d="M18 6 V13" stroke="#B07A50" stroke-width="4.5"/>
+      <path d="M5 19 Q16 32 27 19 Z" fill="#C2185B" stroke="#C2185B" stroke-width="3.5"/>
+      <path d="M8 20 H24" stroke="#FFFFFF" stroke-width="3"/>
+    </g>
+    <!-- near arm up, holding Andrej's hand -->
+    <path d="M74 86 L92 62 L95 26" fill="none" stroke="#B07A50" stroke-width="14"/>
+    <path d="M74 86 L92 62 L95 26" fill="none" stroke="#F2C9A0" stroke-width="8"/>
+    <circle cx="96" cy="27" r="6" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- Nika: long brown hair, brown eyes, purple party dress, holding the phone -->
+  <g data-part="nika">
+    <g transform="translate(298 172.6) scale(0.9)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 30 Q68 26 68 52 Q66 78 60 94 Q76 100 88 88 Q92 72 92 58 Z" fill="#2B211C" stroke="#17110E" stroke-width="3.5"/>
+    <!-- far arm -->
+    <path d="M96 86 L88 106 L84 120" fill="none" stroke="#B07A50" stroke-width="13"/>
+    <path d="M96 86 L88 106 L84 120" fill="none" stroke="#F2C9A0" stroke-width="7"/>
+    <circle cx="83" cy="122" r="5.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    <!-- legs and shoes -->
+    <path d="M95 148 L92 180 M106 148 L110 180" fill="none" stroke="#B07A50" stroke-width="11"/>
+    <path d="M95 148 L92 180 M106 148 L110 180" fill="none" stroke="#F2C9A0" stroke-width="6"/>
+    <path d="M78 186 Q78 178 88 178 Q98 180 98 186 Z" fill="#6A1B9A" stroke="#38006B" stroke-width="3"/>
+    <path d="M104 186 Q104 178 114 178 Q124 180 126 186 Z" fill="#6A1B9A" stroke="#38006B" stroke-width="3"/>
+    <!-- purple party dress -->
+    <path d="M86 110 H114 Q122 130 126 152 Q100 160 74 152 Q78 130 86 110 Z" fill="#8E24AA" stroke="#4A148C" stroke-width="4"/>
+    <rect x="94" y="62" width="12" height="16" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    <path d="M86 112 L84 90 Q86 78 96 76 Q100 80 104 76 Q114 78 116 90 L114 112 Z" fill="#8E24AA" stroke="#4A148C" stroke-width="4"/>
+    <path d="M86 112 H114" stroke="#FFD54F" stroke-width="4"/>
+    <g fill="#F3C4FF"><circle cx="92" cy="96" r="2"/><circle cx="106" cy="92" r="2"/><circle cx="98" cy="104" r="2"/><circle cx="88" cy="132" r="2"/><circle cx="104" cy="126" r="2"/><circle cx="114" cy="142" r="2"/><circle cx="96" cy="146" r="2"/></g>
+    <!-- head tilted to the phone, laughing -->
+    <g transform="translate(100 46) rotate(12) scale(0.54)">
+      <ellipse cx="0" cy="0" rx="32" ry="37" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+      <path d="M-36 18 Q-44 -42 2 -42 Q36 -40 34 -6 Q26 -26 6 -26 Q-10 -24 -14 -2 Q-18 18 -36 18 Z" fill="#2B211C" stroke="#17110E" stroke-width="5"/>
+      <g stroke="none"><circle cx="6" cy="1" r="6.5" fill="#6D4C41"/><circle cx="24" cy="1" r="6.5" fill="#6D4C41"/><circle cx="7.5" cy="2.5" r="3.2" fill="#1A1A1A"/><circle cx="25.5" cy="2.5" r="3.2" fill="#1A1A1A"/><circle cx="8.6" cy="0.8" r="1.4" fill="#FFFFFF"/><circle cx="26.6" cy="0.8" r="1.4" fill="#FFFFFF"/></g>
+      <path d="M0 -10 Q6 -15 12 -11 M19 -11 Q25 -15 30 -10" fill="none" stroke="#3B2314" stroke-width="3.5"/>
+      <circle cx="6" cy="14" r="5" fill="#F48FB1" opacity="0.7"/>
+      <path d="M18 7 V13" stroke="#B07A50" stroke-width="4.5"/>
+      <path d="M2 18 Q16 22 31 16 Q29 35 16 35 Q4 33 2 18 Z" fill="#8D3A4A" stroke="#6D2535" stroke-width="3"/>
+      <path d="M4 19 Q16 23 30 17 L29 22 Q16 26 5 23 Z" fill="#FFFFFF"/>
+    </g>
+    <!-- laughing marks -->
+    <path d="M118 22 L124 16 M122 30 L130 28" fill="none" stroke="#8D6E63" stroke-width="3"/>
+    <!-- near arm up, holding the phone -->
+    <path d="M104 86 L114 106 L131 98" fill="none" stroke="#B07A50" stroke-width="13"/>
+    <path d="M104 86 L114 106 L131 98" fill="none" stroke="#F2C9A0" stroke-width="7"/>
+    <path d="M104 82 L109 94" fill="none" stroke="#4A148C" stroke-width="15"/>
+    <path d="M104 82 L108 92" fill="none" stroke="#8E24AA" stroke-width="9"/>
+    <circle cx="132" cy="98" r="6.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- Anuška: Nika's friend, long brown hair with a red hair band, gold top, black skirt (mirrored, faces left) -->
+  <g data-part="anuska">
+    <g transform="translate(534 172.6) scale(-0.9 0.9)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 30 Q68 26 68 54 Q66 82 62 100 Q78 106 88 92 Q92 74 92 58 Z" fill="#6B4226" stroke="#3B2314" stroke-width="3.5"/>
+    <!-- far arm, hand on her hip -->
+    <path d="M96 86 L82 100 L88 112" fill="none" stroke="#B07A50" stroke-width="13"/>
+    <path d="M96 86 L82 100 L88 112" fill="none" stroke="#F2C9A0" stroke-width="7"/>
+    <circle cx="89" cy="113" r="5.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    <!-- legs in black tights, red shoes -->
+    <path d="M95 148 L92 180 M106 148 L110 180" fill="none" stroke="#000000" stroke-width="11"/>
+    <path d="M95 148 L92 180 M106 148 L110 180" fill="none" stroke="#37323A" stroke-width="6"/>
+    <path d="M78 186 Q78 178 88 178 Q98 180 98 186 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="3"/>
+    <path d="M104 186 Q104 178 114 178 Q124 180 126 186 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="3"/>
+    <!-- black skirt with silver dots -->
+    <path d="M86 110 H114 Q120 128 122 148 Q100 154 78 148 Q80 128 86 110 Z" fill="#263238" stroke="#11181C" stroke-width="4"/>
+    <g fill="#CFD8DC"><circle cx="90" cy="130" r="1.8"/><circle cx="104" cy="122" r="1.8"/><circle cx="112" cy="138" r="1.8"/><circle cx="96" cy="142" r="1.8"/></g>
+    <rect x="94" y="62" width="12" height="16" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    <!-- gold sparkly top with short sleeves -->
+    <path d="M86 112 L84 90 Q86 78 96 76 Q100 80 104 76 Q114 78 116 90 L114 112 Z" fill="#FBC02D" stroke="#A07000" stroke-width="4"/>
+    <g fill="#FFF8D0"><circle cx="92" cy="94" r="2"/><circle cx="106" cy="98" r="2"/><circle cx="98" cy="106" r="2"/><circle cx="110" cy="86" r="2"/></g>
+    <!-- head tilted to the phone, laughing -->
+    <g transform="translate(100 46) rotate(12) scale(0.54)">
+      <ellipse cx="0" cy="0" rx="32" ry="37" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+      <path d="M-36 18 Q-44 -42 2 -42 Q36 -40 34 -6 Q26 -26 6 -26 Q-10 -24 -14 -2 Q-18 18 -36 18 Z" fill="#6B4226" stroke="#3B2314" stroke-width="5"/>
+      <path d="M-30 -14 Q-20 -42 6 -41 Q28 -39 33 -18" fill="none" stroke="#7F1D1A" stroke-width="10"/>
+      <path d="M-30 -14 Q-20 -42 6 -41 Q28 -39 33 -18" fill="none" stroke="#E53935" stroke-width="6"/>
+      <g stroke="none"><circle cx="6" cy="1" r="6.5" fill="#6D4C41"/><circle cx="24" cy="1" r="6.5" fill="#6D4C41"/><circle cx="7.5" cy="2.5" r="3.2" fill="#1A1A1A"/><circle cx="25.5" cy="2.5" r="3.2" fill="#1A1A1A"/><circle cx="8.6" cy="0.8" r="1.4" fill="#FFFFFF"/><circle cx="26.6" cy="0.8" r="1.4" fill="#FFFFFF"/></g>
+      <path d="M0 -10 Q6 -15 12 -11 M19 -11 Q25 -15 30 -10" fill="none" stroke="#3B2314" stroke-width="3.5"/>
+      <circle cx="6" cy="14" r="5" fill="#F48FB1" opacity="0.7"/>
+      <path d="M18 7 V13" stroke="#B07A50" stroke-width="4.5"/>
+      <path d="M2 18 Q16 22 31 16 Q29 35 16 35 Q4 33 2 18 Z" fill="#8D3A4A" stroke="#6D2535" stroke-width="3"/>
+      <path d="M4 19 Q16 23 30 17 L29 22 Q16 26 5 23 Z" fill="#FFFFFF"/>
+    </g>
+    <path d="M118 22 L124 16 M122 30 L130 28" fill="none" stroke="#8D6E63" stroke-width="3"/>
+    <!-- near arm, hand on her belly as she laughs -->
+    <path d="M104 86 L118 102 L106 110" fill="none" stroke="#B07A50" stroke-width="13"/>
+    <path d="M104 86 L118 102 L106 110" fill="none" stroke="#F2C9A0" stroke-width="7"/>
+    <path d="M104 82 L110 94" fill="none" stroke="#A07000" stroke-width="15"/>
+    <path d="M104 82 L109 92" fill="none" stroke="#FBC02D" stroke-width="9"/>
+    <circle cx="105" cy="110" r="6" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- the phone the girls are laughing at -->
+  <g data-part="phone" stroke-linejoin="round">
+    <g transform="translate(417 254) rotate(-8)">
+      <rect x="-7.5" y="-12" width="15" height="24" rx="3" fill="#263238" stroke="#000000" stroke-width="2"/>
+      <rect x="-5.5" y="-9" width="11" height="17" rx="1" fill="#81D4FA"/>
+      <circle cx="0" cy="-1" r="4" fill="#FFD54F" stroke="#B8860B" stroke-width="1"/>
+      <path d="M-2.4 -0.2 Q0 3 2.4 -0.2 Z" fill="#6D2535"/>
+      <path d="M-2.5 -2.5 L-1 -3 M2.5 -2.5 L1 -3" fill="none" stroke="#3E2723" stroke-width="1"/>
+    </g>
+    <rect x="403" y="238" width="28" height="32" fill="transparent" stroke="none"/>
+  </g>
+</svg>

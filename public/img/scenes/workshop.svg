@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <!-- wall, ceiling beam, floor, pegboard (not parts) -->
+  <rect x="0" y="0" width="480" height="360" fill="#F1E6D2"/>
+  <rect x="0" y="0" width="480" height="12" fill="#C9A77A"/>
+  <line x1="0" y1="12" x2="480" y2="12" stroke="#8A6A40" stroke-width="3"/>
+  <rect x="0" y="286" width="480" height="74" fill="#CBC3B5"/>
+  <line x1="0" y1="286" x2="480" y2="286" stroke="#9C9384" stroke-width="3"/>
+  <path d="M0 322 H480 M120 286 L104 360 M300 286 L312 360 M440 286 L462 360" fill="none" stroke="#B8AFA0" stroke-width="2"/>
+  <g fill="#B5AC9D">
+    <ellipse cx="182" cy="318" rx="96" ry="6"/>
+    <ellipse cx="404" cy="347" rx="40" ry="4"/>
+    <ellipse cx="294" cy="346" rx="22" ry="3"/>
+    <ellipse cx="50" cy="340" rx="40" ry="4"/>
+  </g>
+  <rect x="96" y="60" width="196" height="98" rx="3" fill="#D7A86E" stroke="#8A6436" stroke-width="3"/>
+  <path d="M106 70 H286 M106 82 H286 M106 94 H286 M106 106 H286 M106 118 H286 M106 130 H286 M106 142 H286" fill="none" stroke="#A97C47" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="0 12"/>
+
+  <g data-part="saw">
+    <path d="M104 44 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 l4 4.3 l4 -3.7 Z" fill="#CFD8DC" stroke="#546E7A" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M246 22 L106 28 Q101 30 102 34 L104 44 L246 54 Z" fill="#CFD8DC" stroke="#546E7A" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M118 33 L232 29" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M238 20 L270 18 Q288 18 288 34 L288 46 Q288 60 272 60 L240 57 Z" fill="#C0803E" stroke="#6B4423" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M256 30 L270 29 Q277 30 277 36 L277 42 Q277 48 270 48 L258 47 Z" fill="#F1E6D2" stroke="#6B4423" stroke-width="2.5" stroke-linejoin="round"/>
+    <g fill="#ECEFF1" stroke="#6B4423" stroke-width="1.5">
+      <circle cx="246" cy="28" r="2.5"/>
+      <circle cx="246" cy="49" r="2.5"/>
+    </g>
+    <rect x="98" y="14" width="194" height="46" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="hammer">
+    <circle cx="128" cy="86" r="3" fill="#6D4C41"/>
+    <rect x="122" y="82" width="12" height="70" rx="5" fill="#C68B4E" stroke="#6B4423" stroke-width="3"/>
+    <line x1="128" y1="92" x2="128" y2="144" stroke="#A06A34" stroke-width="2" stroke-linecap="round"/>
+    <path d="M136 69 Q154 66 160 86 Q150 79 138 83 Z" fill="#90A4AE" stroke="#37474F" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="112" y="68" width="28" height="16" rx="2" fill="#90A4AE" stroke="#37474F" stroke-width="3"/>
+    <rect x="102" y="64" width="13" height="24" rx="3" fill="#90A4AE" stroke="#37474F" stroke-width="3"/>
+    <line x1="116" y1="73" x2="136" y2="73" stroke="#CFD8DC" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="100" y="56" width="60" height="100" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="wrench">
+    <g fill="#455A64" stroke="#455A64" stroke-width="6" stroke-linejoin="round">
+      <path d="M180 66 L188 66 L190 78 L202 78 L204 66 L212 66 Q216 86 202 92 L190 92 Q176 86 180 66 Z"/>
+      <rect x="190" y="86" width="12" height="52" rx="3"/>
+      <circle cx="196" cy="142" r="12"/>
+    </g>
+    <g fill="#B0BEC5">
+      <path d="M180 66 L188 66 L190 78 L202 78 L204 66 L212 66 Q216 86 202 92 L190 92 Q176 86 180 66 Z"/>
+      <rect x="190" y="86" width="12" height="52" rx="3"/>
+      <circle cx="196" cy="142" r="12"/>
+    </g>
+    <circle cx="196" cy="142" r="6" fill="#D7A86E" stroke="#455A64" stroke-width="2.5"/>
+    <line x1="194" y1="94" x2="194" y2="130" stroke="#ECEFF1" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="172" y="58" width="48" height="98" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="screwdriver">
+    <rect x="252" y="66" width="20" height="42" rx="8" fill="#E53935" stroke="#8E1C1A" stroke-width="3"/>
+    <path d="M258 74 V100 M262 72 V102 M266 74 V100" fill="none" stroke="#B71C1C" stroke-width="2" stroke-linecap="round"/>
+    <rect x="256" y="107" width="12" height="6" rx="1" fill="#90A4AE" stroke="#455A64" stroke-width="2"/>
+    <rect x="259" y="113" width="6" height="28" fill="#B0BEC5" stroke="#455A64" stroke-width="2.5"/>
+    <path d="M259 141 L265 141 L264 149 L260 149 Z" fill="#78909C" stroke="#455A64" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="238" y="58" width="48" height="94" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="lamp">
+    <rect x="329" y="12" width="14" height="6" fill="#37474F"/>
+    <line x1="336" y1="16" x2="336" y2="76" stroke="#37474F" stroke-width="3"/>
+    <circle cx="336" cy="108" r="24" fill="#FFF59D" opacity="0.45"/>
+    <rect x="330" y="70" width="12" height="9" rx="2" fill="#37474F"/>
+    <path d="M306 104 Q308 78 336 76 Q364 78 366 104 Z" fill="#00897B" stroke="#00574B" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M318 90 Q324 82 334 80" fill="none" stroke="#4DB6AC" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="336" cy="106" r="9" fill="#FFF59D" stroke="#D9A520" stroke-width="2.5"/>
+    <path d="M304 104 H368" fill="none" stroke="#00574B" stroke-width="4" stroke-linecap="round"/>
+    <rect x="304" y="14" width="64" height="118" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="tyres">
+    <g fill="none" stroke="#5D4037" stroke-width="4" stroke-linecap="round">
+      <path d="M396 36 V46 Q396 50 400 49"/>
+      <path d="M440 40 V50 Q440 54 444 53"/>
+    </g>
+    <circle cx="440" cy="90" r="40" fill="transparent" stroke="none"/>
+    <circle cx="440" cy="90" r="32" fill="none" stroke="#212121" stroke-width="14"/>
+    <circle cx="440" cy="90" r="40.5" fill="none" stroke="#212121" stroke-width="4" stroke-dasharray="4 4"/>
+    <circle cx="440" cy="90" r="32" fill="none" stroke="#424242" stroke-width="5"/>
+    <circle cx="396" cy="86" r="40" fill="transparent" stroke="none"/>
+    <circle cx="396" cy="86" r="40.5" fill="none" stroke="#212121" stroke-width="4" stroke-dasharray="4 4"/>
+    <circle cx="396" cy="86" r="32" fill="none" stroke="#212121" stroke-width="14"/>
+    <circle cx="396" cy="86" r="32" fill="none" stroke="#4A4A4A" stroke-width="5"/>
+    <circle cx="396" cy="86" r="25" fill="none" stroke="#111111" stroke-width="1.5"/>
+  </g>
+
+  <g data-part="ladder">
+    <polygon points="14,338 86,338 76,70 34,70" fill="transparent" stroke="none"/>
+    <g fill="#B0BEC5" stroke="#546E7A" stroke-width="3" stroke-linejoin="round">
+      <rect x="22" y="284" width="56" height="10" rx="2"/>
+      <rect x="26" y="230" width="50" height="10" rx="2"/>
+      <rect x="30" y="176" width="44" height="10" rx="2"/>
+      <rect x="34" y="122" width="38" height="10" rx="2"/>
+    </g>
+    <g fill="#CFD8DC" stroke="#546E7A" stroke-width="3" stroke-linejoin="round">
+      <polygon points="14,336 25,336 41,76 33,76"/>
+      <polygon points="75,336 86,336 77,76 69,76"/>
+    </g>
+    <line x1="22" y1="320" x2="36" y2="92" stroke="#ECEFF1" stroke-width="2" stroke-linecap="round"/>
+    <rect x="28" y="64" width="54" height="16" rx="3" fill="#546E7A" stroke="#37474F" stroke-width="3"/>
+    <g fill="#263238">
+      <rect x="11" y="334" width="17" height="6" rx="2"/>
+      <rect x="72" y="334" width="17" height="6" rx="2"/>
+    </g>
+  </g>
+
+  <g data-part="workbench">
+    <g fill="#A8723C" stroke="#5D3A1A" stroke-width="3" stroke-linejoin="round">
+      <rect x="100" y="218" width="14" height="98"/>
+      <rect x="250" y="218" width="14" height="98"/>
+      <rect x="96" y="216" width="172" height="12"/>
+    </g>
+    <rect x="100" y="290" width="164" height="10" fill="#B67E45" stroke="#5D3A1A" stroke-width="3"/>
+    <rect x="88" y="202" width="184" height="16" rx="2" fill="#D39A5C" stroke="#5D3A1A" stroke-width="3.5"/>
+    <path d="M96 208 H150 M170 212 H236 M244 207 H264" fill="none" stroke="#B37A40" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="toolbox">
+    <rect x="124" y="262" width="76" height="28" rx="3" fill="#E53935" stroke="#8E1C1A" stroke-width="3"/>
+    <rect x="122" y="252" width="80" height="12" rx="3" fill="#EF5350" stroke="#8E1C1A" stroke-width="3"/>
+    <path d="M148 252 V244 H176 V252" fill="none" stroke="#37474F" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="152" y="240" width="20" height="6" rx="3" fill="#263238"/>
+    <g fill="#CFD8DC" stroke="#455A64" stroke-width="2">
+      <rect x="132" y="259" width="9" height="9" rx="1.5"/>
+      <rect x="183" y="259" width="9" height="9" rx="1.5"/>
+    </g>
+    <line x1="130" y1="276" x2="194" y2="276" stroke="#C62828" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="helmet" transform="translate(-4 0)">
+    <path d="M100 200 C98 176 114 164 136 164 C156 164 170 174 174 190 L174 200 Z" fill="#FB8C00" stroke="#8A4A00" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="#5D3200">
+      <ellipse cx="118" cy="180" rx="7" ry="3.5" transform="rotate(-40 118 180)"/>
+      <ellipse cx="137" cy="170" rx="8" ry="3.5"/>
+      <ellipse cx="156" cy="175" rx="7" ry="3.5" transform="rotate(30 156 175)"/>
+    </g>
+    <path d="M110 178 Q132 168 158 178" fill="none" stroke="#FFB74D" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M166 180 L190 183 Q190 192 176 192 Z" fill="#37474F" stroke="#1F2A30" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="100" y="194" width="74" height="7" rx="2" fill="#37474F" stroke="#1F2A30" stroke-width="2"/>
+    <path d="M114 200 Q120 214 138 210 Q148 208 150 200" fill="none" stroke="#263238" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="drill">
+    <path d="M238 172 L258 172 L254 190 L234 190 Z" fill="#FDD835" stroke="#5D4A00" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M241 176 L254 176 L251 188 L238 188 Z" fill="#263238"/>
+    <rect x="226" y="188" width="40" height="14" rx="3" fill="#263238" stroke="#000000" stroke-width="2.5"/>
+    <rect x="216" y="154" width="52" height="24" rx="9" fill="#FDD835" stroke="#5D4A00" stroke-width="3"/>
+    <path d="M254 160 V172 M259 160 V172" fill="none" stroke="#263238" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="232" y="176" width="6" height="8" rx="2" fill="#263238"/>
+    <path d="M218 157 L206 160 L206 172 L218 175 Z" fill="#37474F" stroke="#1F2A30" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="205" y1="166" x2="196" y2="166" stroke="#90A4AE" stroke-width="3.5" stroke-linecap="round"/>
+    <rect x="186" y="152" width="84" height="50" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="pump">
+    <rect x="270" y="216" width="46" height="132" fill="transparent" stroke="none"/>
+    <path d="M288 338 Q272 330 274 300 Q276 270 286 262" fill="none" stroke="#263238" stroke-width="3.5" stroke-linecap="round"/>
+    <rect x="281" y="256" width="9" height="8" rx="2" fill="#263238"/>
+    <rect x="292" y="226" width="4" height="14" fill="#B0BEC5" stroke="#546E7A" stroke-width="1.5"/>
+    <rect x="274" y="219" width="40" height="9" rx="4.5" fill="#263238" stroke="#000000" stroke-width="2"/>
+    <rect x="288" y="238" width="12" height="98" rx="3" fill="#43A047" stroke="#1B5E20" stroke-width="3"/>
+    <line x1="292" y1="244" x2="292" y2="300" stroke="#81C784" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="294" cy="314" r="8" fill="#FFFFFF" stroke="#263238" stroke-width="2.5"/>
+    <line x1="294" y1="314" x2="298" y2="309" stroke="#E53935" stroke-width="2" stroke-linecap="round"/>
+    <path d="M274 345 L314 345 L309 334 L279 334 Z" fill="#263238" stroke="#000000" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <g data-part="bike">
+    <!-- repair stand -->
+    <g stroke="#37474F" stroke-width="7" stroke-linecap="round" fill="none">
+      <path d="M404 300 L372 344 M404 300 L438 344 M404 300 V346 M404 300 V206"/>
+    </g>
+    <g stroke="#90A4AE" stroke-width="3" stroke-linecap="round" fill="none">
+      <path d="M404 300 L372 344 M404 300 L438 344 M404 300 V346 M404 300 V206"/>
+    </g>
+    <!-- wheels -->
+    <circle cx="358" cy="250" r="34" fill="transparent" stroke="none"/>
+    <circle cx="444" cy="250" r="34" fill="transparent" stroke="none"/>
+    <path d="M332 250 H384 M335.5 237 L380.5 263 M345 227.5 L371 272.5 M358 224 V276 M371 227.5 L345 272.5 M380.5 237 L335.5 263 M418 250 H470 M421.5 237 L466.5 263 M431 227.5 L457 272.5 M444 224 V276 M457 227.5 L431 272.5 M466.5 237 L421.5 263" fill="none" stroke="#B0BEC5" stroke-width="1.5"/>
+    <g fill="none" stroke="#90A4AE" stroke-width="3">
+      <circle cx="358" cy="250" r="25"/>
+      <circle cx="444" cy="250" r="25"/>
+    </g>
+    <g fill="none" stroke="#263238">
+      <circle cx="358" cy="250" r="29.5" stroke-width="8"/>
+      <circle cx="444" cy="250" r="29.5" stroke-width="8"/>
+      <circle cx="358" cy="250" r="34" stroke-width="3" stroke-dasharray="3 4"/>
+      <circle cx="444" cy="250" r="34" stroke-width="3" stroke-dasharray="3 4"/>
+    </g>
+    <circle cx="358" cy="250" r="7" fill="#90A4AE" stroke="#37474F" stroke-width="2"/>
+    <circle cx="444" cy="250" r="4" fill="#90A4AE" stroke="#37474F" stroke-width="2"/>
+    <!-- chain -->
+    <path d="M394 243 L358 243 M394 265 L358 257" fill="none" stroke="#546E7A" stroke-width="2.5"/>
+    <!-- frame -->
+    <g fill="none" stroke="#0D3C6E" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M394 254 L382 198 M382 200 L432 198 M383 204 L358 250 M394 254 L358 250" stroke-width="10"/>
+      <path d="M394 254 L436 212" stroke-width="12"/>
+      <path d="M432 194 L436 214" stroke-width="12"/>
+    </g>
+    <g fill="none" stroke="#1E88E5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M394 254 L382 198 M382 200 L432 198 M383 204 L358 250 M394 254 L358 250" stroke-width="6"/>
+      <path d="M394 254 L436 212" stroke-width="8"/>
+      <path d="M432 194 L436 214" stroke-width="8"/>
+    </g>
+    <path d="M388 220 L384 206 M400 235 L420 214" fill="none" stroke="#64B5F6" stroke-width="2" stroke-linecap="round"/>
+    <!-- fork -->
+    <path d="M436 214 L444 250" fill="none" stroke="#1F2A30" stroke-width="10" stroke-linecap="round"/>
+    <path d="M436 216 L440 232" fill="none" stroke="#37474F" stroke-width="6" stroke-linecap="round"/>
+    <path d="M440 234 L443 246" fill="none" stroke="#CFD8DC" stroke-width="5" stroke-linecap="round"/>
+    <!-- crank -->
+    <circle cx="394" cy="254" r="11" fill="#B0BEC5" stroke="#37474F" stroke-width="2.5"/>
+    <line x1="394" y1="254" x2="402" y2="272" stroke="#263238" stroke-width="5" stroke-linecap="round"/>
+    <rect x="395" y="270" width="15" height="5" rx="1.5" fill="#263238"/>
+    <circle cx="394" cy="254" r="3" fill="#37474F"/>
+    <!-- seat post, saddle, stem, bar -->
+    <line x1="382" y1="198" x2="379" y2="184" stroke="#37474F" stroke-width="5" stroke-linecap="round"/>
+    <path d="M362 182 Q368 175 384 177 L398 180 Q400 185 393 186 L370 186 Q360 186 362 182 Z" fill="#263238" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="432" y1="196" x2="434" y2="186" stroke="#37474F" stroke-width="6" stroke-linecap="round"/>
+    <line x1="424" y1="186" x2="446" y2="182" stroke="#37474F" stroke-width="5" stroke-linecap="round"/>
+    <line x1="440" y1="183" x2="450" y2="181" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+    <!-- stand clamp -->
+    <rect x="396" y="191" width="16" height="17" rx="3" fill="#263238" stroke="#000000" stroke-width="2"/>
+    <circle cx="404" cy="214" r="4" fill="#E53935" stroke="#7A1E14" stroke-width="1.5"/>
+  </g>
+</svg>

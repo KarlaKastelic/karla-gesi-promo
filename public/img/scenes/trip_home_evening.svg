@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="trip_home_evening-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="140">
+      <stop offset="0" stop-color="#15244F"/>
+      <stop offset="0.3" stop-color="#243F7C"/>
+      <stop offset="0.52" stop-color="#3F5E9C"/>
+      <stop offset="0.66" stop-color="#9C7FA6"/>
+      <stop offset="0.78" stop-color="#EE9E6C"/>
+      <stop offset="1" stop-color="#FFC77C"/>
+    </linearGradient>
+    <radialGradient id="trip_home_evening-lamp" gradientUnits="userSpaceOnUse" cx="146" cy="172" r="40">
+      <stop offset="0" stop-color="#FFF1BF" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#FFD98A" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFD27F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- deep blue evening sky, the last orange glow low down -->
+  <rect x="0" y="0" width="400" height="250" fill="url(#trip_home_evening-sky)"/>
+
+  <!-- a few stars -->
+  <g fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round">
+    <g data-part="star"><rect x="28" y="19" width="24" height="24" fill="transparent" stroke="none"/><path d="M40 24 L42 29 L47.5 29.4 L43.3 32.8 L44.6 38 L40 35 L35.4 38 L36.7 32.8 L32.5 29.4 L38 29 Z"/></g>
+    <g data-part="star"><rect x="138" y="10" width="24" height="24" fill="transparent" stroke="none"/><path d="M150 16 L151.6 20 L156 20.3 L152.6 23 L153.7 27.2 L150 24.8 L146.3 27.2 L147.4 23 L144 20.3 L148.4 20 Z"/></g>
+    <g data-part="star"><rect x="250" y="24" width="24" height="24" fill="transparent" stroke="none"/><path d="M262 30 L263.6 34 L268 34.3 L264.6 37 L265.7 41.2 L262 38.8 L258.3 41.2 L259.4 37 L256 34.3 L260.4 34 Z"/></g>
+    <g data-part="star"><rect x="362" y="64" width="24" height="24" fill="transparent" stroke="none"/><path d="M374 70 L375.6 74 L380 74.3 L376.6 77 L377.7 81.2 L374 78.8 L370.3 81.2 L371.4 77 L368 74.3 L372.4 74 Z"/></g>
+    <g data-part="star"><rect x="84" y="51" width="24" height="24" fill="transparent" stroke="none"/><path d="M96 58 L97.4 61.4 L101 61.7 L98.2 64 L99.1 67.5 L96 65.5 L92.9 67.5 L93.8 64 L91 61.7 L94.6 61.4 Z"/></g>
+  </g>
+
+  <!-- thin crescent moon -->
+  <g data-part="moon">
+    <circle cx="328" cy="38" r="26" fill="#FFF3C4" opacity="0.14"/>
+    <path d="M338 20 A19 19 0 1 0 338 56 A18.1 18.1 0 1 1 338 20 Z" fill="#FFF3C4" stroke="#E6C66A" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- dark rounded hills behind the village -->
+  <path d="M-4 150 V122 Q30 104 64 112 Q100 98 136 116 Q166 128 196 120 Q236 104 272 118 Q304 132 334 116 Q368 100 404 112 V150 Z" fill="#33486E" stroke="#1F2E4C" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M-4 150 V136 Q50 124 104 132 Q150 140 200 132 Q260 122 316 134 Q360 140 404 130 V150 Z" fill="#2D5249" stroke="#1B3530" stroke-width="3" stroke-linejoin="round"/>
+  <!-- a few dark trees on the hillside -->
+  <g fill="#244538" stroke="#15291F" stroke-width="2.5">
+    <circle cx="300" cy="131" r="8"/>
+    <circle cx="314" cy="134" r="7"/>
+    <circle cx="356" cy="134" r="7"/>
+  </g>
+
+  <!-- the meadow -->
+  <path d="M-4 146 Q120 140 220 144 Q320 148 404 142 V254 H-4 Z" fill="#477B45" stroke="#325C37" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- the tree -->
+  <g data-part="tree" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="36" y="140" width="13" height="76" fill="#6D4223" stroke="#3E2410" stroke-width="3"/>
+    <g fill="#3E7A4A" stroke="#1E4A2E" stroke-width="3.5">
+      <circle cx="22" cy="132" r="22"/>
+      <circle cx="66" cy="130" r="22"/>
+      <circle cx="44" cy="104" r="28"/>
+      <circle cx="42" cy="140" r="20"/>
+    </g>
+    <g fill="#3E7A4A">
+      <circle cx="22" cy="132" r="20"/>
+      <circle cx="66" cy="130" r="20"/>
+      <circle cx="42" cy="140" r="18"/>
+      <circle cx="44" cy="120" r="22"/>
+    </g>
+    <g fill="#4C8C55">
+      <circle cx="34" cy="96" r="9"/>
+      <circle cx="58" cy="122" r="7"/>
+    </g>
+  </g>
+
+  <!-- the house -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- chimney with a little wisp of smoke -->
+    <g data-part="chimney">
+      <rect x="190" y="0" width="27" height="34" fill="transparent" stroke="none"/>
+      <path d="M203 32 Q196 24 203 16 Q210 8 204 0" fill="none" stroke="#C9CFDF" stroke-width="3.5" opacity="0.55"/>
+      <rect x="196" y="34" width="15" height="28" fill="#F3EEE4" stroke="#5B5550" stroke-width="3"/>
+      <rect x="193" y="30" width="21" height="6" rx="1.5" fill="#8A3A20" stroke="#4E1E10" stroke-width="2.5"/>
+    </g>
+    <!-- white walls -->
+    <g data-part="house">
+      <rect x="92" y="98" width="160" height="110" fill="#F3EEE4" stroke="#5B5550" stroke-width="3.5"/>
+    </g>
+    <!-- red-brown tiled roof -->
+    <g data-part="roof">
+      <polygon points="76,102 112,52 232,52 268,102" fill="#A84E2E" stroke="#5C2410" stroke-width="4"/>
+      <path d="M100 69 H244 M88 86 H256" fill="none" stroke="#8E3F22" stroke-width="2.5"/>
+      <path d="M74 103 H270" fill="none" stroke="#5C2410" stroke-width="5"/>
+    </g>
+
+    <!-- upstairs windows, lit, with their warm glow -->
+    <g data-part="window">
+      <g fill="#FFC857" opacity="0.35">
+        <ellipse cx="124" cy="122" rx="22" ry="18"/>
+        <ellipse cx="220" cy="122" rx="22" ry="18"/>
+      </g>
+      <g fill="#FFD54F" stroke="#5A3414" stroke-width="3">
+        <rect x="110" y="110" width="28" height="24"/>
+        <rect x="206" y="110" width="28" height="24"/>
+      </g>
+      <path d="M124 110 V134 M206 122 H234 M220 110 V134 M110 122 H138" fill="none" stroke="#B07A12" stroke-width="2"/>
+    </g>
+
+    <!-- wooden balcony with red geraniums on the rail -->
+    <g data-part="balcony">
+      <g fill="#5A3414">
+        <polygon points="104,163 112,163 106,172"/>
+        <polygon points="232,163 240,163 238,172"/>
+      </g>
+      <rect x="96" y="143" width="152" height="17" fill="#B5763A" stroke="#5A3414" stroke-width="2.5"/>
+      <path d="M118 144 V159 M140 144 V159 M162 144 V159 M184 144 V159 M206 144 V159 M228 144 V159" fill="none" stroke="#9A6232" stroke-width="2"/>
+      <rect x="90" y="137" width="164" height="7" rx="1.5" fill="#8B5A2B" stroke="#4A2E14" stroke-width="2.5"/>
+      <rect x="90" y="158" width="164" height="6" rx="1.5" fill="#8B5A2B" stroke="#4A2E14" stroke-width="2.5"/>
+      <g fill="#3E8E41" stroke="#1E5631" stroke-width="1.5">
+        <ellipse cx="124" cy="136" rx="14" ry="4"/>
+        <ellipse cx="172" cy="136" rx="14" ry="4"/>
+        <ellipse cx="220" cy="136" rx="14" ry="4"/>
+      </g>
+      <g fill="#E53935" stroke="#8E1B1B" stroke-width="1.5">
+        <circle cx="114" cy="132" r="4"/><circle cx="122" cy="129" r="4.5"/><circle cx="131" cy="132" r="4"/>
+        <circle cx="163" cy="132" r="4"/><circle cx="171" cy="129" r="4.5"/><circle cx="180" cy="132" r="4"/>
+        <circle cx="211" cy="132" r="4"/><circle cx="219" cy="129" r="4.5"/><circle cx="228" cy="132" r="4"/>
+      </g>
+    </g>
+
+    <!-- downstairs windows with brown shutters -->
+    <g data-part="window">
+      <ellipse cx="116" cy="185" rx="22" ry="18" fill="#FFC857" opacity="0.35"/>
+      <rect x="102" y="174" width="28" height="22" fill="#FFD54F" stroke="#5A3414" stroke-width="3"/>
+      <path d="M116 174 V196 M102 185 H130" fill="none" stroke="#B07A12" stroke-width="2"/>
+      <rect x="208" y="174" width="28" height="22" fill="#3A4C7C" stroke="#5A3414" stroke-width="3"/>
+      <path d="M222 174 V196 M208 185 H236" fill="none" stroke="#24335A" stroke-width="2"/>
+      <g fill="#8B5A2B" stroke="#4A2E14" stroke-width="2">
+        <rect x="94" y="174" width="7" height="22"/>
+        <rect x="131" y="174" width="7" height="22"/>
+        <rect x="200" y="174" width="7" height="22"/>
+        <rect x="237" y="174" width="7" height="22"/>
+      </g>
+    </g>
+    <!-- front door and doorstep -->
+    <g data-part="door">
+      <path d="M158 208 V180 Q158 170 171 170 Q184 170 184 180 V208 Z" fill="#7A4A26" stroke="#3E2410" stroke-width="3"/>
+      <path d="M171 174 V208" fill="none" stroke="#4A2E14" stroke-width="2"/>
+      <circle cx="178" cy="192" r="2" fill="#F6C945"/>
+      <rect x="150" y="207" width="44" height="6" rx="1.5" fill="#C9C1B6" stroke="#6D655D" stroke-width="2.5"/>
+    </g>
+  </g>
+
+  <!-- gravel drive -->
+  <path d="M150 213 H194 Q250 212 404 214 V254 H118 Q138 236 150 213 Z" fill="#B3A388" stroke="#857358" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#9C8C70">
+    <circle cx="170" cy="230" r="2"/>
+    <circle cx="214" cy="242" r="2"/>
+    <circle cx="248" cy="224" r="2"/>
+    <circle cx="150" cy="244" r="2"/>
+    <circle cx="380" cy="244" r="2"/>
+  </g>
+
+  <!-- garden lamp by the door, soft round glow (the glow does not catch taps) -->
+  <circle cx="146" cy="172" r="40" fill="url(#trip_home_evening-lamp)" pointer-events="none"/>
+  <ellipse cx="146" cy="216" rx="20" ry="4" fill="#FFE3A0" opacity="0.45" pointer-events="none"/>
+  <g data-part="lamp" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="136" y="154" width="20" height="62" fill="transparent" stroke="none"/>
+    <rect x="143" y="178" width="6" height="38" fill="#37474F" stroke="#1F2A30" stroke-width="2.5"/>
+    <rect x="138" y="164" width="16" height="16" rx="2" fill="#FFE9A8" stroke="#2F3B42" stroke-width="3"/>
+    <polygon points="135,165 146,156 157,165" fill="#37474F" stroke="#1F2A30" stroke-width="2.5"/>
+  </g>
+
+  <!-- the cat on the doorstep -->
+  <g data-part="cat" transform="translate(5 0)" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="180" y="174" width="28" height="35" fill="transparent" stroke="none"/>
+    <path d="M196 206 Q206 206 204 196" fill="none" stroke="#3B3B3B" stroke-width="6"/>
+    <path d="M196 206 Q206 206 204 196" fill="none" stroke="#E8913A" stroke-width="3"/>
+    <path d="M182 207 Q180 194 189 190 Q198 194 196 207 Z" fill="#E8913A" stroke="#3B3B3B" stroke-width="2.5"/>
+    <polygon points="183,183 184,176 188,181" fill="#E8913A" stroke="#3B3B3B" stroke-width="2"/>
+    <polygon points="191,181 195,176 195,183" fill="#E8913A" stroke="#3B3B3B" stroke-width="2"/>
+    <circle cx="189" cy="186" r="6.5" fill="#E8913A" stroke="#3B3B3B" stroke-width="2.5"/>
+    <circle cx="187" cy="185.5" r="1" fill="#3B3B3B"/>
+    <circle cx="191.5" cy="185.5" r="1" fill="#3B3B3B"/>
+  </g>
+
+  <!-- the red Honda Civic, parked, headlights off -->
+  <g data-part="car" transform="translate(385 136) scale(-0.62 0.62)" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="100" cy="153" rx="92" ry="8" fill="#000000" opacity="0.2"/>
+    <path d="M16 136 V116 Q16 104 30 102 L58 98 L78 72 Q84 64 96 64 H132 Q142 64 148 72 L166 98 Q184 100 186 114 V136 Z" fill="#C62828" stroke="#5C1010" stroke-width="5.5"/>
+    <path d="M68 98 L84 76 Q88 72 94 72 H110 V98 Z" fill="#8FA9D4" stroke="#5C1010" stroke-width="5"/>
+    <path d="M118 98 V72 H132 Q138 72 142 78 L154 98 Z" fill="#8FA9D4" stroke="#5C1010" stroke-width="5"/>
+    <path d="M114 100 V132" fill="none" stroke="#8E1B1B" stroke-width="3.5"/>
+    <path d="M124 108 H134" fill="none" stroke="#C9D3E3" stroke-width="4"/>
+    <rect x="174" y="108" width="12" height="10" rx="2.5" fill="#E6E1CC" stroke="#5C1010" stroke-width="3"/>
+    <rect x="16" y="110" width="9" height="10" rx="2" fill="#B84A3A" stroke="#5C1010" stroke-width="3"/>
+    <g stroke="#111111" stroke-width="5.5">
+      <circle cx="54" cy="138" r="17" fill="#2B2B2B"/>
+      <circle cx="148" cy="138" r="17" fill="#2B2B2B"/>
+    </g>
+    <circle cx="54" cy="138" r="7" fill="#B0B6BC"/>
+    <circle cx="148" cy="138" r="7" fill="#B0B6BC"/>
+  </g>
+
+  <!-- garden fence -->
+  <g data-part="fence" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-4" y="218" width="126" height="6" fill="#B07A44" stroke="#5A3414" stroke-width="2.5"/>
+    <rect x="-4" y="232" width="122" height="6" fill="#B07A44" stroke="#5A3414" stroke-width="2.5"/>
+    <g fill="#C8935A" stroke="#5A3414" stroke-width="2.5">
+      <path d="M8 246 V216 L13 210 L18 216 V246 Z"/>
+      <path d="M34 246 V216 L39 210 L44 216 V246 Z"/>
+      <path d="M60 246 V216 L65 210 L70 216 V246 Z"/>
+      <path d="M86 246 V216 L91 210 L96 216 V246 Z"/>
+      <path d="M110 246 V216 L115 210 L120 216 V246 Z"/>
+    </g>
+  </g>
+</svg>

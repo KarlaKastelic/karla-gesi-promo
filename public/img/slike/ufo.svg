@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="ufo_beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF6C8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FFF6C8" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <!-- dusky night sky -->
+  <rect x="0" y="0" width="200" height="200" fill="#2E2F6B"/>
+  <path d="M0 120 Q100 108 200 120 V200 H0 Z" fill="#3A3A7A"/>
+  <!-- a few calm stars -->
+  <g fill="#FFF4C2">
+    <circle cx="18" cy="22" r="2.5"/><circle cx="62" cy="14" r="2"/><circle cx="150" cy="18" r="2.5"/>
+    <circle cx="186" cy="46" r="2"/><circle cx="14" cy="74" r="2"/><circle cx="182" cy="96" r="1.8"/>
+    <circle cx="30" cy="112" r="1.8"/><circle cx="110" cy="10" r="1.8"/>
+  </g>
+  <!-- dark hill -->
+  <path d="M-4 170 Q60 146 120 156 Q166 150 204 162 V204 H-4 Z" fill="#1E2A4A" stroke="#0E1630" stroke-width="3" stroke-linejoin="round"/>
+  <!-- soft cone of light -->
+  <path d="M84 102 L116 102 L150 162 Q100 172 50 162 Z" fill="url(#ufo_beam)"/>
+  <ellipse cx="100" cy="163" rx="50" ry="7" fill="#FFF6C8" opacity="0.35"/>
+  <!-- glass dome with a friendly alien -->
+  <path d="M68 78 Q68 34 100 34 Q132 34 132 78 Z" fill="#B3E5FC" stroke="#455A64" stroke-width="4" stroke-linejoin="round"/>
+  <!-- alien -->
+  <path d="M86 78 Q86 68 100 68 Q114 68 114 78 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M94 50 L88 38" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+  <path d="M106 50 L112 38" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="88" cy="38" r="3.5" fill="#81C784" stroke="#2E7D32" stroke-width="2.5"/>
+  <circle cx="112" cy="38" r="3.5" fill="#81C784" stroke="#2E7D32" stroke-width="2.5"/>
+  <ellipse cx="100" cy="58" rx="16" ry="14" fill="#81C784" stroke="#2E7D32" stroke-width="3.5"/>
+  <ellipse cx="94" cy="56" rx="4" ry="5" fill="#1B2A1B"/>
+  <ellipse cx="106" cy="56" rx="4" ry="5" fill="#1B2A1B"/>
+  <circle cx="95.3" cy="54.3" r="1.4" fill="#FFFFFF"/>
+  <circle cx="107.3" cy="54.3" r="1.4" fill="#FFFFFF"/>
+  <path d="M94 64 Q100 69 106 64" fill="none" stroke="#1B5E20" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- shine on the glass -->
+  <path d="M76 66 Q76 46 90 40" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <!-- underside -->
+  <ellipse cx="100" cy="94" rx="40" ry="12" fill="#90A4AE" stroke="#455A64" stroke-width="4"/>
+  <!-- silver disc -->
+  <ellipse cx="100" cy="84" rx="76" ry="16" fill="#CFD8DC" stroke="#455A64" stroke-width="4"/>
+  <path d="M34 80 Q100 70 166 80" fill="none" stroke="#ECEFF1" stroke-width="4" stroke-linecap="round"/>
+  <!-- calm round lights on the rim -->
+  <g stroke="#455A64" stroke-width="2">
+    <circle cx="44" cy="88" r="4.5" fill="#FFD54F"/>
+    <circle cx="66" cy="93" r="4.5" fill="#EF9A9A"/>
+    <circle cx="88" cy="95" r="4.5" fill="#80DEEA"/>
+    <circle cx="112" cy="95" r="4.5" fill="#FFD54F"/>
+    <circle cx="134" cy="93" r="4.5" fill="#EF9A9A"/>
+    <circle cx="156" cy="88" r="4.5" fill="#80DEEA"/>
+  </g>
+</svg>

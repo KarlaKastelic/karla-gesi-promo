@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="188" rx="80" ry="7" fill="#000" opacity="0.12"/>
+  <!-- long sleeves -->
+  <path d="M60 38 Q44 42 40 58 L14 146 L40 154 L60 92 Z" fill="#BBDEFB" stroke="#1565C0" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M140 38 Q156 42 160 58 L186 146 L160 154 L140 92 Z" fill="#BBDEFB" stroke="#1565C0" stroke-width="4" stroke-linejoin="round"/>
+  <!-- cuffs with a button -->
+  <path d="M14 146 L40 154 L36 168 L10 160 Z" fill="#E3F2FD" stroke="#1565C0" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M186 146 L160 154 L164 168 L190 160 Z" fill="#E3F2FD" stroke="#1565C0" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="30" cy="160" r="2.8" fill="#1565C0"/>
+  <circle cx="170" cy="160" r="2.8" fill="#1565C0"/>
+  <!-- body with a curved shirt tail -->
+  <path d="M78 28 L60 38 L58 92 L58 172 Q78 186 100 180 Q122 186 142 172 L142 92 L140 38 L122 28 Q100 40 78 28 Z" fill="#BBDEFB" stroke="#1565C0" stroke-width="4" stroke-linejoin="round"/>
+  <!-- shoulder yoke seam -->
+  <path d="M60 50 Q80 54 92 50 M108 50 Q120 54 140 50" fill="none" stroke="#64B5F6" stroke-width="3" stroke-linecap="round"/>
+  <!-- button placket -->
+  <path d="M94 46 V180 M106 46 V180" fill="none" stroke="#1565C0" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#FFFFFF" stroke="#1565C0" stroke-width="2.5">
+    <circle cx="100" cy="70" r="4.5"/>
+    <circle cx="100" cy="94" r="4.5"/>
+    <circle cx="100" cy="118" r="4.5"/>
+    <circle cx="100" cy="142" r="4.5"/>
+    <circle cx="100" cy="164" r="4.5"/>
+  </g>
+  <!-- breast pocket -->
+  <path d="M114 74 H136 V96 L125 102 L114 96 Z" fill="#BBDEFB" stroke="#1565C0" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M114 80 H136" stroke="#1565C0" stroke-width="3"/>
+  <!-- pointed collar -->
+  <path d="M78 26 L100 44 L84 64 L70 38 Z" fill="#E3F2FD" stroke="#1565C0" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M122 26 L100 44 L116 64 L130 38 Z" fill="#E3F2FD" stroke="#1565C0" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="100" cy="50" r="4" fill="#FFFFFF" stroke="#1565C0" stroke-width="2.5"/>
+</svg>

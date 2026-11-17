@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- road -->
+  <rect x="4" y="156" width="192" height="28" rx="8" fill="#8E949A" stroke="#5F656B" stroke-width="3"/>
+  <path d="M20 174 H44 M78 174 H102 M136 174 H160" stroke="#E8E4D8" stroke-width="4" stroke-linecap="round"/>
+  <!-- roof rack -->
+  <path d="M44 40 V32 M128 40 V32" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+  <rect x="36" y="28" width="104" height="7" rx="3" fill="#455A64" stroke="#263238" stroke-width="3"/>
+  <!-- tall boxy body -->
+  <path d="M26 128 V52 Q26 40 40 40 H136 Q146 40 152 48 L168 80 Q188 82 190 96 V128 Q190 136 182 136 H34 Q26 136 26 128 Z" fill="#2E6B3A" stroke="#143A1E" stroke-width="4" stroke-linejoin="round"/>
+  <!-- windows -->
+  <rect x="36" y="50" width="36" height="30" rx="4" fill="#BFE3FA" stroke="#143A1E" stroke-width="3.5"/>
+  <rect x="80" y="50" width="34" height="30" rx="4" fill="#BFE3FA" stroke="#143A1E" stroke-width="3.5"/>
+  <path d="M122 80 V50 H136 Q142 50 146 56 L158 80 Z" fill="#BFE3FA" stroke="#143A1E" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- doors -->
+  <path d="M76 46 V118 M118 46 V118" stroke="#143A1E" stroke-width="3" stroke-linecap="round"/>
+  <rect x="100" y="88" width="12" height="4" rx="2" fill="#143A1E"/>
+  <rect x="142" y="88" width="12" height="4" rx="2" fill="#143A1E"/>
+  <!-- tough lower cladding -->
+  <path d="M26 116 H190 V128 Q190 136 182 136 H34 Q26 136 26 128 Z" fill="#37474F" stroke="#1E2A30" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- lights and bumper -->
+  <rect x="180" y="88" width="10" height="11" rx="2" fill="#FFE082" stroke="#143A1E" stroke-width="2"/>
+  <rect x="180" y="118" width="16" height="12" rx="3" fill="#263238" stroke="#111" stroke-width="2.5"/>
+  <!-- spare wheel on the back door -->
+  <circle cx="22" cy="86" r="19" fill="#333" stroke="#1E1E1E" stroke-width="4"/>
+  <circle cx="22" cy="86" r="10" fill="#2E6B3A" stroke="#143A1E" stroke-width="3"/>
+  <!-- wheel arches -->
+  <path d="M28 136 Q28 104 60 104 Q92 104 92 136 Z" fill="#263238" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M120 136 Q120 104 152 104 Q184 104 184 136 Z" fill="#263238" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- big chunky wheels -->
+  <g stroke="#1E1E1E" stroke-width="4">
+    <circle cx="60" cy="136" r="25" fill="#333"/>
+    <circle cx="152" cy="136" r="25" fill="#333"/>
+  </g>
+  <g fill="none" stroke="#555" stroke-width="3">
+    <circle cx="60" cy="136" r="18"/><circle cx="152" cy="136" r="18"/>
+  </g>
+  <circle cx="60" cy="136" r="11" fill="#C9C9C9" stroke="#777" stroke-width="2.5"/>
+  <circle cx="152" cy="136" r="11" fill="#C9C9C9" stroke="#777" stroke-width="2.5"/>
+  <circle cx="60" cy="136" r="3.5" fill="#777"/><circle cx="152" cy="136" r="3.5" fill="#777"/>
+</svg>

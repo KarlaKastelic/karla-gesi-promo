@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <!-- sky (not a part) -->
+  <rect x="0" y="0" width="480" height="360" fill="#BFE3F7"/>
+
+  <g data-part="sun">
+    <g stroke="#E0A820" stroke-width="4" stroke-linecap="round">
+      <line x1="420" y1="18" x2="420" y2="8"/>
+      <line x1="420" y1="86" x2="420" y2="96"/>
+      <line x1="386" y1="52" x2="376" y2="52"/>
+      <line x1="454" y1="52" x2="464" y2="52"/>
+      <line x1="396" y1="28" x2="389" y2="21"/>
+      <line x1="444" y1="28" x2="451" y2="21"/>
+      <line x1="396" y1="76" x2="389" y2="83"/>
+      <line x1="444" y1="76" x2="451" y2="83"/>
+    </g>
+    <circle cx="420" cy="52" r="26" fill="#F6C945" stroke="#D9A520" stroke-width="4"/>
+    <circle cx="420" cy="52" r="44" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="seagulls">
+    <g fill="#FFFFFF" stroke="#455A64" stroke-width="3" stroke-linejoin="round">
+      <path d="M150 64 Q160 50 172 62 Q184 50 194 64 Q184 58 172 68 Q160 58 150 64 Z"/>
+      <path d="M190 44 Q201 30 214 42 Q227 30 238 44 Q227 38 214 48 Q201 38 190 44 Z"/>
+      <path d="M216 78 Q225 66 236 76 Q247 66 256 78 Q247 72 236 82 Q225 72 216 78 Z"/>
+    </g>
+    <g fill="#455A64">
+      <circle cx="172" cy="64" r="2.5"/>
+      <circle cx="214" cy="44" r="2.5"/>
+      <circle cx="236" cy="78" r="2.5"/>
+    </g>
+    <rect x="142" y="26" width="122" height="66" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="sea">
+    <path d="M-4 148 H484 V212 Q360 222 240 214 Q120 206 -4 214 Z" fill="#3D9BD6"/>
+    <rect x="-4" y="148" width="488" height="12" fill="#2F86C4"/>
+    <line x1="-4" y1="148" x2="484" y2="148" stroke="#2F6EA5" stroke-width="4"/>
+    <path d="M150 172 q8 -5 16 0 q8 5 16 0 M240 168 q8 -5 16 0 q8 5 16 0 M362 172 q8 -5 16 0 q8 5 16 0 M180 196 q8 -5 16 0 q8 5 16 0 M300 194 q8 -5 16 0 q8 5 16 0" fill="none" stroke="#9FD3F5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-4 210 Q120 202 240 210 Q360 218 484 208" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="sand">
+    <path d="M-4 214 Q120 206 240 214 Q360 222 484 212 V364 H-4 Z" fill="#F2D58A"/>
+    <path d="M-4 214 Q120 206 240 214 Q360 222 484 212" fill="none" stroke="#C9A55A" stroke-width="3"/>
+    <path d="M30 236 q6 -4 12 0 M150 236 q6 -4 12 0 M300 238 q6 -4 12 0 M40 340 q6 -4 12 0 M200 346 q6 -4 12 0 M440 352 q6 -4 12 0 M296 266 q6 -4 12 0 M460 276 q6 -4 12 0" fill="none" stroke="#D2B061" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="palm_tree">
+    <path d="M52 314 Q62 210 74 94 L88 96 Q80 210 74 314 Z" fill="#A0703C" stroke="#5A3A1C" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M56 292 L75 290 M58 262 L77 260 M61 232 L79 230 M64 202 L81 200 M67 172 L83 170 M70 142 L85 140 M72 118 L87 116" fill="none" stroke="#6B4423" stroke-width="2.5" stroke-linecap="round"/>
+    <g fill="#6B4423" stroke="#3E2410" stroke-width="3">
+      <circle cx="74" cy="100" r="7"/>
+      <circle cx="89" cy="101" r="7"/>
+    </g>
+    <g fill="#3E8E41" stroke="#1F5A24" stroke-width="4" stroke-linejoin="round">
+      <path d="M80 92 Q46 56 10 76 Q46 70 80 98 Z"/>
+      <path d="M80 94 Q40 90 16 138 Q46 106 80 100 Z"/>
+      <path d="M82 92 Q118 54 152 70 Q116 68 82 98 Z"/>
+      <path d="M82 94 Q122 90 148 134 Q116 106 82 100 Z"/>
+      <path d="M78 92 Q70 54 100 36 Q86 60 86 94 Z"/>
+    </g>
+    <path d="M78 94 Q46 66 18 76 M78 97 Q44 98 22 130 M84 94 Q116 66 144 70 M84 97 Q118 98 142 128 M82 92 Q78 62 96 42" fill="none" stroke="#2E6E31" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="beach_bar">
+    <g fill="#8B5A2B" stroke="#4A2E14" stroke-width="3">
+      <rect x="360" y="144" width="9" height="110"/>
+      <rect x="457" y="144" width="9" height="110"/>
+    </g>
+    <rect x="369" y="146" width="88" height="54" fill="#C99A5E" stroke="#6B4423" stroke-width="3"/>
+    <path d="M391 147 V199 M413 147 V199 M435 147 V199" fill="none" stroke="#A97A44" stroke-width="2"/>
+    <rect x="372" y="172" width="82" height="5" fill="#6B4423"/>
+    <g stroke="#2F3B2F" stroke-width="2">
+      <rect x="382" y="156" width="8" height="16" rx="2" fill="#43A047"/>
+      <rect x="396" y="160" width="8" height="12" rx="2" fill="#8E3F2B"/>
+      <rect x="426" y="154" width="8" height="18" rx="2" fill="#5C9BD1"/>
+      <rect x="440" y="158" width="8" height="14" rx="2" fill="#F2C94C"/>
+    </g>
+    <rect x="354" y="204" width="118" height="50" fill="#A1662F" stroke="#4A2E14" stroke-width="4"/>
+    <path d="M378 206 V252 M402 206 V252 M426 206 V252 M450 206 V252" fill="none" stroke="#7E4E22" stroke-width="2.5"/>
+    <rect x="348" y="196" width="130" height="10" fill="#6B4423" stroke="#3E2410" stroke-width="3"/>
+    <!-- cocktail glass -->
+    <path d="M376 172 L400 172 L388 186 Z" fill="#FF9800" stroke="#5A4630" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="388" y1="186" x2="388" y2="194" stroke="#5A4630" stroke-width="2.5"/>
+    <line x1="381" y1="195" x2="395" y2="195" stroke="#5A4630" stroke-width="3" stroke-linecap="round"/>
+    <line x1="394" y1="174" x2="402" y2="160" stroke="#E53935" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="378" cy="172" r="4" fill="#C0CA33" stroke="#5A4630" stroke-width="1.5"/>
+    <!-- tall glass -->
+    <path d="M414 174 L428 174 L426 196 L416 196 Z" fill="#FFE082" stroke="#5A4630" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="424" y1="176" x2="430" y2="164" stroke="#43A047" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- straw roof -->
+    <polygon points="342,150 374,110 452,110 484,150" fill="#D8B25C" stroke="#8A6A28" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M342 150 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10 l6 -10 l6 10" fill="#D8B25C" stroke="#8A6A28" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M380 112 L366 148 M396 112 L388 148 M413 112 L413 148 M430 112 L438 148 M446 112 L460 148" fill="none" stroke="#B08A38" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="sailboat">
+    <g transform="translate(-8 0)">
+    <path d="M300 208 q8 -4 16 0 q8 4 16 0" fill="none" stroke="#9FD3F5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="316" y1="102" x2="316" y2="192" stroke="#5A4630" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="316,102 330,107 316,112" fill="#E53935" stroke="#9A1F1C" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="320,112 320,186 356,186" fill="#FFFDF5" stroke="#4A5A6A" stroke-width="3.5" stroke-linejoin="round"/>
+    <polygon points="312,118 312,186 286,186" fill="#FFFDF5" stroke="#4A5A6A" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M280 190 L356 190 L346 206 L290 206 Z" fill="#FFFFFF" stroke="#2F4A66" stroke-width="4" stroke-linejoin="round"/>
+    <line x1="284" y1="197" x2="352" y2="197" stroke="#2F4A66" stroke-width="3"/>
+    <rect x="278" y="98" width="76" height="114" fill="transparent" stroke="none"/>
+    </g>
+  </g>
+
+  <g data-part="parasol">
+    <rect x="197" y="134" width="6" height="170" fill="#ECEFF1" stroke="#546E7A" stroke-width="2.5"/>
+    <path d="M132 184 C138 156 166 136 200 136 C234 136 262 156 268 184 Q254.5 192 241 184 Q227.5 192 214 184 Q200 192 186 184 Q172.5 192 159 184 Q145.5 192 132 184 Z" fill="#E53935"/>
+    <path d="M200 136 C186 140 166 160 159 184 Q172.5 192 186 184 C188 160 194 144 200 136 Z M200 136 C214 140 234 160 241 184 Q227.5 192 214 184 C212 160 206 144 200 136 Z" fill="#FFFFFF"/>
+    <path d="M132 184 C138 156 166 136 200 136 C234 136 262 156 268 184 Q254.5 192 241 184 Q227.5 192 214 184 Q200 192 186 184 Q172.5 192 159 184 Q145.5 192 132 184 Z" fill="none" stroke="#7A1E14" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M200 136 C186 140 166 160 159 184 M200 136 C194 144 188 160 186 184 M200 136 C206 144 212 160 214 184 M200 136 C214 140 234 160 241 184" fill="none" stroke="#7A1E14" stroke-width="2"/>
+    <circle cx="200" cy="132" r="5" fill="#ECEFF1" stroke="#546E7A" stroke-width="2.5"/>
+  </g>
+
+  <g data-part="deck_chair">
+    <g stroke="#37474F" stroke-width="7" stroke-linecap="round" fill="none">
+      <path d="M160 230 L192 272 L286 272"/>
+      <line x1="200" y1="272" x2="196" y2="294"/>
+      <line x1="278" y1="272" x2="282" y2="294"/>
+      <line x1="176" y1="252" x2="172" y2="294"/>
+    </g>
+    <g stroke="#ECEFF1" stroke-width="3" stroke-linecap="round" fill="none">
+      <path d="M160 230 L192 272 L286 272"/>
+      <line x1="200" y1="272" x2="196" y2="294"/>
+      <line x1="278" y1="272" x2="282" y2="294"/>
+      <line x1="176" y1="252" x2="172" y2="294"/>
+    </g>
+    <path d="M154 230 L166 222 L196 258 L286 258 L286 268 L190 268 Z" fill="#1E88E5" stroke="#0D3C6E" stroke-width="4" stroke-linejoin="round"/>
+    <g fill="#FFFFFF">
+      <polygon points="166,227 172,223 182,236 175,240"/>
+      <polygon points="186,252 193,248 197,258 196,265 192,264"/>
+      <rect x="214" y="260" width="12" height="6"/>
+      <rect x="244" y="260" width="12" height="6"/>
+      <rect x="272" y="260" width="12" height="6"/>
+    </g>
+  </g>
+
+  <g data-part="towel">
+    <polygon points="300,290 432,284 446,334 312,342" fill="#FFFFFF"/>
+    <g fill="#1E88E5">
+      <polygon points="300,290 326.4,288.8 338.8,340.4 312,342"/>
+      <polygon points="352.8,287.6 379.2,286.4 392.4,337.2 365.6,338.8"/>
+      <polygon points="405.6,285.2 432,284 446,334 419.2,335.6"/>
+    </g>
+    <polygon points="300,290 432,284 446,334 312,342" fill="none" stroke="#0D3C6E" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M302 298 l-6 1 M304 308 l-6 1 M306 318 l-6 1 M308 328 l-6 1 M310 338 l-6 1 M436 292 l6 -1 M438 302 l6 -1 M441 312 l6 -1 M444 322 l6 -1 M446 332 l6 -1" fill="none" stroke="#0D3C6E" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="sandcastle">
+    <line x1="140" y1="290" x2="140" y2="266" stroke="#5A3A1C" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="141,266 158,272 141,278" fill="#E53935" stroke="#9A1F1C" stroke-width="2" stroke-linejoin="round"/>
+    <g fill="#D9A85A" stroke="#8A5E22" stroke-width="3.5" stroke-linejoin="round">
+      <rect x="110" y="316" width="60" height="28"/>
+      <polygon points="110,316 110,296 114,296 114,300 119,300 119,296 124,296 124,300 128,300 128,296 130,296 130,316"/>
+      <polygon points="150,316 150,296 152,296 152,300 156,300 156,296 161,296 161,300 166,300 166,296 170,296 170,316"/>
+      <polygon points="130,316 130,290 133,290 133,294 138,294 138,290 142,290 142,294 147,294 147,290 150,290 150,316"/>
+    </g>
+    <path d="M132 344 V330 Q140 320 148 330 V344 Z" fill="#8A5E22"/>
+    <path d="M114 326 h10 M156 326 h10 M116 336 h8" fill="none" stroke="#B8863E" stroke-width="2" stroke-linecap="round"/>
+    <rect x="104" y="262" width="72" height="88" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="beach_ball">
+    <circle cx="252" cy="326" r="18" fill="#FDD835"/>
+    <path d="M252 308 Q234 326 252 344 A18 18 0 0 1 252 308 Z" fill="#E53935"/>
+    <path d="M252 308 Q270 326 252 344 A18 18 0 0 0 252 308 Z" fill="#1E88E5"/>
+    <path d="M252 308 Q244 326 252 344 Q260 326 252 308 Z" fill="#FFFFFF"/>
+    <path d="M252 308 Q234 326 252 344 M252 308 Q270 326 252 344 M252 308 Q244 326 252 344 M252 308 Q260 326 252 344" fill="none" stroke="#5A4630" stroke-width="1.5"/>
+    <circle cx="252" cy="326" r="18" fill="none" stroke="#3E2F20" stroke-width="3.5"/>
+    <ellipse cx="244" cy="316" rx="4" ry="2.5" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="226" y="302" width="52" height="50" fill="transparent" stroke="none"/>
+  </g>
+</svg>

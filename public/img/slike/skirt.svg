@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="182" rx="84" ry="8" fill="#000" opacity="0.12"/>
+  <!-- flared skirt -->
+  <path d="M66 50 H134 L178 166 Q166 178 152 170 Q140 182 126 172 Q113 184 100 174 Q87 184 74 172 Q60 182 48 170 Q34 178 22 166 Z" fill="#D81B60" stroke="#880E4F" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- soft folds -->
+  <g fill="none" stroke="#AD1457" stroke-width="4" stroke-linecap="round">
+    <path d="M84 56 L70 166"/>
+    <path d="M100 56 V168"/>
+    <path d="M116 56 L130 166"/>
+    <path d="M72 56 L44 160"/>
+    <path d="M128 56 L156 160"/>
+  </g>
+  <!-- big white dots -->
+  <g fill="#FFFFFF">
+    <circle cx="80" cy="78" r="5"/>
+    <circle cx="120" cy="78" r="5"/>
+    <circle cx="62" cy="112" r="5.5"/>
+    <circle cx="100" cy="104" r="5.5"/>
+    <circle cx="138" cy="112" r="5.5"/>
+    <circle cx="46" cy="148" r="6"/>
+    <circle cx="84" cy="140" r="6"/>
+    <circle cx="116" cy="140" r="6"/>
+    <circle cx="154" cy="148" r="6"/>
+  </g>
+  <!-- waistband with a button -->
+  <rect x="62" y="34" width="76" height="20" rx="5" fill="#AD1457" stroke="#880E4F" stroke-width="4.5"/>
+  <circle cx="126" cy="44" r="4.5" fill="#FFFFFF" stroke="#880E4F" stroke-width="2.5"/>
+</svg>

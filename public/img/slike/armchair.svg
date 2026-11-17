@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="184" rx="88" ry="7" fill="#000" opacity="0.12"/>
+  <!-- legs -->
+  <path d="M30 164 H42 L40 182 H33 Z" fill="#8D5A2B" stroke="#5A3414" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M158 164 H170 L167 182 H160 Z" fill="#8D5A2B" stroke="#5A3414" stroke-width="3" stroke-linejoin="round"/>
+  <!-- back -->
+  <path d="M40 120 V44 Q40 22 64 22 H136 Q160 22 160 44 V120 Z" fill="#3F8F8A" stroke="#1F5552" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#1F5552"><circle cx="70" cy="46" r="3"/><circle cx="100" cy="42" r="3"/><circle cx="130" cy="46" r="3"/></g>
+  <!-- base -->
+  <rect x="38" y="136" width="124" height="30" rx="6" fill="#3F8F8A" stroke="#1F5552" stroke-width="4"/>
+  <!-- seat cushion -->
+  <rect x="44" y="114" width="112" height="28" rx="12" fill="#5BAEA8" stroke="#1F5552" stroke-width="4"/>
+  <!-- throw cushion -->
+  <path d="M74 66 Q100 58 126 66 Q132 90 126 114 Q100 120 74 114 Q68 90 74 66 Z" fill="#E8B04A" stroke="#9A6E1E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M78 70 L87 77 M122 70 L113 77 M78 110 L87 103 M122 110 L113 103" fill="none" stroke="#C99230" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M84 72 Q100 68 114 72" fill="none" stroke="#F5CF7E" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- armrests -->
+  <path d="M16 96 Q16 80 32 80 Q48 80 48 96 V166 H16 Z" fill="#4C9F99" stroke="#1F5552" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M184 96 Q184 80 168 80 Q152 80 152 96 V166 H184 Z" fill="#4C9F99" stroke="#1F5552" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M24 90 Q32 86 40 90" fill="none" stroke="#7CC4BE" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M160 90 Q168 86 176 90" fill="none" stroke="#7CC4BE" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

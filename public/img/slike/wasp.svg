@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="wa-abd"><path d="M100 96 Q132 100 132 132 Q130 166 100 194 Q70 166 68 132 Q68 100 100 96 Z"/></clipPath>
+  </defs>
+  <!-- legs -->
+  <g fill="none" stroke="#1C1C1C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 60 L70 50 L60 36"/><path d="M110 60 L130 50 L140 36"/>
+    <path d="M88 70 L64 80 L50 96"/><path d="M112 70 L136 80 L150 96"/>
+    <path d="M90 80 L70 108 L64 132"/><path d="M110 80 L130 108 L136 132"/>
+  </g>
+  <g fill="none" stroke="#F9C80E" stroke-width="2" stroke-linecap="round">
+    <path d="M70 50 L60 36"/><path d="M130 50 L140 36"/><path d="M64 80 L50 96"/><path d="M136 80 L150 96"/><path d="M70 108 L64 132"/><path d="M130 108 L136 132"/>
+  </g>
+  <!-- clear wings -->
+  <g fill="#EAF4FB" fill-opacity="0.7" stroke="#78909C" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M90 58 Q44 52 12 92 Q8 108 24 108 Q64 94 92 70 Z"/>
+    <path d="M92 74 Q60 88 44 118 Q48 130 60 124 Q82 104 96 82 Z"/>
+    <path d="M110 58 Q156 52 188 92 Q192 108 176 108 Q136 94 108 70 Z"/>
+    <path d="M108 74 Q140 88 156 118 Q152 130 140 124 Q118 104 104 82 Z"/>
+  </g>
+  <g fill="none" stroke="#90A4AE" stroke-width="1.6">
+    <path d="M90 62 Q56 66 24 98"/><path d="M110 62 Q144 66 176 98"/>
+    <path d="M94 78 Q70 96 54 120"/><path d="M106 78 Q130 96 146 120"/>
+  </g>
+  <!-- abdomen, yellow with black bands -->
+  <g clip-path="url(#wa-abd)">
+    <rect x="60" y="90" width="80" height="110" fill="#FDD835"/>
+    <rect x="60" y="90" width="80" height="12" fill="#1C1C1C"/>
+    <path d="M60 114 H140 V124 H108 L100 134 L92 124 H60 Z" fill="#1C1C1C"/>
+    <path d="M60 140 H140 V150 H108 L100 160 L92 150 H60 Z" fill="#1C1C1C"/>
+    <path d="M60 164 H140 V174 H106 L100 182 L94 174 H60 Z" fill="#1C1C1C"/>
+    <circle cx="86" cy="132" r="3" fill="#1C1C1C"/><circle cx="114" cy="132" r="3" fill="#1C1C1C"/>
+    <circle cx="88" cy="158" r="2.6" fill="#1C1C1C"/><circle cx="112" cy="158" r="2.6" fill="#1C1C1C"/>
+  </g>
+  <path d="M100 96 Q132 100 132 132 Q130 166 100 194 Q70 166 68 132 Q68 100 100 96 Z" fill="none" stroke="#3E2E00" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- narrow waist -->
+  <rect x="96" y="86" width="8" height="12" rx="3" fill="#1C1C1C" stroke="#000" stroke-width="2"/>
+  <!-- thorax -->
+  <ellipse cx="100" cy="68" rx="19" ry="21" fill="#1C1C1C" stroke="#000" stroke-width="3.5"/>
+  <path d="M88 56 Q100 50 112 56" fill="none" stroke="#FDD835" stroke-width="4" stroke-linecap="round"/>
+  <path d="M93 76 L95 82 M107 76 L105 82" fill="none" stroke="#FDD835" stroke-width="4" stroke-linecap="round"/>
+  <!-- head -->
+  <ellipse cx="100" cy="36" rx="20" ry="14" fill="#FDD835" stroke="#3E2E00" stroke-width="3.5"/>
+  <path d="M84 28 Q78 38 86 48 Q92 40 90 30 Z" fill="#1C1C1C"/>
+  <path d="M116 28 Q122 38 114 48 Q108 40 110 30 Z" fill="#1C1C1C"/>
+  <path d="M94 24 Q100 30 106 24 L104 34 L100 38 L96 34 Z" fill="#1C1C1C"/>
+  <!-- antennae -->
+  <path d="M94 24 Q86 10 70 4" fill="none" stroke="#1C1C1C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M106 24 Q114 10 130 4" fill="none" stroke="#1C1C1C" stroke-width="4" stroke-linecap="round"/>
+</svg>

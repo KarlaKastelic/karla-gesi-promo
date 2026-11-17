@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Dzezva - a copper Turkish coffee pot with a long handle and foamy coffee, beside a small fildzan on a saucer and a piece of rahat lokum, on a wooden tray -->
+  <rect x="0" y="0" width="200" height="200" fill="#F6EEDC"/>
+  <rect x="0" y="168" width="200" height="32" fill="#C8A27A"/>
+  <line x1="0" y1="168" x2="200" y2="168" stroke="#8D6E63" stroke-width="3"/>
+
+  <!-- wooden tray -->
+  <ellipse cx="100" cy="170" rx="96" ry="22" fill="#8D6E63" stroke="#5D4037" stroke-width="4"/>
+  <ellipse cx="100" cy="166" rx="88" ry="17" fill="#BC9A74" stroke="#5D4037" stroke-width="3"/>
+
+  <!-- gentle steam -->
+  <g fill="none" stroke="#9EAAB2" stroke-width="3.5" stroke-linecap="round">
+    <path d="M62 54 Q54 46 60 36 Q66 26 58 16"/>
+    <path d="M82 52 Q74 44 80 34 Q86 24 78 14"/>
+  </g>
+
+  <!-- long handle -->
+  <path d="M98 108 L184 72" stroke="#6B3A18" stroke-width="13" stroke-linecap="round"/>
+  <path d="M98 108 L184 72" stroke="#C8763E" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="184" cy="72" r="6" fill="#C8763E" stroke="#6B3A18" stroke-width="3"/>
+  <path d="M92 98 L106 104 L104 120 L94 118 Z" fill="#C8763E" stroke="#6B3A18" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- copper body: wide belly, narrow neck, flared rim with a pouring lip -->
+  <path d="M34 152 Q32 124 56 102 Q50 90 42 80 L28 74 Q50 70 72 70 Q100 70 108 78 Q100 90 94 102 Q118 124 116 152 Q116 166 75 166 Q34 166 34 152 Z" fill="#D9824B" stroke="#6B3A18" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- shine and engraved band -->
+  <path d="M48 150 Q44 126 62 108" fill="none" stroke="#F4B183" stroke-width="7" stroke-linecap="round"/>
+  <path d="M38 138 Q75 148 112 138" fill="none" stroke="#9A5226" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#9A5226">
+    <circle cx="52" cy="146" r="2.2"/><circle cx="64" cy="149" r="2.2"/><circle cx="76" cy="150" r="2.2"/>
+    <circle cx="88" cy="149" r="2.2"/><circle cx="100" cy="146" r="2.2"/>
+  </g>
+  <!-- foamy coffee at the top -->
+  <ellipse cx="70" cy="76" rx="35" ry="6.5" fill="#4E2A14" stroke="#6B3A18" stroke-width="3.5"/>
+  <ellipse cx="70" cy="76" rx="27" ry="4.2" fill="#C69C6D"/>
+  <g fill="#E8D2B0">
+    <circle cx="58" cy="76" r="2"/><circle cx="70" cy="74.5" r="2.2"/><circle cx="82" cy="76.5" r="1.8"/><circle cx="64" cy="78" r="1.5"/>
+  </g>
+
+  <!-- rahat lokum on the tray -->
+  <g stroke="#AD1457" stroke-width="3" stroke-linejoin="round">
+    <path d="M118 152 L130 148 L140 152 L128 156 Z" fill="#F8BBD0"/>
+    <path d="M118 152 L128 156 V168 L118 164 Z" fill="#F06292"/>
+    <path d="M128 156 L140 152 V164 L128 168 Z" fill="#EC407A"/>
+  </g>
+  <g fill="#FFFFFF"><circle cx="126" cy="151" r="1.4"/><circle cx="132" cy="152" r="1.4"/><circle cx="123" cy="160" r="1.2"/></g>
+
+  <!-- saucer and fildzan with coffee -->
+  <ellipse cx="164" cy="158" rx="26" ry="7" fill="#FFFFFF" stroke="#90A4AE" stroke-width="3.5"/>
+  <path d="M148 128 H180 Q180 154 164 156 Q148 154 148 128 Z" fill="#FFFFFF" stroke="#90A4AE" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M149 136 Q164 140 179 136" fill="none" stroke="#1E88E5" stroke-width="4"/>
+  <g fill="#E53935"><circle cx="157" cy="145" r="2.2"/><circle cx="164" cy="147" r="2.2"/><circle cx="171" cy="145" r="2.2"/></g>
+  <ellipse cx="164" cy="128" rx="16" ry="4.5" fill="#4E2A14" stroke="#90A4AE" stroke-width="3"/>
+  <!-- sugar cube -->
+  <rect x="180" y="150" width="11" height="10" rx="1.5" fill="#FFFFFF" stroke="#90A4AE" stroke-width="2.5"/>
+</svg>

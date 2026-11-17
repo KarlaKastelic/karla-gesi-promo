@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="172" rx="92" ry="20" fill="#7CC36B" stroke="#3E7A30" stroke-width="3"/>
+  <!-- trunk with roots -->
+  <path d="M52 74 L48 146 Q40 160 20 172 Q44 174 62 166 Q76 178 92 170 Q112 180 130 168 Q146 176 180 172 Q160 160 152 146 L148 74 Z" fill="#8B5A2B" stroke="#4A2E14" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="none" stroke="#5E3B1C" stroke-width="3" stroke-linecap="round">
+    <path d="M64 94 L62 142"/><path d="M84 98 L84 156"/><path d="M110 96 L112 158"/><path d="M134 92 L138 144"/>
+  </g>
+  <!-- top with rings -->
+  <ellipse cx="100" cy="74" rx="48" ry="17" fill="#E8BE84" stroke="#4A2E14" stroke-width="4"/>
+  <g fill="none" stroke="#B07D42" stroke-width="2.5">
+    <ellipse cx="100" cy="74" rx="38" ry="13"/><ellipse cx="100" cy="74" rx="28" ry="9.5"/>
+    <ellipse cx="100" cy="74" rx="18" ry="6"/><ellipse cx="100" cy="74" rx="8" ry="2.8"/>
+  </g>
+  <circle cx="100" cy="74" r="2" fill="#8A5A2A"/>
+  <path d="M104 73 L132 66" stroke="#6B4420" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- moss -->
+  <g fill="#7CB342" stroke="#4E7A2A" stroke-width="3" stroke-linejoin="round">
+    <path d="M46 130 Q44 120 52 118 Q56 108 65 113 Q73 114 71 124 Q75 133 66 137 Q60 145 52 141 Q44 140 46 130 Z"/>
+    <path d="M136 92 Q135 83 143 83 Q152 81 151 91 Q153 100 144 101 Q135 101 136 92 Z"/>
+  </g>
+  <!-- grass -->
+  <g fill="none" stroke="#3E7A30" stroke-width="3" stroke-linecap="round">
+    <path d="M14 176 L10 162"/><path d="M20 178 L22 160"/><path d="M68 184 L64 168"/><path d="M74 184 L78 168"/>
+    <path d="M120 186 L116 170"/><path d="M126 186 L130 170"/><path d="M182 176 L178 160"/><path d="M188 176 L192 162"/>
+    <path d="M36 160 L32 148"/><path d="M166 158 L170 146"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+[build]
+  command = "npm run build"
+  publish = "dist/gesi-promo/browser"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# Unknown addresses show the friendly "Te strani ni" page.
+[[redirects]]
+  from = "/*"
+  to = "/ni-najdeno/index.html"
+  status = 404
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- dark stormy sky -->
+  <rect x="0" y="0" width="200" height="200" fill="#455A75"/>
+  <!-- wet ground -->
+  <path d="M-4 174 Q100 166 204 174 V204 H-4 Z" fill="#4E7A4A" stroke="#2F4F2C" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="60" cy="186" rx="22" ry="4" fill="#7FA9CC" stroke="#3F6A8E" stroke-width="2"/>
+  <ellipse cx="150" cy="188" rx="18" ry="3.5" fill="#7FA9CC" stroke="#3F6A8E" stroke-width="2"/>
+
+  <!-- rain -->
+  <g stroke="#9FD3FF" stroke-width="4" stroke-linecap="round">
+    <path d="M30 96 L24 112"/><path d="M50 120 L44 136"/><path d="M26 142 L20 158"/>
+    <path d="M62 94 L56 110"/><path d="M78 132 L72 148"/><path d="M52 156 L46 172"/>
+    <path d="M140 98 L134 114"/><path d="M162 124 L156 140"/><path d="M134 140 L128 156"/>
+    <path d="M178 96 L172 112"/><path d="M182 146 L176 162"/><path d="M152 164 L146 176"/>
+  </g>
+
+  <!-- dark cloud -->
+  <path d="M30 92 Q10 92 12 74 Q14 56 34 58 Q36 34 60 32 Q74 14 100 18 Q124 14 136 34 Q160 30 170 50 Q192 52 190 72 Q188 92 168 92 Z" fill="#37474F" stroke="#1C262B" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M44 56 Q52 44 66 46 M98 30 Q112 28 120 38" fill="none" stroke="#607D8B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- lightning bolt -->
+  <path d="M104 78 L80 132 L100 132 L86 182 L132 116 L110 116 L126 78 Z" fill="#FFD600" stroke="#E65100" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M110 84 L94 122" stroke="#FFF59D" stroke-width="4" stroke-linecap="round"/>
+</svg>

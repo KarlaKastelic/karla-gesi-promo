@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="180" rx="94" ry="12" fill="#000" opacity="0.12"/>
+  <!-- metal wand -->
+  <path d="M74 62 L44 164" fill="none" stroke="#607D8B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M74 62 L44 164" fill="none" stroke="#CFD8DC" stroke-width="7" stroke-linecap="round"/>
+  <!-- floor nozzle -->
+  <path d="M10 170 Q10 158 24 158 H64 Q76 158 76 170 V178 H10 Z" fill="#424242" stroke="#1E1E1E" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="14" y="176" width="60" height="5" rx="2" fill="#757575"/>
+  <!-- hose -->
+  <path d="M124 128 Q70 140 62 96 Q58 70 76 58" fill="none" stroke="#263238" stroke-width="18" stroke-linecap="round"/>
+  <path d="M124 128 Q70 140 62 96 Q58 70 76 58" fill="none" stroke="#546E7A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M124 128 Q70 140 62 96 Q58 70 76 58" fill="none" stroke="#37474F" stroke-width="12" stroke-dasharray="2 5"/>
+  <!-- hand grip -->
+  <path d="M72 64 L86 42 Q92 34 98 42" fill="none" stroke="#7A1616" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M72 64 L86 42 Q92 34 98 42" fill="none" stroke="#D32F2F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- canister body -->
+  <path d="M116 168 Q108 120 126 100 Q150 80 178 96 Q194 108 192 140 L190 168 Z" fill="#D32F2F" stroke="#7A1616" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M132 104 Q150 92 172 100" fill="none" stroke="#EF6C6C" stroke-width="5" stroke-linecap="round"/>
+  <path d="M138 96 Q156 84 176 96" fill="none" stroke="#424242" stroke-width="7" stroke-linecap="round"/>
+  <!-- hose socket -->
+  <circle cx="124" cy="128" r="11" fill="#424242" stroke="#1E1E1E" stroke-width="3.5"/>
+  <!-- wheels -->
+  <circle cx="160" cy="166" r="16" fill="#333" stroke="#1E1E1E" stroke-width="3.5"/>
+  <circle cx="160" cy="166" r="6" fill="#9E9E9E"/>
+  <circle cx="124" cy="172" r="7" fill="#333" stroke="#1E1E1E" stroke-width="3"/>
+  <circle cx="176" cy="124" r="6" fill="#424242"/>
+</svg>

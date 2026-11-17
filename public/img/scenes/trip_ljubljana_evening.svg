@@ -1,0 +1,519 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="ljubljana_evening-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="165">
+      <stop offset="0" stop-color="#0F1C44"/>
+      <stop offset="0.45" stop-color="#1C3268"/>
+      <stop offset="0.8" stop-color="#2C4A88"/>
+      <stop offset="1" stop-color="#3A5A98"/>
+    </linearGradient>
+    <linearGradient id="ljubljana_evening-water" gradientUnits="userSpaceOnUse" x1="0" y1="196" x2="0" y2="250">
+      <stop offset="0" stop-color="#2A5872"/>
+      <stop offset="1" stop-color="#10283A"/>
+    </linearGradient>
+    <radialGradient id="ljubljana_evening-castleglow" gradientUnits="userSpaceOnUse" cx="310" cy="50" r="92" gradientTransform="translate(0 25) scale(1 0.5)">
+      <stop offset="0" stop-color="#FFE3A0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFD27F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ljubljana_evening-lampglow">
+      <stop offset="0" stop-color="#FFF1BF" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#FFD98A" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#FFD27F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- deep blue December night -->
+  <rect x="0" y="0" width="400" height="250" fill="url(#ljubljana_evening-sky)"/>
+
+  <!-- a few stars -->
+  <g data-part="stars">
+    <polygon points="22,13 23.3,16.2 26.8,16.5 24.1,18.7 24.9,22 22,20.3 19.1,22 19.9,18.7 17.2,16.5 20.7,16.2" fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="128,10 129.1,12.5 131.8,12.8 129.7,14.6 130.4,17.2 128,15.8 125.6,17.2 126.3,14.6 124.2,12.8 126.9,12.5" fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="170,46.4 171,48.7 173.4,48.9 171.5,50.5 172.1,52.9 170,51.6 167.9,52.9 168.5,50.5 166.6,48.9 169,48.7" fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="252,13.6 253.2,16.4 256.2,16.6 253.9,18.6 254.6,21.6 252,20 249.4,21.6 250.1,18.6 247.8,16.6 250.8,16.4" fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="300,32.6 300.9,34.8 303.2,34.9 301.5,36.5 302,38.8 300,37.5 298,38.8 298.5,36.5 296.8,34.9 299.1,34.8" fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="388,23.4 389.2,26.3 392.4,26.6 390,28.6 390.7,31.7 388,30.1 385.3,31.7 386,28.6 383.6,26.6 386.8,26.3" fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="230,66.8 230.8,68.8 233,69 231.4,70.4 231.9,72.6 230,71.4 228.1,72.6 228.6,70.4 227,69 229.2,68.8" fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round"/>
+    <circle cx="22" cy="17.5" r="7" fill="transparent"/>
+    <circle cx="128" cy="13.6" r="7" fill="transparent"/>
+    <circle cx="170" cy="49.9" r="7" fill="transparent"/>
+    <circle cx="252" cy="17.6" r="7" fill="transparent"/>
+    <circle cx="300" cy="35.7" r="7" fill="transparent"/>
+    <circle cx="388" cy="27.5" r="7" fill="transparent"/>
+    <circle cx="230" cy="69.7" r="7" fill="transparent"/>
+  </g>
+
+  <!-- crescent moon -->
+  <g data-part="moon">
+  <circle cx="206" cy="36" r="24" fill="#FFF3C4" opacity="0.14"/>
+  <path d="M214 20 A17 17 0 1 0 214 52 A16 16 0 1 1 214 20 Z" fill="#FFF3C4" stroke="#E6C66A" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- the castle hill, green and wooded -->
+  <path d="M168 170 C188 124 226 86 276 70 C318 58 366 58 404 72 V176 H168 Z" fill="#2E4A4C" stroke="#1A2D30" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Ljubljana Castle on top -->
+  <ellipse cx="310" cy="50" rx="92" ry="44" fill="url(#ljubljana_evening-castleglow)"/>
+  <g data-part="castle" stroke-linejoin="round" stroke-linecap="round">
+    <!-- outer wall -->
+    <path d="M240 82 V70 H376 V82 Z" fill="#E2BD7C" stroke="#6A5530" stroke-width="3"/>
+    <!-- the long palace with its roof -->
+    <rect x="266" y="50" width="76" height="22" fill="#F6D99C" stroke="#6A5530" stroke-width="3"/>
+    <polygon points="262,52 270,41 338,41 346,52" fill="#F2F5FA" stroke="#8C9AB2" stroke-width="3"/>
+    <!-- round bastion tower on the left -->
+    <rect x="246" y="46" width="22" height="30" fill="#F6D99C" stroke="#6A5530" stroke-width="3"/>
+    <path d="M244 47 V39 H250 V43 H254 V39 H260 V43 H264 V39 H270 V47 Z" fill="#F6D99C" stroke="#6A5530" stroke-width="2.5"/>
+    <!-- the tall square tower with the flag -->
+    <rect x="340" y="22" width="18" height="54" fill="#F6D99C" stroke="#6A5530" stroke-width="3"/>
+    <rect x="337" y="18" width="24" height="7" rx="1.5" fill="#E2BD7C" stroke="#6A5530" stroke-width="2.5"/>
+    <path d="M349 18 V3" fill="none" stroke="#6A5530" stroke-width="2"/>
+    <!-- Ljubljana's own flag: white over green -->
+    <rect x="349" y="3.5" width="15" height="4.5" fill="#FFFFFF"/>
+    <rect x="349" y="8" width="15" height="4.5" fill="#2E9B48"/>
+    <rect x="349" y="3.5" width="15" height="9" fill="none" stroke="#6A5530" stroke-width="1.5"/>
+    <!-- windows -->
+    <g fill="#FFD54F" stroke="#6A5530" stroke-width="1.5">
+      <rect x="276" y="57" width="5" height="7" rx="1"/>
+      <rect x="292" y="57" width="5" height="7" rx="1"/>
+      <rect x="308" y="57" width="5" height="7" rx="1"/>
+      <rect x="324" y="57" width="5" height="7" rx="1"/>
+      <rect x="254" y="54" width="5" height="7" rx="1"/>
+      <rect x="346.5" y="32" width="5" height="8" rx="1"/>
+      <rect x="346.5" y="50" width="5" height="8" rx="1"/>
+    </g>
+    <!-- snow on the castle -->
+    <g fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5">
+      <path d="M337 18.5 H361 Q361 15 357 15 H341 Q337 15 337 18.5 Z"/>
+      <path d="M244 39.5 H250 V37 Q247 35.5 244 37 Z M254 39.5 H260 V37 Q257 35.5 254 37 Z M264 39.5 H270 V37 Q267 35.5 264 37 Z"/>
+    </g>
+  </g>
+  <g fill="#25403D" stroke="#12241F" stroke-width="3">
+    <circle cx="186" cy="132" r="12"/>
+    <circle cx="204" cy="114" r="13"/>
+    <circle cx="226" cy="98" r="13"/>
+    <circle cx="252" cy="86" r="12"/>
+    <circle cx="276" cy="88" r="13"/>
+    <circle cx="302" cy="86" r="12"/>
+    <circle cx="328" cy="88" r="13"/>
+    <circle cx="352" cy="86" r="12"/>
+    <circle cx="378" cy="84" r="13"/>
+    <circle cx="398" cy="92" r="12"/>
+    <circle cx="234" cy="120" r="11"/>
+    <circle cx="214" cy="140" r="10"/>
+  </g>
+  <g fill="#8EA2B8" opacity="0.7">
+    <path d="M178.8 124.56 Q186 118.56 193.2 124.56 Q186 122.16 178.8 124.56 Z"/>
+    <path d="M196.2 105.94 Q204 99.44 211.8 105.94 Q204 103.34 196.2 105.94 Z"/>
+    <path d="M218.2 89.94 Q226 83.44 233.8 89.94 Q226 87.34 218.2 89.94 Z"/>
+    <path d="M244.8 78.56 Q252 72.56 259.2 78.56 Q252 76.16 244.8 78.56 Z"/>
+    <path d="M268.2 79.94 Q276 73.44 283.8 79.94 Q276 77.34 268.2 79.94 Z"/>
+    <path d="M294.8 78.56 Q302 72.56 309.2 78.56 Q302 76.16 294.8 78.56 Z"/>
+    <path d="M320.2 79.94 Q328 73.44 335.8 79.94 Q328 77.34 320.2 79.94 Z"/>
+    <path d="M344.8 78.56 Q352 72.56 359.2 78.56 Q352 76.16 344.8 78.56 Z"/>
+    <path d="M370.2 75.94 Q378 69.44 385.8 75.94 Q378 73.34 370.2 75.94 Z"/>
+    <path d="M390.8 84.56 Q398 78.56 405.2 84.56 Q398 82.16 390.8 84.56 Z"/>
+  </g>
+
+
+  <!-- houses further along the river -->
+  <g data-part="houses" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="220" y="122" width="28" height="28" fill="#A99474" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="216,124 227,112 241,112 252,124" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M218 119.5 L226 110.5 H242 L250 119.5 Q241 117 234 119 Q227 116.5 218 119.5 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <ellipse cx="228.3" cy="133" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="225.3" y="129" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="236.7" y="129" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="225.3" y="145" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="239.7" cy="149" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="236.7" y="145" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="246" y="114" width="26" height="36" fill="#A08A80" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="242,116 253,104 265,104 276,116" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M244 111.5 L252 102.5 H266 L274 111.5 Q265.5 109 259 111 Q252.5 108.5 244 111.5 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <rect x="250.7" y="121" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="264.3" cy="125" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="261.3" y="121" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="253.7" cy="141" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="250.7" y="137" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="261.3" y="137" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="270" y="124" width="24" height="26" fill="#8E9C88" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="266,126 277,115 287,115 298,126" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M268 121.75 L276 113.5 H288 L296 121.75 Q288 119.5 282 121.3 Q276 119.05 268 121.75 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <ellipse cx="277" cy="135" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="274" y="131" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="284" y="131" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="274" y="147" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="284" y="147" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+  </g>
+
+  <!-- baroque houses round Prešeren Square -->
+  <g data-part="houses" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-6" y="84" width="50" height="78" fill="#B49163" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="-10,86 1,68 37,68 48,86" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M-8 80 L0 66.5 H38 L46 80 Q31.5 76 19 79.2 Q6.5 75.2 -8 80 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <ellipse cx="9.7" cy="95" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="6.7" y="91" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="25.3" y="91" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="6.7" y="107" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="28.3" cy="111" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="25.3" y="107" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="9.7" cy="127" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="6.7" y="123" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="25.3" y="123" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="6.7" y="139" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="28.3" cy="143" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="25.3" y="139" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="176" y="96" width="46" height="56" fill="#BDB197" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="172,98 183,82 215,82 226,98" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M174 92.5 L182 80.5 H216 L224 92.5 Q210.5 89 199 91.8 Q187.5 88.3 174 92.5 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <rect x="187.3" y="103" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="207.7" cy="107" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="204.7" y="103" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="190.3" cy="123" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="187.3" y="119" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="204.7" y="119" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="187.3" y="135" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="207.7" cy="139" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="204.7" y="135" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="134" y="90" width="44" height="62" fill="#93A88E" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="130,92 141,74 171,74 182,92" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M132 86 L140 72.5 H172 L180 86 Q167 82 156 85.2 Q145 81.2 132 86 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <ellipse cx="147.7" cy="101" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="144.7" y="97" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="161.3" y="97" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="144.7" y="113" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="164.3" cy="117" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="161.3" y="113" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="147.7" cy="133" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="144.7" y="129" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="161.3" y="129" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+  </g>
+
+  <!-- the old town under the castle -->
+  <g data-part="houses" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="288" y="108" width="42" height="70" fill="#C2A562" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="284,110 295,94 323,94 334,110" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M286 104.5 L294 92.5 H324 L332 104.5 Q319.5 101 309 103.8 Q298.5 100.3 286 104.5 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <ellipse cx="297" cy="119" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="294" y="115" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="306" y="115" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="321" cy="119" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="318" y="115" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="294" y="131" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="309" cy="135" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="306" y="131" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="318" y="131" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="297" cy="151" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="294" y="147" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="306" y="147" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="318" y="147" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="364" y="110" width="44" height="68" fill="#B7AD95" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="360,112 371,96 401,96 412,112" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M362 106.5 L370 94.5 H402 L410 106.5 Q397 103 386 105.8 Q375 102.3 362 106.5 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <rect x="370.5" y="117" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="386" cy="121" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="383" y="117" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="395.5" y="117" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="373.5" cy="137" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="370.5" y="133" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="383" y="133" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="398.5" cy="137" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="395.5" y="133" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="370.5" y="149" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="383" y="149" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="395.5" y="149" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="328" y="100" width="38" height="78" fill="#B98E72" stroke="#3E3A3A" stroke-width="3"/>
+    <polygon points="324,102 335,84 359,84 370,102" fill="#7E4A36" stroke="#3E2418" stroke-width="3"/>
+    <path d="M326 96 L334 82.5 H360 L368 96 Q356.5 92 347 95.2 Q337.5 91.2 326 96 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <ellipse cx="339.7" cy="111" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="336.7" y="107" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="354.3" cy="111" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="351.3" y="107" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="336.7" y="123" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <ellipse cx="354.3" cy="127" rx="7" ry="7" fill="#FFC857" opacity="0.32"/>
+    <rect x="351.3" y="123" width="6" height="8" fill="#FFD54F" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="336.7" y="139" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+    <rect x="351.3" y="139" width="6" height="8" fill="#4A5478" stroke="#5A3414" stroke-width="1.5"/>
+  </g>
+
+  <!-- Prešeren Square and the riverside walk -->
+  <path d="M-4 150 H190 V170 L132 184 L-4 222 Z" fill="#DFE6F1"/>
+  <path d="M284 172 H404 V206 L346 176 Z" fill="#DFE6F1"/>
+  <g fill="#C3CDDF">
+    <ellipse cx="40" cy="176" rx="16" ry="2.5"/>
+    <ellipse cx="102" cy="168" rx="12" ry="2.2"/>
+    <ellipse cx="66" cy="200" rx="14" ry="2.4"/>
+  </g>
+
+  <!-- the pink Franciscan Church of the Annunciation -->
+  <g data-part="church" stroke-linejoin="round" stroke-linecap="round">
+    <!-- two little towers behind -->
+    <rect x="46" y="54" width="14" height="44" fill="#DB7B72" stroke="#5E2A26" stroke-width="3"/>
+    <rect x="44" y="50" width="18" height="5" rx="1.5" fill="#F2ECE6" stroke="#5E2A26" stroke-width="2.5"/>
+    <path d="M47 50.5 Q46 41 53 37 Q60 41 59 50.5 Z" fill="#3E7E72" stroke="#1F4740" stroke-width="2.5"/>
+    <rect x="50.5" y="31" width="5" height="6" fill="#F2ECE6" stroke="#1F4740" stroke-width="2"/>
+    <path d="M49.5 31.5 Q53 22 56.5 31.5 Z" fill="#3E7E72" stroke="#1F4740" stroke-width="2"/>
+    <path d="M53 24 V16" fill="none" stroke="#1F4740" stroke-width="2"/>
+    <rect x="116" y="54" width="14" height="44" fill="#DB7B72" stroke="#5E2A26" stroke-width="3"/>
+    <rect x="114" y="50" width="18" height="5" rx="1.5" fill="#F2ECE6" stroke="#5E2A26" stroke-width="2.5"/>
+    <path d="M117 50.5 Q116 41 123 37 Q130 41 129 50.5 Z" fill="#3E7E72" stroke="#1F4740" stroke-width="2.5"/>
+    <rect x="120.5" y="31" width="5" height="6" fill="#F2ECE6" stroke="#1F4740" stroke-width="2"/>
+    <path d="M119.5 31.5 Q123 22 126.5 31.5 Z" fill="#3E7E72" stroke="#1F4740" stroke-width="2"/>
+    <path d="M123 24 V16" fill="none" stroke="#1F4740" stroke-width="2"/>
+    <!-- lower storey -->
+    <rect x="44" y="98" width="88" height="54" fill="#DB7B72" stroke="#5E2A26" stroke-width="3.5"/>
+    <!-- upper storey with curly sides -->
+    <path d="M60 74 Q47 76 47 96 H60 Z" fill="#DB7B72" stroke="#5E2A26" stroke-width="3"/>
+    <path d="M116 74 Q129 76 129 96 H116 Z" fill="#DB7B72" stroke="#5E2A26" stroke-width="3"/>
+    <circle cx="52.5" cy="90.5" r="3" fill="#F2ECE6" stroke="#5E2A26" stroke-width="1.5"/>
+    <circle cx="123.5" cy="90.5" r="3" fill="#F2ECE6" stroke="#5E2A26" stroke-width="1.5"/>
+    <rect x="60" y="66" width="56" height="31" fill="#DB7B72" stroke="#5E2A26" stroke-width="3"/>
+    <!-- white pilasters -->
+    <g fill="#F2ECE6" stroke="#5E2A26" stroke-width="1.5">
+      <rect x="49" y="101" width="6" height="49"/>
+      <rect x="61" y="101" width="6" height="49"/>
+      <rect x="109" y="101" width="6" height="49"/>
+      <rect x="121" y="101" width="6" height="49"/>
+      <rect x="64" y="69" width="5" height="26"/>
+      <rect x="107" y="69" width="5" height="26"/>
+    </g>
+    <!-- cornice between the storeys -->
+    <rect x="40" y="94" width="96" height="6" rx="1.5" fill="#F2ECE6" stroke="#5E2A26" stroke-width="2.5"/>
+    <!-- triangular top with its white edge -->
+    <polygon points="53,67 123,67 88,43" fill="#F2ECE6" stroke="#5E2A26" stroke-width="3"/>
+    <polygon points="63,64 113,64 88,48.5" fill="#DB7B72"/>
+    <rect x="56" y="63" width="64" height="5" rx="1.5" fill="#F2ECE6" stroke="#5E2A26" stroke-width="2.5"/>
+    <circle cx="88" cy="57" r="3.6" fill="#F2ECE6" stroke="#5E2A26" stroke-width="1.5"/>
+    <!-- Mary on the peak, little vases on the corners -->
+    <rect x="85" y="40" width="6" height="4" fill="#F2ECE6" stroke="#5E2A26" stroke-width="1.5"/>
+    <path d="M85 40.5 Q84.5 31 88 29.5 Q91.5 31 91 40.5 Z" fill="#3E5148" stroke="#18221D" stroke-width="1.8"/>
+    <circle cx="88" cy="27.2" r="2.6" fill="#3E5148" stroke="#18221D" stroke-width="1.6"/>
+    <g fill="#F2ECE6" stroke="#5E2A26" stroke-width="1.5">
+      <path d="M53 62.5 Q50.5 58 53 55 Q55.5 58 53 62.5 Z"/>
+      <path d="M123 62.5 Q120.5 58 123 55 Q125.5 58 123 62.5 Z"/>
+    </g>
+    <!-- windows: the big arched one and two little ones -->
+    <path d="M82 92 V78 Q88 70 94 78 V92 Z" fill="#FFD54F" stroke="#5E2A26" stroke-width="2.5"/>
+    <path d="M70 120 V110 Q73.5 105 77 110 V120 Z" fill="#FFD54F" stroke="#5E2A26" stroke-width="2"/>
+    <path d="M99 120 V110 Q102.5 105 106 110 V120 Z" fill="#FFD54F" stroke="#5E2A26" stroke-width="2"/>
+    <!-- the door in its white frame -->
+    <path d="M77 152 V130 Q88 116 99 130 V152 Z" fill="#F2ECE6" stroke="#5E2A26" stroke-width="2.5"/>
+    <path d="M81 152 V131 Q88 121.5 95 131 V152 Z" fill="#8A5A2E" stroke="#3E2414" stroke-width="2"/>
+    <path d="M88 125 V152" fill="none" stroke="#3E2414" stroke-width="1.5"/>
+    <!-- snow on the ledges -->
+    <g fill="#F7F9FD" stroke="#A9B6CC" stroke-width="1.2">
+      <path d="M40 94.5 Q40 91.5 44 91.5 H132 Q136 91.5 136 94.5 Z"/>
+      <path d="M56 63.5 Q56 61 59 61 H117 Q120 61 120 63.5 Z"/>
+      <path d="M44 50.5 Q44 48 47 48 H59 Q62 48 62 50.5 Z M114 50.5 Q114 48 117 48 H129 Q132 48 132 50.5 Z"/>
+    </g>
+    <!-- wide steps in front -->
+    <rect x="38" y="151" width="100" height="5" rx="1.5" fill="#C2C9D6" stroke="#4C5366" stroke-width="2"/>
+    <rect x="32" y="155" width="112" height="5" rx="1.5" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+  </g>
+
+
+  <!-- the tall Christmas tree on the square -->
+  <g data-part="christmas_tree">
+  <g stroke-linejoin="round">
+    <rect x="150" y="136" width="8" height="10" fill="#5D4037" stroke="#3E2723" stroke-width="2"/>
+    <path d="M154 98 L178 140 Q154 144 130 140 Z" fill="#2E6B3E" stroke="#163A22" stroke-width="3"/>
+    <path d="M154 82 L176 116 Q154 120 132 116 Z" fill="#2E6B3E" stroke="#163A22" stroke-width="3"/>
+    <path d="M154 70 L172 96 Q154 100 136 96 Z" fill="#2E6B3E" stroke="#163A22" stroke-width="3"/>
+    <g fill="#F4F7FC"><path d="M146 84 Q154 72 162 84 Q154 80 146 84 Z"/><path d="M142 99 Q154 86 166 99 Q154 94 142 99 Z"/><path d="M140 116 Q154 102 168 116 Q154 110 140 116 Z"/></g>
+  </g>
+  <g fill="#FFD27A" opacity="0.38"><circle cx="147.6" cy="91.1" r="4.2"/><circle cx="150.8" cy="92.4" r="4.2"/><circle cx="154" cy="92.8" r="4.2"/><circle cx="157.2" cy="92" r="4.2"/><circle cx="160.4" cy="90.3" r="4.2"/><circle cx="143.6" cy="107.4" r="4.2"/><circle cx="148.9" cy="109.3" r="4.2"/><circle cx="154.3" cy="109.8" r="4.2"/><circle cx="159.7" cy="108.9" r="4.2"/><circle cx="165.2" cy="106.6" r="4.2"/><circle cx="141.2" cy="127.4" r="4.2"/><circle cx="147.7" cy="129.2" r="4.2"/><circle cx="154.3" cy="129.5" r="4.2"/><circle cx="160.9" cy="128.4" r="4.2"/><circle cx="167.6" cy="125.8" r="4.2"/></g>
+  <g fill="#FFF0B8" stroke="#E8B04A" stroke-width="0.8"><circle cx="147.6" cy="91.1" r="1.7"/><circle cx="150.8" cy="92.4" r="1.7"/><circle cx="154" cy="92.8" r="1.7"/><circle cx="157.2" cy="92" r="1.7"/><circle cx="160.4" cy="90.3" r="1.7"/><circle cx="143.6" cy="107.4" r="1.7"/><circle cx="148.9" cy="109.3" r="1.7"/><circle cx="154.3" cy="109.8" r="1.7"/><circle cx="159.7" cy="108.9" r="1.7"/><circle cx="165.2" cy="106.6" r="1.7"/><circle cx="141.2" cy="127.4" r="1.7"/><circle cx="147.7" cy="129.2" r="1.7"/><circle cx="154.3" cy="129.5" r="1.7"/><circle cx="160.9" cy="128.4" r="1.7"/><circle cx="167.6" cy="125.8" r="1.7"/></g>
+  <polygon points="154,59.5 155.7,63.6 160.2,64 156.8,66.9 157.8,71.3 154,68.9 150.2,71.3 151.2,66.9 147.8,64 152.3,63.6" fill="#FFD54F" stroke="#C99A1E" stroke-width="1.5" stroke-linejoin="round"/>
+  </g>
+
+
+  <!-- the Prešeren monument: the poet in bronze, his muse above -->
+  <g data-part="statue" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="183" y="74" width="10" height="34" fill="#C2C9D6" stroke="#4C5366" stroke-width="2.5"/>
+    <rect x="177" y="106" width="22" height="34" fill="#E4E8F0" stroke="#4C5366" stroke-width="3"/>
+    <rect x="174.5" y="102" width="27" height="6" rx="1.5" fill="#C2C9D6" stroke="#4C5366" stroke-width="2.5"/>
+    <!-- the muse, holding a laurel branch over him -->
+    <path d="M184.5 74 Q184 64 188 62 Q192 64 191.5 74 Z" fill="#3E5148" stroke="#18221D" stroke-width="1.8"/>
+    <circle cx="188" cy="59.5" r="2.6" fill="#3E5148" stroke="#18221D" stroke-width="1.6"/>
+    <path d="M186 65 L179 63" fill="none" stroke="#18221D" stroke-width="3.2"/>
+    <path d="M186 65 L179 63" fill="none" stroke="#3E5148" stroke-width="1.6"/>
+    <ellipse cx="176.5" cy="63" rx="4" ry="2.3" fill="#3E5148" stroke="#18221D" stroke-width="1.5"/>
+    <!-- the poet -->
+    <path d="M182 102 L183.5 87 Q188 84 192.5 87 L194 102 Z" fill="#3E5148" stroke="#18221D" stroke-width="2"/>
+    <path d="M184 89 L181 96 M192 89 L194.5 95" fill="none" stroke="#18221D" stroke-width="3.4"/>
+    <path d="M184 89 L181 96 M192 89 L194.5 95" fill="none" stroke="#3E5148" stroke-width="1.8"/>
+    <rect x="179" y="94.5" width="4" height="4" fill="#3E5148" stroke="#18221D" stroke-width="1.4"/>
+    <circle cx="188" cy="82" r="3.2" fill="#3E5148" stroke="#18221D" stroke-width="1.6"/>
+    <g fill="#F7F9FD" stroke="#A9B6CC" stroke-width="1.2">
+      <path d="M174.5 102.5 Q174.5 99.5 178 99.5 H198 Q201.5 99.5 201.5 102.5 Z"/>
+      <path d="M182.5 74.5 Q182.5 72 185 72 H191 Q193.5 72 193.5 74.5 Z"/>
+    </g>
+  </g>
+
+
+  <!-- strings of warm festive lights between the buildings -->
+  <g data-part="houses" fill="none" stroke="#4A4040" stroke-width="1"><path d="M222 104 Q256 136 290 114"/><path d="M330 112 Q347 124 366 106"/></g>
+  <g data-part="houses" fill="#FFD27A" opacity="0.38"><circle cx="225.4" cy="107.1" r="4.2"/><circle cx="232.2" cy="112.4" r="4.2"/><circle cx="239" cy="116.6" r="4.2"/><circle cx="245.8" cy="119.8" r="4.2"/><circle cx="252.6" cy="121.9" r="4.2"/><circle cx="259.4" cy="122.9" r="4.2"/><circle cx="266.2" cy="122.8" r="4.2"/><circle cx="273" cy="121.6" r="4.2"/><circle cx="279.8" cy="119.4" r="4.2"/><circle cx="286.6" cy="116.1" r="4.2"/><circle cx="333.4" cy="114.1" r="4.2"/><circle cx="340.4" cy="116.5" r="4.2"/><circle cx="347.5" cy="116.5" r="4.2"/><circle cx="354.8" cy="114.1" r="4.2"/><circle cx="362.2" cy="109.3" r="4.2"/></g>
+  <g data-part="houses" fill="#FFF0B8" stroke="#E8B04A" stroke-width="0.8"><circle cx="225.4" cy="107.1" r="1.7"/><circle cx="232.2" cy="112.4" r="1.7"/><circle cx="239" cy="116.6" r="1.7"/><circle cx="245.8" cy="119.8" r="1.7"/><circle cx="252.6" cy="121.9" r="1.7"/><circle cx="259.4" cy="122.9" r="1.7"/><circle cx="266.2" cy="122.8" r="1.7"/><circle cx="273" cy="121.6" r="1.7"/><circle cx="279.8" cy="119.4" r="1.7"/><circle cx="286.6" cy="116.1" r="1.7"/><circle cx="333.4" cy="114.1" r="1.7"/><circle cx="340.4" cy="116.5" r="1.7"/><circle cx="347.5" cy="116.5" r="1.7"/><circle cx="354.8" cy="114.1" r="1.7"/><circle cx="362.2" cy="109.3" r="1.7"/></g>
+
+
+  <!-- the green Ljubljanica -->
+  <path data-part="river" d="M142 204 L336 200 L404 240 V254 H-4 Z" fill="url(#ljubljana_evening-water)"/>
+  <!-- Plečnik's terrace by the water, with its arches -->
+  <path d="M-4 222 L132 184 L142 204 L-4 254 Z" fill="#9AA0AE" stroke="#3E4452" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#454C5C" stroke="#3E4452" stroke-width="2" stroke-linejoin="round"><path d="M8 245.9 V227.6 Q19 214.6 30 221.5 V238.4 Z"/><path d="M46 232.9 V217 Q55 204.5 64 212 V226.7 Z"/><path d="M80 221.2 V207.5 Q87 195.6 94 203.6 V216.4 Z"/><path d="M106 212.3 V200.3 Q111 188.9 116 197.5 V208.9 Z"/></g>
+  <path d="M-4 222 L132 184" fill="none" stroke="#F2F5FA" stroke-width="4" stroke-linecap="round"/>
+  <!-- the embankment on the old-town side -->
+  <path d="M346 176 L404 206 V240 L336 200 Z" fill="#9AA0AE" stroke="#3E4452" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M346 176 L404 206" fill="none" stroke="#F2F5FA" stroke-width="4" stroke-linecap="round"/>
+
+
+  <g data-part="river" fill="none" stroke="#5E8CA6" stroke-width="2.5" stroke-linecap="round">
+    <path d="M196 226 q9 -3.5 18 0"/>
+    <path d="M300 236 q9 -3.5 18 0"/>
+    <path d="M120 244 q9 -3.5 18 0"/>
+    <path d="M356 246 q9 -3.5 18 0"/>
+  </g>
+
+
+  <!-- warm lights reflected in the water -->
+  <g data-part="river" fill="#FFD27A" opacity="0.22">
+    <ellipse cx="186" cy="214" rx="12" ry="2.2"/>
+    <ellipse cx="236" cy="222" rx="16" ry="2.4"/>
+    <ellipse cx="292" cy="214" rx="12" ry="2.2"/>
+    <ellipse cx="262" cy="236" rx="18" ry="2.6"/>
+  </g>
+
+  <!-- the three bridges (Tromostovje), fanning out towards the square -->
+  <g data-part="bridge" stroke-linejoin="round" stroke-linecap="round">
+    </g>
+    <g data-part="people"><g transform="translate(300 150) scale(0.72)" stroke-linejoin="round" stroke-linecap="round"><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#222026" stroke-width="4.8"/><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#263238" stroke-width="2.6"/><ellipse cx="-3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><ellipse cx="3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><path d="M-5 -21.6 Q0 -23.6 5 -21.6 L6.8 -7 Q0 -6 -6.8 -7 Z" fill="#5D4037" stroke="#222026" stroke-width="1.6"/><path d="M-4.2 -22.4 Q0 -20.4 4.2 -22.4 L4 -20 Q0 -18.4 -4 -20 Z M1.6 -20 L3.4 -14.5" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.6"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#5D4037" stroke-width="2.4"/><path d="M5 -20 L6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M5 -20 L6.8 -12.5" fill="none" stroke="#5D4037" stroke-width="2.4"/><circle cx="-6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="0" cy="-26" r="4.2" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.5"/><circle cx="-1.4" cy="-25.8" r="0.65" fill="#3E2723"/><circle cx="1.4" cy="-25.8" r="0.65" fill="#3E2723"/><path d="M-4.6 -27.4 Q-4.8 -32.4 0 -32.6 Q4.8 -32.4 4.6 -27.4 Z" fill="#C62828" stroke="#222026" stroke-width="1.2"/><circle cx="0" cy="-33.4" r="1.6" fill="#FFFFFF" stroke="#222026" stroke-width="0.9"/></g></g>
+    <g data-part="bridge" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M150 134 Q256 133 358 146 L358 154 Q256 141 150 142 Z" fill="#E4E8F0" stroke="#4C5366" stroke-width="2.5"/>
+    <g fill="#9AA4BA"><rect x="159.2" y="136.5" width="4.1" height="3.2" rx="1.9"/><rect x="175.7" y="136.6" width="4.1" height="3.2" rx="1.9"/><rect x="192.2" y="136.8" width="4.1" height="3.2" rx="1.9"/><rect x="208.6" y="137.2" width="4.1" height="3.2" rx="1.9"/><rect x="224.9" y="137.7" width="4.1" height="3.2" rx="1.9"/><rect x="257.5" y="139.4" width="4.1" height="3.2" rx="1.9"/><rect x="273.8" y="140.4" width="4.1" height="3.2" rx="1.9"/><rect x="289.9" y="141.7" width="4.1" height="3.2" rx="1.9"/><rect x="306" y="143.1" width="4.1" height="3.2" rx="1.9"/><rect x="322.1" y="144.7" width="4.1" height="3.2" rx="1.9"/><rect x="338.2" y="146.4" width="4.1" height="3.2" rx="1.9"/></g>
+    <path d="M150 135.6 Q256 134.6 358 147.6" fill="none" stroke="#F2F5FA" stroke-width="1.6" opacity="0.8"/>
+    <path d="M150 142 Q256 141 358 154 L358 158 Q256 145 150 146 Z" fill="#C2C9D6" stroke="#4C5366" stroke-width="2"/>
+    <rect x="147.3" y="130.5" width="5.5" height="15.5" rx="1.2" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+    <circle cx="150" cy="128.5" r="2" fill="#E4E8F0" stroke="#4C5366" stroke-width="1.6"/>
+    <rect x="355.3" y="142.5" width="5.5" height="15.5" rx="1.2" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+    <circle cx="358" cy="140.5" r="2" fill="#E4E8F0" stroke="#4C5366" stroke-width="1.6"/>
+    <path d="M150 133.5 Q256 132.5 358 145.5" fill="none" stroke="#F7F9FD" stroke-width="3.2"/>
+    <g transform="translate(238.3 136.1) scale(0.78)">
+      <path d="M-3.5 0 V-3 H3.5 V0 Z M-2 -3 Q-4.2 -8 -1.6 -13 L-1.1 -17 H1.1 L1.6 -13 Q4.2 -8 2 -3 Z" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+      <rect x="-2.6" y="-18.5" width="5.2" height="2.2" rx="0.8" fill="#C2C9D6" stroke="#4C5366" stroke-width="1.6"/>
+    </g>
+    <circle cx="238.3" cy="119" r="8.6" fill="url(#ljubljana_evening-lampglow)"/><circle cx="238.3" cy="119" r="2.8" fill="#FFE9A8" stroke="#B08A3A" stroke-width="1.6"/>
+    </g>
+    <g data-part="people"><g transform="translate(206 157) scale(0.82)" stroke-linejoin="round" stroke-linecap="round"><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#222026" stroke-width="4.8"/><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#263238" stroke-width="2.6"/><ellipse cx="-3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><ellipse cx="3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><path d="M-5 -21.6 Q0 -23.6 5 -21.6 L6.8 -7 Q0 -6 -6.8 -7 Z" fill="#1565C0" stroke="#222026" stroke-width="1.6"/><path d="M-4.2 -22.4 Q0 -20.4 4.2 -22.4 L4 -20 Q0 -18.4 -4 -20 Z M1.6 -20 L3.4 -14.5" fill="#E53935" stroke="#E53935" stroke-width="1.6"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#1565C0" stroke-width="2.4"/><path d="M5 -20 L6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M5 -20 L6.8 -12.5" fill="none" stroke="#1565C0" stroke-width="2.4"/><circle cx="-6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="0" cy="-26" r="4.2" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.5"/><circle cx="-1.4" cy="-25.8" r="0.65" fill="#3E2723"/><circle cx="1.4" cy="-25.8" r="0.65" fill="#3E2723"/><path d="M-4.6 -27.4 Q-4.8 -32.4 0 -32.6 Q4.8 -32.4 4.6 -27.4 Z" fill="#FDD835" stroke="#222026" stroke-width="1.2"/><circle cx="0" cy="-33.4" r="1.6" fill="#FFFFFF" stroke="#222026" stroke-width="0.9"/></g></g>
+    <g data-part="bridge" stroke-linejoin="round" stroke-linecap="round">
+    </g>
+    <g data-part="people"><g transform="translate(218 157) scale(0.82)" stroke-linejoin="round" stroke-linecap="round"><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#222026" stroke-width="4.8"/><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#263238" stroke-width="2.6"/><ellipse cx="-3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><ellipse cx="3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><path d="M-5 -21.6 Q0 -23.6 5 -21.6 L6.8 -7 Q0 -6 -6.8 -7 Z" fill="#6A1B9A" stroke="#222026" stroke-width="1.6"/><path d="M-4.2 -22.4 Q0 -20.4 4.2 -22.4 L4 -20 Q0 -18.4 -4 -20 Z M1.6 -20 L3.4 -14.5" fill="#43A047" stroke="#43A047" stroke-width="1.6"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#6A1B9A" stroke-width="2.4"/><path d="M5 -20 L6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M5 -20 L6.8 -12.5" fill="none" stroke="#6A1B9A" stroke-width="2.4"/><circle cx="-6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="0" cy="-26" r="4.2" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.5"/><circle cx="-1.4" cy="-25.8" r="0.65" fill="#3E2723"/><circle cx="1.4" cy="-25.8" r="0.65" fill="#3E2723"/><path d="M-4.6 -27.4 Q-4.8 -32.4 0 -32.6 Q4.8 -32.4 4.6 -27.4 Z" fill="#FFFFFF" stroke="#222026" stroke-width="1.2"/><circle cx="0" cy="-33.4" r="1.6" fill="#FFFFFF" stroke="#222026" stroke-width="0.9"/></g></g>
+    <g data-part="bridge" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M134 152 Q244 143 354 151 L354 160 Q244 152 134 161 Z" fill="#E4E8F0" stroke="#4C5366" stroke-width="2.5"/>
+    <g fill="#9AA4BA"><rect x="142.7" y="153.7" width="4.6" height="4.2" rx="2.1"/><rect x="160.7" y="152.5" width="4.6" height="4.2" rx="2.1"/><rect x="178.6" y="151.5" width="4.6" height="4.2" rx="2.1"/><rect x="214.6" y="150.2" width="4.6" height="4.2" rx="2.1"/><rect x="232.5" y="149.9" width="4.6" height="4.2" rx="2.1"/><rect x="250.5" y="149.8" width="4.6" height="4.2" rx="2.1"/><rect x="268.4" y="150" width="4.6" height="4.2" rx="2.1"/><rect x="304.4" y="150.9" width="4.6" height="4.2" rx="2.1"/><rect x="322.3" y="151.8" width="4.6" height="4.2" rx="2.1"/><rect x="340.3" y="152.8" width="4.6" height="4.2" rx="2.1"/></g>
+    <path d="M134 153.6 Q244 144.6 354 152.6" fill="none" stroke="#F2F5FA" stroke-width="1.6" opacity="0.8"/>
+    <path d="M134 161 Q244 152 354 160 L354 165 Q244 157 134 166 Z" fill="#C2C9D6" stroke="#4C5366" stroke-width="2"/>
+    <rect x="130.9" y="148.5" width="6.2" height="17.5" rx="1.2" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+    <circle cx="134" cy="146.5" r="2.3" fill="#E4E8F0" stroke="#4C5366" stroke-width="1.6"/>
+    <rect x="350.9" y="147.5" width="6.2" height="17.5" rx="1.2" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+    <circle cx="354" cy="145.5" r="2.3" fill="#E4E8F0" stroke="#4C5366" stroke-width="1.6"/>
+    <path d="M134 151.5 Q244 142.5 354 150.5" fill="none" stroke="#F7F9FD" stroke-width="3.2"/>
+    <g transform="translate(200 148.6) scale(0.88)">
+      <path d="M-3.5 0 V-3 H3.5 V0 Z M-2 -3 Q-4.2 -8 -1.6 -13 L-1.1 -17 H1.1 L1.6 -13 Q4.2 -8 2 -3 Z" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+      <rect x="-2.6" y="-18.5" width="5.2" height="2.2" rx="0.8" fill="#C2C9D6" stroke="#4C5366" stroke-width="1.6"/>
+    </g>
+    <circle cx="200" cy="129.3" r="9.7" fill="url(#ljubljana_evening-lampglow)"/><circle cx="200" cy="129.3" r="3.2" fill="#FFE9A8" stroke="#B08A3A" stroke-width="1.6"/>
+    <g transform="translate(288 148.2) scale(0.88)">
+      <path d="M-3.5 0 V-3 H3.5 V0 Z M-2 -3 Q-4.2 -8 -1.6 -13 L-1.1 -17 H1.1 L1.6 -13 Q4.2 -8 2 -3 Z" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+      <rect x="-2.6" y="-18.5" width="5.2" height="2.2" rx="0.8" fill="#C2C9D6" stroke="#4C5366" stroke-width="1.6"/>
+    </g>
+    <circle cx="288" cy="128.9" r="9.7" fill="url(#ljubljana_evening-lampglow)"/><circle cx="288" cy="128.9" r="3.2" fill="#FFE9A8" stroke="#B08A3A" stroke-width="1.6"/>
+    <!-- the stone body and wide low arch of the front bridge -->
+    <path d="M118 186 Q236 168 350 174 L346 202 L138 206 Z" fill="#C2C9D6" stroke="#4C5366" stroke-width="3"/>
+    <path d="M144 206 Q240 170 334 201 Z" fill="#0E2230" stroke="#4C5366" stroke-width="3"/>
+    <ellipse cx="240" cy="201" rx="58" ry="3.2" fill="#2A5872" opacity="0.75"/>
+    <path d="M118 170 Q236 152 350 158 L350 168 Q236 162 118 180 Z" fill="#E4E8F0" stroke="#4C5366" stroke-width="2.5"/>
+    <g fill="#9AA4BA"><rect x="126.6" y="170.9" width="5.2" height="5.2" rx="2.4"/><rect x="146.9" y="168.2" width="5.2" height="5.2" rx="2.4"/><rect x="167.1" y="165.8" width="5.2" height="5.2" rx="2.4"/><rect x="187.2" y="163.8" width="5.2" height="5.2" rx="2.4"/><rect x="227.4" y="160.9" width="5.2" height="5.2" rx="2.4"/><rect x="247.4" y="159.9" width="5.2" height="5.2" rx="2.4"/><rect x="267.3" y="159.3" width="5.2" height="5.2" rx="2.4"/><rect x="287.2" y="159.1" width="5.2" height="5.2" rx="2.4"/><rect x="307" y="159.2" width="5.2" height="5.2" rx="2.4"/><rect x="326.7" y="159.7" width="5.2" height="5.2" rx="2.4"/></g>
+    <path d="M118 171.6 Q236 153.6 350 159.6" fill="none" stroke="#F2F5FA" stroke-width="1.6" opacity="0.8"/>
+    <path d="M118 180 Q236 162 350 168 L350 174 Q236 168 118 186 Z" fill="#C2C9D6" stroke="#4C5366" stroke-width="2"/>
+    <rect x="114.5" y="166.5" width="7" height="19.5" rx="1.2" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+    <circle cx="118" cy="164.5" r="2.6" fill="#E4E8F0" stroke="#4C5366" stroke-width="1.6"/>
+    <rect x="346.5" y="154.5" width="7" height="19.5" rx="1.2" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+    <circle cx="350" cy="152.5" r="2.6" fill="#E4E8F0" stroke="#4C5366" stroke-width="1.6"/>
+    <path d="M118 169.5 Q236 151.5 350 157.5" fill="none" stroke="#F7F9FD" stroke-width="3.2"/>
+    <g transform="translate(216.4 159.6) scale(1)">
+      <path d="M-3.5 0 V-3 H3.5 V0 Z M-2 -3 Q-4.2 -8 -1.6 -13 L-1.1 -17 H1.1 L1.6 -13 Q4.2 -8 2 -3 Z" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+      <rect x="-2.6" y="-18.5" width="5.2" height="2.2" rx="0.8" fill="#C2C9D6" stroke="#4C5366" stroke-width="1.6"/>
+    </g>
+    <circle cx="216.4" cy="137.6" r="11" fill="url(#ljubljana_evening-lampglow)"/><circle cx="216.4" cy="137.6" r="3.6" fill="#FFE9A8" stroke="#B08A3A" stroke-width="1.6"/>
+    <g transform="translate(299.6 157) scale(1)">
+      <path d="M-3.5 0 V-3 H3.5 V0 Z M-2 -3 Q-4.2 -8 -1.6 -13 L-1.1 -17 H1.1 L1.6 -13 Q4.2 -8 2 -3 Z" fill="#E4E8F0" stroke="#4C5366" stroke-width="2"/>
+      <rect x="-2.6" y="-18.5" width="5.2" height="2.2" rx="0.8" fill="#C2C9D6" stroke="#4C5366" stroke-width="1.6"/>
+    </g>
+    <circle cx="299.6" cy="135" r="11" fill="url(#ljubljana_evening-lampglow)"/><circle cx="299.6" cy="135" r="3.6" fill="#FFE9A8" stroke="#B08A3A" stroke-width="1.6"/>
+  </g>
+
+  <!-- festive lights draped over the bridges -->
+  <g data-part="bridge" fill="#FFD27A" opacity="0.38"><circle cx="142.3" cy="146.5" r="4.2"/><circle cx="158.8" cy="145.5" r="4.2"/><circle cx="175.3" cy="142.1" r="4.2"/><circle cx="191.8" cy="136.2" r="4.2"/><circle cx="207.3" cy="133.8" r="4.2"/><circle cx="222" cy="135.9" r="4.2"/><circle cx="236.7" cy="137" r="4.2"/><circle cx="251.3" cy="136.9" r="4.2"/><circle cx="266" cy="135.7" r="4.2"/><circle cx="280.7" cy="133.5" r="4.2"/><circle cx="296.3" cy="135.7" r="4.2"/><circle cx="312.8" cy="141.5" r="4.2"/><circle cx="329.3" cy="144.8" r="4.2"/><circle cx="345.8" cy="145.5" r="4.2"/><circle cx="126.2" cy="163.6" r="4.2"/><circle cx="142.6" cy="162" r="4.2"/><circle cx="159" cy="159.3" r="4.2"/><circle cx="175.4" cy="155.5" r="4.2"/><circle cx="191.8" cy="150.6" r="4.2"/><circle cx="208.2" cy="144.5" r="4.2"/><circle cx="224.7" cy="142.7" r="4.2"/><circle cx="241.4" cy="144.5" r="4.2"/><circle cx="258" cy="144.8" r="4.2"/><circle cx="274.7" cy="143.5" r="4.2"/><circle cx="291.3" cy="140.6" r="4.2"/><circle cx="308" cy="143.5" r="4.2"/><circle cx="324.8" cy="150.3" r="4.2"/><circle cx="341.6" cy="152.5" r="4.2"/></g>
+  <g data-part="bridge" fill="#FFF0B8" stroke="#E8B04A" stroke-width="0.8"><circle cx="142.3" cy="146.5" r="1.7"/><circle cx="158.8" cy="145.5" r="1.7"/><circle cx="175.3" cy="142.1" r="1.7"/><circle cx="191.8" cy="136.2" r="1.7"/><circle cx="207.3" cy="133.8" r="1.7"/><circle cx="222" cy="135.9" r="1.7"/><circle cx="236.7" cy="137" r="1.7"/><circle cx="251.3" cy="136.9" r="1.7"/><circle cx="266" cy="135.7" r="1.7"/><circle cx="280.7" cy="133.5" r="1.7"/><circle cx="296.3" cy="135.7" r="1.7"/><circle cx="312.8" cy="141.5" r="1.7"/><circle cx="329.3" cy="144.8" r="1.7"/><circle cx="345.8" cy="145.5" r="1.7"/><circle cx="126.2" cy="163.6" r="1.7"/><circle cx="142.6" cy="162" r="1.7"/><circle cx="159" cy="159.3" r="1.7"/><circle cx="175.4" cy="155.5" r="1.7"/><circle cx="191.8" cy="150.6" r="1.7"/><circle cx="208.2" cy="144.5" r="1.7"/><circle cx="224.7" cy="142.7" r="1.7"/><circle cx="241.4" cy="144.5" r="1.7"/><circle cx="258" cy="144.8" r="1.7"/><circle cx="274.7" cy="143.5" r="1.7"/><circle cx="291.3" cy="140.6" r="1.7"/><circle cx="308" cy="143.5" r="1.7"/><circle cx="324.8" cy="150.3" r="1.7"/><circle cx="341.6" cy="152.5" r="1.7"/></g>
+
+
+  <!-- a small wooden stall with hot mulled wine -->
+  <g data-part="stall" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="30" y="180" width="54" height="30" fill="#A0703F" stroke="#4A2E14" stroke-width="3"/>
+    <rect x="35" y="185" width="44" height="13" fill="#FFCF7A" stroke="#4A2E14" stroke-width="2.5"/>
+    <!-- the seller inside -->
+    <circle cx="46" cy="189.5" r="3.6" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.4"/>
+    <path d="M42.2 189 Q42.2 184.4 46 184.4 Q49.8 184.4 49.8 189 Z" fill="#C62828" stroke="#6A1010" stroke-width="1"/>
+    <path d="M40.6 198 Q41 193.4 46 193.4 Q51 193.4 51.4 198 Z" fill="#2E7D32" stroke="#1B4D1F" stroke-width="1.2"/>
+    <!-- counter, steaming pot, mugs -->
+    <rect x="31" y="197" width="52" height="4.5" rx="1" fill="#C68A4A" stroke="#4A2E14" stroke-width="2"/>
+    <path d="M60 197 V191.5 H73 V197 Z" fill="#8E2A22" stroke="#4E1410" stroke-width="2"/>
+    <rect x="58.5" y="190" width="16" height="2.6" rx="1" fill="#5A1A14" stroke="#4E1410" stroke-width="1.2"/>
+    <g fill="#C62828" stroke="#6A1010" stroke-width="1"><rect x="51" y="193" width="3.6" height="4" rx="0.8"/><rect x="77" y="193" width="3.6" height="4" rx="0.8"/></g>
+    <!-- roof with snow -->
+    <polygon points="24,182 57,164 90,182" fill="#7A4A26" stroke="#3E2410" stroke-width="3"/>
+    <path d="M33 175 L57 161.5 L81 175 Q74 172 68 174 Q62 169.5 57 171 Q51 169 46 173 Q39 171 33 175 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+    <!-- steam rising from the mulled wine -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="2.6" opacity="0.9">
+      <path d="M63 189 Q59 182 63 175 Q67 168 63 160 Q60 154 63 148"/>
+      <path d="M70 189 Q74 182 70 175 Q66 168 70 161 Q73 156 70 151"/>
+    </g>
+  </g>
+
+
+  <!-- people in coats and hats on the snowy square -->
+  <g>
+    <g data-part="people" transform="translate(92 176) scale(0.95)" stroke-linejoin="round" stroke-linecap="round"><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#222026" stroke-width="4.8"/><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#263238" stroke-width="2.6"/><ellipse cx="-3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><ellipse cx="3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><path d="M-5 -21.6 Q0 -23.6 5 -21.6 L6.8 -7 Q0 -6 -6.8 -7 Z" fill="#B71C1C" stroke="#222026" stroke-width="1.6"/><path d="M-4.2 -22.4 Q0 -20.4 4.2 -22.4 L4 -20 Q0 -18.4 -4 -20 Z M1.6 -20 L3.4 -14.5" fill="#FDD835" stroke="#FDD835" stroke-width="1.6"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#B71C1C" stroke-width="2.4"/><path d="M5 -20 L9.5 -13" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M5 -20 L9.5 -13" fill="none" stroke="#B71C1C" stroke-width="2.4"/><circle cx="-6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="9.8" cy="-12.6" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="0" cy="-26" r="4.2" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.5"/><circle cx="-1.4" cy="-25.8" r="0.65" fill="#3E2723"/><circle cx="1.4" cy="-25.8" r="0.65" fill="#3E2723"/><path d="M-4.6 -27.4 Q-4.8 -32.4 0 -32.6 Q4.8 -32.4 4.6 -27.4 Z" fill="#FFFFFF" stroke="#222026" stroke-width="1.2"/><circle cx="0" cy="-33.4" r="1.6" fill="#FFFFFF" stroke="#222026" stroke-width="0.9"/></g>
+    <g data-part="people" transform="translate(106 176) scale(0.95)" stroke-linejoin="round" stroke-linecap="round"><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#222026" stroke-width="4.8"/><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#263238" stroke-width="2.6"/><ellipse cx="-3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><ellipse cx="3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><path d="M-5 -21.6 Q0 -23.6 5 -21.6 L6.8 -7 Q0 -6 -6.8 -7 Z" fill="#37474F" stroke="#222026" stroke-width="1.6"/><path d="M-4.2 -22.4 Q0 -20.4 4.2 -22.4 L4 -20 Q0 -18.4 -4 -20 Z M1.6 -20 L3.4 -14.5" fill="#E53935" stroke="#E53935" stroke-width="1.6"/><path d="M5 -20 L6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M5 -20 L6.8 -12.5" fill="none" stroke="#37474F" stroke-width="2.4"/><path d="M-5 -20 L-9.5 -13" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M-5 -20 L-9.5 -13" fill="none" stroke="#37474F" stroke-width="2.4"/><circle cx="6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="-9.8" cy="-12.6" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><circle cx="0" cy="-26" r="4.2" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.5"/><circle cx="-1.4" cy="-25.8" r="0.65" fill="#3E2723"/><circle cx="1.4" cy="-25.8" r="0.65" fill="#3E2723"/><path d="M-4.6 -27.4 Q-4.8 -32.4 0 -32.6 Q4.8 -32.4 4.6 -27.4 Z" fill="#1E88E5" stroke="#222026" stroke-width="1.2"/><circle cx="0" cy="-33.4" r="1.6" fill="#FFFFFF" stroke="#222026" stroke-width="0.9"/></g>
+    <g data-part="people" transform="translate(100 204) scale(1)" stroke-linejoin="round" stroke-linecap="round"><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#222026" stroke-width="4.8"/><path d="M-2.2 -11 L-2.6 -1.2 M2.2 -11 L2.6 -1.2" fill="none" stroke="#3E2723" stroke-width="2.6"/><ellipse cx="-3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><ellipse cx="3.2" cy="-0.8" rx="2.5" ry="1.3" fill="#3B2A20"/><path d="M-5 -21.6 Q0 -23.6 5 -21.6 L6.8 -7 Q0 -6 -6.8 -7 Z" fill="#2E7D32" stroke="#222026" stroke-width="1.6"/><path d="M-4.2 -22.4 Q0 -20.4 4.2 -22.4 L4 -20 Q0 -18.4 -4 -20 Z M1.6 -20 L3.4 -14.5" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.6"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M-5 -20 L-6.8 -12.5" fill="none" stroke="#2E7D32" stroke-width="2.4"/><circle cx="-6.9" cy="-12" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><path d="M5 -20 L7.5 -14.5 L3.5 -16.5" fill="none" stroke="#222026" stroke-width="4.4"/><path d="M5 -20 L7.5 -14.5 L3.5 -16.5" fill="none" stroke="#2E7D32" stroke-width="2.4"/><circle cx="0" cy="-26" r="4.2" fill="#F2C9A0" stroke="#B07A50" stroke-width="1.5"/><circle cx="-1.4" cy="-25.8" r="0.65" fill="#3E2723"/><circle cx="1.4" cy="-25.8" r="0.65" fill="#3E2723"/><path d="M-4.6 -27.4 Q-4.8 -32.4 0 -32.6 Q4.8 -32.4 4.6 -27.4 Z" fill="#C62828" stroke="#222026" stroke-width="1.2"/><circle cx="0" cy="-33.4" r="1.6" fill="#FFFFFF" stroke="#222026" stroke-width="0.9"/><rect x="0.5" y="-19.5" width="4.4" height="4.6" rx="1" fill="#C62828" stroke="#6A1010" stroke-width="1.1"/><circle cx="4.2" cy="-16.6" r="1.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="0.9"/><path d="M2.6 -21 Q1.6 -23.5 2.8 -26" fill="none" stroke="#FFFFFF" stroke-width="1.3" opacity="0.85"/></g>
+  </g>
+
+  <!-- weeping willows by the river -->
+
+  <g data-part="tree" transform="translate(4 218) scale(0.8)" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-3 0 Q-2 -30 -8 -56 M-1 -40 Q8 -54 14 -64" fill="none" stroke="#2A1E14" stroke-width="8"/>
+    <path d="M-3 0 Q-2 -30 -8 -56 M-1 -40 Q8 -54 14 -64" fill="none" stroke="#4E3A28" stroke-width="4.5"/>
+    <path d="M-28 -16 Q-32 -46 -22 -70 Q-10 -92 8 -92 Q28 -90 38 -68 Q46 -44 40 -16 Q36 -8 31 -14 Q27 -6 21 -11 Q15 -4 9 -10 Q3 -3 -3 -10 Q-9 -4 -14 -11 Q-20 -5 -24 -12 Q-27 -9 -28 -16 Z" fill="#8A7E58" stroke="#3E3826" stroke-width="3"/>
+    <g fill="#6E6444" opacity="0.75">
+      <path d="M-18 -64 Q-23 -42 -18 -20 Q-14 -40 -12 -60 Z"/>
+      <path d="M6 -78 Q2 -52 8 -24 Q12 -50 12 -74 Z"/>
+      <path d="M28 -64 Q32 -42 29 -22 Q24 -42 23 -60 Z"/>
+    </g>
+    <path d="M-22 -70 Q-10 -94 8 -93 Q28 -92 37 -70 Q30 -78 20 -76 Q8 -84 -4 -78 Q-13 -80 -22 -70 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+  </g>
+
+
+  <g data-part="tree" transform="translate(396 206) scale(-0.8 0.8)" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-3 0 Q-2 -30 -8 -56 M-1 -40 Q8 -54 14 -64" fill="none" stroke="#2A1E14" stroke-width="8"/>
+    <path d="M-3 0 Q-2 -30 -8 -56 M-1 -40 Q8 -54 14 -64" fill="none" stroke="#4E3A28" stroke-width="4.5"/>
+    <path d="M-28 -16 Q-32 -46 -22 -70 Q-10 -92 8 -92 Q28 -90 38 -68 Q46 -44 40 -16 Q36 -8 31 -14 Q27 -6 21 -11 Q15 -4 9 -10 Q3 -3 -3 -10 Q-9 -4 -14 -11 Q-20 -5 -24 -12 Q-27 -9 -28 -16 Z" fill="#8A7E58" stroke="#3E3826" stroke-width="3"/>
+    <g fill="#6E6444" opacity="0.75">
+      <path d="M-18 -64 Q-23 -42 -18 -20 Q-14 -40 -12 -60 Z"/>
+      <path d="M6 -78 Q2 -52 8 -24 Q12 -50 12 -74 Z"/>
+      <path d="M28 -64 Q32 -42 29 -22 Q24 -42 23 -60 Z"/>
+    </g>
+    <path d="M-22 -70 Q-10 -94 8 -93 Q28 -92 37 -70 Q30 -78 20 -76 Q8 -84 -4 -78 Q-13 -80 -22 -70 Z" fill="#F4F7FC" stroke="#A9B6CC" stroke-width="1.5"/>
+  </g>
+
+
+  <!-- soft falling snow -->
+  <g pointer-events="none" fill="#FFFFFF" opacity="0.85"><circle cx="30" cy="60" r="1.8"/><circle cx="70" cy="18" r="2.3"/><circle cx="104" cy="52" r="1.5"/><circle cx="150" cy="30" r="1.8"/><circle cx="176" cy="84" r="2.3"/><circle cx="196" cy="62" r="1.5"/><circle cx="238" cy="44" r="1.8"/><circle cx="262" cy="92" r="2.3"/><circle cx="286" cy="16" r="1.5"/><circle cx="318" cy="30" r="1.8"/><circle cx="372" cy="50" r="2.3"/><circle cx="396" cy="112" r="1.5"/><circle cx="14" cy="128" r="1.8"/><circle cx="126" cy="164" r="2.3"/><circle cx="230" cy="168" r="1.5"/><circle cx="266" cy="128" r="1.8"/><circle cx="316" cy="132" r="2.3"/><circle cx="168" cy="196" r="1.5"/><circle cx="214" cy="238" r="1.8"/><circle cx="326" cy="222" r="2.3"/><circle cx="380" cy="160" r="1.5"/><circle cx="60" cy="236" r="1.8"/><circle cx="140" cy="120" r="2.3"/><circle cx="240" cy="104" r="1.5"/><circle cx="350" cy="82" r="1.8"/></g>
+</svg>

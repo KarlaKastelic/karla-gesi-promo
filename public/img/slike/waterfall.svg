@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="4" y="4" width="192" height="192" rx="16" fill="#BFE6FA"/>
+  <circle cx="162" cy="32" r="14" fill="#FFD54F" stroke="#D9A21B" stroke-width="3"/>
+  <!-- cliffs -->
+  <path d="M4 60 Q30 44 60 52 L72 56 L72 170 L4 170 Z" fill="#8C8C94" stroke="#4A4A52" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M196 64 Q170 46 140 54 L128 58 L128 170 L196 170 Z" fill="#8C8C94" stroke="#4A4A52" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="none" stroke="#6A6A72" stroke-width="3" stroke-linecap="round">
+    <path d="M20 84 L44 90"/><path d="M34 112 L60 106"/><path d="M14 136 L40 142"/>
+    <path d="M150 86 L176 92"/><path d="M142 116 L168 110"/><path d="M160 140 L184 146"/>
+  </g>
+  <path d="M4 60 Q30 44 60 52 L72 56 L64 62 Q34 54 4 70 Z" fill="#6DB35A"/>
+  <path d="M196 64 Q170 46 140 54 L128 58 L136 64 Q166 56 196 74 Z" fill="#6DB35A"/>
+  <!-- top river edge -->
+  <path d="M66 56 Q100 48 134 58 L128 64 Q100 58 72 62 Z" fill="#4FA8E0" stroke="#1E5E8C" stroke-width="3" stroke-linejoin="round"/>
+  <!-- falling water -->
+  <path d="M72 60 Q100 54 128 62 L130 160 L70 160 Z" fill="#6CC2F0" stroke="#1E5E8C" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="none" stroke="#E6F6FF" stroke-width="4" stroke-linecap="round">
+    <path d="M82 66 V148"/><path d="M96 62 V154"/><path d="M110 62 V150"/><path d="M122 66 V146"/>
+  </g>
+  <!-- pool -->
+  <path d="M4 164 Q100 150 196 164 V180 Q196 196 180 196 H20 Q4 196 4 180 Z" fill="#3E95D1" stroke="#1E5E8C" stroke-width="4" stroke-linejoin="round"/>
+  <!-- splash foam -->
+  <g fill="#FFFFFF" stroke="#8CC4E6" stroke-width="2.5">
+    <circle cx="70" cy="160" r="9"/><circle cx="84" cy="156" r="10"/><circle cx="100" cy="158" r="11"/><circle cx="116" cy="156" r="10"/><circle cx="130" cy="160" r="9"/>
+  </g>
+  <g fill="none" stroke="#BFE6FA" stroke-width="3" stroke-linecap="round">
+    <path d="M40 180 Q52 176 64 180"/><path d="M136 182 Q148 178 160 182"/><path d="M88 184 Q100 180 112 184"/>
+  </g>
+</svg>

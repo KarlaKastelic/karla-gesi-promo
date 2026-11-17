@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- blue sky -->
+  <rect x="0" y="0" width="200" height="200" fill="#9FD4F5"/>
+  <!-- grey rock mountainsides, higher towards the upper right -->
+  <path d="M-4 84 L26 58 L52 72 L92 40 L124 16 L150 30 L176 6 L204 24 V204 H-4 Z" fill="#8E8E98" stroke="#4A4A54" stroke-width="3.5" stroke-linejoin="round"/>
+  <g fill="#FFFFFF" stroke="#4A4A54" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M26 58 L36 66 L30 66 L25 70 L20 66 L16 66 Z"/>
+    <path d="M92 40 L102 48 L96 48 L91 52 L86 48 L82 48 Z"/>
+    <path d="M124 16 L138 26 L131 26 L125 31 L119 26 L112 26 Z"/>
+    <path d="M176 6 L192 16 L185 17 L178 22 L171 17 L164 18 Z"/>
+  </g>
+  <!-- nearer rock slope on the right -->
+  <path d="M120 170 L126 132 Q142 110 160 94 Q180 72 194 40 L204 36 V172 Z" fill="#7A7A84" stroke="#44444E" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M150 128 L168 120 M168 148 L186 140 M178 92 L192 86" fill="none" stroke="#5E5E68" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- the glacier: a frozen river curving down from the peaks to the lower left -->
+  <path d="M136 30 L150 26 L162 30 L176 24 L190 34 Q174 64 152 88 Q130 108 116 128 L102 124 L88 130 L74 124 L60 130 L46 124 L32 130 L18 124 L4 130 L-4 126 V100 Q58 92 92 72 Q118 56 136 30 Z" fill="#F6FAFC"/>
+  <!-- pale-blue shaded side -->
+  <path d="M190 34 Q174 64 152 88 Q130 108 116 128 L102 124 Q116 104 138 84 Q160 62 178 32 Z" fill="#C4E3F5"/>
+  <!-- soft moraine bands where the ice meets the rock -->
+  <g fill="none" stroke="#9A8C7C" stroke-width="6" stroke-linecap="round" opacity="0.85">
+    <path d="M-4 102 Q58 94 92 74 Q118 58 136 32"/>
+    <path d="M190 36 Q174 66 152 90 Q132 108 118 128"/>
+  </g>
+  <!-- a few short blue crevasses across the flow -->
+  <g fill="#4F8DBA" stroke="#2A5C82" stroke-width="2" stroke-linejoin="round">
+    <path d="M146 44 Q156 50 158 60 Q150 52 146 44 Z"/>
+    <path d="M112 76 Q122 84 124 96 Q116 86 112 76 Z"/>
+    <path d="M70 96 Q78 104 78 116 Q72 106 70 96 Z"/>
+    <path d="M34 104 Q40 112 40 122 Q35 114 34 104 Z"/>
+  </g>
+  <!-- tall pale-blue ice cliff -->
+  <path d="M-4 126 L4 130 L18 124 L32 130 L46 124 L60 130 L74 124 L88 130 L102 124 L116 128 L120 168 Q60 172 -4 170 Z" fill="#8FCBEB" stroke="#2E6E9A" stroke-width="3.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#5BA7D6" stroke-width="4" stroke-linecap="round">
+    <path d="M22 132 L20 160"/><path d="M56 134 L58 164"/><path d="M92 134 L90 158"/>
+  </g>
+  <path d="M8 136 L8 150 M40 136 L40 146 M76 136 L76 150" fill="none" stroke="#C9E8F7" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- turquoise lake -->
+  <path d="M-4 168 Q60 172 120 168 Q160 166 204 170 V204 H-4 Z" fill="#4FB8C8" stroke="#2B8A99" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M30 186 Q44 183 58 186 M120 192 Q134 189 148 192" fill="none" stroke="#B2EBF2" stroke-width="3" stroke-linecap="round"/>
+  <!-- floating ice chunks -->
+  <g stroke="#2E6E9A" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M128 182 L134 172 L146 174 L150 182 Z" fill="#E8F5FC"/>
+    <path d="M160 192 L164 184 L174 184 L178 192 Z" fill="#CFEAF8"/>
+    <path d="M78 194 L82 186 L92 188 L94 194 Z" fill="#E8F5FC"/>
+  </g>
+</svg>

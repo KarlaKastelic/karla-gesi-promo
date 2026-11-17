@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Maline: two big raspberries made of round drupelets hanging from a raspberry cane with serrated three-part leaves; on the table below one raspberry lying on its side and one seen end-on, showing its hollow inside -->
+  <defs>
+    <g id="raspberries-dr">
+      <circle r="6.2" fill="#E0375A" stroke="#8E1530" stroke-width="2"/>
+      <circle cx="-2" cy="-2.2" r="1.8" fill="#FFC1CF"/>
+    </g>
+    <g id="raspberries-berry">
+      <path d="M-20 4 Q-27 22 -20 36 Q-10 52 0 52 Q10 52 20 36 Q27 22 20 4 Q0 -4 -20 4 Z" fill="#9E1636"/>
+      <use href="#raspberries-dr" x="-13.8" y="5"/><use href="#raspberries-dr" x="-4.6" y="5"/><use href="#raspberries-dr" x="4.6" y="5"/><use href="#raspberries-dr" x="13.8" y="5"/>
+      <use href="#raspberries-dr" x="-18.2" y="13.5"/><use href="#raspberries-dr" x="-9.2" y="13.5"/><use href="#raspberries-dr" x="0" y="13.5"/><use href="#raspberries-dr" x="9.2" y="13.5"/><use href="#raspberries-dr" x="18.2" y="13.5"/>
+      <use href="#raspberries-dr" x="-21" y="22"/><use href="#raspberries-dr" x="21" y="22"/><use href="#raspberries-dr" x="-13.8" y="22"/><use href="#raspberries-dr" x="-4.6" y="22"/><use href="#raspberries-dr" x="4.6" y="22"/><use href="#raspberries-dr" x="13.8" y="22"/>
+      <use href="#raspberries-dr" x="-17.5" y="30.5"/><use href="#raspberries-dr" x="-8.8" y="30.5"/><use href="#raspberries-dr" x="0" y="30.5"/><use href="#raspberries-dr" x="8.8" y="30.5"/><use href="#raspberries-dr" x="17.5" y="30.5"/>
+      <use href="#raspberries-dr" x="-12.6" y="38.5"/><use href="#raspberries-dr" x="-4.2" y="38.5"/><use href="#raspberries-dr" x="4.2" y="38.5"/><use href="#raspberries-dr" x="12.6" y="38.5"/>
+      <use href="#raspberries-dr" x="-4.4" y="45.5"/><use href="#raspberries-dr" x="4.4" y="45.5"/>
+    </g>
+    <g id="raspberries-calyx" fill="#8BAA4A" stroke="#4E6B25" stroke-width="2" stroke-linejoin="round">
+      <path d="M-3 0 L-14 -6 L-5 -5 Z"/><path d="M3 0 L14 -6 L5 -5 Z"/><path d="M0 -1 L-6 -11 L2 -4 Z"/>
+      <ellipse cx="0" cy="-1" rx="6" ry="3.5"/>
+    </g>
+    <path id="raspberries-leaflet" d="M0 0 L-7 -5 L-6 -8 L-13 -13 L-11 -16 L-17 -22 L-14 -25 L-17 -32 L-13 -34 L-14 -41 L-10 -42 L-7 -49 L0 -56 L7 -49 L10 -42 L14 -41 L13 -34 L17 -32 L14 -25 L17 -22 L11 -16 L13 -13 L6 -8 L7 -5 Z"/>
+    <g id="raspberries-leafpart">
+      <use href="#raspberries-leaflet" fill="#5FA845" stroke="#2E6B25" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M0 -2 V-50 M0 -16 L-9 -24 M0 -16 L9 -24 M0 -30 L-8 -38 M0 -30 L8 -38" fill="none" stroke="#3E8A32" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect x="0" y="0" width="200" height="200" fill="#E8F2DC"/>
+  <!-- table -->
+  <rect x="0" y="158" width="200" height="42" fill="#D7B48A"/>
+  <line x1="0" y1="158" x2="200" y2="158" stroke="#8D6E63" stroke-width="3"/>
+
+  <!-- leaves (behind the cane) -->
+  <g transform="translate(34 56)">
+    <use href="#raspberries-leafpart" transform="rotate(-62) scale(0.78)"/>
+    <use href="#raspberries-leafpart" transform="rotate(48) scale(0.78)"/>
+    <use href="#raspberries-leafpart" transform="rotate(-8)"/>
+  </g>
+  <g transform="translate(166 64)">
+    <use href="#raspberries-leafpart" transform="rotate(-50) scale(0.78)"/>
+    <use href="#raspberries-leafpart" transform="rotate(62) scale(0.78)"/>
+    <use href="#raspberries-leafpart" transform="rotate(8)"/>
+  </g>
+
+  <!-- the cane -->
+  <path d="M-4 60 Q60 64 110 70 Q160 76 204 66" fill="none" stroke="#6D3A2E" stroke-width="9" stroke-linecap="round"/>
+  <path d="M-4 60 Q60 64 110 70 Q160 76 204 66" fill="none" stroke="#A65B48" stroke-width="4" stroke-linecap="round"/>
+  <g fill="none" stroke="#5E8C30" stroke-width="3.5" stroke-linecap="round">
+    <path d="M34 62 V56"/><path d="M166 70 V64"/>
+    <path d="M70 66 Q72 76 72 84"/><path d="M136 74 Q136 80 136 88"/>
+  </g>
+
+  <!-- two hanging raspberries -->
+  <g transform="translate(72 84) scale(1.05)">
+    <use href="#raspberries-berry"/>
+    <use href="#raspberries-calyx"/>
+  </g>
+  <g transform="translate(136 88) scale(1.05) rotate(-4)">
+    <use href="#raspberries-berry"/>
+    <use href="#raspberries-calyx"/>
+  </g>
+
+  <!-- raspberry lying on its side on the table -->
+  <ellipse cx="148" cy="186" rx="34" ry="5" fill="#000" opacity="0.12"/>
+  <g transform="translate(118 168) rotate(-90) scale(1.0)">
+    <use href="#raspberries-berry"/>
+  </g>
+  <ellipse cx="121" cy="168" rx="5" ry="16" fill="#C2264A" stroke="#8E1530" stroke-width="2.5"/>
+  <ellipse cx="121" cy="168" rx="2.5" ry="8" fill="#5A0818"/>
+
+  <!-- raspberry seen end-on: the hollow inside -->
+  <ellipse cx="52" cy="188" rx="30" ry="5" fill="#000" opacity="0.12"/>
+  <g transform="translate(52 164)">
+    <circle r="25" fill="#9E1636"/>
+    <use href="#raspberries-dr" x="0" y="-18"/><use href="#raspberries-dr" x="11" y="-14"/><use href="#raspberries-dr" x="18" y="-4"/>
+    <use href="#raspberries-dr" x="17" y="8"/><use href="#raspberries-dr" x="9" y="17"/><use href="#raspberries-dr" x="-3" y="19"/>
+    <use href="#raspberries-dr" x="-14" y="13"/><use href="#raspberries-dr" x="-19" y="1"/><use href="#raspberries-dr" x="-13" y="-12"/>
+    <circle r="11" fill="#F48FA8" stroke="#8E1530" stroke-width="2.5"/>
+    <circle r="7" fill="#5A0818"/>
+  </g>
+</svg>

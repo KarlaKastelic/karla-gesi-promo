@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="178" rx="94" ry="12" fill="#000" opacity="0.12"/>
+  <!-- wooden board of the ham stand -->
+  <path d="M18 132 H182 L192 162 H8 Z" fill="#D9A867" stroke="#7A4E22" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="8" y="162" width="184" height="12" rx="3" fill="#A8743C" stroke="#7A4E22" stroke-width="4"/>
+  <!-- clamp post holding the shank -->
+  <rect x="160" y="62" width="12" height="76" rx="3" fill="#90A4AE" stroke="#455A64" stroke-width="3.5"/>
+  <!-- ham leg: wide round end left, long tapering shank rising right -->
+  <path d="M30 96 Q34 70 70 70 Q110 70 140 54 L168 38 Q180 34 182 44 Q184 52 174 58 L148 76 Q124 100 100 116 Q72 134 46 132 Q24 128 30 96 Z" fill="#C98E4A" stroke="#6E4418" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M48 80 Q90 80 140 60" fill="none" stroke="#E2B272" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#A8702E" opacity="0.7"><circle cx="80" cy="108" r="3"/><circle cx="110" cy="92" r="2.5"/><circle cx="64" cy="118" r="2.5"/><circle cx="132" cy="76" r="2"/></g>
+  <!-- trotter end and rope -->
+  <ellipse cx="178" cy="44" rx="7" ry="9" fill="#8A5A2B" stroke="#4E2E12" stroke-width="3" transform="rotate(-30 178 44)"/>
+  <path d="M166 44 Q160 20 176 14 Q190 14 186 34" fill="none" stroke="#8D6E43" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- clamp ring -->
+  <rect x="152" y="46" width="28" height="14" rx="4" fill="#B0BEC5" stroke="#455A64" stroke-width="3.5" transform="rotate(-30 166 53)"/>
+  <!-- cut face on the wide end: fat rim, red meat, bone -->
+  <ellipse cx="40" cy="104" rx="22" ry="30" fill="#F5EBDD" stroke="#6E4418" stroke-width="3.5"/>
+  <ellipse cx="42" cy="106" rx="15" ry="22" fill="#C2414B"/>
+  <circle cx="46" cy="100" r="4" fill="#F5EBDD"/>
+  <path d="M34 92 Q40 104 34 118" fill="none" stroke="#E57F86" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- thin slices on the board -->
+  <g stroke-linejoin="round">
+    <path d="M60 154 Q70 140 86 146 Q102 140 110 152 Q102 166 84 162 Q70 168 60 154 Z" fill="#E8858C" stroke="#A8454E" stroke-width="3"/>
+    <path d="M64 150 Q72 142 86 147 Q100 142 106 150" fill="none" stroke="#FFF3EA" stroke-width="4" stroke-linecap="round"/>
+    <path d="M96 156 Q106 142 122 148 Q138 142 146 154 Q138 168 120 164 Q106 170 96 156 Z" fill="#E57F86" stroke="#A8454E" stroke-width="3"/>
+    <path d="M100 152 Q108 144 122 149 Q136 144 142 152" fill="none" stroke="#FFF3EA" stroke-width="4" stroke-linecap="round"/>
+    <path d="M24 150 Q32 138 46 142 Q60 138 66 148 Q60 160 44 158 Q32 162 24 150 Z" fill="#E8858C" stroke="#A8454E" stroke-width="3"/>
+    <path d="M28 146 Q34 140 46 143 Q58 139 62 146" fill="none" stroke="#FFF3EA" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

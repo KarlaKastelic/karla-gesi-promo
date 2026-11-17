@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="4" y="4" width="192" height="192" rx="16" fill="#BFE6FA"/>
+  <circle cx="160" cy="34" r="14" fill="#FFD54F" stroke="#D9A21B" stroke-width="3"/>
+  <path d="M4 80 Q100 60 196 80 V180 Q196 196 180 196 H20 Q4 196 4 180 Z" fill="#7CC36B" stroke="#3E7A30" stroke-width="4" stroke-linejoin="round"/>
+  <!-- grass blades -->
+  <g fill="none" stroke="#4E9A3E" stroke-width="3" stroke-linecap="round">
+    <path d="M14 190 L10 172"/><path d="M20 190 L24 170"/><path d="M50 192 L46 170"/><path d="M58 192 L62 172"/>
+    <path d="M92 192 L88 172"/><path d="M100 192 L104 170"/><path d="M140 192 L136 170"/><path d="M148 192 L152 172"/>
+    <path d="M180 190 L176 170"/><path d="M186 190 L190 172"/>
+    <path d="M30 120 L28 110"/><path d="M80 110 L78 100"/><path d="M130 116 L132 104"/><path d="M170 108 L172 98"/>
+    <path d="M60 146 L56 132"/><path d="M118 150 L122 136"/><path d="M160 150 L156 136"/>
+  </g>
+  <defs>
+    <g id="fw">
+      <g stroke="#B0852A" stroke-width="1.5">
+        <circle cx="0" cy="-7" r="5.5" fill="#FFFFFF"/><circle cx="7" cy="0" r="5.5" fill="#FFFFFF"/><circle cx="0" cy="7" r="5.5" fill="#FFFFFF"/><circle cx="-7" cy="0" r="5.5" fill="#FFFFFF"/>
+        <circle cx="5" cy="-5" r="5" fill="#FFFFFF"/><circle cx="5" cy="5" r="5" fill="#FFFFFF"/><circle cx="-5" cy="5" r="5" fill="#FFFFFF"/><circle cx="-5" cy="-5" r="5" fill="#FFFFFF"/>
+      </g>
+      <circle r="5" fill="#FFC107" stroke="#B0852A" stroke-width="1.5"/>
+    </g>
+    <g id="fr">
+      <g stroke="#8E1530" stroke-width="1.5" fill="#E53950">
+        <circle cx="0" cy="-6" r="6"/><circle cx="6" cy="2" r="6"/><circle cx="-6" cy="2" r="6"/>
+      </g>
+      <circle r="3" fill="#3A1A10"/>
+    </g>
+    <g id="fb">
+      <g stroke="#3A3A9A" stroke-width="1.5" fill="#7E80E8">
+        <circle cx="0" cy="-5" r="4.5"/><circle cx="5" cy="0" r="4.5"/><circle cx="0" cy="5" r="4.5"/><circle cx="-5" cy="0" r="4.5"/>
+      </g>
+      <circle r="2.5" fill="#FFE082"/>
+    </g>
+    <g id="fy">
+      <g stroke="#B0852A" stroke-width="1.5" fill="#FFD83A">
+        <circle cx="0" cy="-5" r="4.5"/><circle cx="5" cy="0" r="4.5"/><circle cx="0" cy="5" r="4.5"/><circle cx="-5" cy="0" r="4.5"/>
+      </g>
+      <circle r="2.5" fill="#E08A00"/>
+    </g>
+  </defs>
+  <!-- stems -->
+  <g stroke="#3E7A30" stroke-width="3" stroke-linecap="round">
+    <path d="M30 176 V160"/><path d="M76 180 V164"/><path d="M122 176 V160"/><path d="M168 180 V164"/>
+    <path d="M52 150 V138"/><path d="M100 146 V134"/><path d="M146 150 V138"/>
+  </g>
+  <!-- flowers, bigger in front -->
+  <use href="#fw" transform="translate(30 156) scale(1.3)"/>
+  <use href="#fr" transform="translate(76 160) scale(1.3)"/>
+  <use href="#fw" transform="translate(122 156) scale(1.3)"/>
+  <use href="#fr" transform="translate(168 160) scale(1.3)"/>
+  <use href="#fb" transform="translate(52 136) scale(1.1)"/>
+  <use href="#fy" transform="translate(100 132) scale(1.1)"/>
+  <use href="#fb" transform="translate(146 136) scale(1.1)"/>
+  <use href="#fy" transform="translate(12 132) scale(0.9)"/>
+  <use href="#fy" transform="translate(186 132) scale(0.9)"/>
+  <use href="#fw" transform="translate(28 106) scale(0.7)"/>
+  <use href="#fr" transform="translate(64 112) scale(0.7)"/>
+  <use href="#fb" transform="translate(96 100) scale(0.7)"/>
+  <use href="#fw" transform="translate(124 112) scale(0.7)"/>
+  <use href="#fr" transform="translate(154 102) scale(0.7)"/>
+  <use href="#fy" transform="translate(180 116) scale(0.7)"/>
+  <use href="#fw" transform="translate(46 88) scale(0.5)"/>
+  <use href="#fy" transform="translate(80 84) scale(0.5)"/>
+  <use href="#fr" transform="translate(116 84) scale(0.5)"/>
+  <use href="#fw" transform="translate(150 86) scale(0.5)"/>
+</svg>

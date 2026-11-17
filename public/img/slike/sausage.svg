@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="150" rx="94" ry="30" fill="#000" opacity="0.12"/>
+  <!-- plate -->
+  <ellipse cx="100" cy="132" rx="92" ry="50" fill="#FFFFFF" stroke="#9AA6B2" stroke-width="4"/>
+  <ellipse cx="100" cy="130" rx="72" ry="38" fill="#EEF2F6"/>
+  <!-- slice of bread at the back -->
+  <path d="M30 104 L28 66 Q20 50 36 44 Q48 32 64 40 Q80 34 86 50 Q96 60 86 70 L88 104 Z" fill="#B8742E" stroke="#6E4418" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M36 100 L35 66 Q29 54 40 50 Q50 42 63 48 Q76 43 80 54 Q87 62 80 70 L81 100 Z" fill="#F3DFAF"/>
+  <g fill="#D9BE84"><circle cx="50" cy="64" r="2"/><circle cx="64" cy="76" r="2"/><circle cx="46" cy="86" r="2"/><circle cx="70" cy="60" r="1.8"/></g>
+  <!-- string joining the pair -->
+  <path d="M158 108 Q176 120 162 138" fill="none" stroke="#8D7B5A" stroke-width="3" stroke-linecap="round"/>
+  <!-- back sausage -->
+  <path d="M48 112 Q104 84 158 108" fill="none" stroke="#5A2412" stroke-width="30" stroke-linecap="round"/>
+  <path d="M48 112 Q104 84 158 108" fill="none" stroke="#A8462A" stroke-width="22" stroke-linecap="round"/>
+  <path d="M60 102 Q104 80 148 96" fill="none" stroke="#D07A55" stroke-width="4" stroke-linecap="round"/>
+  <!-- front sausage -->
+  <path d="M46 140 Q104 114 162 138" fill="none" stroke="#5A2412" stroke-width="30" stroke-linecap="round"/>
+  <path d="M46 140 Q104 114 162 138" fill="none" stroke="#A8462A" stroke-width="22" stroke-linecap="round"/>
+  <path d="M58 130 Q104 110 150 126" fill="none" stroke="#D07A55" stroke-width="4" stroke-linecap="round"/>
+  <!-- small fat specks -->
+  <g fill="#E8B9A0" opacity="0.8"><circle cx="80" cy="104" r="2"/><circle cx="120" cy="100" r="2"/><circle cx="96" cy="134" r="2"/><circle cx="136" cy="136" r="2"/></g>
+  <!-- mustard -->
+  <path d="M118 166 Q116 154 130 154 Q138 148 146 156 Q158 156 154 166 Q150 174 136 172 Q122 174 118 166 Z" fill="#E8B923" stroke="#A07A10" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M128 162 Q136 156 144 162" fill="none" stroke="#F6D867" stroke-width="3" stroke-linecap="round"/>
+</svg>

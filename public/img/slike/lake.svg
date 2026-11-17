@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs><clipPath id="f"><rect x="4" y="4" width="192" height="192" rx="16"/></clipPath></defs>
+  <g clip-path="url(#f)">
+  <rect x="0" y="0" width="200" height="200" fill="#BFE6FA"/>
+  <circle cx="66" cy="24" r="11" fill="#FFD54F" stroke="#D9A21B" stroke-width="3"/>
+  <!-- mountains -->
+  <path d="M0 100 L0 72 L44 38 L74 66 L106 24 L142 64 L168 44 L200 70 L200 100 Z" fill="#8C8C94" stroke="#4A4A52" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#FFFFFF" stroke="#4A4A52" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M106 24 L120.4 40 L113 37 L106 44 L99 38 L93.8 40 Z"/>
+    <path d="M44 38 L57 50 L50 48 L44 54 L37 49 L28.5 50 Z"/>
+    <path d="M168 44 L180 54 L174 52 L168 57 L162 52 L155 54 Z"/>
+  </g>
+  <!-- forested shore -->
+  <path d="M0 96 Q50 86 100 94 Q150 86 200 96 V110 H0 Z" fill="#4E9A3E" stroke="#2F6B25" stroke-width="3" stroke-linejoin="round"/>
+  <!-- lake -->
+  <path d="M0 106 Q100 100 200 106 V200 H0 Z" fill="#4FA3DB" stroke="#1E5E8C" stroke-width="4" stroke-linejoin="round"/>
+  <!-- mountain reflection -->
+  <path d="M0 108 L0 124 L44 144 L74 127 L106 152 L142 129 L168 141 L200 125 L200 108 Z" fill="#83B9DE"/>
+  <path d="M106 152 L114 143 L98 143 Z" fill="#E6F6FF"/>
+  <path d="M0 108 Q100 104 200 108 V116 Q100 112 0 116 Z" fill="#3F7E62" opacity="0.6"/>
+  <!-- spruces -->
+  <g stroke="#1F4A22" stroke-width="3.5" stroke-linejoin="round">
+    <polygon points="22,50 4,108 40,108" fill="#2E7D32"/>
+    <polygon points="46,70 32,108 60,108" fill="#388E3C"/>
+    <polygon points="178,48 160,108 196,108" fill="#2E7D32"/>
+    <polygon points="154,68 140,108 168,108" fill="#388E3C"/>
+  </g>
+  <!-- spruce reflections -->
+  <g fill="#2E6B4A" opacity="0.55">
+    <polygon points="4,108 40,108 22,166"/>
+    <polygon points="32,108 60,108 46,146"/>
+    <polygon points="160,108 196,108 178,168"/>
+    <polygon points="140,108 168,108 154,148"/>
+  </g>
+  <!-- ripples -->
+  <g fill="none" stroke="#DDF1FC" stroke-width="3" stroke-linecap="round">
+    <path d="M66 166 H96"/><path d="M112 178 H150"/><path d="M84 190 H110"/><path d="M118 156 H136"/><path d="M60 132 H74"/>
+  </g>
+  <!-- front bank -->
+  <path d="M0 200 V180 Q28 174 52 186 Q66 194 72 200 Z" fill="#7CC36B" stroke="#3E7A30" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M200 200 V184 Q180 180 166 192 Q160 196 158 200 Z" fill="#7CC36B" stroke="#3E7A30" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+</svg>

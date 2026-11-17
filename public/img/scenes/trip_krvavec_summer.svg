@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="trip_krvavec_summer-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="150">
+      <stop offset="0" stop-color="#3A8EDB"/>
+      <stop offset="0.6" stop-color="#86C3EF"/>
+      <stop offset="1" stop-color="#DDF0FB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- clear summer sky -->
+  <rect x="0" y="0" width="400" height="250" fill="url(#trip_krvavec_summer-sky)"/>
+
+  <!-- warm summer sun -->
+  <g data-part="sun"><circle cx="54" cy="38" r="18" fill="#F6C945" stroke="#D9A520" stroke-width="4"/></g>
+
+  <!-- two soft clouds -->
+  <g data-part="cloud" transform="translate(250 34) scale(0.8)">
+    <g fill="#FFFFFF" stroke="#9DB8CC" stroke-width="3">
+      <circle cx="-22" cy="11" r="13"/>
+      <circle cx="0" cy="0" r="17"/>
+      <circle cx="22" cy="11" r="13"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="-22" cy="11" r="11"/>
+      <circle cx="0" cy="0" r="15"/>
+      <circle cx="22" cy="11" r="11"/>
+      <rect x="-22" y="5" width="44" height="17"/>
+    </g>
+    <line x1="-34" y1="24" x2="34" y2="24" stroke="#9DB8CC" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g data-part="cloud" transform="translate(176 22) scale(0.55)">
+    <g fill="#FFFFFF" stroke="#9DB8CC" stroke-width="3.5">
+      <circle cx="-22" cy="11" r="13"/>
+      <circle cx="0" cy="0" r="17"/>
+      <circle cx="22" cy="11" r="13"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="-22" cy="11" r="11"/>
+      <circle cx="0" cy="0" r="15"/>
+      <circle cx="22" cy="11" r="11"/>
+      <rect x="-22" y="5" width="44" height="17"/>
+    </g>
+    <line x1="-34" y1="24" x2="34" y2="24" stroke="#9DB8CC" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- the grey limestone Kamnik-Savinja Alps, Grintovec the highest -->
+  <g data-part="mountains" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-4 120 L12 110 L28 98 L42 106 L58 86 L72 94 L100 48 L114 66 L126 62 L140 82 L156 74 L172 92 L188 84 L204 98 L222 92 L240 104 L262 98 L280 110 L300 106 L330 116 L360 112 L404 120 V152 H-4 Z" fill="#BCC5CF"/>
+    <g fill="#9DA9B8">
+      <polygon points="28,98 42,106 45,152 33,152 34,122"/>
+      <polygon points="58,86 72,94 75,152 63,152 65,118"/>
+      <polygon points="100,48 114,66 126,62 140,82 144,152 108,152 111,110 103,78"/>
+      <polygon points="156,74 172,92 176,152 162,152 163,108"/>
+      <polygon points="188,84 204,98 208,152 196,152 194,114"/>
+      <polygon points="222,92 240,104 244,152 232,152 230,118"/>
+    </g>
+    <!-- only tiny patches of old snow -->
+    <g fill="#FFFFFF" stroke="#C3CCD6" stroke-width="1.5">
+      <path d="M101 52 L106 56 L105 64 L101 60 Z"/>
+      <path d="M126 64 L131 70 L128 74 L126 70 Z"/>
+      <path d="M58 88 L63 90 L62 96 L59 94 Z"/>
+    </g>
+    <path d="M-4 120 L12 110 L28 98 L42 106 L58 86 L72 94 L100 48 L114 66 L126 62 L140 82 L156 74 L172 92 L188 84 L204 98 L222 92 L240 104 L262 98 L280 110 L300 106 L330 116 L360 112 L404 120" fill="none" stroke="#5E6B7A" stroke-width="3"/>
+  </g>
+
+  <!-- forested slopes below the peaks -->
+  <g data-part="forest"><path d="M-4 136 Q40 127 90 132 Q140 125 190 132 Q240 126 300 132 Q350 126 404 131 V160 H-4 Z" fill="#4F7F5A" stroke="#345C40" stroke-width="3" stroke-linejoin="round"/></g>
+
+  <!-- the green Ljubljana basin far below, in a soft haze -->
+  <path d="M-4 146 Q100 140 200 145 Q300 149 404 143 V254 H-4 Z" fill="#A3CC86" stroke="#86B670" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="#73A16C" stroke="#4E7C4C" stroke-width="3" stroke-linejoin="round">
+    <path d="M2 162 Q14 142 34 144 Q52 146 62 162 Z"/>
+    <path d="M86 164 Q100 149 116 151 Q128 153 136 164 Z"/>
+  </g>
+  <path d="M-4 158 Q60 152 130 157 Q220 151 300 156 Q360 152 404 155 V254 H-4 Z" fill="#B3D798"/>
+  <ellipse cx="120" cy="159" rx="150" ry="5" fill="#FFFFFF" opacity="0.3"/>
+  <ellipse cx="80" cy="168" rx="90" ry="5" fill="#FFFFFF" opacity="0.2"/>
+
+  <!-- the broad green top of Krvavec -->
+  <path d="M-4 208 Q80 190 170 182 Q280 172 404 166 V254 H-4 Z" fill="#7CC36B" stroke="#4E9A43" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M-4 230 Q70 214 150 214 Q90 226 70 254 H-4 Z" fill="#6BB35C"/>
+  <!-- the dirt track we rode up -->
+  <g data-part="path"><path d="M40 254 Q66 228 112 214 L128 217 Q88 232 72 254 Z" fill="#D9C49B" stroke="#A88F62" stroke-width="2.5" stroke-linejoin="round"/></g>
+
+  <!-- two cows grazing far off -->
+  <g data-part="cow" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="16" y="186" width="32" height="24" fill="transparent" stroke="none"/><rect x="58" y="182" width="32" height="22" fill="transparent" stroke="none"/>
+    <g transform="translate(36 206)">
+      <path d="M-9 -4 V2 M-4 -4 V2 M5 -4 V2 M9 -4 V2" fill="none" stroke="#5D4037" stroke-width="3"/>
+      <rect x="-12" y="-14" width="24" height="11" rx="4" fill="#FFFFFF" stroke="#5D4037" stroke-width="2.5"/>
+      <ellipse cx="-3" cy="-10" rx="4" ry="2.5" fill="#8D5A3B"/>
+      <ellipse cx="6" cy="-7" rx="3" ry="2" fill="#8D5A3B"/>
+      <path d="M12 -12 Q16 -8 14 -3" fill="none" stroke="#5D4037" stroke-width="2"/>
+      <ellipse cx="-15" cy="-3" rx="4" ry="3.5" fill="#8D5A3B" stroke="#5D4037" stroke-width="2"/>
+    </g>
+    <g transform="translate(74 200) scale(-0.85 0.85)">
+      <path d="M-9 -4 V2 M-4 -4 V2 M5 -4 V2 M9 -4 V2" fill="none" stroke="#5D4037" stroke-width="3"/>
+      <rect x="-12" y="-14" width="24" height="11" rx="4" fill="#FFFFFF" stroke="#5D4037" stroke-width="2.5"/>
+      <ellipse cx="-3" cy="-10" rx="4" ry="2.5" fill="#8D5A3B"/>
+      <ellipse cx="6" cy="-7" rx="3" ry="2" fill="#8D5A3B"/>
+      <path d="M12 -12 Q16 -8 14 -3" fill="none" stroke="#5D4037" stroke-width="2"/>
+      <ellipse cx="-15" cy="-3" rx="4" ry="3.5" fill="#8D5A3B" stroke="#5D4037" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- a spruce beside the hut -->
+  <g data-part="tree" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="389" y="150" width="8" height="22" fill="#6D4223" stroke="#3E2410" stroke-width="2.5"/>
+    <polygon points="393,72 412,108 374,108" fill="#2E6B4A" stroke="#1B4332" stroke-width="3"/>
+    <polygon points="393,94 416,134 370,134" fill="#2E6B4A" stroke="#1B4332" stroke-width="3"/>
+    <polygon points="393,118 420,158 366,158" fill="#2E6B4A" stroke="#1B4332" stroke-width="3"/>
+    <g fill="#3E8458">
+      <polygon points="393,80 386,100 393,100"/>
+      <polygon points="393,104 382,126 393,126"/>
+      <polygon points="393,128 378,150 393,150"/>
+    </g>
+  </g>
+
+  <!-- the mountain hut -->
+  <g data-part="hut" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="320" cy="177" rx="72" ry="6" fill="#6BB35C"/>
+    <!-- stone chimney -->
+    <rect x="336" y="76" width="15" height="26" fill="#B5ACA0" stroke="#5B5550" stroke-width="3"/>
+    <rect x="333" y="72" width="21" height="6" rx="1.5" fill="#8A7F72" stroke="#5B5550" stroke-width="2.5"/>
+    <!-- log walls -->
+    <rect x="266" y="126" width="108" height="50" fill="#C68A4A" stroke="#5A3414" stroke-width="3.5"/>
+    <path d="M268 146 H372 M268 162 H372" fill="none" stroke="#A1662F" stroke-width="2"/>
+    <!-- shingle roof -->
+    <polygon points="252,132 280,98 360,98 388,132" fill="#7A3E22" stroke="#4A2410" stroke-width="4"/>
+    <path d="M268 115 H372" fill="none" stroke="#934D2C" stroke-width="2.5"/>
+    <path d="M250 133 H390" fill="none" stroke="#4A2410" stroke-width="5"/>
+    <!-- windows with red geraniums -->
+    <g fill="#A9CDE6" stroke="#5A3414" stroke-width="3">
+      <rect x="276" y="138" width="24" height="20"/>
+      <rect x="340" y="138" width="24" height="20"/>
+    </g>
+    <path d="M288 138 V158 M276 148 H300 M352 138 V158 M340 148 H364" fill="none" stroke="#5A3414" stroke-width="2"/>
+  </g>
+  <g data-part="flower" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="#3E8E41" stroke="#1E5631" stroke-width="1.5">
+      <ellipse cx="288" cy="160" rx="14" ry="3.5"/>
+      <ellipse cx="352" cy="160" rx="14" ry="3.5"/>
+    </g>
+    <g fill="#E53935" stroke="#8E1B1B" stroke-width="1.5">
+      <circle cx="279" cy="157" r="3.5"/><circle cx="288" cy="155" r="4"/><circle cx="297" cy="157" r="3.5"/>
+      <circle cx="343" cy="157" r="3.5"/><circle cx="352" cy="155" r="4"/><circle cx="361" cy="157" r="3.5"/>
+    </g>
+  </g>
+  <g data-part="hut" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="274" y="160" width="28" height="6" rx="1.5" fill="#8B5A2B" stroke="#4A2E14" stroke-width="2"/>
+    <rect x="338" y="160" width="28" height="6" rx="1.5" fill="#8B5A2B" stroke="#4A2E14" stroke-width="2"/>
+    <!-- door -->
+    <path d="M310 176 V151 Q310 143 320 143 Q330 143 330 151 V176 Z" fill="#7A4A26" stroke="#3E2410" stroke-width="3"/>
+    <circle cx="325" cy="162" r="1.8" fill="#F6C945"/>
+  </g>
+
+  <!-- wildflowers and a few grass tufts -->
+  <path d="M20 236 l4 -8 l4 8 M140 230 l4 -8 l4 8 M262 238 l4 -8 l4 8 M364 214 l4 -8 l4 8" fill="none" stroke="#4E9A43" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g data-part="flower" stroke-width="1.5">
+    <circle cx="16" cy="216" r="3.5" fill="#FFE082" stroke="#C9A100"/>
+    <circle cx="48" cy="240" r="3.5" fill="#B39DDB" stroke="#5E35B1"/>
+    <circle cx="96" cy="208" r="3.5" fill="#FFFFFF" stroke="#C9A100"/>
+    <circle cx="160" cy="242" r="3.5" fill="#FFFFFF" stroke="#C9A100"/>
+    <circle cx="226" cy="236" r="3.5" fill="#B39DDB" stroke="#5E35B1"/>
+    <circle cx="300" cy="226" r="3.5" fill="#FFE082" stroke="#C9A100"/>
+    <circle cx="340" cy="244" r="3.5" fill="#FFFFFF" stroke="#C9A100"/>
+    <circle cx="384" cy="200" r="3.5" fill="#B39DDB" stroke="#5E35B1"/>
+    <circle cx="372" cy="232" r="3.5" fill="#FFE082" stroke="#C9A100"/>
+    <rect x="8" y="208" width="16" height="16" fill="transparent" stroke="none"/><rect x="40" y="232" width="16" height="16" fill="transparent" stroke="none"/><rect x="88" y="200" width="16" height="16" fill="transparent" stroke="none"/><rect x="152" y="234" width="16" height="16" fill="transparent" stroke="none"/><rect x="218" y="228" width="16" height="16" fill="transparent" stroke="none"/><rect x="292" y="218" width="16" height="16" fill="transparent" stroke="none"/><rect x="332" y="236" width="16" height="16" fill="transparent" stroke="none"/><rect x="376" y="192" width="16" height="16" fill="transparent" stroke="none"/><rect x="364" y="224" width="16" height="16" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- wooden bench -->
+  <g data-part="bench" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="236" cy="208" rx="66" ry="5" fill="#6BB35C"/>
+    <path d="M186 186 V206 M286 186 V206" fill="none" stroke="#4A2E14" stroke-width="8"/>
+    <path d="M186 186 V206 M286 186 V206" fill="none" stroke="#A1662F" stroke-width="4"/>
+    <rect x="174" y="180" width="124" height="8" rx="2" fill="#B5763A" stroke="#5A3414" stroke-width="3"/>
+  </g>
+
+  <!-- helmet and water bottle on the bench -->
+  <g data-part="helmet" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M238 179 Q236 163 252 160 Q268 158 272 170 L282 171 Q280 176 272 176 L270 179 Z" fill="#FB8C00" stroke="#7A3E00" stroke-width="3"/>
+    <g fill="#37474F" stroke="#37474F" stroke-width="2">
+      <path d="M246 167 Q250 163 254 164 L253 168 Q249 168 247 170 Z"/>
+      <path d="M258 164 Q263 164 266 168 L262 170 Q260 168 257 168 Z"/>
+    </g>
+    <path d="M238 179 H270" fill="none" stroke="#37474F" stroke-width="3"/>
+  </g>
+  <g data-part="bottle" stroke-linejoin="round" stroke-linecap="round"><rect x="277" y="152" width="17" height="30" fill="transparent" stroke="none"/>
+    <rect x="280" y="162" width="11" height="18" rx="3" fill="#42A5F5" stroke="#0D3C73" stroke-width="2.5"/>
+    <rect x="282" y="156" width="7" height="7" rx="1.5" fill="#FFFFFF" stroke="#0D3C73" stroke-width="2"/>
+  </g>
+
+  <!-- the mountain bike leaning on the bench -->
+  <g data-part="bike" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="162" cy="222" rx="60" ry="5" fill="#6BB35C"/>
+    <!-- wheels -->
+    <g fill="none">
+      <circle cx="126" cy="200" r="21" stroke="#263238" stroke-width="6"/>
+      <circle cx="198" cy="200" r="21" stroke="#263238" stroke-width="6"/>
+      <circle cx="126" cy="200" r="15" stroke="#90A4AE" stroke-width="2.5"/>
+      <circle cx="198" cy="200" r="15" stroke="#90A4AE" stroke-width="2.5"/>
+    </g>
+    <circle cx="126" cy="200" r="3.5" fill="#455A64"/>
+    <circle cx="198" cy="200" r="3.5" fill="#455A64"/>
+    <!-- frame: dark outline, then red -->
+    <path d="M126 200 L160 202 L150 168 Z M150 168 L189 165 L160 202 M189 165 L198 200" fill="none" stroke="#7A1E14" stroke-width="8"/>
+    <path d="M126 200 L160 202 L150 168 Z M150 168 L189 165 L160 202 M189 165 L198 200" fill="none" stroke="#E53935" stroke-width="4"/>
+    <!-- seat post and saddle -->
+    <path d="M150 168 L147 158" fill="none" stroke="#263238" stroke-width="4"/>
+    <path d="M136 157 Q146 152 156 156 Q154 160 146 160 Q138 160 136 157 Z" fill="#263238" stroke="#1C262B" stroke-width="2"/>
+    <!-- stem and handlebar -->
+    <path d="M189 165 L187 154 L196 152" fill="none" stroke="#263238" stroke-width="4"/>
+    <path d="M194 149 L200 156" fill="none" stroke="#263238" stroke-width="6"/>
+    <!-- chainring and pedal -->
+    <circle cx="160" cy="202" r="7" fill="#90A4AE" stroke="#37474F" stroke-width="2.5"/>
+    <path d="M160 202 L166 211" fill="none" stroke="#37474F" stroke-width="3"/>
+    <rect x="161" y="210" width="10" height="4" rx="1.5" fill="#37474F"/>
+  </g>
+</svg>

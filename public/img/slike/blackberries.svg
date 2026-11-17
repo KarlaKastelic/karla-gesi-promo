@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="178" rx="84" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <g id="d">
+      <circle r="7" fill="#2A1638" stroke="#120818" stroke-width="2.5"/>
+      <circle cx="-2.4" cy="-2.4" r="2" fill="#9C84C4" opacity="0.9"/>
+    </g>
+    <g id="b">
+      <use href="#d" x="-8" y="-18"/><use href="#d" x="6" y="-18"/>
+      <use href="#d" x="-14" y="-6"/><use href="#d" x="0" y="-6"/><use href="#d" x="14" y="-6"/>
+      <use href="#d" x="-14" y="7"/><use href="#d" x="0" y="7"/><use href="#d" x="14" y="7"/>
+      <use href="#d" x="-8" y="19"/><use href="#d" x="6" y="19"/>
+    </g>
+    <g id="leaf">
+      <path d="M0 0 Q-20 -14 -16 -40 L-12 -36 L-8 -44 L-4 -40 L0 -50 L4 -40 L8 -44 L12 -36 L16 -40 Q20 -14 0 0 Z" fill="#4E9A3E" stroke="#2A5E20" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M0 -2 V-44 M0 -16 L-10 -26 M0 -16 L10 -26 M0 -28 L-8 -36 M0 -28 L8 -36" fill="none" stroke="#2A5E20" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <g transform="translate(100 108) scale(0.88) translate(-100 -100)">
+  <!-- thorny stem -->
+  <path d="M14 40 Q70 46 104 70 Q130 88 150 96" fill="none" stroke="#5A3A2A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M14 40 Q70 46 104 70 Q130 88 150 96" fill="none" stroke="#8A5A3C" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#D8B48A" stroke="#5A3A2A" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M30 37 L34 28 L37 38 Z"/><path d="M54 45 L56 54 L48 48 Z"/><path d="M72 46 L78 38 L79 49 Z"/><path d="M92 63 L92 72 L85 66 Z"/><path d="M118 74 L125 68 L124 79 Z"/>
+  </g>
+  <!-- leaves -->
+  <use href="#leaf" transform="translate(44 42) rotate(-30) scale(1.1)"/>
+  <use href="#leaf" transform="translate(84 56) rotate(20) scale(1.15)"/>
+  <use href="#leaf" transform="translate(150 96) rotate(70) scale(1.15)"/>
+  <!-- berry stalks -->
+  <g fill="none" stroke="#5E7A2E" stroke-width="4" stroke-linecap="round">
+    <path d="M62 50 Q60 74 62 100"/><path d="M104 70 Q104 92 108 112"/><path d="M134 88 Q140 108 146 124"/>
+  </g>
+  <!-- calyx -->
+  <g fill="#6E9A3A" stroke="#3E5E1E" stroke-width="2" stroke-linejoin="round">
+    <path d="M50 98 L62 94 L74 98 L62 104 Z"/><path d="M96 110 L108 106 L120 110 L108 116 Z"/><path d="M134 122 L146 118 L158 122 L146 128 Z"/>
+  </g>
+  <!-- berries -->
+  <use href="#b" transform="translate(62 126) scale(1.05)"/>
+  <use href="#b" transform="translate(108 140) scale(1.15)"/>
+  <use href="#b" transform="translate(148 148) scale(1.0)"/>
+  </g>
+</svg>

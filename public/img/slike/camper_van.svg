@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="162" rx="92" ry="7" fill="#000" opacity="0.12"/>
+  <!-- body with the alcove over the cab -->
+  <path d="M20 44 H160 Q182 44 182 62 Q182 80 162 82 H152 L170 102 H182 Q190 102 190 112 V142 Q190 150 182 150 H20 Q12 150 12 142 V52 Q12 44 20 44 Z" fill="#F4F0E4" stroke="#7D7563" stroke-width="4" stroke-linejoin="round"/>
+  <!-- stripes -->
+  <rect x="14" y="112" width="174" height="7" fill="#5B7FA6"/>
+  <rect x="14" y="122" width="174" height="3" fill="#5B7FA6"/>
+  <!-- cab window / windscreen -->
+  <path d="M138 86 H152 L168 104 H138 Z" fill="#BFE3FA" stroke="#7D7563" stroke-width="3" stroke-linejoin="round"/>
+  <!-- alcove window -->
+  <rect x="146" y="54" width="22" height="12" rx="4" fill="#BFE3FA" stroke="#7D7563" stroke-width="3"/>
+  <!-- side windows -->
+  <rect x="24" y="62" width="38" height="26" rx="4" fill="#BFE3FA" stroke="#7D7563" stroke-width="3"/>
+  <rect x="100" y="62" width="28" height="26" rx="4" fill="#BFE3FA" stroke="#7D7563" stroke-width="3"/>
+  <!-- door -->
+  <rect x="70" y="58" width="24" height="84" rx="3" fill="#ECE6D4" stroke="#7D7563" stroke-width="3"/>
+  <rect x="75" y="64" width="14" height="20" rx="3" fill="#BFE3FA" stroke="#7D7563" stroke-width="2.5"/>
+  <rect x="87" y="98" width="5" height="9" rx="2" fill="#7D7563"/>
+  <!-- headlight -->
+  <rect x="182" y="108" width="8" height="7" rx="2" fill="#FFF3C4" stroke="#7D7563" stroke-width="2"/>
+  <!-- wheels -->
+  <g stroke="#1E1E1E" stroke-width="4">
+    <circle cx="46" cy="150" r="16" fill="#333"/>
+    <circle cx="158" cy="150" r="16" fill="#333"/>
+  </g>
+  <circle cx="46" cy="150" r="6" fill="#C9C9C9"/>
+  <circle cx="158" cy="150" r="6" fill="#C9C9C9"/>
+</svg>

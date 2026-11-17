@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="104" cy="180" rx="84" ry="7" fill="#000" opacity="0.12"/>
+  <!-- loose thread -->
+  <path d="M142 172 Q120 188 96 182 Q72 178 58 188" fill="none" stroke="#C93E55" stroke-width="3" stroke-linecap="round"/>
+  <!-- tail -->
+  <path d="M50 156 Q22 152 24 124 Q26 106 38 108" fill="none" stroke="#9A5A1E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 156 Q22 152 24 124 Q26 106 38 108" fill="none" stroke="#F2A65A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- small body -->
+  <path d="M44 174 Q36 138 66 126 Q100 118 112 142 Q118 164 108 176 Z" fill="#F2A65A" stroke="#9A5A1E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M58 140 Q62 150 58 160 M72 134 Q76 146 72 158" fill="none" stroke="#D9813A" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="56" cy="175" rx="12" ry="6" fill="#FFF6EA" stroke="#9A5A1E" stroke-width="3"/>
+  <ellipse cx="94" cy="175" rx="12" ry="6" fill="#FFF6EA" stroke="#9A5A1E" stroke-width="3"/>
+  <!-- ball of yarn -->
+  <circle cx="156" cy="158" r="23" fill="#E2556A" stroke="#8E2236" stroke-width="4"/>
+  <g fill="none" stroke="#B5354B" stroke-width="2.5" stroke-linecap="round">
+    <path d="M137 150 Q156 136 175 150"/><path d="M135 162 Q156 148 178 164"/><path d="M141 175 Q160 164 172 176"/>
+    <path d="M150 137 Q138 158 150 179"/><path d="M164 137 Q178 158 163 180"/>
+  </g>
+  <!-- paw reaching onto the yarn -->
+  <path d="M100 146 Q120 138 138 145" fill="none" stroke="#9A5A1E" stroke-width="17" stroke-linecap="round"/>
+  <path d="M100 146 Q120 138 138 145" fill="none" stroke="#F2A65A" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="139" cy="145" r="8" fill="#FFF6EA" stroke="#9A5A1E" stroke-width="3"/>
+  <!-- ears -->
+  <path d="M46 72 L40 24 L78 46 Z" fill="#F2A65A" stroke="#9A5A1E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M122 72 L128 24 L90 46 Z" fill="#F2A65A" stroke="#9A5A1E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M51 62 L47 36 L68 48 Z" fill="#F7B8C4"/><path d="M117 62 L121 36 L100 48 Z" fill="#F7B8C4"/>
+  <!-- big head -->
+  <ellipse cx="84" cy="84" rx="48" ry="41" fill="#F2A65A" stroke="#9A5A1E" stroke-width="4"/>
+  <g fill="none" stroke="#D9813A" stroke-width="3.5" stroke-linecap="round">
+    <path d="M76 47 L78 58 M84 45 L84 58 M92 47 L90 58"/>
+    <path d="M39 86 L52 88 M41 97 L54 95 M129 86 L116 88 M127 97 L114 95"/>
+  </g>
+  <ellipse cx="84" cy="104" rx="21" ry="15" fill="#FFF6EA"/>
+  <!-- big eyes -->
+  <ellipse cx="66" cy="81" rx="12" ry="14" fill="#7CC4E8" stroke="#3A2A1A" stroke-width="2.5"/>
+  <ellipse cx="102" cy="81" rx="12" ry="14" fill="#7CC4E8" stroke="#3A2A1A" stroke-width="2.5"/>
+  <ellipse cx="66" cy="83" rx="7" ry="10" fill="#111"/><ellipse cx="102" cy="83" rx="7" ry="10" fill="#111"/>
+  <circle cx="62" cy="76" r="4" fill="#FFF"/><circle cx="98" cy="76" r="4" fill="#FFF"/>
+  <path d="M78 97 L90 97 L84 104 Z" fill="#F28CA0" stroke="#9A5A1E" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M84 104 Q81 111 75 109 M84 104 Q87 111 93 109" fill="none" stroke="#7A4A20" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M66 103 L34 98 M66 108 L34 112 M102 103 L134 98 M102 108 L134 112" stroke="#7A4A20" stroke-width="2" stroke-linecap="round"/>
+</svg>

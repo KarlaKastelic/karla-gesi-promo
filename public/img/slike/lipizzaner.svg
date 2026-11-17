@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Lipicanec - a white Lipizzaner horse trotting proudly with a raised foreleg, arched neck and flowing mane, on a green meadow at Lipica with a white fence and karst oaks -->
+  <rect x="0" y="0" width="200" height="200" fill="#CFE8F7"/>
+  <g fill="#FFFFFF" stroke="#B8D4E6" stroke-width="2.5">
+    <path d="M70 26 Q70 16 80 16 Q84 8 94 10 Q104 8 106 18 Q114 20 112 28 Z"/>
+  </g>
+  <!-- distant meadow and oaks -->
+  <path d="M-4 112 Q50 98 100 106 Q150 96 204 108 V204 H-4 Z" fill="#9CCC65" stroke="#6E9A3E" stroke-width="3" stroke-linejoin="round"/>
+  <g stroke-linejoin="round">
+    <rect x="16" y="84" width="7" height="26" fill="#795548" stroke="#3E2723" stroke-width="3"/>
+    <path d="M2 82 Q-2 64 12 60 Q16 46 30 50 Q44 52 42 66 Q50 78 38 86 Q22 92 2 82 Z" fill="#558B2F" stroke="#33691E" stroke-width="3"/>
+    <rect x="178" y="80" width="7" height="28" fill="#795548" stroke="#3E2723" stroke-width="3"/>
+    <path d="M162 80 Q156 62 170 56 Q176 42 190 46 Q204 48 204 62 Q210 76 198 82 Q180 90 162 80 Z" fill="#558B2F" stroke="#33691E" stroke-width="3"/>
+  </g>
+  <!-- white wooden fence -->
+  <g stroke="#90A4AE" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="-4" y="104" width="208" height="6" rx="2" fill="#FFFFFF"/>
+    <rect x="-4" y="118" width="208" height="6" rx="2" fill="#FFFFFF"/>
+    <rect x="8" y="98" width="7" height="34" rx="2" fill="#FFFFFF"/>
+    <rect x="60" y="98" width="7" height="34" rx="2" fill="#FFFFFF"/>
+    <rect x="128" y="98" width="7" height="34" rx="2" fill="#FFFFFF"/>
+    <rect x="186" y="98" width="7" height="34" rx="2" fill="#FFFFFF"/>
+  </g>
+  <path d="M-4 136 Q100 128 204 136 V204 H-4 Z" fill="#8BC34A"/>
+  <ellipse cx="104" cy="184" rx="70" ry="7" fill="#000" opacity="0.12"/>
+
+  <!-- ===================== the horse, facing right ===================== -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- far legs (a little greyer): front standing, hind lifted -->
+    <path d="M128 118 L130 150" fill="none" stroke="#7D8A96" stroke-width="17"/>
+    <path d="M130 150 L131 176" fill="none" stroke="#7D8A96" stroke-width="12"/>
+    <path d="M128 118 L130 150" fill="none" stroke="#E4E2DA" stroke-width="12"/>
+    <path d="M130 150 L131 176" fill="none" stroke="#E4E2DA" stroke-width="7.5"/>
+    <path d="M124 182 Q124 174 131 174 Q138 174 138 182 Z" fill="#546E7A" stroke="#37474F" stroke-width="2.5"/>
+    <path d="M86 118 L80 148" fill="none" stroke="#7D8A96" stroke-width="18"/>
+    <path d="M80 148 L92 164" fill="none" stroke="#7D8A96" stroke-width="12"/>
+    <path d="M86 118 L80 148" fill="none" stroke="#E4E2DA" stroke-width="13"/>
+    <path d="M80 148 L92 164" fill="none" stroke="#E4E2DA" stroke-width="7.5"/>
+    <path d="M90 170 L96 162 L102 168 L96 174 Z" fill="#546E7A" stroke="#37474F" stroke-width="2.5"/>
+
+    <!-- full flowing tail -->
+    <path d="M58 92 Q38 94 36 120 Q34 146 46 166 Q50 152 52 136 Q54 154 62 162 Q60 140 60 122 Q60 106 64 98 Z" fill="#ECEAE2" stroke="#7D8A96" stroke-width="3.5"/>
+    <path d="M48 112 Q44 130 48 150 M56 112 Q54 128 56 144" fill="none" stroke="#B0B8C0" stroke-width="2.5"/>
+
+    <!-- near legs: hind standing, fore raised high -->
+    <path d="M74 112 L66 150" fill="none" stroke="#7D8A96" stroke-width="21"/>
+    <path d="M66 150 L70 176" fill="none" stroke="#7D8A96" stroke-width="12"/>
+    <path d="M74 112 L66 150" fill="none" stroke="#FAF8F2" stroke-width="16"/>
+    <path d="M66 150 L70 176" fill="none" stroke="#FAF8F2" stroke-width="7.5"/>
+    <path d="M62 184 Q62 175 70 175 Q78 175 78 184 Z" fill="#546E7A" stroke="#37474F" stroke-width="2.5"/>
+    <path d="M138 116 L160 134" fill="none" stroke="#7D8A96" stroke-width="18"/>
+    <path d="M160 134 L156 158" fill="none" stroke="#7D8A96" stroke-width="12"/>
+    <path d="M138 116 L160 134" fill="none" stroke="#FAF8F2" stroke-width="13"/>
+    <path d="M160 134 L156 158" fill="none" stroke="#FAF8F2" stroke-width="7.5"/>
+    <path d="M150 160 L158 156 L162 164 L153 168 Z" fill="#546E7A" stroke="#37474F" stroke-width="2.5"/>
+
+    <!-- body -->
+    <path d="M56 104 Q52 82 72 78 Q86 76 98 82 Q110 80 120 74 L148 98 Q154 114 144 126 Q136 134 120 132 L88 134 Q70 134 62 126 Q56 118 56 104 Z" fill="#FAF8F2" stroke="#7D8A96" stroke-width="4"/>
+    <!-- arched neck -->
+    <path d="M104 86 C106 58 122 38 146 32 L162 40 C162 56 160 68 158 78 C158 96 156 112 148 124 L118 112 Z" fill="#FAF8F2" stroke="#7D8A96" stroke-width="4"/>
+    <!-- clean seam between neck and body -->
+    <path d="M56 104 Q52 82 72 78 Q86 76 98 82 Q110 80 120 74 L148 98 Q154 114 144 126 Q136 134 120 132 L88 134 Q70 134 62 126 Q56 118 56 104 Z" fill="#FAF8F2"/>
+    <path d="M104 86 C106 58 122 38 146 32 L162 40 C162 56 160 68 158 78 C158 96 156 112 148 124 L118 112 Z" fill="#FAF8F2"/>
+    <!-- head, nearly upright (collected), convex profile -->
+    <path d="M144 34 Q150 26 160 30 L166 38 Q174 56 180 76 Q182 88 173 91 Q164 93 160 86 Q154 76 149 66 Q143 52 144 34 Z" fill="#FAF8F2" stroke="#7D8A96" stroke-width="4"/>
+    <path d="M147 40 L156 36 L160 48 L152 58 Z" fill="#FAF8F2"/>
+    <!-- ears -->
+    <path d="M146 32 L147 16 Q153 20 155 30 Z" fill="#FAF8F2" stroke="#7D8A96" stroke-width="3"/>
+    <path d="M154 31 L158 17 Q162 23 162 33 Z" fill="#FAF8F2" stroke="#7D8A96" stroke-width="3"/>
+    <!-- soft shading -->
+    <path d="M70 128 Q100 136 136 128" fill="none" stroke="#E2E0D8" stroke-width="5"/>
+    <path d="M78 86 Q66 96 70 116 M126 84 Q140 96 138 114" fill="none" stroke="#C9CFD5" stroke-width="2.5"/>
+    <path d="M172 88 Q176 86 178 82" fill="none" stroke="#C9CFD5" stroke-width="2.5"/>
+
+    <!-- flowing mane along the arched crest, and the forelock -->
+    <path d="M150 30 C126 34 110 52 104 86 Q112 82 112 74 Q118 76 118 66 Q126 66 124 56 Q132 56 132 46 Q140 46 140 38 Q148 40 150 30 Z" fill="#E8E6DE" stroke="#7D8A96" stroke-width="3.5"/>
+    <path d="M152 28 Q160 32 160 42 Q154 40 152 28 Z" fill="#E8E6DE" stroke="#7D8A96" stroke-width="2.5"/>
+
+    <!-- simple brown bridle -->
+    <g fill="none" stroke="#6D4C41" stroke-width="3">
+      <path d="M150 34 Q158 34 164 38"/>
+      <path d="M152 36 L162 78"/>
+      <path d="M160 76 Q170 72 178 70"/>
+      <path d="M162 80 Q140 92 124 78"/>
+    </g>
+    <!-- eye, nostril and mouth -->
+    <ellipse cx="157" cy="50" rx="3.2" ry="3.6" fill="#3E2723"/>
+    <circle cx="158" cy="49" r="1" fill="#FFFFFF"/>
+    <path d="M154 46 Q157 44 161 47" fill="none" stroke="#7D8A96" stroke-width="2"/>
+    <path d="M175 80 Q178 78 178 83" fill="none" stroke="#5D6B77" stroke-width="2.5"/>
+    <path d="M167 89 Q171 91 175 90" fill="none" stroke="#5D6B77" stroke-width="2"/>
+  </g>
+</svg>

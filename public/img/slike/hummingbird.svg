@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="0" y="0" width="200" height="200" fill="#EAF6FF"/>
+  <!-- flower stem and leaves -->
+  <path d="M176 92 Q186 140 172 200" fill="none" stroke="#2E7D32" stroke-width="6" stroke-linecap="round"/>
+  <path d="M180 140 Q196 126 198 110 Q182 116 180 140 Z" fill="#43A047" stroke="#1B5E20" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M176 168 Q156 160 150 146 Q168 146 176 168 Z" fill="#43A047" stroke="#1B5E20" stroke-width="3" stroke-linejoin="round"/>
+  <!-- trumpet flower, open towards the bird -->
+  <path d="M140 72 Q148 90 140 108 Q160 100 180 94 L180 84 Q160 80 140 72 Z" fill="#E91E63" stroke="#880E4F" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="141" cy="90" rx="7" ry="18" fill="#F06292" stroke="#880E4F" stroke-width="3"/>
+  <ellipse cx="142" cy="90" rx="3" ry="9" fill="#AD1457"/>
+  <ellipse cx="182" cy="89" rx="5" ry="7" fill="#43A047" stroke="#1B5E20" stroke-width="2.5"/>
+  <!-- blurred, fast wings -->
+  <g fill="#7FCFA0" opacity="0.35">
+    <path d="M86 100 Q56 60 30 40 Q50 80 80 110 Z"/>
+    <path d="M86 100 Q70 54 60 20 Q62 70 82 108 Z"/>
+    <path d="M86 100 Q52 86 14 84 Q46 100 80 112 Z"/>
+  </g>
+  <path d="M86 100 Q64 56 46 30 Q58 74 82 108 Z" fill="#7FCFA0" opacity="0.6" stroke="#2E7D4F" stroke-width="2" stroke-linejoin="round"/>
+  <g fill="none" stroke="#90A4AE" stroke-width="3" stroke-linecap="round">
+    <path d="M24 30 Q8 56 12 80"/><path d="M50 14 Q34 20 24 30"/>
+  </g>
+  <!-- forked tail -->
+  <path d="M66 132 L40 160 L56 156 L54 172 L76 140 Z" fill="#1E6B3E" stroke="#0E3A20" stroke-width="3" stroke-linejoin="round"/>
+  <!-- small green body, tilted -->
+  <ellipse cx="86" cy="116" rx="30" ry="16" fill="#2E9E5B" stroke="#145A32" stroke-width="3.5" transform="rotate(-42 86 116)"/>
+  <ellipse cx="92" cy="122" rx="16" ry="8" fill="#E8F0E4" transform="rotate(-42 92 122)"/>
+  <!-- head -->
+  <circle cx="108" cy="90" r="15" fill="#2E9E5B" stroke="#145A32" stroke-width="3.5"/>
+  <!-- red throat -->
+  <path d="M104 100 Q114 106 122 96 Q120 108 110 110 Q102 108 104 100 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="2" stroke-linejoin="round"/>
+  <!-- long thin beak into the flower -->
+  <path d="M120 88 L144 90" stroke="#111" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="112" cy="86" r="3.2" fill="#111"/>
+  <circle cx="113" cy="85" r="1.1" fill="#FFF"/>
+  <path d="M104 84 L106 86" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
+</svg>

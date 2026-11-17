@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="180" rx="92" ry="12" fill="#000" opacity="0.12"/>
+  <!-- glass jar -->
+  <path d="M40 74 Q32 84 32 104 V164 Q32 180 50 180 H124 Q142 180 142 164 V104 Q142 84 134 74 Z" fill="#E8F4FA" stroke="#7FA6B8" stroke-width="4" stroke-linejoin="round"/>
+  <!-- jam inside -->
+  <path d="M38 96 Q38 86 44 82 H130 Q136 86 136 96 V162 Q136 174 122 174 H52 Q38 174 38 162 Z" fill="#C62828"/>
+  <path d="M46 92 V160" fill="none" stroke="#E57373" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M50 96 Q48 130 52 162" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <g fill="#8E1B1B"><circle cx="76" cy="120" r="3"/><circle cx="104" cy="104" r="3"/><circle cx="116" cy="146" r="3"/><circle cx="88" cy="154" r="2.5"/></g>
+  <!-- cloth cover -->
+  <path d="M28 62 Q86 42 146 62 L150 84 Q142 92 134 84 Q126 94 116 86 Q106 96 96 88 Q86 96 76 88 Q66 96 56 86 Q46 94 38 84 Q30 90 24 82 Z" fill="#FFFFFF" stroke="#9A2A2A" stroke-width="3.5" stroke-linejoin="round"/>
+  <g stroke="#E57373" stroke-width="5" opacity="0.85">
+    <line x1="46" y1="56" x2="46" y2="88"/><line x1="66" y1="52" x2="66" y2="90"/><line x1="86" y1="50" x2="86" y2="92"/><line x1="106" y1="50" x2="106" y2="90"/><line x1="126" y1="54" x2="126" y2="88"/>
+    <path d="M30 68 Q86 50 144 68" fill="none"/><path d="M26 80 Q86 64 148 80" fill="none"/>
+  </g>
+  <!-- string -->
+  <path d="M32 76 Q86 64 142 76" fill="none" stroke="#8D6E43" stroke-width="4" stroke-linecap="round"/>
+  <path d="M138 76 Q150 70 152 80 M138 76 Q148 84 146 94" fill="none" stroke="#8D6E43" stroke-width="3" stroke-linecap="round"/>
+  <!-- spoon beside -->
+  <path d="M158 176 L194 134" fill="none" stroke="#78909C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M158 176 L194 134" fill="none" stroke="#DDE4E8" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="156" cy="176" rx="14" ry="8" fill="#DDE4E8" stroke="#78909C" stroke-width="3.5" transform="rotate(-30 156 176)"/>
+  <ellipse cx="155" cy="176" rx="8" ry="4.5" fill="#C62828" transform="rotate(-30 155 176)"/>
+</svg>

@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="zizanj_night-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="124">
+      <stop offset="0" stop-color="#0E1A40"/>
+      <stop offset="0.6" stop-color="#1E3268"/>
+      <stop offset="1" stop-color="#2F4B86"/>
+    </linearGradient>
+    <linearGradient id="zizanj_night-sea" gradientUnits="userSpaceOnUse" x1="0" y1="124" x2="0" y2="250">
+      <stop offset="0" stop-color="#17305A"/>
+      <stop offset="0.5" stop-color="#1A3F66"/>
+      <stop offset="1" stop-color="#20506E"/>
+    </linearGradient>
+    <radialGradient id="zizanj_night-glow">
+      <stop offset="0" stop-color="#FFE9A8" stop-opacity="0.85"/>
+      <stop offset="0.45" stop-color="#FFC966" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFB850" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- deep blue night sky -->
+  <rect x="0" y="0" width="400" height="250" fill="url(#zizanj_night-sky)"/>
+  <!-- calm stars -->
+  <g fill="#FFF3B0" stroke="#F2D77A" stroke-width="1.5" stroke-linejoin="round">
+    <polygon points="24.0,40.5 24.9,42.7 27.3,42.9 25.5,44.5 26.1,46.8 24.0,45.6 21.9,46.8 22.5,44.5 20.7,42.9 23.1,42.7"/>
+    <polygon points="196.0,59.0 196.8,60.9 198.9,61.1 197.3,62.4 197.8,64.4 196.0,63.4 194.2,64.4 194.7,62.4 193.1,61.1 195.2,60.9"/>
+    <polygon points="330.0,48.5 330.9,50.7 333.3,50.9 331.5,52.5 332.1,54.8 330.0,53.6 327.9,54.8 328.5,52.5 326.7,50.9 329.1,50.7"/>
+    <polygon points="110.0,93.4 110.7,95.1 112.5,95.2 111.1,96.4 111.5,98.1 110.0,97.2 108.5,98.1 108.9,96.4 107.5,95.2 109.3,95.1"/>
+    <polygon points="258.0,101.6 258.6,103.1 260.3,103.3 259.0,104.3 259.4,105.9 258.0,105.1 256.6,105.9 257.0,104.3 255.7,103.3 257.4,103.1"/>
+    <polygon points="372.0,56.0 373.1,58.5 375.8,58.8 373.7,60.6 374.4,63.2 372.0,61.8 369.6,63.2 370.3,60.6 368.2,58.8 370.9,58.5"/>
+    <polygon points="262.0,62.5 262.9,64.7 265.3,64.9 263.5,66.5 264.1,68.8 262.0,67.6 259.9,68.8 260.5,66.5 258.7,64.9 261.1,64.7"/>
+    <polygon points="214.0,89.0 214.8,90.9 216.9,91.1 215.3,92.4 215.8,94.4 214.0,93.3 212.2,94.4 212.7,92.4 211.1,91.1 213.2,90.9"/>
+    <polygon points="300.0,95.0 300.8,96.9 302.9,97.1 301.3,98.4 301.8,100.4 300.0,99.3 298.2,100.4 298.7,98.4 297.1,97.1 299.2,96.9"/>
+    <polygon points="150.0,66.5 150.9,68.7 153.3,68.9 151.5,70.5 152.1,72.8 150.0,71.6 147.9,72.8 148.5,70.5 146.7,68.9 149.1,68.7"/>
+    <polygon points="36.0,97.0 36.8,98.9 38.9,99.1 37.3,100.4 37.8,102.4 36.0,101.3 34.2,102.4 34.7,100.4 33.1,99.1 35.2,98.9"/>
+    <polygon points="122.0,101.4 122.7,103.1 124.5,103.2 123.1,104.4 123.5,106.1 122.0,105.2 120.5,106.1 120.9,104.4 119.5,103.2 121.3,103.1"/>
+    <polygon points="356.0,103.4 356.7,105.1 358.5,105.2 357.1,106.4 357.5,108.1 356.0,107.2 354.5,108.1 354.9,106.4 353.5,105.2 355.3,105.1"/>
+    <polygon points="180.0,47.6 180.6,49.1 182.3,49.3 181.0,50.3 181.4,51.9 180.0,51.1 178.6,51.9 179.0,50.3 177.7,49.3 179.4,49.1"/>
+    <polygon points="240.0,37.6 240.6,39.1 242.3,39.3 241.0,40.3 241.4,41.9 240.0,41.1 238.6,41.9 239.0,40.3 237.7,39.3 239.4,39.1"/>
+    <polygon points="388.0,85.6 388.6,87.1 390.3,87.3 389.0,88.3 389.4,89.9 388.0,89.1 386.6,89.9 387.0,88.3 385.7,87.3 387.4,87.1"/>
+    <polygon points="8.0,67.6 8.6,69.1 10.3,69.3 9.0,70.3 9.4,71.9 8.0,71.1 6.6,71.9 7.0,70.3 5.7,69.3 7.4,69.1"/>
+  </g>
+  <g fill="#FFF3C4" opacity="0.8">
+    <circle cx="130" cy="40" r="1.4"/><circle cx="290" cy="84" r="1.4"/><circle cx="62" cy="64" r="1.4"/><circle cx="342" cy="80" r="1.4"/><circle cx="168" cy="96" r="1.4"/><circle cx="232" cy="110" r="1.4"/>
+  </g>
+  <!-- crescent moon -->
+  <circle cx="84" cy="66" r="26" fill="#FFF3C4" opacity="0.12"/>
+  <path d="M92 48 A19 19 0 1 0 92 84 A17 17 0 1 1 92 48 Z" fill="#FFF3C4" stroke="#E6C66A" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- the sea -->
+  <rect x="-4" y="124" width="408" height="130" fill="url(#zizanj_night-sea)"/>
+  <!-- other bare islands far away -->
+  <path d="M-4 125 Q20 112 54 114 Q80 108 110 116 Q130 120 142 125 Z" fill="#3A4A6E" stroke="#2A3756" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M150 125 Q176 117 204 119 Q222 114 240 125 Z" fill="#3A4A6E" stroke="#2A3756" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="-4" y1="125" x2="404" y2="125" stroke="#0E2244" stroke-width="2.5"/>
+  <!-- soft moon path on the water -->
+  <g fill="#FFF0B8" opacity="0.7">
+    <ellipse cx="84" cy="134" rx="24" ry="2.6"/>
+    <ellipse cx="84" cy="146" rx="20" ry="2.4"/>
+    <ellipse cx="84" cy="159" rx="16" ry="2.2"/>
+    <ellipse cx="84" cy="173" rx="12" ry="2"/>
+    <ellipse cx="84" cy="188" rx="9" ry="1.8"/>
+  </g>
+
+  <!-- the bare rocky island -->
+  <path d="M112 254 Q114 214 140 196 Q170 176 206 162 Q250 140 300 128 Q350 118 404 120 V254 Z" fill="#5E6378" stroke="#33384A" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M150 254 Q160 226 190 212 Q230 196 280 192 Q240 206 214 222 Q190 236 182 254 Z" fill="#53586C"/>
+  <g fill="#53586C">
+    <ellipse cx="372" cy="140" rx="14" ry="4"/><ellipse cx="236" cy="236" rx="16" ry="4"/><ellipse cx="350" cy="232" rx="18" ry="4.5"/>
+  </g>
+  <!-- rocks along the shore -->
+  <g fill="#7A7F92" stroke="#3E4354" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M110 246 Q112 236 122 236 Q130 238 130 248 Z"/>
+    <path d="M128 222 Q132 214 140 216 Q146 220 144 228 Z"/>
+  </g>
+  <!-- dry-stone walls, stone by stone -->
+  <g fill="#7A7F92" stroke="#3E4354" stroke-width="2" stroke-linejoin="round">
+    <ellipse cx="206.0" cy="215.5" rx="10" ry="7.2"/>
+    <ellipse cx="224.7" cy="210.8" rx="10" ry="7.2"/>
+    <ellipse cx="243.3" cy="207.5" rx="10" ry="7.2"/>
+    <ellipse cx="262.0" cy="205.5" rx="10" ry="7.2"/>
+    <ellipse cx="280.7" cy="204.8" rx="10" ry="7.2"/>
+    <ellipse cx="299.3" cy="205.5" rx="10" ry="7.2"/>
+    <ellipse cx="318.0" cy="207.5" rx="10" ry="7.2"/>
+    <ellipse cx="215.3" cy="204.0" rx="9.0" ry="6.2"/>
+    <ellipse cx="234.0" cy="200.0" rx="9.0" ry="6.2"/>
+    <ellipse cx="252.7" cy="197.3" rx="9.0" ry="6.2"/>
+    <ellipse cx="271.3" cy="196.0" rx="9.0" ry="6.2"/>
+    <ellipse cx="290.0" cy="196.0" rx="9.0" ry="6.2"/>
+    <ellipse cx="308.7" cy="197.3" rx="9.0" ry="6.2"/>
+    <ellipse cx="318.0" cy="207.5" rx="10" ry="7.2"/>
+    <ellipse cx="336.2" cy="209.2" rx="10" ry="7.2"/>
+    <ellipse cx="353.8" cy="209.4" rx="10" ry="7.2"/>
+    <ellipse cx="371.0" cy="208.2" rx="10" ry="7.2"/>
+    <ellipse cx="387.8" cy="205.6" rx="10" ry="7.2"/>
+    <ellipse cx="404.0" cy="201.5" rx="10" ry="7.2"/>
+    <ellipse cx="327.1" cy="199.5" rx="9.0" ry="6.2"/>
+    <ellipse cx="345.1" cy="200.5" rx="9.0" ry="6.2"/>
+    <ellipse cx="362.5" cy="200.0" rx="9.0" ry="6.2"/>
+    <ellipse cx="379.5" cy="198.1" rx="9.0" ry="6.2"/>
+    <ellipse cx="395.9" cy="194.7" rx="9.0" ry="6.2"/>
+    <ellipse cx="316.0" cy="249.8" rx="11" ry="7.9"/>
+    <ellipse cx="334.3" cy="244.7" rx="11" ry="7.9"/>
+    <ellipse cx="355.0" cy="241.3" rx="11" ry="7.9"/>
+    <ellipse cx="378.3" cy="239.7" rx="11" ry="7.9"/>
+    <ellipse cx="404.0" cy="239.8" rx="11" ry="7.9"/>
+    <ellipse cx="324.8" cy="237.2" rx="9.9" ry="6.8"/>
+    <ellipse cx="344.3" cy="232.9" rx="9.9" ry="6.8"/>
+    <ellipse cx="366.3" cy="230.4" rx="9.9" ry="6.8"/>
+    <ellipse cx="390.8" cy="229.7" rx="9.9" ry="6.8"/>
+    <ellipse cx="300.0" cy="130.1" rx="6" ry="4.3"/>
+    <ellipse cx="313.8" cy="133.0" rx="6" ry="4.3"/>
+    <ellipse cx="325.0" cy="137.6" rx="6" ry="4.3"/>
+    <ellipse cx="333.8" cy="144.0" rx="6" ry="4.3"/>
+    <ellipse cx="340.0" cy="152.1" rx="6" ry="4.3"/>
+    <ellipse cx="307.2" cy="125.9" rx="5.4" ry="3.7"/>
+    <ellipse cx="319.7" cy="129.7" rx="5.4" ry="3.7"/>
+    <ellipse cx="329.7" cy="135.2" rx="5.4" ry="3.7"/>
+    <ellipse cx="337.2" cy="142.4" rx="5.4" ry="3.7"/>
+  </g>
+
+  <!-- olive trees -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M378 130 Q374 118 380 108" fill="none" stroke="#4A3A30" stroke-width="5"/>
+    <path d="M362 108 Q358 94 374 92 Q384 82 398 90 Q410 96 402 106 Q392 114 378 112 Q366 116 362 108 Z" fill="#4E6050" stroke="#2C3830" stroke-width="3"/>
+    <path d="M296 242 Q292 232 298 222" fill="none" stroke="#4A3A30" stroke-width="5"/>
+    <path d="M276 222 Q274 210 288 208 Q298 200 310 206 Q322 208 320 218 Q314 228 300 226 Q284 230 276 222 Z" fill="#4E6050" stroke="#2C3830" stroke-width="3"/>
+  </g>
+
+  <!-- the small white stone house, a simple cube with a flat roof -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <rect x="266" y="104" width="10" height="14" fill="#B4BACE" stroke="#3E4052" stroke-width="3"/>
+    <rect x="264" y="101" width="14" height="5" rx="1" fill="#A6ADC2" stroke="#3E4052" stroke-width="2.5"/>
+    <polygon points="338,128 352,121 352,178 338,184" fill="#959CB4" stroke="#3E4052" stroke-width="3.5"/>
+    <rect x="252" y="128" width="86" height="56" fill="#B4BACE" stroke="#3E4052" stroke-width="3.5"/>
+    <polygon points="249,121 263,115 356,115 342,121" fill="#A6ADC2" stroke="#3E4052" stroke-width="3"/>
+    <polygon points="342,121 356,115 356,122 342,128" fill="#959CB4" stroke="#3E4052" stroke-width="3"/>
+    <rect x="249" y="121" width="93" height="7" fill="#B4BACE" stroke="#3E4052" stroke-width="3"/>
+    <g fill="none" stroke="#3E4052" stroke-width="1.5" opacity="0.35">
+      <path d="M258 140 h10 M318 140 h12 M262 172 h10 M322 174 h10 M343 140 v8 M346 160 v8"/>
+    </g>
+    <!-- green double door with a doorstep -->
+    <rect x="284" y="183" width="26" height="5" rx="1.5" fill="#7A7F92" stroke="#3E4052" stroke-width="2.5"/>
+    <rect x="287" y="148" width="20" height="35" rx="1.5" fill="#2F7050" stroke="#14301F" stroke-width="3"/>
+    <path d="M297 149 V182" stroke="#14301F" stroke-width="2.5"/>
+    <circle cx="294" cy="166" r="1.6" fill="#14301F"/><circle cx="300" cy="166" r="1.6" fill="#14301F"/>
+    <!-- window with open green shutters (left) -->
+    <rect x="263" y="146" width="14" height="16" fill="#2A3048" stroke="#3E4052" stroke-width="2.5"/>
+    <rect x="256" y="146" width="7" height="16" fill="#2F7050" stroke="#14301F" stroke-width="2.5"/>
+    <rect x="277" y="146" width="7" height="16" fill="#2F7050" stroke="#14301F" stroke-width="2.5"/>
+    <!-- window with open green shutters (right) -->
+    <rect x="317" y="146" width="14" height="16" fill="#2A3048" stroke="#3E4052" stroke-width="2.5"/>
+    <rect x="310" y="146" width="7" height="16" fill="#2F7050" stroke="#14301F" stroke-width="2.5"/>
+    <rect x="331" y="146" width="7" height="16" fill="#2F7050" stroke="#14301F" stroke-width="2.5"/>
+  </g>
+
+  <!-- the water barrel -->
+  <g stroke-linejoin="round">
+    <path d="M358 164 Q356 174 358 184 H378 Q380 174 378 164 Z" fill="#5E4434" stroke="#2E2018" stroke-width="3"/>
+    <ellipse cx="368" cy="164" rx="10" ry="3" fill="#2E2018"/>
+    <path d="M357 170 H379 M357 178 H379" fill="none" stroke="#3A3A44" stroke-width="2.5"/>
+  </g>
+
+  <!-- the stone terrace -->
+  <path d="M176 184 H254 L258 192 H172 Z" fill="#7E7E8C" stroke="#3E3E4C" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M172 192 H258 V198 H172 Z" fill="#7A7F92" stroke="#3E3E4C" stroke-width="3" stroke-linejoin="round"/>
+  <!-- warm lamplight -->
+  <ellipse cx="214" cy="168" rx="46" ry="36" fill="url(#zizanj_night-glow)"/>
+  <!-- the pergola with the vine -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M182 186 V144 M246 186 V144" fill="none" stroke="#33241A" stroke-width="6"/>
+    <path d="M182 186 V144 M246 186 V144" fill="none" stroke="#6A5040" stroke-width="3"/>
+    <path d="M176 144 H252" fill="none" stroke="#33241A" stroke-width="6"/>
+    <path d="M176 144 H252" fill="none" stroke="#6A5040" stroke-width="3"/>
+    <path d="M172 146 Q170 134 184 132 Q192 124 206 130 Q216 122 230 128 Q244 124 250 132 Q262 136 256 146 Q244 152 232 148 Q218 154 204 148 Q190 154 180 150 Q172 152 172 146 Z" fill="#3F5A40" stroke="#22321F" stroke-width="3"/>
+    <path d="M182 150 Q186 158 182 166" fill="none" stroke="#22321F" stroke-width="2.5"/>
+    <g fill="#4A3A5A" stroke="#2A2036" stroke-width="1.5">
+      <circle cx="214" cy="152" r="3"/><circle cx="219" cy="153" r="3"/><circle cx="216.5" cy="157.5" r="3"/>
+    </g>
+  </g>
+
+  <!-- the table and two stools -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M198 186 V172 M230 186 V172" fill="none" stroke="#33241A" stroke-width="4"/>
+    <rect x="192" y="166" width="44" height="7" rx="2" fill="#9AA0B8" stroke="#33241A" stroke-width="3"/>
+    <rect x="186" y="176" width="9" height="10" rx="1.5" fill="#6E5444" stroke="#33241A" stroke-width="2.5"/>
+    
+  </g>
+  <!-- a wooden chair with Lojze the cat curled up asleep on it -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M238 176 V188 M256 176 V188" fill="none" stroke="#33241A" stroke-width="3.5"/>
+    <path d="M256 178 V154" fill="none" stroke="#33241A" stroke-width="5"/>
+    <path d="M256 178 V154" fill="none" stroke="#6A5040" stroke-width="2"/>
+    <rect x="234" y="174" width="26" height="5" rx="1.5" fill="#6E5444" stroke="#33241A" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(247 175) scale(0.3)">
+    <ellipse cx="6" cy="-20" rx="46" ry="21" fill="#2C2C31" stroke="#111114" stroke-width="4"/>
+    <path d="M46 -10 Q40 4 0 3 Q-30 2 -46 -6" fill="none" stroke="#111114" stroke-width="15" stroke-linecap="round"/>
+    <path d="M46 -10 Q40 4 0 3 Q-30 2 -46 -6" fill="none" stroke="#2C2C31" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="-18" cy="-6" rx="11" ry="6" fill="#FAFAF7" stroke="#6E6E6E" stroke-width="3"/>
+    <g transform="translate(-26 -24) rotate(-8) scale(0.56)">
+    <path d="M-40 -8 L-38 -50 L-8 -30 Z M40 -8 L38 -50 L8 -30 Z" fill="#2C2C31" stroke="#111114" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M-34 -18 L-33 -40 L-16 -29 Z M34 -18 L33 -40 L16 -29 Z" fill="#F2A0AE"/>
+    <ellipse cx="0" cy="0" rx="44" ry="34" fill="#2C2C31"/>
+    <path d="M-6 -33 Q0 -35 6 -33 L11 -4 Q30 2 32 14 Q30 28 0 33 Q-30 28 -32 14 Q-30 2 -11 -4 Z" fill="#FAFAF7"/>
+    <ellipse cx="0" cy="0" rx="44" ry="34" fill="none" stroke="#111114" stroke-width="4"/>
+    <path d="M-34 -6 Q-24 2 -14 -6 M34 -6 Q24 2 14 -6" fill="none" stroke="#D8D8D8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-6 6 L6 6 L0 12 Z" fill="#E88A9C" stroke="#7A4A50" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M0 12 V15 M-9 15 Q-4 21 0 15 Q4 21 9 15" fill="none" stroke="#5A5A5A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-16 13 L-50 9 M-16 18 L-50 24 M16 13 L50 9 M16 18 L50 24" stroke="#CFCFCF" stroke-width="2" stroke-linecap="round"/></g></g>
+  <!-- the oil lamp on the table -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M207 166 Q206 160 214 160 Q222 160 221 166 Z" fill="#B07A3A" stroke="#5A3A18" stroke-width="2"/>
+    <path d="M209 160 Q207 152 214 148 Q221 152 219 160 Z" fill="#FFF0C0" stroke="#C99A3A" stroke-width="2"/>
+    <ellipse cx="214" cy="154.5" rx="2.4" ry="3.4" fill="#FFB84A"/>
+  </g>
+
+  <!-- clear shallow water by the shore -->
+  <path d="M-4 238 Q60 232 112 236" fill="none" stroke="#2C5C78" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <g fill="none" stroke="#5C7FA8" stroke-width="2.5" stroke-linecap="round">
+    <path d="M150 148 q10 -4 20 0"/>
+    <path d="M30 196 q10 -4 20 0"/>
+    <path d="M182 136 q8 -3 16 0"/>
+  </g>
+
+  <!-- the small stone jetty -->
+  <g stroke-linejoin="round">
+    <path d="M44 206 H130 L128 222 H46 Z" fill="#7C7E8E" stroke="#3C3E4C" stroke-width="3.5"/>
+    <path d="M46 214 H129" fill="none" stroke="#3C3E4C" stroke-width="1.8" opacity="0.6"/>
+    <path d="M70 206 V214 M100 206 V214 M58 214 V222 M86 214 V222 M114 214 V222" fill="none" stroke="#3C3E4C" stroke-width="1.8" opacity="0.6"/>
+    <rect x="52" y="198" width="8" height="9" rx="2" fill="#7A7F92" stroke="#3C3E4C" stroke-width="2.5"/>
+  </g>
+
+  <!-- the little wooden boat tied to the jetty -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="38" cy="236" rx="36" ry="3.5" fill="#0E2238" opacity="0.35"/>
+    <path d="M56 202 Q44 212 34 220" fill="none" stroke="#33241A" stroke-width="2"/>
+    <path d="M2 220 H74 Q70 234 58 236 H14 Q4 232 2 220 Z" fill="#C9CCD8" stroke="#3A3E50" stroke-width="3.5"/>
+    <path d="M4 226 H72" fill="none" stroke="#4C6890" stroke-width="3.5"/>
+    <path d="M8 220 Q38 216 70 220" fill="none" stroke="#3A3E50" stroke-width="2"/>
+    <rect x="30" y="215" width="14" height="4" rx="1" fill="#6E5A48" stroke="#3A3E50" stroke-width="2"/>
+    <path d="M18 216 L58 206" fill="none" stroke="#33241A" stroke-width="3"/>
+  </g>
+</svg>

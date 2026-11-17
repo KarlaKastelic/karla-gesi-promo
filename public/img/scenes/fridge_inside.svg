@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <!-- kitchen wall and floor behind the fridge -->
+  <rect x="0" y="0" width="480" height="360" fill="#F3E3C3"/>
+  <rect x="0" y="344" width="480" height="16" fill="#D8C3A0"/>
+  <line x1="0" y1="344" x2="480" y2="344" stroke="#8D6E63" stroke-width="3"/>
+
+  <!-- the open door, its inside facing us -->
+  <path d="M4 6 L104 16 V344 L4 354 Z" fill="#ECEFF1" stroke="#546E7A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M14 18 L96 26 V334 L14 342 Z" fill="#F7FAFB" stroke="#B0BEC5" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- fridge cabinet -->
+  <rect x="108" y="4" width="368" height="344" rx="10" fill="#ECEFF1" stroke="#546E7A" stroke-width="4"/>
+  <rect x="122" y="16" width="340" height="320" rx="4" fill="#E3EBEF" stroke="#90A4AE" stroke-width="3"/>
+  <!-- inner side walls and ceiling in perspective -->
+  <path d="M122 16 H462 L446 30 H138 Z" fill="#DCE5EA"/>
+  <path d="M122 16 L138 30 V326 L122 336 Z" fill="#D5E0E6"/>
+  <path d="M462 16 L446 30 V326 L462 336 Z" fill="#D5E0E6"/>
+  <rect x="138" y="30" width="308" height="296" fill="#F7FAFB"/>
+  <rect x="122" y="16" width="340" height="320" rx="4" fill="none" stroke="#90A4AE" stroke-width="3"/>
+  <!-- light -->
+  <rect x="262" y="19" width="60" height="9" rx="4" fill="#FFF8D6" stroke="#B0BEC5" stroke-width="2"/>
+  <!-- glass shelves -->
+  <path d="M138 110 H446 L462 118 H122 Z" fill="#DDF0F6" stroke="#90A4AE" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M138 214 H446 L462 222 H122 Z" fill="#DDF0F6" stroke="#90A4AE" stroke-width="2" stroke-linejoin="round"/>
+  <!-- inside of the vegetable drawer -->
+  <rect x="130" y="242" width="324" height="90" rx="5" fill="#E6F2F6" stroke="#90A4AE" stroke-width="3"/>
+  <!-- kick plate -->
+  <rect x="122" y="336" width="340" height="8" fill="#B0BEC5"/>
+
+  <g data-part="cheese" stroke-linejoin="round">
+    <path d="M146 86 L164 74 L238 98 L226 106 Z" fill="#FFE38A" stroke="#A8761A" stroke-width="3.5"/>
+    <path d="M226 106 L238 98 V110 L226 117 Z" fill="#F2B632" stroke="#A8761A" stroke-width="3.5"/>
+    <path d="M146 86 L226 106 V117 H146 Z" fill="#F9C440" stroke="#A8761A" stroke-width="3.5"/>
+    <g fill="#E0A126" stroke="#A8761A" stroke-width="2">
+      <circle cx="160" cy="100" r="5"/><circle cx="182" cy="108" r="4"/><circle cx="200" cy="106" r="3"/>
+      <circle cx="170" cy="111" r="2.5"/><ellipse cx="188" cy="88" rx="5" ry="2.5"/><ellipse cx="212" cy="97" rx="3.5" ry="1.8"/>
+    </g>
+    <rect x="140" y="66" width="102" height="54" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="butter" stroke-linejoin="round">
+    <rect x="248" y="106" width="96" height="11" rx="5" fill="#4F81BD" stroke="#2C4E77" stroke-width="3"/>
+    <line x1="254" y1="111" x2="338" y2="111" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M262 80 L276 68 H338 L324 80 Z" fill="#FFF6C8" stroke="#B08A1B" stroke-width="3"/>
+    <path d="M324 80 L338 68 V94 L324 106 Z" fill="#F2D86A" stroke="#B08A1B" stroke-width="3"/>
+    <rect x="262" y="80" width="62" height="26" fill="#FFE99A" stroke="#B08A1B" stroke-width="3"/>
+    <path d="M282 74 Q294 69 306 74" fill="none" stroke="#E6C65A" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="244" y="62" width="104" height="58" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="jam" stroke-linejoin="round">
+    <rect x="366" y="68" width="58" height="49" rx="10" fill="#A8182E" stroke="#5A1020" stroke-width="3.5"/>
+    <rect x="364" y="54" width="62" height="16" rx="3" fill="#E0B04A" stroke="#8A6A1B" stroke-width="3"/>
+    <line x1="368" y1="62" x2="422" y2="62" stroke="#B88A2A" stroke-width="2"/>
+    <ellipse cx="395" cy="93" rx="18" ry="15" fill="#FFF7E6" stroke="#8A6A1B" stroke-width="2"/>
+    <path d="M395 105 Q384 96 386 88 Q388 83 395 85 Q402 83 404 88 Q406 96 395 105 Z" fill="#E53935" stroke="#7A1F14" stroke-width="2"/>
+    <path d="M388 85 L392 80 L395 84 L398 80 L402 85 Z" fill="#5E9E4E" stroke="#2E5E2A" stroke-width="1.5"/>
+    <g fill="#FFE082"><circle cx="392" cy="92" r="1.2"/><circle cx="398" cy="92" r="1.2"/><circle cx="395" cy="97" r="1.2"/></g>
+    <rect x="372" y="74" width="5" height="22" rx="2.5" fill="#E57373"/>
+    <rect x="358" y="48" width="74" height="72" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="beer" stroke-linejoin="round">
+    <!-- a green Staropramen can -->
+    <path d="M150 138 Q150 131 157 131 H175 Q182 131 182 138 V214 Q182 219 177 219 H155 Q150 219 150 214 Z" fill="#1F7A3D" stroke="#0E4521" stroke-width="3"/>
+    <rect x="152" y="127" width="28" height="7" rx="3" fill="#CFD8DC" stroke="#607D8B" stroke-width="2.5"/>
+    <rect x="152" y="212" width="28" height="6" rx="2" fill="#CFD8DC" stroke="#607D8B" stroke-width="2"/>
+    <circle cx="166" cy="148" r="8" fill="#C62828" stroke="#E2B53E" stroke-width="2.5"/>
+    <path d="M162 150 L166 144 L170 150 Z" fill="#E2B53E"/>
+    <text x="0" y="0" transform="translate(169 185) rotate(-90)" font-family="Arial, sans-serif" font-size="6.2" font-weight="800" text-anchor="middle" letter-spacing="0.3" fill="#FFFFFF">STAROPRAMEN</text>
+    <rect x="154" y="137" width="4" height="72" rx="2" fill="#FFFFFF" opacity="0.35"/>
+    <!-- an orange Steam Brew German Red can -->
+    <path d="M192 138 Q192 131 199 131 H217 Q224 131 224 138 V214 Q224 219 219 219 H197 Q192 219 192 214 Z" fill="#EF7A22" stroke="#8A3B0B" stroke-width="3"/>
+    <rect x="194" y="127" width="28" height="7" rx="3" fill="#CFD8DC" stroke="#607D8B" stroke-width="2.5"/>
+    <rect x="194" y="212" width="28" height="6" rx="2" fill="#CFD8DC" stroke="#607D8B" stroke-width="2"/>
+    <circle cx="208" cy="148" r="6" fill="#4E2A14" stroke="#4E2A14" stroke-width="4" stroke-dasharray="2.4 2"/>
+    <circle cx="208" cy="148" r="2.4" fill="#EF7A22"/>
+    <path d="M214 141 Q218 137 216 133 M218 142 Q222 138 220 134" fill="none" stroke="#FFF3E0" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="0" y="0" transform="translate(211 185) rotate(-90)" font-family="Arial, sans-serif" font-size="6.4" font-weight="800" text-anchor="middle" letter-spacing="0.3" fill="#4E2A14">STEAM BREW</text>
+    <text x="0" y="0" transform="translate(219 185) rotate(-90)" font-family="Arial, sans-serif" font-size="5" font-weight="700" text-anchor="middle" fill="#FFF3E0">GERMAN RED</text>
+    <rect x="196" y="137" width="4" height="72" rx="2" fill="#FFFFFF" opacity="0.35"/>
+    <rect x="144" y="126" width="86" height="96" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="sausage" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="298" cy="214" rx="50" ry="8" fill="#FAFAFA" stroke="#546E7A" stroke-width="3"/>
+    <ellipse cx="298" cy="213" rx="36" ry="5" fill="none" stroke="#CFD8DC" stroke-width="2"/>
+    <path d="M258 196 Q258 186 270 186 H330 V208 H270 Q258 208 258 196 Z" fill="#A93A2E" stroke="#5A1E14" stroke-width="3.5"/>
+    <g fill="#F3C6B8"><circle cx="274" cy="192" r="1.8"/><circle cx="288" cy="200" r="1.8"/><circle cx="300" cy="191" r="1.8"/><circle cx="314" cy="201" r="1.8"/><circle cx="280" cy="203" r="1.5"/></g>
+    <path d="M258 196 Q250 192 248 186" fill="none" stroke="#8D6E63" stroke-width="2.5"/>
+    <ellipse cx="331" cy="197" rx="8" ry="11" fill="#E0796B" stroke="#5A1E14" stroke-width="3"/>
+    <g fill="#FFF3E8"><circle cx="329" cy="193" r="1.6"/><circle cx="334" cy="199" r="1.6"/><circle cx="329" cy="202" r="1.4"/></g>
+    <rect x="246" y="174" width="104" height="48" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="tomatoes" stroke-linejoin="round">
+    <circle cx="399" cy="182" r="16" fill="#E53935" stroke="#8B1A10" stroke-width="3"/>
+    <circle cx="383" cy="203" r="16" fill="#E53935" stroke="#8B1A10" stroke-width="3"/>
+    <circle cx="417" cy="203" r="16" fill="#E53935" stroke="#8B1A10" stroke-width="3"/>
+    <g fill="#4E8B3A" stroke="#2E5E2A" stroke-width="1.5">
+      <path d="M399 166 L403 171 L409 170 L404 174 L399 172 L394 174 L389 170 L395 171 Z"/>
+      <path d="M383 187 L387 192 L393 191 L388 195 L383 193 L378 195 L373 191 L379 192 Z"/>
+      <path d="M417 187 L421 192 L427 191 L422 195 L417 193 L412 195 L407 191 L413 192 Z"/>
+    </g>
+    <g fill="#FF8A80"><ellipse cx="392" cy="180" rx="3" ry="4"/><ellipse cx="376" cy="202" rx="3" ry="4"/><ellipse cx="410" cy="202" rx="3" ry="4"/></g>
+    <rect x="362" y="160" width="76" height="62" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="lettuce" stroke-linejoin="round">
+    <ellipse cx="164" cy="292" rx="24" ry="32" transform="rotate(-24 164 292)" fill="#7CB342" stroke="#33691E" stroke-width="3.5"/>
+    <ellipse cx="204" cy="292" rx="24" ry="32" transform="rotate(24 204 292)" fill="#7CB342" stroke="#33691E" stroke-width="3.5"/>
+    <circle cx="184" cy="290" r="30" fill="#9CCC65" stroke="#33691E" stroke-width="3.5"/>
+    <circle cx="184" cy="282" r="18" fill="#C5E1A5" stroke="#558B2F" stroke-width="3"/>
+    <g fill="none" stroke="#558B2F" stroke-width="2.5" stroke-linecap="round">
+      <path d="M176 280 Q184 272 192 280"/>
+      <path d="M184 318 V304"/><path d="M162 304 Q170 300 176 306"/><path d="M206 304 Q198 300 192 306"/>
+      <path d="M152 282 Q158 278 164 284"/><path d="M216 282 Q210 278 204 284"/>
+    </g>
+    <rect x="138" y="246" width="92" height="84" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="carrots" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="rotate(-14 270 260)">
+      <path d="M264 260 Q266 244 262 236 M270 260 V232 M276 260 Q274 244 280 236" fill="none" stroke="#43A047" stroke-width="3.5"/>
+      <path d="M260 260 Q270 254 280 260 L272 322 Q270 326 268 322 Z" fill="#F57C00" stroke="#9A4A0B" stroke-width="3"/>
+      <path d="M264 274 H270 M270 290 H276 M266 304 H271" stroke="#9A4A0B" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M288 256 Q290 240 286 232 M294 256 V228 M300 256 Q298 240 304 232" fill="none" stroke="#43A047" stroke-width="3.5"/>
+      <path d="M284 256 Q294 250 304 256 L296 322 Q294 326 292 322 Z" fill="#FB8C00" stroke="#9A4A0B" stroke-width="3"/>
+      <path d="M288 270 H294 M294 286 H300 M290 302 H295" stroke="#9A4A0B" stroke-width="2"/>
+    </g>
+    <g transform="rotate(14 318 260)">
+      <path d="M312 260 Q314 244 310 236 M318 260 V232 M324 260 Q322 244 328 236" fill="none" stroke="#43A047" stroke-width="3.5"/>
+      <path d="M308 260 Q318 254 328 260 L320 322 Q318 326 316 322 Z" fill="#F57C00" stroke="#9A4A0B" stroke-width="3"/>
+      <path d="M312 274 H318 M318 290 H324 M314 304 H319" stroke="#9A4A0B" stroke-width="2"/>
+    </g>
+    <rect x="244" y="228" width="98" height="100" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="apples" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="398" cy="270" r="19" fill="#9BBB59" stroke="#4E6B2A" stroke-width="3"/>
+    <path d="M398 252 Q399 246 402 243" fill="none" stroke="#5D4037" stroke-width="2.5"/>
+    <circle cx="376" cy="298" r="21" fill="#D84B3C" stroke="#7A2E1F" stroke-width="3"/>
+    <path d="M376 278 Q377 272 380 269" fill="none" stroke="#5D4037" stroke-width="2.5"/>
+    <path d="M381 273 Q389 267 393 273 Q386 278 381 273 Z" fill="#7FA36B" stroke="#3E5236" stroke-width="1.5"/>
+    <circle cx="420" cy="298" r="21" fill="#C62828" stroke="#6E1A12" stroke-width="3"/>
+    <path d="M420 278 Q421 272 424 269" fill="none" stroke="#5D4037" stroke-width="2.5"/>
+    <g fill="#FFFFFF" opacity="0.55"><ellipse cx="368" cy="290" rx="4" ry="6"/><ellipse cx="412" cy="290" rx="4" ry="6"/><ellipse cx="391" cy="264" rx="3" ry="5"/></g>
+    <rect x="350" y="240" width="98" height="86" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="eggs" stroke-linejoin="round">
+    <ellipse cx="32" cy="72" rx="11" ry="15" fill="#E8C39E" stroke="#8D6E63" stroke-width="3"/>
+    <ellipse cx="56" cy="70" rx="11" ry="15" fill="#FFF8EE" stroke="#8D6E63" stroke-width="3"/>
+    <ellipse cx="80" cy="72" rx="11" ry="15" fill="#E8C39E" stroke="#8D6E63" stroke-width="3"/>
+    <g fill="#FFFFFF" opacity="0.7"><ellipse cx="28" cy="66" rx="2.5" ry="4"/><ellipse cx="76" cy="66" rx="2.5" ry="4"/></g>
+    <path d="M18 80 H94 V90 H18 Z" fill="#FFFFFF" stroke="#90A4AE" stroke-width="3"/>
+    <g fill="none" stroke="#B0BEC5" stroke-width="2"><path d="M22 82 Q32 88 42 82"/><path d="M46 82 Q56 88 66 82"/><path d="M70 82 Q80 88 90 82"/></g>
+    <rect x="14" y="46" width="84" height="54" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="juice" stroke-linejoin="round">
+    <rect x="34" y="106" width="32" height="8" rx="2" fill="#F59B2B" stroke="#A8571A" stroke-width="3"/>
+    <path d="M28 130 L36 113 H64 L72 130 Z" fill="#F59B2B" stroke="#A8571A" stroke-width="3.5"/>
+    <circle cx="60" cy="122" r="4.5" fill="#4E8B3A" stroke="#2E5E2A" stroke-width="2"/>
+    <rect x="28" y="130" width="44" height="80" fill="#FFF3E0" stroke="#A8571A" stroke-width="3.5"/>
+    <rect x="29.5" y="174" width="41" height="34.5" fill="#F59B2B"/>
+    <circle cx="50" cy="152" r="13" fill="#FFA726" stroke="#E65100" stroke-width="2.5"/>
+    <path d="M50 139 Q56 132 63 135 Q57 141 50 139 Z" fill="#5E9E4E" stroke="#2E5E2A" stroke-width="1.5"/>
+    <g fill="#E65100"><circle cx="46" cy="149" r="1.3"/><circle cx="54" cy="155" r="1.3"/><circle cx="47" cy="157" r="1.3"/></g>
+    <rect x="18" y="102" width="64" height="98" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="milk" stroke-linejoin="round">
+    <path d="M26 334 V264 Q26 250 40 242 V232 H62 V242 Q76 250 76 264 V334 Z" fill="#FFFFFF" stroke="#546E7A" stroke-width="3.5"/>
+    <rect x="37" y="218" width="28" height="15" rx="3" fill="#4F81BD" stroke="#2C4E77" stroke-width="3"/>
+    <rect x="27.5" y="272" width="47" height="34" fill="#4F81BD"/>
+    <path d="M51 278 Q61 292 58 297 Q55 302 51 302 Q47 302 44 297 Q41 292 51 278 Z" fill="#FFFFFF"/>
+    <rect x="31" y="252" width="5" height="16" rx="2.5" fill="#E3EBEF"/>
+    <rect x="18" y="212" width="66" height="104" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- clear fronts of the door bins, in front of what stands in them -->
+  <g stroke="#607D8B" stroke-width="3" stroke-linejoin="round">
+    <path d="M12 82 L98 88 V102 L12 98 Z" fill="#CFE8F2" fill-opacity="0.75"/>
+    <path d="M12 194 L98 198 V216 L12 214 Z" fill="#CFE8F2" fill-opacity="0.75"/>
+    <path d="M12 310 L98 312 V330 L12 332 Z" fill="#CFE8F2" fill-opacity="0.75"/>
+  </g>
+  <!-- front edges of the glass shelves -->
+  <g fill="#B3D9E6" stroke="#607D8B" stroke-width="3">
+    <rect x="120" y="118" width="344" height="7" rx="2"/>
+    <rect x="120" y="222" width="344" height="7" rx="2"/>
+  </g>
+  <!-- see-through front of the vegetable drawer -->
+  <rect x="130" y="270" width="324" height="62" rx="5" fill="#CFE8F2" fill-opacity="0.12" stroke="#607D8B" stroke-width="4"/>
+  <rect x="128" y="264" width="328" height="9" rx="3" fill="#B0BEC5" stroke="#546E7A" stroke-width="3"/>
+</svg>

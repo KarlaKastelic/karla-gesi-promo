@@ -1,0 +1,117 @@
+@let a = audience();
+
+<section class="a-hero">
+  <div class="container a-hero__grid">
+    <div>
+      <span class="eyebrow"><span aria-hidden="true">{{ a.icon }}</span> {{ a.short }}</span>
+      <h1>{{ a.title }}</h1>
+      <p class="lead">{{ a.lead }}</p>
+      <div class="btn-row">
+        <a routerLink="/kontakt" [queryParams]="{ za: a.id }" class="btn btn--primary">Želim GESI pri nas</a>
+        <a routerLink="/gradiva" [queryParams]="{ za: a.id }" class="btn">Letak za oglasno desko</a>
+      </div>
+    </div>
+    <figure class="a-hero__art">
+      <img [src]="a.image" [alt]="a.imageAlt" width="480" height="360" />
+    </figure>
+  </div>
+</section>
+
+<section class="section section--surface">
+  <div class="container">
+    <div class="section-head">
+      <h2>Zakaj GESI</h2>
+    </div>
+    <div class="grid grid--3">
+      @for (w of a.why; track w.title; let i = $index) {
+        <article class="card why">
+          <span class="why__num" aria-hidden="true">{{ i + 1 }}</span>
+          <h3>{{ w.title }}</h3>
+          <p>{{ w.text }}</p>
+        </article>
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container fav">
+    <div class="fav__text">
+      <span class="eyebrow">Priljubljene igre</span>
+      <h2>S čim začeti</h2>
+      <ul class="fav__list">
+        @for (g of favourites(); track g.name) {
+          <li>
+            <span class="fav__icon" aria-hidden="true">{{ g.icon }}</span>
+            <div>
+              <strong>{{ g.name }}</strong>
+              <p>{{ g.text }}</p>
+            </div>
+          </li>
+        }
+      </ul>
+      <a routerLink="/igre" [queryParams]="{ za: a.id }" class="btn">Vse primerne igre</a>
+    </div>
+    <div class="fav__phones">
+      @for (g of phones(); track g.name) {
+        <app-phone [screen]="g.screen!" [alt]="'Zaslon igre ' + g.name" [caption]="g.name" size="small" />
+      }
+    </div>
+  </div>
+</section>
+
+<section class="section section--surface">
+  <div class="container two-col">
+    <div class="card scenario">
+      <h2>{{ a.scenario.title }}</h2>
+      <ol class="scenario__steps">
+        @for (s of a.scenario.steps; track s) {
+          <li>{{ s }}</li>
+        }
+      </ol>
+      <p class="muted">Raje večkrat na kratko kot redko na dolgo – 10 do 15 minut je dovolj.</p>
+    </div>
+    <div class="card">
+      <h2>Priporočene nastavitve</h2>
+      <ul class="check-list">
+        @for (s of a.settings; track s) {
+          <li>{{ s }}</li>
+        }
+      </ul>
+      <p class="settings-tip muted">
+        Nastavitve lahko shranite pod imenom in jih kasneje naložite z enim dotikom – priročno, ko napravo uporablja več
+        ljudi.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <h2 class="trust-title">Varno in preprosto</h2>
+    <ul class="trust-row">
+      @for (t of trust; track t.title) {
+        <li>
+          <span aria-hidden="true">{{ t.icon }}</span>
+          <strong>{{ t.title }}</strong>
+          <span class="muted">{{ t.text }}</span>
+        </li>
+      }
+    </ul>
+    <p class="note">
+      <strong>GESI ni medicinski pripomoček.</strong> Ne nadomešča dela logopeda, terapevta ali specialnega pedagoga –
+      lahko pa ga lepo dopolni.
+    </p>
+  </div>
+</section>
+
+<app-cta-band />
+
+<nav class="container others" aria-label="Druge skupine">
+  <h2 class="others__title">GESI tudi …</h2>
+  <div class="others__row">
+    @for (o of others(); track o.id) {
+      <a [routerLink]="['/za', o.id]" class="pill"><span aria-hidden="true">{{ o.icon }}</span> {{ o.short }}</a>
+    }
+  </div>
+</nav>

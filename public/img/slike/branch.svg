@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <g id="l">
+      <path d="M0 0 Q12 -12 32 0 Q12 12 0 0 Z" fill="#6DB35A" stroke="#2F6B25" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M2 0 L26 0" stroke="#2F6B25" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <ellipse cx="100" cy="184" rx="76" ry="8" fill="#000" opacity="0.12"/>
+  <!-- twigs -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#4A2E14" stroke-width="9">
+      <path d="M60 136 Q54 116 52 96"/><path d="M100 110 Q100 88 106 66"/><path d="M134 88 Q150 92 168 102"/>
+      <path d="M154 72 Q150 56 148 40"/><path d="M82 124 Q96 132 112 142"/>
+    </g>
+    <g stroke="#8B5A2B" stroke-width="5">
+      <path d="M60 136 Q54 116 52 96"/><path d="M100 110 Q100 88 106 66"/><path d="M134 88 Q150 92 168 102"/>
+      <path d="M154 72 Q150 56 148 40"/><path d="M82 124 Q96 132 112 142"/>
+    </g>
+  </g>
+  <!-- main branch -->
+  <path d="M14 150 Q66 122 108 98 Q148 72 186 40 L191 47 Q154 82 114 110 Q72 140 22 170 Z" fill="#8B5A2B" stroke="#4A2E14" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="18" cy="160" rx="6" ry="10" transform="rotate(-30 18 160)" fill="#E2B77A" stroke="#4A2E14" stroke-width="3"/>
+  <g fill="none" stroke="#6B4420" stroke-width="2" stroke-linecap="round">
+    <path d="M40 150 L58 140"/><path d="M76 132 L92 122"/><path d="M118 102 L134 92"/><path d="M152 78 L166 68"/>
+  </g>
+  <!-- leaves -->
+  <use href="#l" transform="translate(52 96) rotate(-120) scale(1.1)"/>
+  <use href="#l" transform="translate(52 96) rotate(-60) scale(1.1)"/>
+  <use href="#l" transform="translate(106 66) rotate(-110) scale(1.1)"/>
+  <use href="#l" transform="translate(106 66) rotate(-45) scale(1.1)"/>
+  <use href="#l" transform="translate(168 102) rotate(20) scale(1.1)"/>
+  <use href="#l" transform="translate(168 102) rotate(80) scale(1.1)"/>
+  <use href="#l" transform="translate(148 40) rotate(-140) scale(1.1)"/>
+  <use href="#l" transform="translate(148 40) rotate(-80) scale(1.1)"/>
+  <use href="#l" transform="translate(186 42) rotate(-120) scale(1)"/>
+  <use href="#l" transform="translate(112 142) rotate(40) scale(1.1)"/>
+</svg>

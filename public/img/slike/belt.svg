@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="104" cy="182" rx="84" ry="7" fill="#000" opacity="0.12"/>
+  <!-- leather strap in a gentle S -->
+  <path d="M50 56 C110 40 170 54 160 88 C150 120 50 104 44 138 C40 164 120 170 168 156" fill="none" stroke="#4E2A12" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 56 C110 40 170 54 160 88 C150 120 50 104 44 138 C40 164 120 170 168 156" fill="none" stroke="#8B5A2B" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 56 C110 40 170 54 160 88 C150 120 50 104 44 138 C40 164 120 170 168 156" fill="none" stroke="#A9743F" stroke-width="5" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <!-- holes near the tip -->
+  <g fill="#3B1F0C">
+    <circle cx="119" cy="163" r="3.5"/>
+    <circle cx="136" cy="162" r="3.5"/>
+    <circle cx="153" cy="160" r="3.5"/>
+  </g>
+  <!-- leather keeper loop -->
+  <rect x="68" y="38" width="10" height="30" rx="3" transform="rotate(-14 73 53)" fill="#6D4220" stroke="#3B1F0C" stroke-width="3"/>
+  <!-- metal buckle -->
+  <g transform="rotate(-14 40 58)">
+    <rect x="24" y="36" width="30" height="44" rx="8" fill="none" stroke="#546E7A" stroke-width="11"/>
+    <rect x="24" y="36" width="30" height="44" rx="8" fill="none" stroke="#CFD8DC" stroke-width="6"/>
+    <path d="M24 58 H58" stroke="#546E7A" stroke-width="7" stroke-linecap="round"/>
+    <path d="M24 58 H57" stroke="#ECEFF1" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+</svg>

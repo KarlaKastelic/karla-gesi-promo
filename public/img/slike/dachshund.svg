@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="164" rx="90" ry="6" fill="#000" opacity="0.12"/>
+  <!-- far legs -->
+  <path d="M40 132 L44 160 M150 132 L150 160" fill="none" stroke="#4A2410" stroke-width="13" stroke-linecap="round"/>
+  <path d="M40 132 L44 160 M150 132 L150 160" fill="none" stroke="#8A4520" stroke-width="8" stroke-linecap="round"/>
+  <!-- thin tail -->
+  <path d="M22 116 Q10 108 8 92" fill="none" stroke="#4A2410" stroke-width="9" stroke-linecap="round"/>
+  <path d="M22 116 Q10 108 8 92" fill="none" stroke="#A0522D" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- very long low body -->
+  <path d="M18 120 Q18 98 44 98 L148 96 Q172 96 174 118 Q172 140 150 142 L46 142 Q18 142 18 120 Z" fill="#A0522D" stroke="#4A2410" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M60 140 Q100 132 140 140" fill="none" stroke="#C47A48" stroke-width="3" stroke-linecap="round"/>
+  <!-- short near legs -->
+  <path d="M30 130 L32 160 M162 128 L164 160" fill="none" stroke="#4A2410" stroke-width="15" stroke-linecap="round"/>
+  <path d="M30 130 L32 160 M162 128 L164 160" fill="none" stroke="#A0522D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M26 160 L40 160 M158 160 L172 160" stroke="#4A2410" stroke-width="5" stroke-linecap="round"/>
+  <!-- neck -->
+  <path d="M158 108 Q166 92 168 80" fill="none" stroke="#4A2410" stroke-width="26" stroke-linecap="round"/>
+  <path d="M158 108 Q166 92 168 80" fill="none" stroke="#A0522D" stroke-width="19" stroke-linecap="round"/>
+  <!-- head with long snout -->
+  <ellipse cx="170" cy="72" rx="17" ry="15" fill="#A0522D" stroke="#4A2410" stroke-width="4"/>
+  <path d="M172 64 L194 74 Q198 80 192 84 L170 84 Z" fill="#A0522D" stroke="#4A2410" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M168 66 L178 70 L170 80 Z" fill="#A0522D"/>
+  <ellipse cx="194" cy="76" rx="4" ry="3.5" fill="#1C1008"/>
+  <circle cx="174" cy="68" r="3.2" fill="#1C1008"/>
+  <circle cx="175" cy="67" r="1.1" fill="#FFF"/>
+  <!-- long floppy ear -->
+  <path d="M162 62 Q150 64 152 82 Q154 94 162 92 Q168 80 166 64 Z" fill="#6E3418" stroke="#4A2410" stroke-width="3" stroke-linejoin="round"/>
+</svg>

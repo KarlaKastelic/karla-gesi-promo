@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- road -->
+  <rect x="4" y="156" width="192" height="28" rx="8" fill="#8E949A" stroke="#5F656B" stroke-width="3"/>
+  <path d="M20 174 H44 M78 174 H102 M136 174 H160" stroke="#E8E4D8" stroke-width="4" stroke-linecap="round"/>
+  <!-- luggage trunk at the back -->
+  <rect x="12" y="90" width="22" height="36" rx="4" fill="#3A2E24" stroke="#1A140F" stroke-width="3.5"/>
+  <!-- tall upright cabin -->
+  <path d="M30 134 V68 Q30 58 42 58 H104 Q116 58 116 70 V134 Z" fill="#24427A" stroke="#0E1E3A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M26 66 Q28 52 44 52 H104 Q118 52 120 66 Z" fill="#262626" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <rect x="40" y="72" width="30" height="26" rx="4" fill="#BFE3FA" stroke="#0E1E3A" stroke-width="3.5"/>
+  <rect x="78" y="72" width="30" height="26" rx="4" fill="#BFE3FA" stroke="#0E1E3A" stroke-width="3.5"/>
+  <path d="M74 66 V130" stroke="#0E1E3A" stroke-width="3" stroke-linecap="round"/>
+  <rect x="80" y="106" width="10" height="4" rx="2" fill="#F3E5C0"/>
+  <path d="M30 112 H116" stroke="#F3E5C0" stroke-width="3" stroke-linecap="round"/>
+  <!-- long bonnet -->
+  <path d="M114 96 H166 Q172 96 172 102 V130 H114 Z" fill="#24427A" stroke="#0E1E3A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M130 104 V120 M140 104 V120 M150 104 V120" stroke="#0E1E3A" stroke-width="3" stroke-linecap="round"/>
+  <!-- upright radiator -->
+  <rect x="168" y="86" width="14" height="44" rx="4" fill="#F3E5C0" stroke="#6E6040" stroke-width="3.5"/>
+  <path d="M173 92 V124 M177 92 V124" stroke="#B8A878" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="175" cy="82" r="4" fill="#F3E5C0" stroke="#6E6040" stroke-width="2.5"/>
+  <!-- running board -->
+  <rect x="76" y="134" width="50" height="8" rx="3" fill="#262626" stroke="#111" stroke-width="3"/>
+  <!-- spoked wheels -->
+  <circle cx="50" cy="140" r="21" fill="#2A2A2A" stroke="#111" stroke-width="4"/>
+  <circle cx="50" cy="140" r="13" fill="#F3E5C0" stroke="#8A7A50" stroke-width="2.5"/>
+  <path d="M50 127 V153 M38.7 133.5 L61.3 146.5 M38.7 146.5 L61.3 133.5" stroke="#8A7A50" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="50" cy="140" r="4.5" fill="#8A7A50"/>
+  <circle cx="152" cy="140" r="21" fill="#2A2A2A" stroke="#111" stroke-width="4"/>
+  <circle cx="152" cy="140" r="13" fill="#F3E5C0" stroke="#8A7A50" stroke-width="2.5"/>
+  <path d="M152 127 V153 M140.7 133.5 L163.3 146.5 M140.7 146.5 L163.3 133.5" stroke="#8A7A50" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="152" cy="140" r="4.5" fill="#8A7A50"/>
+  <!-- separate round mudguards -->
+  <path d="M18 146 Q18 110 50 110 Q76 110 84 134 L84 140 H76 Q72 122 50 122 Q30 122 28 146 Z" fill="#262626" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M118 140 Q124 132 128 124 Q136 110 154 110 Q180 112 186 146 H176 Q174 122 152 122 Q140 122 134 132 L124 142 Z" fill="#262626" stroke="#111" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- big round headlamp on a stalk -->
+  <path d="M176 130 L184 114" stroke="#6E6040" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="186" cy="106" r="11" fill="#FFF3C4" stroke="#6E6040" stroke-width="3.5"/>
+  <circle cx="188" cy="104" r="4" fill="#FFFFFF"/>
+  <rect x="10" y="118" width="6" height="8" rx="2" fill="#E53935"/>
+</svg>

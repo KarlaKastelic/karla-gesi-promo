@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="sl" data-text="normal" data-contrast="normal">
+  <head>
+    <meta charset="utf-8" />
+    <title>GESI – igre s slikami, ki ne štejejo napak</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta
+      name="description"
+      content="GESI – brezplačna spletna aplikacija z mirnimi igrami s slikami, besedami in zvoki. Brez točk, brez štoparice, napaka ni kazen."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="sl_SI" />
+    <meta property="og:site_name" content="GESI" />
+    <meta property="og:image" content="https://karla-gesi-promo.netlify.app/img/ikone/icon-512x512.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="img/ikone/icon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="img/ikone/icon-192x192.png" />
+    <link rel="apple-touch-icon" href="img/ikone/icon-192x192.png" />
+    <script>
+      // Apply saved text size / contrast before first paint to avoid a flash.
+      try {
+        var s = JSON.parse(localStorage.getItem('gesi-promo-display') || 'null');
+        if (s && s.textSize) document.documentElement.dataset.text = s.textSize;
+        if (s && s.highContrast) document.documentElement.dataset.contrast = 'high';
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
+</html>

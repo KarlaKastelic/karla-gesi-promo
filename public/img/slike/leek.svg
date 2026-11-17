@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="178" rx="88" ry="10" fill="#000" opacity="0.12"/>
+  <g transform="translate(40 166) rotate(48) scale(0.8)">
+    <!-- roots -->
+    <g fill="none" stroke="#B8A27A" stroke-width="2.5" stroke-linecap="round">
+      <path d="M-8 6 Q-14 16 -20 22"/><path d="M-3 7 Q-6 18 -6 26"/><path d="M2 7 Q4 18 2 27"/><path d="M7 6 Q14 16 18 22"/><path d="M-1 7 Q-12 20 -14 28"/><path d="M4 7 Q10 20 12 28"/>
+    </g>
+    <!-- leaf fan behind -->
+    <path d="M-10 -110 Q-36 -150 -66 -178 L-52 -192 Q-26 -158 2 -122 Z" fill="#2E6B3A" stroke="#1B4524" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M10 -110 Q36 -150 66 -176 L54 -190 Q26 -158 -2 -122 Z" fill="#2E6B3A" stroke="#1B4524" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M-11 -114 Q-24 -166 -34 -206 L-16 -210 Q-8 -168 4 -120 Z" fill="#3E7E46" stroke="#1B4524" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M11 -114 Q24 -166 34 -206 L16 -210 Q8 -168 -4 -120 Z" fill="#3A7A44" stroke="#1B4524" stroke-width="3.5" stroke-linejoin="round"/>
+    <!-- stem -->
+    <path d="M-12 4 Q-14 -4 -13 -14 L-11 -116 L11 -116 L13 -14 Q14 -4 12 4 Q0 10 -12 4 Z" fill="#F4F2E4" stroke="#8E8A6E" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M-11.5 -60 L-11 -116 L11 -116 L11.5 -60 Q0 -70 -11.5 -60 Z" fill="#B8D88A"/>
+    <path d="M-11 -88 L-11 -116 L11 -116 L11 -88 Q0 -96 -11 -88 Z" fill="#7EB15A"/>
+    <path d="M-12 4 Q-14 -4 -13 -14 L-11 -116 L11 -116 L13 -14 Q14 -4 12 4 Q0 10 -12 4 Z" fill="none" stroke="#8E8A6E" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M-5 -6 L-4 -100" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <path d="M4 -10 L4 -70" fill="none" stroke="#D8D4BC" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-12 -2 Q0 4 12 -2" fill="none" stroke="#8E8A6E" stroke-width="2.5"/>
+  </g>
+</svg>

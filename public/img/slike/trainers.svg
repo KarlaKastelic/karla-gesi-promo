@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <g transform="translate(0 -6)">
+  <ellipse cx="102" cy="162" rx="92" ry="8" fill="#000" opacity="0.12"/>
+  <!-- heel tab -->
+  <rect x="11" y="58" width="17" height="34" rx="6" fill="#E53935" stroke="#8E1B1B" stroke-width="4"/>
+  <!-- smooth canvas upper -->
+  <path d="M18 128 V82 Q18 68 32 68 Q50 70 64 78 Q68 62 80 60 Q88 60 92 66 L150 98 Q186 104 188 128 Z" fill="#1E88E5" stroke="#0D47A1" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- padded collar -->
+  <path d="M24 77 Q42 73 62 81" fill="none" stroke="#0D47A1" stroke-width="4" stroke-linecap="round"/>
+  <!-- soft highlight -->
+  <path d="M32 90 Q36 108 56 114" fill="none" stroke="#64B5F6" stroke-width="6" stroke-linecap="round"/>
+  <!-- lacing panel -->
+  <path d="M80 60 Q88 60 92 66 L150 98 L146 114 L70 78 Q70 62 80 60 Z" fill="#BBDEFB" stroke="#0D47A1" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- criss-cross laces -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M84 74 L104 72 M90 64 L98 82 M98 82 L118 80 M104 72 L112 90 M112 90 L132 88 M118 80 L126 98" stroke="#0D47A1" stroke-width="9"/>
+    <path d="M84 74 L104 72 M90 64 L98 82 M98 82 L118 80 M104 72 L112 90 M112 90 L132 88 M118 80 L126 98" stroke="#FFFFFF" stroke-width="5"/>
+  </g>
+  <!-- eyelets -->
+  <g fill="#ECEFF1" stroke="#37474F" stroke-width="2.5">
+    <circle cx="84" cy="74" r="4.5"/>
+    <circle cx="98" cy="82" r="4.5"/>
+    <circle cx="112" cy="90" r="4.5"/>
+    <circle cx="126" cy="98" r="4.5"/>
+  </g>
+  <!-- white rubber toe cap -->
+  <path d="M150 98 Q186 104 188 128 H152 Q142 114 150 98 Z" fill="#FFFFFF" stroke="#0D47A1" stroke-width="4" stroke-linejoin="round"/>
+  <!-- thick white sole with a coloured stripe -->
+  <path d="M16 124 H182 Q194 124 192 139 Q190 154 176 154 H26 Q12 154 12 139 Q12 124 16 124 Z" fill="#FFFFFF" stroke="#78909C" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M20 139 H184" stroke="#E53935" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

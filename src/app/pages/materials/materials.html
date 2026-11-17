@@ -1,0 +1,82 @@
+@let a = audience();
+
+<section class="page-head no-print">
+  <div class="container">
+    <span class="eyebrow">Gradiva</span>
+    <h1>Letaki za oglasno desko, čakalnico in zbornico</h1>
+    <p class="lead">
+      Izberite, za koga je letak, in ga natisnite na list A4. QR koda vodi na stran s podrobnostmi za to skupino.
+    </p>
+  </div>
+</section>
+
+<div class="container no-print">
+  <div class="controls">
+    <div class="pick" role="group" aria-label="Za koga je letak">
+      @for (x of audiences; track x.id) {
+        <button type="button" class="pill" [attr.aria-pressed]="selected() === x.id" (click)="pick(x.id)">
+          <span aria-hidden="true">{{ x.icon }}</span> {{ x.short }}
+        </button>
+      }
+    </div>
+    <div class="btn-row">
+      <button type="button" class="btn btn--primary" (click)="print()"><span aria-hidden="true">🖨️</span> Natisni letak</button>
+      <a [href]="site.guideUrl" class="btn" target="_blank" rel="noopener">Navodila za uporabo</a>
+    </div>
+  </div>
+  <p class="muted tip">Nasvet: v oknu za tiskanje izberite »Shrani kot PDF«, če želite letak poslati po e-pošti.</p>
+</div>
+
+<div class="flyer-stage">
+  <article class="flyer" aria-label="Predogled letaka">
+    <header class="flyer__top">
+      <img src="img/ikone/icon-192x192.png" alt="" width="64" height="64" />
+      <div>
+        <p class="flyer__brand">GESI</p>
+        <p class="flyer__tag">Učimo se besede – igre s slikami</p>
+      </div>
+    </header>
+
+    <h2 class="flyer__title">Igre s slikami, ki ne štejejo napak</h2>
+    <p class="flyer__for"><span aria-hidden="true">{{ a.icon }}</span> {{ a.title }}</p>
+
+    <div class="flyer__shots">
+      @for (g of shots(); track g.name) {
+        <figure>
+          <img [src]="'img/zasloni/' + g.screen + '.jpg'" [alt]="'Zaslon igre ' + g.name" width="390" height="800" />
+          <figcaption>{{ g.icon }} {{ g.name }}</figcaption>
+        </figure>
+      }
+    </div>
+
+    <ul class="flyer__points">
+      @for (w of a.why.slice(0, 4); track w.title) {
+        <li><strong>{{ w.title }}.</strong> {{ w.text }}</li>
+      }
+    </ul>
+
+    <ul class="flyer__principles">
+      <li class="flyer__free"><span aria-hidden="true">🎁</span> Brezplačno</li>
+      @for (p of principles; track p.title) {
+        <li><span aria-hidden="true">{{ p.icon }}</span> {{ p.title }}</li>
+      }
+    </ul>
+
+    <footer class="flyer__bottom">
+      <div class="flyer__qr"><app-qr [value]="link()" /></div>
+      <div class="flyer__info">
+        <p class="flyer__cta">Preberite več in preizkusite:</p>
+        <p class="flyer__url">{{ linkText() }}</p>
+        <p>Aplikacija: <strong>{{ site.appHost }}</strong> · tablica, telefon ali računalnik</p>
+        <p class="flyer__small">
+          Brezplačno, brez oglasov in brez prijave. Podatki ostanejo na napravi, deluje tudi brez interneta. GESI je pripomoček za vadbo in ni
+          medicinski pripomoček.
+        </p>
+      </div>
+    </footer>
+  </article>
+</div>
+
+<div class="container no-print back">
+  <a [routerLink]="['/za', a.id]">← Nazaj na stran »{{ a.short }}«</a>
+</div>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="180" rx="66" ry="12" fill="#000" opacity="0.12"/>
+  <!-- spoon handle behind rim -->
+  <path d="M112 66 L158 12" fill="none" stroke="#78909C" stroke-width="13" stroke-linecap="round"/>
+  <path d="M112 66 L158 12" fill="none" stroke="#DDE4E8" stroke-width="7" stroke-linecap="round"/>
+  <!-- pot body -->
+  <path d="M40 62 L56 168 Q100 182 144 168 L160 62 Z" fill="#FAFAFA" stroke="#8FA0AE" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M46 98 Q100 110 154 98 L150 124 Q100 136 50 124 Z" fill="#90CAF9" stroke="#5B8DB8" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M58 72 L68 160" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <!-- rim and yogurt surface -->
+  <ellipse cx="100" cy="62" rx="62" ry="15" fill="#FAFAFA" stroke="#8FA0AE" stroke-width="4"/>
+  <ellipse cx="100" cy="63" rx="52" ry="10" fill="#FFFDF7" stroke="#D6D2C4" stroke-width="2"/>
+  <path d="M70 64 Q86 58 100 64 Q114 70 128 62" fill="none" stroke="#E8E3D2" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- spoon entering the yogurt -->
+  <path d="M112 64 L124 50" fill="none" stroke="#78909C" stroke-width="13" stroke-linecap="round"/>
+  <path d="M112 64 L124 50" fill="none" stroke="#DDE4E8" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="111" cy="66" rx="10" ry="4" fill="#FFFDF7"/>
+</svg>

@@ -1,0 +1,233 @@
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <span class="eyebrow"><span aria-hidden="true">🎁</span> Brezplačna spletna aplikacija za tablico, telefon in računalnik</span>
+      <h1>Igre s slikami, ki <span class="hl">ne štejejo napak.</span></h1>
+      <p class="lead">
+        GESI je zbirka mirnih iger s slikami, besedami in zvoki za vadbo besedišča, razumevanja in pozornosti.
+        Nastal je doma, za vsakodnevno vadbo po možganski kapi – enako dobro pa služi otrokom s posebnimi potrebami,
+        starejšim, ki želijo ostati bistri, in vsem, ki se učijo jezika.
+      </p>
+      <div class="btn-row">
+        <a routerLink="/preizkusi" class="btn btn--primary">
+          <span aria-hidden="true">▶</span> Preizkusi kar tukaj
+        </a>
+        <a routerLink="/igre" class="btn">Poglej vse igre</a>
+      </div>
+      <ul class="hero__facts" aria-label="Na kratko">
+        <li><span aria-hidden="true">🎁</span> Brezplačno</li>
+        <li><span aria-hidden="true">⏳</span> Brez točk in štoparice</li>
+        <li><span aria-hidden="true">🔊</span> Vse prebere na glas</li>
+        <li><span aria-hidden="true">🔒</span> Brez prijave</li>
+      </ul>
+    </div>
+
+    <div class="hero__visual" aria-hidden="false">
+      <div class="hero__blob" aria-hidden="true"></div>
+      <app-phone class="hero__phone hero__phone--back" screen="domov" alt="Začetni zaslon aplikacije GESI s kartico Mešano" size="small" [eager]="true" />
+      <app-phone class="hero__phone hero__phone--front" screen="kje-je" alt="Igra Kje je? – risan park in navodilo Pokaži: RACE" [eager]="true" />
+      <img class="sticker sticker--1" src="img/slike/piglet.svg" alt="" width="80" height="80" />
+      <img class="sticker sticker--2" src="img/slike/sailboat.svg" alt="" width="80" height="80" />
+      <img class="sticker sticker--3" src="img/slike/raspberries.svg" alt="" width="80" height="80" />
+    </div>
+  </div>
+</section>
+
+<!-- ===== Numbers ===== -->
+<section class="stats" aria-label="GESI v številkah">
+  <div class="container">
+    <ul class="stats__list">
+      @for (s of stats; track s.label) {
+        <li>
+          <strong>{{ s.value }}</strong>
+          <span>{{ s.label }}</span>
+        </li>
+      }
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Principles ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <span class="eyebrow">Zakaj je GESI drugačen</span>
+      <h2>Preprosto, mirno in prijazno – a ne otročje</h2>
+      <p class="lead">
+        Mnoge igre za »trening možganov« merijo čas in štejejo točke. GESI dela ravno obratno: uspeh motivira bolj kot izziv.
+      </p>
+    </div>
+    <div class="grid grid--3">
+      @for (p of principles; track p.title) {
+        <article class="card principle">
+          <div class="icon-badge" aria-hidden="true">{{ p.icon }}</div>
+          <h3>{{ p.title }}</h3>
+          <p>{{ p.text }}</p>
+        </article>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- ===== Audiences ===== -->
+<section class="section section--surface" id="za-koga">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Za koga</span>
+      <h2>Ena aplikacija, zelo različni igralci</h2>
+      <p class="lead">Izberite, kje bi GESI uporabljali – pokažemo igre in nastavitve, ki so tam najbolj koristne.</p>
+    </div>
+    <div class="grid grid--2 audiences">
+      @for (a of audiences; track a.id) {
+        <a class="audience" [routerLink]="['/za', a.id]">
+          <div class="audience__art">
+            <img [src]="a.image" [alt]="a.imageAlt" width="480" height="360" loading="lazy" />
+          </div>
+          <div class="audience__body">
+            <h3><span aria-hidden="true">{{ a.icon }}</span> {{ a.short }}</h3>
+            <p>{{ a.lead }}</p>
+            <span class="audience__more">Več o tem <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+      }
+    </div>
+    <p class="also muted">
+      <span aria-hidden="true">🌍</span> GESI deluje v slovenščini in angleščini, pa tudi v hrvaščini, španščini in
+      portugalščini – zato je primeren tudi za učenje jezika.
+    </p>
+  </div>
+</section>
+
+<!-- ===== Harder days ===== -->
+<section class="section harder">
+  <div class="container harder__grid">
+    <div class="harder__text">
+      <span class="eyebrow eyebrow--mint">Za težje dni</span>
+      <h2>Kadar je vsega preveč</h2>
+      <p class="lead">
+        Pet strani, ki niso igre: nič se ne sprašuje, nič ne more biti narobe in nič se ne šteje. Za trenutke, ko besede
+        ne pridejo, ko narašča jeza ali nemir – ali ko je preprosto dan za nekaj lepega.
+      </p>
+      <ul class="harder__list">
+        <li><strong>🗣️ Povej mi</strong> – tapnete sliko in aplikacija pove namesto vas: »Boli me«, »Žejen sem«, »Objemi me«.</li>
+        <li><strong>😌 Mirni kotiček</strong> – dihanje s krogom, ki se počasi veča in manjša, ob šumenju morja ali gozda.</li>
+        <li><strong>🥾 Izlet</strong> – korak za korakom na Šmarno goro, po Savi s kajakom ali po Ljubljani.</li>
+        <li><strong>🖍️ Pobarvanka</strong> – čarobni čopič, s katerim slika vedno uspe.</li>
+        <li><strong>🎶 Moja glasba</strong> – najljubše pesmi z enim dotikom.</li>
+      </ul>
+      <p class="muted">Vse se premika počasi in mehko, brez utripanja ali hitrih bliskov svetlobe.</p>
+    </div>
+    <div class="harder__phones">
+      <app-phone screen="povej-mi" alt="Povej mi – plošča stavkov s čustvi, izbran stavek UTRUJEN SEM" caption="Povej mi" size="small" />
+      <app-phone screen="mirni-koticek" alt="Mirni kotiček – velik turkizen krog z napisom VDIH" caption="Mirni kotiček" size="small" />
+      <app-phone screen="izlet-nabiranje" alt="Izlet – pohodnik na poti, ob kateri sedi muca" caption="Izlet" size="small" />
+    </div>
+  </div>
+</section>
+
+<!-- ===== Skills ===== -->
+<section class="section section--surface">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">32 iger</span>
+      <h2>Igre po tem, kaj vadijo</h2>
+      <p class="lead">Vse igre so zgrajene enako – gumbi so vedno na istem mestu, zato se igralec hitro znajde.</p>
+    </div>
+    <div class="grid grid--4">
+      @for (s of skills; track s.id) {
+        <a class="skill" routerLink="/igre" [queryParams]="{ vadi: s.id }">
+          <span class="skill__icon" aria-hidden="true">{{ s.icon }}</span>
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.games.join(' · ') }}</p>
+        </a>
+      }
+    </div>
+    <div class="center">
+      <a routerLink="/igre" class="btn btn--primary">Vse igre s slikami</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Demo teaser ===== -->
+<section class="section">
+  <div class="container demo-teaser">
+    <div class="demo-teaser__art" aria-hidden="true">
+      <img src="img/slike/lipizzaner.svg" alt="" width="200" height="200" loading="lazy" />
+    </div>
+    <div>
+      <span class="eyebrow">Preizkusite zdaj</span>
+      <h2>Je to lipicanec?</h2>
+      <p class="lead">
+        Na tej strani lahko preizkusite štiri koščke GESI: igri »Da ali ne?« in »Poišči«, ploščo »Povej mi« in dihanje
+        v Mirnem kotičku. Brez prijave, kar v brskalniku.
+      </p>
+      <div class="btn-row">
+        <a routerLink="/preizkusi" class="btn btn--mint"><span aria-hidden="true">👍</span> Da – preizkusi igre</a>
+        <a [href]="site.appUrl" class="btn" target="_blank" rel="noopener">Odpri celo aplikacijo <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Story teaser ===== -->
+<section class="section section--surface story-teaser">
+  <div class="container story-teaser__grid">
+    <img
+      class="story-teaser__img"
+      src="img/scenes/rovte_meadow.svg"
+      alt="Risba sončnega travnika v Rovtah, kjer se igrajo družinski ljubljenčki"
+      width="480"
+      height="360"
+      loading="lazy"
+    />
+    <div>
+      <span class="eyebrow">Zgodba</span>
+      <h2>Nastal je doma, iz potrebe in z ljubeznijo</h2>
+      <p class="lead">
+        GESI ni nastal v podjetju, temveč doma – za človeka, ki mu po možganski kapi iskanje besed, branje
+        in zbranost niso bili več samoumevni. Zato so v njem domači kraji, družinski izleti in vsi ljubljenčki s travnika
+        v Rovtah.
+      </p>
+      <a routerLink="/zgodba" class="btn">Preberi zgodbo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Getting started & trust ===== -->
+<section class="section">
+  <div class="container start-trust">
+    <div>
+      <span class="eyebrow">Kako začeti</span>
+      <h2>V nekaj minutah na tablici</h2>
+      <ol class="steps">
+        @for (s of steps; track s.title; let i = $index) {
+          <li>
+            <span class="steps__num" aria-hidden="true">{{ i + 1 }}</span>
+            <div>
+              <h3>{{ s.title }}</h3>
+              <p>{{ s.text }}</p>
+            </div>
+          </li>
+        }
+      </ol>
+      <a routerLink="/kako-zaceti" class="btn">Podrobna navodila</a>
+    </div>
+    <div class="trust card">
+      <h2 class="trust__title">Za ustanove: varno in preprosto</h2>
+      <ul class="trust__list">
+        @for (t of trust; track t.title) {
+          <li>
+            <span class="trust__icon" aria-hidden="true">{{ t.icon }}</span>
+            <div>
+              <strong>{{ t.title }}</strong>
+              <p>{{ t.text }}</p>
+            </div>
+          </li>
+        }
+      </ul>
+    </div>
+  </div>
+</section>
+
+<app-cta-band />

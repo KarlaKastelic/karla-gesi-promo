@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="158" rx="88" ry="9" fill="#000" opacity="0.12"/>
+  <path d="M20 58 Q100 42 180 56 Q172 100 184 148 Q100 160 16 146 Q28 100 20 58 Z" fill="#FFFFFF" stroke="#8FA3B5" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M28 132 Q100 146 176 134 Q178 142 180 144 Q100 154 22 142 Z" fill="#DCE5EE"/>
+  <path d="M164 66 Q160 100 168 136" fill="none" stroke="#DCE5EE" stroke-width="6" stroke-linecap="round"/>
+  <!-- squashed dent -->
+  <ellipse cx="96" cy="100" rx="50" ry="20" fill="#E6ECF2"/>
+  <path d="M50 96 Q60 86 76 84" fill="none" stroke="#C9D5E0" stroke-width="3" stroke-linecap="round"/>
+  <g fill="none" stroke="#B9C7D4" stroke-width="3" stroke-linecap="round">
+    <path d="M24 62 L40 70"/><path d="M176 60 L160 68"/><path d="M22 142 L38 134"/><path d="M180 144 L164 136"/>
+  </g>
+  <path d="M44 66 Q80 58 112 60" fill="none" stroke="#F0F4F8" stroke-width="5" stroke-linecap="round"/>
+</svg>

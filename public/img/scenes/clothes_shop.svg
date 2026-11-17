@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <!-- warm back wall with soft stripes -->
+  <rect x="0" y="0" width="480" height="252" fill="#FDEBD8"/>
+  <g fill="#FAE0C6">
+    <rect x="20" y="0" width="20" height="252"/><rect x="100" y="0" width="20" height="252"/><rect x="180" y="0" width="20" height="252"/>
+    <rect x="260" y="0" width="20" height="252"/><rect x="340" y="0" width="20" height="252"/><rect x="420" y="0" width="20" height="252"/>
+  </g>
+  <!-- ceiling with little spotlights -->
+  <rect x="0" y="0" width="480" height="8" fill="#FFFFFF"/>
+  <line x1="0" y1="8" x2="480" y2="8" stroke="#E0C2A2" stroke-width="2"/>
+  <g fill="#FFE082" stroke="#C9A23A" stroke-width="2.5">
+    <path d="M110 8 Q110 18 120 18 Q130 18 130 8 Z"/><path d="M230 8 Q230 18 240 18 Q250 18 250 8 Z"/><path d="M350 8 Q350 18 360 18 Q370 18 370 8 Z"/>
+  </g>
+  <!-- light wooden floor -->
+  <rect x="0" y="250" width="480" height="110" fill="#EBCB9F"/>
+  <g stroke="#D7B07F" stroke-width="2"><line x1="0" y1="278" x2="480" y2="278"/><line x1="0" y1="308" x2="480" y2="308"/><line x1="0" y1="340" x2="480" y2="340"/></g>
+  <g stroke="#D7B07F" stroke-width="2"><line x1="150" y1="250" x2="150" y2="278"/><line x1="330" y1="250" x2="330" y2="278"/><line x1="60" y1="278" x2="60" y2="308"/><line x1="250" y1="278" x2="250" y2="308"/><line x1="420" y1="278" x2="420" y2="308"/><line x1="140" y1="308" x2="140" y2="340"/><line x1="360" y1="308" x2="360" y2="340"/></g>
+  <rect x="0" y="243" width="480" height="8" fill="#FFF6EA"/>
+  <line x1="0" y1="251" x2="480" y2="251" stroke="#A1794F" stroke-width="3"/>
+
+  <g data-part="fitting_room" stroke-linejoin="round" stroke-linecap="round">
+    <!-- the cubicle inside, seen through the gap in the curtain -->
+    <rect x="10" y="34" width="72" height="224" fill="#C9B29A" stroke="#5D4037" stroke-width="3"/>
+    <path d="M74 70 V80 Q74 85 69 85" fill="none" stroke="#5D4037" stroke-width="3"/>
+    <rect x="64" y="216" width="18" height="8" rx="2" fill="#8D5A3B" stroke="#5D4037" stroke-width="2.5"/>
+    <path d="M67 224 V256 M79 224 V256" stroke="#5D4037" stroke-width="3"/>
+    <!-- posts and top -->
+    <rect x="4" y="30" width="9" height="232" fill="#A1694A" stroke="#5D4037" stroke-width="3.5"/>
+    <rect x="80" y="30" width="9" height="232" fill="#A1694A" stroke="#5D4037" stroke-width="3.5"/>
+    <rect x="0" y="18" width="93" height="16" rx="3" fill="#8D5A3B" stroke="#5D4037" stroke-width="3.5"/>
+    <line x1="13" y1="42" x2="80" y2="42" stroke="#5D4037" stroke-width="4"/>
+    <!-- curtain, drawn nearly shut -->
+    <path d="M13 42 H62 Q58 140 64 252 Q58 258 52 252 Q46 258 40 252 Q34 258 27 252 Q20 258 13 252 Z" fill="#26A69A" stroke="#00695C" stroke-width="3.5"/>
+    <g fill="none" stroke="#5FC7BC" stroke-width="3">
+      <path d="M22 48 Q20 150 21 248"/><path d="M36 48 Q35 150 34 248"/><path d="M50 48 Q48 150 47 248"/>
+    </g>
+    <g fill="#FFD54F" stroke="#8A6A1B" stroke-width="2"><circle cx="17" cy="42" r="3.5"/><circle cx="29" cy="42" r="3.5"/><circle cx="41" cy="42" r="3.5"/><circle cx="53" cy="42" r="3.5"/><circle cx="62" cy="42" r="3.5"/></g>
+  </g>
+
+  <g data-part="mirror" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M101 256 L94 264 M127 256 L134 264" fill="none" stroke="#8A6A1B" stroke-width="4.5"/>
+    <path d="M96 258 V82 Q96 54 114 54 Q132 54 132 82 V258 Z" fill="#E0A93B" stroke="#8A6A1B" stroke-width="3.5"/>
+    <path d="M102 252 V84 Q102 62 114 62 Q126 62 126 84 V252 Z" fill="#D3ECF6" stroke="#B88A2A" stroke-width="2"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="3.5"><path d="M107 104 L118 86"/><path d="M107 122 L122 98"/><path d="M108 232 L120 212"/></g>
+  </g>
+
+  <g data-part="shelves" stroke-linejoin="round" stroke-linecap="round">
+    <!-- brackets -->
+    <g fill="#8D5A3B" stroke="#5D4037" stroke-width="2.5">
+      <path d="M160 56 V68 L172 56 Z"/><path d="M334 56 V68 L322 56 Z"/>
+      <path d="M160 102 V114 L172 102 Z"/><path d="M334 102 V114 L322 102 Z"/>
+    </g>
+    <!-- top shelf: folded clothes -->
+    <g stroke-width="2.5">
+      <rect x="160" y="40" width="34" height="10" rx="3" fill="#F06292" stroke="#AD1457"/>
+      <rect x="161" y="30" width="32" height="10" rx="3" fill="#FFF176" stroke="#B59A00"/>
+      <rect x="162" y="20" width="30" height="10" rx="3" fill="#BA68C8" stroke="#6A1B9A"/>
+      <rect x="202" y="40" width="34" height="10" rx="3" fill="#81C784" stroke="#2E7D32"/>
+      <rect x="203" y="30" width="32" height="10" rx="3" fill="#FFB74D" stroke="#B26A00"/>
+      <rect x="244" y="40" width="34" height="10" rx="3" fill="#E57373" stroke="#B71C1C"/>
+      <rect x="245" y="30" width="32" height="10" rx="3" fill="#FFFFFF" stroke="#78909C"/>
+      <rect x="246" y="20" width="30" height="10" rx="3" fill="#4DD0E1" stroke="#00838F"/>
+      <rect x="286" y="40" width="34" height="10" rx="3" fill="#FFD54F" stroke="#B28704"/>
+      <rect x="287" y="30" width="32" height="10" rx="3" fill="#A1887F" stroke="#5D4037"/>
+    </g>
+    <!-- lower shelf: folded clothes -->
+    <g stroke-width="2.5">
+      <rect x="160" y="86" width="34" height="10" rx="3" fill="#FFB74D" stroke="#B26A00"/>
+      <rect x="161" y="76" width="32" height="10" rx="3" fill="#E57373" stroke="#B71C1C"/>
+      <rect x="202" y="86" width="34" height="10" rx="3" fill="#BA68C8" stroke="#6A1B9A"/>
+      <rect x="203" y="76" width="32" height="10" rx="3" fill="#FFFFFF" stroke="#78909C"/>
+      <rect x="204" y="66" width="30" height="10" rx="3" fill="#81C784" stroke="#2E7D32"/>
+      <rect x="244" y="86" width="34" height="10" rx="3" fill="#4DD0E1" stroke="#00838F"/>
+      <rect x="245" y="76" width="32" height="10" rx="3" fill="#F06292" stroke="#AD1457"/>
+      <rect x="286" y="86" width="34" height="10" rx="3" fill="#FFF176" stroke="#B59A00"/>
+      <rect x="287" y="76" width="32" height="10" rx="3" fill="#BA68C8" stroke="#6A1B9A"/>
+      <rect x="288" y="66" width="30" height="10" rx="3" fill="#FFB74D" stroke="#B26A00"/>
+    </g>
+    <g fill="none" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="2">
+      <path d="M166 45 H188 M207 45 H230 M249 45 H272 M291 45 H314 M166 91 H188 M207 91 H230 M249 91 H272 M291 91 H314"/>
+    </g>
+    <!-- boards -->
+    <rect x="150" y="50" width="194" height="7" rx="2" fill="#C49A6C" stroke="#5D4037" stroke-width="3"/>
+    <rect x="150" y="96" width="194" height="7" rx="2" fill="#C49A6C" stroke="#5D4037" stroke-width="3"/>
+  </g>
+
+  <g data-part="rack" stroke-linejoin="round" stroke-linecap="round">
+    <!-- chrome rail on two legs with wheels -->
+    <path d="M358 66 V248 M468 66 V248" fill="none" stroke="#546E7A" stroke-width="6"/>
+    <path d="M358 66 V248 M468 66 V248" fill="none" stroke="#CFD8DC" stroke-width="2.5"/>
+    <path d="M346 248 H372 M456 248 H480" fill="none" stroke="#546E7A" stroke-width="6"/>
+    <g fill="#37474F"><circle cx="348" cy="252" r="4"/><circle cx="370" cy="252" r="4"/><circle cx="458" cy="252" r="4"/></g>
+    <path d="M352 66 H474" fill="none" stroke="#546E7A" stroke-width="6"/>
+    <path d="M352 66 H474" fill="none" stroke="#ECEFF1" stroke-width="2.5"/>
+    <g fill="#B0BEC5" stroke="#546E7A" stroke-width="2.5"><circle cx="351" cy="66" r="4"/><circle cx="475" cy="66" r="4"/></g>
+    <!-- hangers -->
+    <g fill="none" stroke="#6D4C41" stroke-width="2.5">
+      <path d="M372 76 V68 Q372 62 377 62 Q381 62 381 66"/><path d="M372 72 L358 80 H386 Z"/>
+      <path d="M398 76 V68 Q398 62 403 62 Q407 62 407 66"/><path d="M398 72 L386 80 H410 Z"/>
+      <path d="M424 76 V68 Q424 62 429 62 Q433 62 433 66"/><path d="M424 72 L410 80 H438 Z"/>
+    </g>
+    <!-- yellow T-shirt -->
+    <path d="M358 80 L366 76 Q372 82 378 76 L386 80 L393 92 L386 97 L384 93 V138 H360 V93 L358 97 L351 92 Z" fill="#FFE066" stroke="#B8860B" stroke-width="3"/>
+    <path d="M366 77 Q372 86 378 77" fill="none" stroke="#B8860B" stroke-width="2"/>
+    <!-- green dress -->
+    <path d="M391 77 Q398 84 405 77 L409 98 L420 156 Q398 163 376 156 L387 98 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="3"/>
+    <path d="M387 100 H409" stroke="#FFFFFF" stroke-width="3"/>
+    <g fill="#C8E6C9"><circle cx="392" cy="122" r="2.5"/><circle cx="404" cy="132" r="2.5"/><circle cx="392" cy="144" r="2.5"/><circle cx="408" cy="148" r="2.5"/></g>
+    <!-- coral sweater -->
+    <path d="M410 80 L418 76 Q424 82 430 76 L438 80 L446 130 L437 132 L434 100 V142 H414 V100 L411 132 L402 130 Z" fill="#FF8A65" stroke="#BF360C" stroke-width="3"/>
+    <path d="M415 136 H433" stroke="#BF360C" stroke-width="2"/>
+  </g>
+
+  <g data-part="jeans" stroke-linejoin="round" stroke-linecap="round">
+    <!-- clip hanger -->
+    <path d="M456 76 V68 Q456 62 461 62 Q465 62 465 66" fill="none" stroke="#6D4C41" stroke-width="2.5"/>
+    <path d="M438 78 H474" stroke="#6D4C41" stroke-width="4"/>
+    <rect x="440" y="76" width="5" height="8" fill="#90A4AE" stroke="#455A64" stroke-width="1.5"/>
+    <rect x="467" y="76" width="5" height="8" fill="#90A4AE" stroke="#455A64" stroke-width="1.5"/>
+    <!-- the jeans, hanging by the waistband -->
+    <path d="M439 82 H473 L476 174 H460 L456 114 L452 174 H436 Z" fill="#3F6FB5" stroke="#1A3A6B" stroke-width="3"/>
+    <path d="M439 90 H473" stroke="#1A3A6B" stroke-width="2.5"/>
+    <circle cx="456" cy="86" r="2" fill="#FFD54F" stroke="#8A6A1B" stroke-width="1"/>
+    <g fill="none" stroke="#9EC0EC" stroke-width="1.8" stroke-dasharray="3 3">
+      <path d="M456 91 V112"/><path d="M442 94 Q446 102 452 96"/><path d="M470 94 Q466 102 460 96"/>
+      <path d="M445 116 L443 170"/><path d="M467 116 L469 170"/>
+    </g>
+    <path d="M437 164 H452 M460 164 H475" stroke="#1A3A6B" stroke-width="2"/>
+  </g>
+
+  <g data-part="till" stroke-linejoin="round" stroke-linecap="round">
+    <!-- counter -->
+    <rect x="390" y="216" width="94" height="118" fill="#FFFFFF" stroke="#546E7A" stroke-width="3.5"/>
+    <rect x="390" y="238" width="94" height="14" fill="#FFAB91" stroke="#546E7A" stroke-width="2.5"/>
+    <rect x="400" y="264" width="72" height="58" rx="3" fill="none" stroke="#B0BEC5" stroke-width="2.5"/>
+    <rect x="382" y="205" width="100" height="13" rx="3" fill="#A1694A" stroke="#4E342E" stroke-width="3.5"/>
+    <!-- cash register -->
+    <path d="M393 206 L398 184 H436 L441 206 Z" fill="#90A4AE" stroke="#37474F" stroke-width="3"/>
+    <g fill="#ECEFF1" stroke="#37474F" stroke-width="1.2">
+      <rect x="403" y="188" width="6" height="4" rx="1"/><rect x="412" y="188" width="6" height="4" rx="1"/><rect x="421" y="188" width="6" height="4" rx="1"/>
+      <rect x="402" y="195" width="6" height="4" rx="1"/><rect x="411" y="195" width="6" height="4" rx="1"/><rect x="420" y="195" width="6" height="4" rx="1"/>
+    </g>
+    <rect x="429" y="189" width="7" height="11" rx="1.5" fill="#66BB6A" stroke="#37474F" stroke-width="1.2"/>
+    <rect x="414" y="176" width="6" height="9" fill="#607D8B" stroke="#37474F" stroke-width="2"/>
+    <rect x="402" y="162" width="30" height="16" rx="2" fill="#A5D6A7" stroke="#37474F" stroke-width="3"/>
+    <!-- card terminal -->
+    <rect x="451" y="186" width="18" height="20" rx="3" fill="#37474F" stroke="#212121" stroke-width="2.5"/>
+    <rect x="454" y="189" width="12" height="5" fill="#80DEEA"/>
+    <g fill="#B0BEC5"><circle cx="456" cy="198" r="1.2"/><circle cx="460" cy="198" r="1.2"/><circle cx="464" cy="198" r="1.2"/><circle cx="456" cy="202" r="1.2"/><circle cx="460" cy="202" r="1.2"/><circle cx="464" cy="202" r="1.2"/></g>
+  </g>
+
+  <!-- shoe display (not a part) -->
+  <g stroke-linejoin="round">
+    <rect x="6" y="292" width="114" height="58" fill="#F3F0EC" stroke="#90A4AE" stroke-width="3.5"/>
+    <rect x="6" y="320" width="114" height="8" fill="#F8BBD0"/>
+    <rect x="2" y="284" width="122" height="10" rx="3" fill="#FFFFFF" stroke="#90A4AE" stroke-width="3"/>
+  </g>
+  <!-- soft shadows -->
+  <ellipse cx="180" cy="347" rx="50" ry="6" fill="#000000" opacity="0.1"/>
+  <ellipse cx="318" cy="347" rx="36" ry="6" fill="#000000" opacity="0.1"/>
+
+  <g data-part="sneakers" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(4 288)">
+      <path d="M17 -36 Q17 -45 24 -44 Q29 -42 31 -30 H20 Z" fill="#FFFFFF" stroke="#37474F" stroke-width="2.8"/>
+      <path d="M3 -12 L2 -32 Q2 -38 8 -38 H18 Q20 -30 28 -29 L38 -27 Q52 -24 58 -18 Q62 -14 61 -12 Z" fill="#FFFFFF" stroke="#37474F" stroke-width="2.8"/>
+      <path d="M4 -34 Q4 -36 8 -36 H12 V-14 H4 Z" fill="#26A69A"/>
+      <path d="M12 -14 Q28 -34 46 -18" fill="none" stroke="#FF4081" stroke-width="5"/>
+      <path d="M27 -30 L31 -24 M33 -29 L36 -23 M39 -27 L41 -21 M45 -25 L46 -20" fill="none" stroke="#37474F" stroke-width="2"/>
+      <path d="M0 -12 H56 Q63 -12 63 -6 Q63 0 56 0 H6 Q0 0 0 -6 Z" fill="#FFFFFF" stroke="#37474F" stroke-width="2.8"/>
+      <path d="M5 -6 H57" stroke="#FF7043" stroke-width="3.5"/>
+    </g>
+    <g transform="translate(52 295)">
+      <path d="M17 -36 Q17 -45 24 -44 Q29 -42 31 -30 H20 Z" fill="#FFFFFF" stroke="#37474F" stroke-width="2.8"/>
+      <path d="M3 -12 L2 -32 Q2 -38 8 -38 H18 Q20 -30 28 -29 L38 -27 Q52 -24 58 -18 Q62 -14 61 -12 Z" fill="#FFFFFF" stroke="#37474F" stroke-width="2.8"/>
+      <path d="M4 -34 Q4 -36 8 -36 H12 V-14 H4 Z" fill="#26A69A"/>
+      <path d="M12 -14 Q28 -34 46 -18" fill="none" stroke="#FF4081" stroke-width="5"/>
+      <path d="M27 -30 L31 -24 M33 -29 L36 -23 M39 -27 L41 -21 M45 -25 L46 -20" fill="none" stroke="#37474F" stroke-width="2"/>
+      <path d="M0 -12 H56 Q63 -12 63 -6 Q63 0 56 0 H6 Q0 0 0 -6 Z" fill="#FFFFFF" stroke="#37474F" stroke-width="2.8"/>
+      <path d="M5 -6 H57" stroke="#FF7043" stroke-width="3.5"/>
+    </g>
+    <rect x="2" y="244" width="116" height="53" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="price_tag" stroke-linejoin="round" stroke-linecap="round">
+    <!-- string from the laces -->
+    <path d="M88 269 Q102 288 96 304" fill="none" stroke="#5D4037" stroke-width="2.5"/>
+    <g transform="translate(96 304) rotate(110)">
+      <path d="M-5 0 L8 -13 H46 Q50 -13 50 -9 V9 Q50 13 46 13 H8 Z" fill="#FFD54F" stroke="#8A6A1B" stroke-width="3"/>
+      <path d="M12 -8 H44 V8 H12" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <circle cx="4" cy="0" r="3.2" fill="#FFFFFF" stroke="#8A6A1B" stroke-width="2"/>
+    </g>
+    <rect x="64" y="298" width="50" height="56" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="bojan" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(89 76) scale(1.45)">
+      <!-- far arm raised, holding up the card -->
+      <path d="M48 88 L31 102 L28 70" fill="none" stroke="#B07A50" stroke-width="15"/>
+      <path d="M48 88 L31 102 L28 70" fill="none" stroke="#F2C9A0" stroke-width="9"/>
+      <path d="M50 84 L41 92" fill="none" stroke="#0D47A1" stroke-width="20"/>
+      <path d="M50 84 L42 91" fill="none" stroke="#1976D2" stroke-width="14"/>
+      <ellipse cx="28" cy="68" rx="7" ry="7" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <!-- legs and shoes -->
+      <path d="M55 128 L50 178" fill="none" stroke="#263238" stroke-width="18"/>
+      <path d="M55 128 L50 178" fill="none" stroke="#455A64" stroke-width="12"/>
+      <path d="M71 128 L75 178" fill="none" stroke="#263238" stroke-width="18"/>
+      <path d="M71 128 L75 178" fill="none" stroke="#455A64" stroke-width="12"/>
+      <path d="M36 186 Q36 176 48 176 Q58 176 60 186 Z" fill="#4E342E" stroke="#2B1B17" stroke-width="3"/>
+      <path d="M64 186 Q64 176 76 176 Q86 177 88 186 Z" fill="#4E342E" stroke="#2B1B17" stroke-width="3"/>
+      <!-- neck and blue T-shirt -->
+      <rect x="56" y="58" width="14" height="18" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <path d="M44 132 V96 Q42 80 56 74 Q63 80 70 74 Q84 80 82 96 V132 Z" fill="#1976D2" stroke="#0D47A1" stroke-width="4"/>
+      <rect x="46" y="124" width="34" height="12" rx="4" fill="#455A64" stroke="#263238" stroke-width="3.5"/>
+      <rect x="59" y="126" width="9" height="8" rx="1.5" fill="#FFD54F" stroke="#8A6A1B" stroke-width="1.5"/>
+      <!-- head, three-quarter view, big proud grin -->
+      <g transform="translate(66 40) scale(0.6)">
+        <ellipse cx="0" cy="0" rx="33" ry="38" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+        <path d="M-34 10 Q-40 -40 2 -40 Q34 -40 34 -8 Q24 -24 6 -24 Q-12 -22 -16 -2 Q-22 10 -34 10 Z" fill="#2B211C" stroke="#17110E" stroke-width="4.5"/>
+        <ellipse cx="-20" cy="6" rx="7" ry="10" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+        <path d="M-3 -10 Q4 -15 11 -11 M16 -14 Q23 -20 30 -13" fill="none" stroke="#4E342E" stroke-width="3.5"/>
+        <g stroke="none"><circle cx="4" cy="-1" r="6.5" fill="#6D4C41"/><circle cx="22" cy="-1" r="6.5" fill="#6D4C41"/><circle cx="4" cy="-1" r="3.2" fill="#1A1A1A"/><circle cx="22" cy="-1" r="3.2" fill="#1A1A1A"/><circle cx="5.6" cy="-2.8" r="1.4" fill="#FFFFFF"/><circle cx="23.6" cy="-2.8" r="1.4" fill="#FFFFFF"/></g>
+        <path d="M16 5 V13" fill="none" stroke="#B07A50" stroke-width="4.5"/>
+        <path d="M-2 18 Q14 22 32 16 Q30 36 14 36 Q0 34 -2 18 Z" fill="#8D4A3A" stroke="#6D3325" stroke-width="3"/>
+        <path d="M0 19 Q14 23 31 17 L30 22 Q14 27 1 24 Z" fill="#FFFFFF"/>
+      </g>
+      <!-- near arm down, carrying the bags -->
+      <path d="M76 88 L83 110 L88 132" fill="none" stroke="#B07A50" stroke-width="15"/>
+      <path d="M76 88 L83 110 L88 132" fill="none" stroke="#F2C9A0" stroke-width="9"/>
+      <path d="M74 84 L80 98" fill="none" stroke="#0D47A1" stroke-width="20"/>
+      <path d="M74 84 L79 96" fill="none" stroke="#1976D2" stroke-width="14"/>
+      <ellipse cx="88" cy="133" rx="7" ry="7" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    </g>
+  </g>
+
+  <g data-part="nika" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(115 76) scale(1.45)">
+      <!-- long hair behind -->
+      <path d="M152 30 Q172 26 172 52 Q174 78 180 94 Q164 100 152 88 Q148 72 148 58 Z" fill="#2B211C" stroke="#17110E" stroke-width="3.5"/>
+      <!-- far arm by her side -->
+      <path d="M144 86 L152 106 L160 118" fill="none" stroke="#B07A50" stroke-width="13"/>
+      <path d="M144 86 L152 106 L160 118" fill="none" stroke="#F2C9A0" stroke-width="7"/>
+      <circle cx="161" cy="120" r="5.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <!-- legs and shoes -->
+      <path d="M134 150 L132 180 M148 150 L150 180" fill="none" stroke="#B07A50" stroke-width="11"/>
+      <path d="M134 150 L132 180 M148 150 L150 180" fill="none" stroke="#F2C9A0" stroke-width="6"/>
+      <path d="M142 186 Q142 178 132 178 Q122 180 120 186 Z" fill="#C2185B" stroke="#6A0F3A" stroke-width="3"/>
+      <path d="M160 186 Q160 178 150 178 Q140 180 138 186 Z" fill="#C2185B" stroke="#6A0F3A" stroke-width="3"/>
+      <!-- skirt -->
+      <path d="M126 110 H154 Q162 130 166 152 Q140 160 114 152 Q118 130 126 110 Z" fill="#EC407A" stroke="#AD1457" stroke-width="4"/>
+      <path d="M116 148 Q140 155 164 148" fill="none" stroke="#FFD54F" stroke-width="4"/>
+      <g fill="#FFF59D"><circle cx="134" cy="126" r="3"/><circle cx="148" cy="134" r="3"/><circle cx="130" cy="142" r="3"/><circle cx="152" cy="146" r="3"/></g>
+      <!-- top -->
+      <rect x="134" y="62" width="12" height="16" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+      <path d="M126 112 L124 90 Q126 78 136 76 Q140 80 144 76 Q154 78 156 90 L154 112 Z" fill="#8E24AA" stroke="#4A148C" stroke-width="4"/>
+      <path d="M126 112 H154" stroke="#FFD54F" stroke-width="4"/>
+      <!-- head, three-quarter view facing left, delighted -->
+      <g transform="translate(140 46) scale(-0.54 0.54)">
+        <ellipse cx="0" cy="0" rx="32" ry="37" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+        <path d="M-36 18 Q-44 -42 2 -42 Q36 -40 34 -6 Q26 -26 6 -26 Q-10 -24 -14 -2 Q-18 18 -36 18 Z" fill="#2B211C" stroke="#17110E" stroke-width="5"/>
+        <path d="M-3 -12 Q4 -18 12 -17 M16 -17 Q24 -19 30 -13" fill="none" stroke="#3B2314" stroke-width="3.5"/>
+        <g stroke="none"><circle cx="5" cy="0" r="6.5" fill="#6D4C41"/><circle cx="23" cy="0" r="6.5" fill="#6D4C41"/><circle cx="5" cy="0" r="3.2" fill="#1A1A1A"/><circle cx="23" cy="0" r="3.2" fill="#1A1A1A"/><circle cx="6.6" cy="-1.8" r="1.4" fill="#FFFFFF"/><circle cx="24.6" cy="-1.8" r="1.4" fill="#FFFFFF"/></g>
+        <circle cx="6" cy="13" r="5" fill="#F48FB1" opacity="0.7"/>
+        <path d="M18 6 V13" fill="none" stroke="#B07A50" stroke-width="4.5"/>
+        <path d="M4 18 Q16 36 29 18 Z" fill="#C2185B" stroke="#AD1457" stroke-width="3"/>
+        <path d="M6 19 Q16 22 27 19 L26 22 Q16 25 7 22 Z" fill="#FFFFFF"/>
+      </g>
+      <!-- near arm raised, holding up the hanger -->
+      <path d="M128 86 L119 96 L96 54" fill="none" stroke="#B07A50" stroke-width="13"/>
+      <path d="M128 86 L119 96 L96 54" fill="none" stroke="#F2C9A0" stroke-width="7"/>
+      <path d="M130 82 L125 92" fill="none" stroke="#4A148C" stroke-width="17"/>
+      <path d="M130 82 L126 90" fill="none" stroke="#8E24AA" stroke-width="11"/>
+      <circle cx="96" cy="54" r="6.5" fill="#F2C9A0" stroke="#B07A50" stroke-width="3"/>
+    </g>
+  </g>
+
+  <g data-part="bags" stroke-linejoin="round" stroke-linecap="round">
+    <!-- pink bag -->
+    <path d="M200 286 Q204 262 216 264 Q226 266 222 286" fill="none" stroke="#880E4F" stroke-width="3"/>
+    <path d="M190 284 H232 L234 338 H188 Z" fill="#F06292" stroke="#AD1457" stroke-width="3.5"/>
+    <path d="M190 292 H232" stroke="#AD1457" stroke-width="2.5"/>
+    <path d="M211 324 Q197 314 202 306 Q207 300 211 307 Q215 300 220 306 Q225 314 211 324 Z" fill="#FFFFFF" stroke="#AD1457" stroke-width="2"/>
+    <!-- blue bag -->
+    <path d="M226 292 Q220 268 216 266 Q232 264 244 292" fill="none" stroke="#01579B" stroke-width="3"/>
+    <path d="M214 290 H256 L258 342 H212 Z" fill="#29B6F6" stroke="#0277BD" stroke-width="3.5"/>
+    <path d="M214 298 H256" stroke="#0277BD" stroke-width="2.5"/>
+    <path d="M235 308 L238 316 L246 317 L240 322 L242 330 L235 326 L228 330 L230 322 L224 317 L232 316 Z" fill="#FFF59D" stroke="#0277BD" stroke-width="2"/>
+  </g>
+
+  <g data-part="jacket" stroke-linejoin="round" stroke-linecap="round">
+    <!-- hanger hooked over her hand -->
+    <path d="M254 168 V156 Q254 146 261 146 Q268 146 268 153" fill="none" stroke="#6D4C41" stroke-width="3"/>
+    <path d="M254 166 L228 178 H280 Z" fill="none" stroke="#6D4C41" stroke-width="3"/>
+    <!-- sleeves -->
+    <path d="M230 182 L223 232 L235 235 L238 196 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="3.5"/>
+    <path d="M278 182 L285 232 L273 235 L270 196 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="3.5"/>
+    <path d="M223 232 L235 235 L234 242 L222 239 Z" fill="#B71C1C" stroke="#8E1B1B" stroke-width="3"/>
+    <path d="M285 232 L273 235 L274 242 L286 239 Z" fill="#B71C1C" stroke="#8E1B1B" stroke-width="3"/>
+    <!-- body -->
+    <path d="M236 176 Q254 186 272 176 L280 182 L278 242 Q254 248 230 242 L228 182 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="3.5"/>
+    <path d="M230 234 Q254 240 278 234 L278 242 Q254 248 230 242 Z" fill="#B71C1C" stroke="#8E1B1B" stroke-width="3"/>
+    <path d="M242 176 Q254 190 266 176 L264 170 Q254 180 244 170 Z" fill="#B71C1C" stroke="#8E1B1B" stroke-width="3"/>
+    <path d="M254 184 V238" fill="none" stroke="#ECEFF1" stroke-width="3"/>
+    <circle cx="254" cy="194" r="2.5" fill="#ECEFF1" stroke="#78909C" stroke-width="1.5"/>
+    <path d="M237 212 L243 224 M271 212 L265 224" fill="none" stroke="#8E1B1B" stroke-width="3"/>
+  </g>
+
+  <g data-part="card" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(126 154) rotate(-14)">
+      <rect x="-18" y="-12" width="36" height="24" rx="3.5" fill="#283593" stroke="#0D1240" stroke-width="3"/>
+      <path d="M-16 -5 H16" stroke="#5C6BC0" stroke-width="3"/>
+      <rect x="-12" y="0" width="9" height="7" rx="1.5" fill="#FFD54F" stroke="#8A6A1B" stroke-width="1.5"/>
+      <g fill="#C5CAE9"><circle cx="3" cy="6" r="1.4"/><circle cx="7" cy="6" r="1.4"/><circle cx="11" cy="6" r="1.4"/></g>
+    </g>
+    <g fill="none" stroke="#FFB300" stroke-width="2.5">
+      <path d="M100 136 L106 140 M104 128 L108 132 M150 128 L146 133 M154 138 L148 140"/>
+    </g>
+    <rect x="104" y="134" width="44" height="40" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- little hearts between them -->
+  <g fill="#F06292" stroke="#AD1457" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M244 132 Q236 126 239 121 Q242 117 244 121 Q246 117 249 121 Q252 126 244 132 Z"/>
+    <path d="M262 120 Q256 116 258 112 Q260 109 262 112 Q264 109 266 112 Q268 116 262 120 Z"/>
+  </g>
+</svg>

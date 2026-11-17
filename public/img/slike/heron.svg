@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="0" y="0" width="200" height="200" fill="#DDEFFF"/>
+  <rect x="0" y="156" width="200" height="44" fill="#8EC3E6"/>
+  <path d="M0 156 H200" stroke="#5A9AC6" stroke-width="3"/>
+  <!-- legs -->
+  <path d="M78 122 L76 170 M94 122 L98 170" fill="none" stroke="#8A6A2A" stroke-width="7" stroke-linecap="round"/>
+  <path d="M78 122 L76 170 M94 122 L98 170" fill="none" stroke="#D9B24A" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- water over feet + ripples -->
+  <rect x="0" y="164" width="200" height="36" fill="#8EC3E6" opacity="0.9"/>
+  <g fill="none" stroke="#5A9AC6" stroke-width="3" stroke-linecap="round">
+    <path d="M64 168 Q76 164 88 168"/><path d="M88 168 Q98 164 110 168"/>
+    <path d="M20 184 H54"/><path d="M130 180 H176"/><path d="M80 192 H120"/>
+  </g>
+  <!-- body -->
+  <path d="M30 120 Q44 80 88 78 Q118 80 122 100 Q114 126 82 128 Q50 130 30 120 Z" fill="#9EA7AE" stroke="#5F6970" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M36 118 Q70 112 110 116 Q96 128 74 128 Q48 128 36 118 Z" fill="#37474F" stroke="#263238" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 96 Q86 92 110 100" fill="none" stroke="#7E888F" stroke-width="3" stroke-linecap="round"/>
+  <!-- S-neck -->
+  <path d="M106 90 Q132 78 120 56 Q108 36 132 28" fill="none" stroke="#7E888F" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M106 90 Q132 78 120 56 Q108 36 132 28" fill="none" stroke="#E8ECEE" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#37474F" stroke-width="2.5" stroke-linecap="round">
+    <path d="M124 70 L127 74"/><path d="M122 62 L126 64"/><path d="M118 52 L122 52"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="138" cy="27" rx="14" ry="10" fill="#E8ECEE" stroke="#7E888F" stroke-width="3.5"/>
+  <!-- black crest stripe -->
+  <path d="M140 20 Q130 18 118 22 L100 30 L120 28 Q132 26 144 26 Z" fill="#1C1C1C" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+  <!-- yellow dagger beak -->
+  <path d="M148 22 L198 30 L148 32 Z" fill="#F2B53A" stroke="#9A6B10" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="144" cy="25" r="2.6" fill="#111"/>
+</svg>

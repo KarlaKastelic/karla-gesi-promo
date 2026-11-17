@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <defs>
+    <linearGradient id="ht-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1D3A"/>
+      <stop offset="1" stop-color="#2A4A78"/>
+    </linearGradient>
+    <linearGradient id="ht-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7FD8F7"/>
+      <stop offset="1" stop-color="#29A3D9"/>
+    </linearGradient>
+    <radialGradient id="ht-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE082" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FFE082" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- night sky, distant snowy hills and the snow on the ground (not parts) -->
+  <rect x="0" y="0" width="480" height="230" fill="url(#ht-sky)"/>
+  <path d="M0 200 Q60 170 130 188 Q200 160 280 182 Q360 158 480 186 V230 H0 Z" fill="#C9D8EC"/>
+  <rect x="0" y="212" width="480" height="148" fill="#EEF4FB"/>
+  <path d="M0 212 Q120 204 240 212 Q360 204 480 212" fill="none" stroke="#D5E2F2" stroke-width="3"/>
+
+  <!-- the moon: a big friendly crescent -->
+  <g data-part="moon">
+    <circle cx="395" cy="52" r="34" fill="url(#ht-glow)"/>
+    <path d="M404 24 A28 28 0 1 0 412 76 A22 22 0 1 1 404 24 Z" fill="#FFF3B0" stroke="#E6C65C" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- the stars -->
+  <g data-part="stars" fill="#FFF8D6" stroke="#F2D46B" stroke-width="1" stroke-linejoin="round">
+    <g transform="translate(38 34)"><circle r="10" fill="transparent" stroke="none"/><path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z"/></g>
+    <g transform="translate(108 66)"><circle r="10" fill="transparent" stroke="none"/><path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z"/></g>
+    <g transform="translate(172 24)"><circle r="10" fill="transparent" stroke="none"/><path d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z"/></g>
+    <g transform="translate(246 52)"><circle r="10" fill="transparent" stroke="none"/><path d="M0 -7 L1.8 -1.8 L7 0 L1.8 1.8 L0 7 L-1.8 1.8 L-7 0 L-1.8 -1.8 Z"/></g>
+    <g transform="translate(312 20)"><circle r="10" fill="transparent" stroke="none"/><path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z"/></g>
+    <g transform="translate(456 22)"><circle r="10" fill="transparent" stroke="none"/><path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z"/></g>
+    <g transform="translate(206 100)"><circle r="10" fill="transparent" stroke="none"/><path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z"/></g>
+    <g transform="translate(340 92)"><circle r="10" fill="transparent" stroke="none"/><path d="M0 -7 L1.8 -1.8 L7 0 L1.8 1.8 L0 7 L-1.8 1.8 L-7 0 L-1.8 -1.8 Z"/></g>
+    <g fill="#FFF8D6" stroke="none"><circle cx="76" cy="18" r="1.6"/><circle cx="140" cy="44" r="1.4"/><circle cx="278" cy="34" r="1.6"/><circle cx="360" cy="14" r="1.4"/><circle cx="20" cy="80" r="1.4"/><circle cx="440" cy="104" r="1.6"/></g>
+  </g>
+
+  <!-- the wooden cabin behind, with a warm lit window -->
+  <g data-part="cabin" stroke-linejoin="round">
+    <rect x="16" y="140" width="112" height="78" fill="#8D5A3B" stroke="#4E2E18" stroke-width="3"/>
+    <g stroke="#6B4127" stroke-width="2"><line x1="16" y1="156" x2="128" y2="156"/><line x1="16" y1="172" x2="128" y2="172"/><line x1="16" y1="188" x2="128" y2="188"/><line x1="16" y1="204" x2="128" y2="204"/></g>
+    <circle cx="56" cy="180" r="30" fill="url(#ht-glow)"/>
+    <rect x="40" y="164" width="32" height="30" fill="#FFD54F" stroke="#4E2E18" stroke-width="3"/>
+    <path d="M56 164 V194 M40 179 H72" stroke="#4E2E18" stroke-width="2.5"/>
+    <rect x="90" y="172" width="24" height="46" fill="#6B4127" stroke="#4E2E18" stroke-width="3"/>
+    <circle cx="109" cy="196" r="2" fill="#FFD54F"/>
+    <path d="M4 144 L72 98 L140 144 Z" fill="#5D3A22" stroke="#3E2410" stroke-width="3"/>
+    <path d="M4 144 L72 96 L140 144 Q130 150 118 143 Q104 150 92 142 Q78 150 64 142 Q50 150 36 142 Q22 150 4 144 Z" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="2"/>
+    <rect x="96" y="104" width="14" height="22" fill="#7A4A2E" stroke="#3E2410" stroke-width="2.5"/>
+    <path d="M94 104 Q103 98 112 104" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="2"/>
+    <path d="M20 218 Q40 212 60 218 Q90 212 128 218" fill="#FFFFFF" stroke="#B9CCE4" stroke-width="2"/>
+  </g>
+
+  <!-- snowy fir trees: a a big one on the right -->
+  <g data-part="tree" stroke-linejoin="round">
+    <g transform="translate(436 0)">
+      <rect x="-6" y="214" width="12" height="22" fill="#6D4223" stroke="#3E2410" stroke-width="2.5"/>
+      <path d="M0 92 L28 140 L14 140 L36 180 L18 180 L42 218 L-42 218 L-18 180 L-36 180 L-14 140 L-28 140 Z" fill="#2E7D4F" stroke="#1B4D30" stroke-width="3"/>
+      <path d="M0 92 L12 112 Q0 106 -12 112 Z M-16 140 Q0 132 16 140 L22 148 Q0 140 -22 148 Z M-20 180 Q0 172 20 180 L28 190 Q0 180 -28 190 Z M-38 214 Q0 206 38 214 L42 218 L-42 218 Z" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- the hot tub: wooden sides, a wide wooden rim and the bubbling water -->
+  <g data-part="hot_tub" stroke-linejoin="round">
+    <rect x="76" y="250" width="328" height="80" fill="#9C6038" stroke="#5A3218" stroke-width="3"/>
+    <g stroke="#7A4626" stroke-width="2"><line x1="108" y1="268" x2="108" y2="330"/><line x1="140" y1="268" x2="140" y2="330"/><line x1="172" y1="268" x2="172" y2="330"/><line x1="204" y1="268" x2="204" y2="330"/><line x1="236" y1="268" x2="236" y2="330"/><line x1="268" y1="268" x2="268" y2="330"/><line x1="300" y1="268" x2="300" y2="330"/><line x1="332" y1="268" x2="332" y2="330"/><line x1="364" y1="268" x2="364" y2="330"/></g>
+    <rect x="66" y="196" width="348" height="74" rx="24" fill="#C08552" stroke="#5A3218" stroke-width="3"/>
+    <rect x="82" y="207" width="316" height="51" rx="16" fill="#1F7FB5" stroke="#5A3218" stroke-width="2.5"/>
+    <!-- underwater lights glowing -->
+    <ellipse cx="240" cy="226" rx="120" ry="12" fill="#B3ECFF" opacity="0.35"/>
+  </g>
+
+  <!-- Karla: blond hair, grey eyes, a red swimsuit, looking at Bojan -->
+  <g data-part="karla">
+    <g transform="translate(186 0)" stroke-linecap="round" stroke-linejoin="round">
+      <!-- shoulders and arms going into the water -->
+      <path d="M-40 250 Q-42 214 -22 206 Q0 200 22 206 Q42 214 40 250 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="2.6"/>
+      <path d="M-24 250 L-22 222 Q0 230 22 222 L24 250 Z" fill="#C62828" stroke="#7F1414" stroke-width="2.4"/>
+      <path d="M-18 224 L-14 206 M18 224 L14 206" fill="none" stroke="#C62828" stroke-width="3.5"/>
+      <rect x="-7" y="188" width="14" height="18" fill="#F2C9A0" stroke="#B07A50" stroke-width="2.5"/>
+      <!-- head, as in the other family pictures -->
+      <g transform="translate(0 162) scale(0.95)">
+        <path d="M22 -36 Q4 -50 -18 -46 Q-46 -36 -46 0 Q-48 30 -42 54 Q-30 62 -14 54 Q-16 36 -14 20 L20 -10 Z M30 -24 Q44 6 38 42 Q32 50 24 44 Q30 20 28 0 Z" fill="#F2C94C" stroke="#B8902A" stroke-width="4"/>
+        <ellipse cx="0" cy="0" rx="32" ry="37" fill="#F2C9A0" stroke="#B07A50" stroke-width="4"/>
+        <ellipse cx="-19" cy="8" rx="6.5" ry="9" fill="#F2C9A0" stroke="#B07A50" stroke-width="3.5"/>
+        <circle cx="-19" cy="23" r="5" fill="#FFC93C" stroke="#B8860B" stroke-width="2.5"/>
+        <path d="M-35 10 Q-42 -42 2 -42 Q36 -42 34 -6 Q28 -22 12 -26 Q-6 -28 -12 -12 Q-16 -2 -26 -4 Q-30 4 -35 10 Z" fill="#F2C94C" stroke="#B8902A" stroke-width="4"/>
+        <path d="M-12 -36 Q8 -36 24 -24 M-34 0 Q-38 -24 -26 -34" fill="none" stroke="#D4A63A" stroke-width="2.5"/>
+        <path d="M-2 -13 Q4 -18 10 -15 M18 -15 Q23 -18 28 -13" fill="none" stroke="#9C6B30" stroke-width="3.5"/>
+        <circle cx="4" cy="0" r="5.5" fill="#8A9BA8"/>
+        <circle cx="22" cy="0" r="5.5" fill="#8A9BA8"/>
+        <circle cx="4" cy="0" r="2.6" fill="#1B1B1B"/>
+        <circle cx="22" cy="0" r="2.6" fill="#1B1B1B"/>
+        <circle cx="5.4" cy="-1.6" r="1.1" fill="#FFFFFF"/>
+        <circle cx="23.4" cy="-1.6" r="1.1" fill="#FFFFFF"/>
+        <path d="M-3 -1 Q4 -9 11 -2 M15 -2 Q22 -9 29 -1 M-3 -1 L-7 -5" fill="none" stroke="#3E2723" stroke-width="3.5"/>
+        <path d="M16 6 Q19 12 14 14" fill="none" stroke="#B07A50" stroke-width="3.5"/>
+        <ellipse cx="-4" cy="15" rx="7" ry="4.5" fill="#F48FB1" opacity="0.7"/>
+        <ellipse cx="28" cy="14" rx="4.5" ry="4" fill="#F48FB1" opacity="0.7"/>
+        <path d="M2 20 Q14 24 28 18 Q26 32 14 32 Q4 31 2 20 Z" fill="#D9566B" stroke="#9C2F45" stroke-width="2.5"/>
+        <path d="M4 21 Q14 25 27 19.5 L26 23 Q14 28 5 24.5 Z" fill="#FFFFFF"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bojan: brown hair and eyes, bare shoulders, his big grin, looking at Karla -->
+  <g data-part="bojan">
+    <g transform="translate(298 0)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-48 250 Q-50 210 -26 202 Q0 196 26 202 Q50 210 48 250 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="2.6"/>
+      <path d="M-14 222 Q-6 226 -2 220 M14 222 Q6 226 2 220" fill="none" stroke="#B07A50" stroke-width="2"/>
+      <rect x="-8" y="184" width="16" height="20" fill="#F2C9A0" stroke="#B07A50" stroke-width="2.5"/>
+      <g transform="translate(0 158) scale(-1 1)">
+        <ellipse cx="0" cy="0" rx="33" ry="38" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+        <path d="M-34 10 Q-40 -40 2 -40 Q34 -40 34 -8 Q24 -24 6 -24 Q-12 -22 -16 -2 Q-22 10 -34 10 Z" fill="#2B211C" stroke="#17110E" stroke-width="4"/>
+        <ellipse cx="-20" cy="6" rx="7" ry="10" fill="#F2C9A0" stroke="#B07A50" stroke-width="4"/>
+        <g stroke="none"><circle cx="4" cy="-1" r="6.5" fill="#6D4C41"/><circle cx="22" cy="-1" r="6.5" fill="#6D4C41"/><circle cx="4" cy="-1" r="3.2" fill="#1A1A1A"/><circle cx="22" cy="-1" r="3.2" fill="#1A1A1A"/><circle cx="5.6" cy="-2.8" r="1.4" fill="#FFFFFF"/><circle cx="23.6" cy="-2.8" r="1.4" fill="#FFFFFF"/></g>
+        <path d="M-2 -14 Q4 -19 11 -15 M16 -15 Q22 -19 29 -14" fill="none" stroke="#4E342E" stroke-width="4"/>
+        <path d="M16 5 V13" stroke="#B07A50" stroke-width="4"/>
+        <ellipse cx="-4" cy="16" rx="6" ry="4" fill="#F48FB1" opacity="0.45"/>
+        <path d="M-2 18 Q14 22 32 16 Q30 36 14 36 Q0 34 -2 18 Z" fill="#8D4A3A" stroke="#6D3325" stroke-width="3"/>
+        <path d="M0 19 Q14 23 31 17 L30 22 Q14 27 1 24 Z" fill="#FFFFFF"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- the water in front of them, with bubbles, and the front of the rim -->
+  <g data-part="hot_tub" stroke-linejoin="round">
+    <path d="M84 236 Q100 230 116 236 Q132 242 148 236 Q164 230 180 236 Q196 242 212 236 Q228 230 244 236 Q260 242 276 236 Q292 230 308 236 Q324 242 340 236 Q356 230 372 236 Q386 241 398 236 L398 242 Q398 258 382 258 L98 258 Q82 258 82 242 Z" fill="url(#ht-water)" opacity="0.95"/>
+    <path d="M84 236 Q100 230 116 236 Q132 242 148 236 Q164 230 180 236 Q196 242 212 236 Q228 230 244 236 Q260 242 276 236 Q292 230 308 236 Q324 242 340 236 Q356 230 372 236 Q386 241 398 236" fill="none" stroke="#E1F7FF" stroke-width="2.5"/>
+    <g fill="#FFFFFF" stroke="#9ADCF5" stroke-width="1"><circle cx="110" cy="246" r="3.5"/><circle cx="122" cy="250" r="2.2"/><circle cx="160" cy="244" r="2.8"/><circle cx="236" cy="248" r="3.6"/><circle cx="248" cy="243" r="2.2"/><circle cx="226" cy="252" r="2"/><circle cx="356" cy="246" r="3.2"/><circle cx="370" cy="251" r="2.2"/><circle cx="300" cy="252" r="2.6"/><circle cx="196" cy="250" r="2.2"/></g>
+    <path d="M66 246 Q66 270 90 270 L390 270 Q414 270 414 246 L398 246 Q398 258 382 258 L98 258 Q82 258 82 246 Z" fill="#C08552" stroke="#5A3218" stroke-width="3"/>
+    <path d="M90 264 H390" stroke="#A86C3F" stroke-width="2"/>
+    <!-- snow piled against the front of the tub -->
+    <path d="M60 336 Q70 318 92 326 Q110 314 132 326 Q156 316 178 326 Q204 314 226 326 Q252 316 276 326 Q300 314 324 326 Q348 316 370 326 Q392 316 412 330 Q424 334 420 344 L56 344 Q50 340 60 336 Z" fill="#FFFFFF" stroke="#C9D8EC" stroke-width="2"/>
+  </g>
+
+  <!-- two glasses of white wine on the edge of the tub -->
+  <g data-part="glasses" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(124 7)">
+      <rect x="-14" y="216" width="28" height="48" fill="transparent"/>
+      <path d="M-11 220 Q-12 240 0 244 Q12 240 11 220 Z" fill="#EAF6FB" fill-opacity="0.6" stroke="#5F7D8C" stroke-width="2"/>
+      <path d="M-10.5 230 Q-10 241 0 243.5 Q10 241 10.5 230 Z" fill="#F4E27A" stroke="none"/>
+      <path d="M-10.5 230 H10.5" stroke="#D9C24A" stroke-width="1.5"/>
+      <path d="M0 244 V258" stroke="#5F7D8C" stroke-width="2.5"/>
+      <ellipse cx="0" cy="259" rx="8" ry="2.6" fill="#EAF6FB" stroke="#5F7D8C" stroke-width="2"/>
+      <path d="M-7 223 Q-8 232 -5 238" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+    <g transform="translate(358 7)">
+      <rect x="-14" y="216" width="28" height="48" fill="transparent"/>
+      <path d="M-11 220 Q-12 240 0 244 Q12 240 11 220 Z" fill="#EAF6FB" fill-opacity="0.6" stroke="#5F7D8C" stroke-width="2"/>
+      <path d="M-10.5 230 Q-10 241 0 243.5 Q10 241 10.5 230 Z" fill="#F4E27A" stroke="none"/>
+      <path d="M-10.5 230 H10.5" stroke="#D9C24A" stroke-width="1.5"/>
+      <path d="M0 244 V258" stroke="#5F7D8C" stroke-width="2.5"/>
+      <ellipse cx="0" cy="259" rx="8" ry="2.6" fill="#EAF6FB" stroke="#5F7D8C" stroke-width="2"/>
+      <path d="M-7 223 Q-8 232 -5 238" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- warm steam rising off the water -->
+  <g data-part="steam" fill="none" stroke="#FFFFFF" stroke-linecap="round" opacity="0.6">
+    <path d="M100 230 Q90 212 102 196 Q114 180 104 162" stroke-width="7"/>
+    <path d="M242 226 Q232 210 244 194 Q254 178 244 160" stroke-width="7"/>
+    <path d="M384 230 Q394 212 382 196 Q370 180 380 162" stroke-width="7"/>
+    <path d="M100 230 Q90 212 102 196 Q114 180 104 162 M242 226 Q232 210 244 194 Q254 178 244 160 M384 230 Q394 212 382 196 Q370 180 380 162" stroke="transparent" stroke-width="16"/>
+  </g>
+
+  <!-- the radio on a little wooden stool, playing -->
+  <g data-part="radio" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="422" y="300" width="6" height="40" fill="#8D5A3B" stroke="#4E2E18" stroke-width="2"/>
+    <rect x="462" y="300" width="6" height="40" fill="#8D5A3B" stroke="#4E2E18" stroke-width="2"/>
+    <rect x="416" y="294" width="58" height="9" rx="2" fill="#A86C3F" stroke="#4E2E18" stroke-width="2.5"/>
+    <path d="M462 266 L472 230" stroke="#555555" stroke-width="2.5"/>
+    <circle cx="472" cy="229" r="2.5" fill="#555555"/>
+    <path d="M428 266 Q445 250 462 266" fill="none" stroke="#3B3B3B" stroke-width="3.5"/>
+    <rect x="420" y="264" width="50" height="31" rx="6" fill="#D84343" stroke="#7F1414" stroke-width="2.5"/>
+    <circle cx="436" cy="280" r="10" fill="#F5E6C8" stroke="#7F1414" stroke-width="2"/>
+    <g stroke="#B08A5A" stroke-width="1.5"><line x1="429" y1="276" x2="443" y2="276"/><line x1="428" y1="280" x2="444" y2="280"/><line x1="429" y1="284" x2="443" y2="284"/></g>
+    <rect x="451" y="271" width="14" height="8" rx="1.5" fill="#FFF3B0" stroke="#7F1414" stroke-width="1.5"/>
+    <path d="M455 271 V279" stroke="#C62828" stroke-width="1.5"/>
+    <circle cx="455" cy="287" r="3" fill="#3B3B3B"/>
+    <circle cx="463" cy="287" r="3" fill="#3B3B3B"/>
+    <!-- the music coming out -->
+    <g fill="#FFD54F" stroke="#B8860B" stroke-width="1.5" transform="translate(28 -4)">
+      <ellipse cx="410" cy="262" rx="4.5" ry="3.5"/>
+      <path d="M414 262 V246 L420 249" fill="none" stroke="#FFD54F" stroke-width="2.5"/>
+      <ellipse cx="400" cy="240" rx="4" ry="3"/><ellipse cx="410" cy="236" rx="4" ry="3"/>
+      <path d="M403.5 240 V226 L413.5 222 V236" fill="none" stroke="#FFD54F" stroke-width="2.5"/>
+    </g>
+    <rect x="422" y="214" width="30" height="50" fill="transparent"/>
+  </g>
+
+  <!-- snowflakes falling all over -->
+  <g data-part="snowflakes" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round">
+    <g transform="translate(66 52)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(136 96) rotate(15)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(212 66)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(278 84) rotate(20)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(350 54)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(456 70) rotate(10)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(30 116)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(372 132) rotate(25)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(152 118) rotate(5)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(26 262)" stroke="#9FB7D6"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(36 316) rotate(20)" stroke="#9FB7D6"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+    <g transform="translate(240 352) rotate(10)" stroke="#9FB7D6"><circle r="7" fill="transparent" stroke="none"/><path d="M0 -5 V5 M-4.3 -2.5 L4.3 2.5 M-4.3 2.5 L4.3 -2.5"/></g>
+    <g transform="translate(456 352)" stroke="#9FB7D6"><circle r="7" fill="transparent" stroke="none"/><path d="M0 -5 V5 M-4.3 -2.5 L4.3 2.5 M-4.3 2.5 L4.3 -2.5"/></g>
+    <g transform="translate(404 118) rotate(30)"><circle r="9" fill="transparent" stroke="none"/><path d="M0 -6 V6 M-5.2 -3 L5.2 3 M-5.2 3 L5.2 -3"/></g>
+  </g>
+</svg>

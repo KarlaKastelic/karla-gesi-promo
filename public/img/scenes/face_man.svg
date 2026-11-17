@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- soft backdrop -->
+  <rect x="0" y="0" width="400" height="400" fill="#EAF3F8"/>
+  <circle cx="200" cy="190" r="170" fill="#F5FAFC"/>
+
+  <!-- neck (under the face and the shirt; only the visible part is tappable) -->
+  <g data-part="neck">
+    <rect x="160" y="270" width="80" height="110" fill="#F2C9A0" stroke="#B07A50" stroke-width="4"/>
+    <path d="M164 300 Q200 330 236 300 L236 318 Q200 340 164 318 Z" fill="#DDAA80" opacity="0.7"/>
+    <rect x="160" y="270" width="80" height="110" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- shoulders in a blue T-shirt -->
+  <path d="M8 402 V390 Q18 354 100 346 Q140 342 160 336 Q200 392 240 336 Q260 342 300 346 Q382 354 392 390 V402 Z" fill="#1976D2" stroke="#0D47A1" stroke-width="4.5" stroke-linejoin="round"/>
+  <path d="M160 336 Q200 392 240 336" fill="none" stroke="#0D47A1" stroke-width="8" stroke-linecap="round"/>
+  <path d="M84 372 Q90 386 88 402 M316 372 Q310 386 312 402" fill="none" stroke="#0D47A1" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- face skin -->
+  <path d="M200 40 C268 40 302 90 302 168 C302 240 272 300 200 308 C128 300 98 240 98 168 C98 90 132 40 200 40 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+
+  <g data-part="hair">
+    <path d="M100 186 C86 116 112 30 200 28 C288 30 314 116 300 186 L288 186 C288 158 286 128 276 100 C252 86 224 90 200 84 C176 90 148 86 124 100 C114 128 112 158 112 186 Z" fill="#6D4C41" stroke="#3E2723" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M150 52 Q176 44 196 50 M214 48 Q238 44 258 58" fill="none" stroke="#4E342E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g data-part="forehead">
+    <path d="M150 112 Q200 104 250 112" fill="none" stroke="#E0B288" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="200" cy="108" rx="72" ry="20" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="eyebrows">
+    <path d="M132 144 Q156 128 184 140" fill="none" stroke="#4E342E" stroke-width="9" stroke-linecap="round"/>
+    <path d="M268 144 Q244 128 216 140" fill="none" stroke="#4E342E" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="158" cy="140" rx="31" ry="13" fill="transparent" stroke="none"/>
+    <ellipse cx="242" cy="140" rx="31" ry="13" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="eyes">
+    <path d="M140 171 Q158 156 176 171 Q158 182 140 171 Z" fill="#FFFFFF" stroke="#3E2723" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M224 171 Q242 156 260 171 Q242 182 224 171 Z" fill="#FFFFFF" stroke="#3E2723" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="158" cy="170" r="7.5" fill="#5D4037"/>
+    <circle cx="242" cy="170" r="7.5" fill="#5D4037"/>
+    <circle cx="158" cy="170" r="3.5" fill="#1B1B1B"/>
+    <circle cx="242" cy="170" r="3.5" fill="#1B1B1B"/>
+    <circle cx="160.5" cy="167.5" r="1.8" fill="#FFFFFF"/>
+    <circle cx="244.5" cy="167.5" r="1.8" fill="#FFFFFF"/>
+    <path d="M139 170 Q158 153 177 170 M223 170 Q242 153 261 170" fill="none" stroke="#3E2723" stroke-width="4.5" stroke-linecap="round"/>
+    <ellipse cx="158" cy="170" rx="29" ry="15" fill="transparent" stroke="none"/>
+    <ellipse cx="242" cy="170" rx="29" ry="15" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="nose">
+    <path d="M194 180 C192 196 182 204 184 213 C188 221 212 221 216 213 C218 204 208 196 206 180" fill="#ECBC92" stroke="#B07A50" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M192 214 Q195 211 197 214 M203 214 Q205 211 208 214" fill="none" stroke="#9C6640" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="200" cy="198" rx="24" ry="22" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="cheeks">
+    <ellipse cx="142" cy="214" rx="21" ry="13" fill="#EF9A9A" opacity="0.55"/>
+    <ellipse cx="258" cy="214" rx="21" ry="13" fill="#EF9A9A" opacity="0.55"/>
+    <ellipse cx="142" cy="214" rx="27" ry="23" fill="transparent" stroke="none"/>
+    <ellipse cx="258" cy="214" rx="27" ry="23" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="beard">
+    <path d="M100 184 C102 252 136 308 200 316 C264 308 298 252 300 184 L288 184 C290 226 272 258 246 268 C230 274 214 268 200 275 C186 268 170 274 154 268 C128 258 110 226 112 184 Z" fill="#5D4037" stroke="#3E2723" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M176 290 l-3 8 M200 292 v8 M224 290 l3 8 M136 274 l-5 6 M264 274 l5 6" fill="none" stroke="#3E2723" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <g data-part="moustache">
+    <path d="M200 228 C186 219 164 221 156 243 C170 236 188 239 200 234 C212 239 230 236 244 243 C236 221 214 219 200 228 Z" fill="#5D4037" stroke="#3E2723" stroke-width="3.5" stroke-linejoin="round"/>
+    <ellipse cx="200" cy="234" rx="44" ry="14" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="mouth">
+    <path d="M174 253 Q200 275 226 253 Q200 261 174 253 Z" fill="#A1544A" stroke="#6D2E26" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="200" cy="260" rx="34" ry="12" fill="transparent" stroke="none"/>
+  </g>
+
+  <g data-part="ears">
+    <path d="M100 140 C80 128 68 150 72 172 C75 192 86 207 100 202 C98 182 98 160 100 140 Z" fill="#F2C9A0" stroke="none"/>
+    <path d="M100 140 C80 128 68 150 72 172 C75 192 86 207 100 202" fill="none" stroke="#B07A50" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M94 156 C84 154 80 170 86 184 C88 190 94 190 96 186" fill="none" stroke="#C48A5E" stroke-width="3" stroke-linecap="round"/>
+    <path d="M300 140 C320 128 332 150 328 172 C325 192 314 207 300 202 C302 182 302 160 300 140 Z" fill="#F2C9A0" stroke="none"/>
+    <path d="M300 140 C320 128 332 150 328 172 C325 192 314 207 300 202" fill="none" stroke="#B07A50" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M306 156 C316 154 320 170 314 184 C312 190 306 190 304 186" fill="none" stroke="#C48A5E" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="90" cy="172" rx="24" ry="36" fill="transparent" stroke="none"/>
+    <ellipse cx="310" cy="172" rx="24" ry="36" fill="transparent" stroke="none"/>
+  </g>
+</svg>

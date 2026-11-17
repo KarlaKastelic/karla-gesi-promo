@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <pattern id="pyjamas-moons" patternUnits="userSpaceOnUse" width="36" height="36">
+      <rect width="36" height="36" fill="#C9B6EA"/>
+      <circle cx="10" cy="10" r="7" fill="#FFD54F"/>
+      <circle cx="13.5" cy="7" r="6" fill="#C9B6EA"/>
+      <circle cx="28" cy="27" r="3.5" fill="#FFFFFF"/>
+    </pattern>
+  </defs>
+  <ellipse cx="100" cy="188" rx="90" ry="7" fill="#000" opacity="0.12"/>
+  <!-- trousers, lower right -->
+  <path d="M114 72 H180 L192 184 H158 L147 108 L136 184 H102 Z" fill="url(#pyjamas-moons)" stroke="#4A3B7A" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="112" y="62" width="70" height="13" rx="5" fill="#4A3B7A"/>
+  <path d="M103 177 H136 M158 177 H191" stroke="#4A3B7A" stroke-width="9"/>
+  <!-- top, upper left -->
+  <g transform="translate(-2 6) scale(0.64)">
+    <path d="M60 38 Q44 42 40 58 L14 146 L40 154 L60 92 Z" fill="url(#pyjamas-moons)" stroke="#4A3B7A" stroke-width="5.5" stroke-linejoin="round"/>
+    <path d="M140 38 Q156 42 160 58 L186 146 L160 154 L140 92 Z" fill="url(#pyjamas-moons)" stroke="#4A3B7A" stroke-width="5.5" stroke-linejoin="round"/>
+    <path d="M14 146 L40 154 L36 166 L10 158 Z M186 146 L160 154 L164 166 L190 158 Z" fill="#4A3B7A" stroke="#4A3B7A" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M78 28 L60 38 L58 92 L58 176 H142 L142 92 L140 38 L122 28 Q100 40 78 28 Z" fill="url(#pyjamas-moons)" stroke="#4A3B7A" stroke-width="5.5" stroke-linejoin="round"/>
+    <path d="M58 166 H142" stroke="#4A3B7A" stroke-width="12"/>
+    <path d="M100 46 V172" stroke="#4A3B7A" stroke-width="4"/>
+    <g fill="#FFFFFF" stroke="#4A3B7A" stroke-width="3">
+      <circle cx="100" cy="72" r="6"/>
+      <circle cx="100" cy="104" r="6"/>
+      <circle cx="100" cy="136" r="6"/>
+    </g>
+    <path d="M78 26 L100 46 L82 62 L68 38 Z M122 26 L100 46 L118 62 L132 38 Z" fill="#4A3B7A" stroke="#4A3B7A" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+</svg>

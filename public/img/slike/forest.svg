@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="176" rx="96" ry="18" fill="#7CC36B"/>
+  <!-- back row: spruces -->
+  <g stroke="#1F4A22" stroke-width="3.5" stroke-linejoin="round">
+    <polygon points="30,20 6,110 54,110" fill="#2E7D32"/>
+    <polygon points="78,14 52,108 104,108" fill="#2E7D32"/>
+    <polygon points="126,16 100,108 152,108" fill="#2E7D32"/>
+    <polygon points="172,22 148,110 196,110" fill="#2E7D32"/>
+  </g>
+  <!-- middle row: leafy trees -->
+  <g stroke="#4A2E14" stroke-width="3.5">
+    <rect x="46" y="120" width="10" height="44" fill="#8B5A2B"/>
+    <rect x="144" y="120" width="10" height="44" fill="#8B5A2B"/>
+  </g>
+  <g stroke="#2F6B25" stroke-width="4">
+    <circle cx="51" cy="104" r="30" fill="#6DB35A"/>
+    <circle cx="149" cy="104" r="30" fill="#6DB35A"/>
+  </g>
+  <!-- front row: spruces and leafy mix -->
+  <g stroke="#4A2E14" stroke-width="3.5">
+    <rect x="18" y="156" width="10" height="20" fill="#8B5A2B"/>
+    <rect x="95" y="152" width="10" height="26" fill="#8B5A2B"/>
+    <rect x="172" y="156" width="10" height="20" fill="#8B5A2B"/>
+  </g>
+  <g stroke="#1F4A22" stroke-width="3.5" stroke-linejoin="round">
+    <polygon points="23,76 2,160 44,160" fill="#388E3C"/>
+    <polygon points="177,76 156,160 198,160" fill="#388E3C"/>
+  </g>
+  <g stroke="#2F6B25" stroke-width="4">
+    <circle cx="100" cy="124" r="34" fill="#7CC36B"/>
+  </g>
+  <g stroke="#1F4A22" stroke-width="3.5" stroke-linejoin="round">
+    <polygon points="72,110 54,172 90,172" fill="#43A047"/>
+    <polygon points="128,110 110,172 146,172" fill="#43A047"/>
+  </g>
+</svg>

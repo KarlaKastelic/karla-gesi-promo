@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="0" y="0" width="200" height="200" fill="#DDEFFF"/>
+  <!-- far wing (down) -->
+  <path d="M100 110 Q86 140 40 184 Q70 168 120 112 Z" fill="#1F2D6B" stroke="#0D1440" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- forked tail -->
+  <path d="M68 96 L4 74 L50 102 L6 138 L70 110 Z" fill="#1F2D6B" stroke="#0D1440" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M56 102 Q88 82 130 84 Q156 86 166 98 Q154 112 128 114 Q90 118 56 102 Z" fill="#26388A" stroke="#0D1440" stroke-width="4" stroke-linejoin="round"/>
+  <!-- cream belly -->
+  <path d="M70 108 Q100 116 128 113 Q148 110 156 104 Q128 120 96 118 Q80 116 70 108 Z" fill="#F3E5C8" stroke="#B8A27A" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M84 106 Q110 112 138 106 Q146 104 152 104 Q140 116 112 117 Q94 116 84 106 Z" fill="#F3E5C8"/>
+  <!-- near wing (up) -->
+  <path d="M126 92 Q100 50 34 12 Q74 56 94 102 Z" fill="#26388A" stroke="#0D1440" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M112 84 Q90 56 56 32" fill="none" stroke="#3F55B5" stroke-width="3" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="156" cy="94" r="16" fill="#26388A" stroke="#0D1440" stroke-width="4"/>
+  <!-- red throat and forehead -->
+  <path d="M148 102 Q160 116 174 104 Q174 94 168 92 Q160 100 148 102 Z" fill="#C62828" stroke="#7A1616" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M164 82 Q172 86 173 94 L165 92 Z" fill="#C62828" stroke="#7A1616" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M171 92 L182 96 L171 99 Z" fill="#222" stroke="#111" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="161" cy="91" r="3" fill="#111"/>
+  <path d="M120 98 Q138 94 148 98" fill="none" stroke="#4A63C9" stroke-width="3" stroke-linecap="round"/>
+</svg>

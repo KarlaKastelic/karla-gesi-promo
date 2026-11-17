@@ -1,0 +1,57 @@
+<div class="game" [class.game--upper]="upper()">
+  <div class="game__ask">
+    <p class="game__question" aria-live="polite">
+      Poišči: <strong>{{ target().sl }}</strong>
+    </p>
+    <button type="button" class="speak" (click)="readQuestion()" aria-label="Preberi navodilo na glas">
+      <span aria-hidden="true">🔊</span>
+    </button>
+  </div>
+
+  <ul class="choices" [attr.data-count]="options().length" aria-label="Slike">
+    @for (o of options(); track o.id) {
+      @if (!removed().has(o.id)) {
+        <li>
+          <button
+            type="button"
+            class="choice"
+            [class.is-wrong]="wrong().has(o.id)"
+            [class.is-right]="state() !== 'ask' && o.id === target().id"
+            [disabled]="state() !== 'ask' && o.id !== target().id"
+            [attr.aria-label]="o.sl"
+            (click)="tap(o)"
+          >
+            <img [src]="imgOf(o)" alt="" width="200" height="200" />
+          </button>
+        </li>
+      }
+    }
+  </ul>
+
+  <div class="game__feedback" role="status" aria-live="polite">
+    @switch (state()) {
+      @case ('right') {
+        <p class="fb fb--good"><span aria-hidden="true">🎉</span> Odlično!</p>
+      }
+      @case ('skipped') {
+        <p class="fb fb--soft">Nič hudega, poglejva: to je <strong>{{ target().sl }}</strong>.</p>
+      }
+      @default {
+        @if (lastWrongName()) {
+          <p class="fb fb--try">To je {{ lastWrongName() }}. <span aria-hidden="true">🔁</span> Poskusi še enkrat</p>
+        }
+      }
+    }
+  </div>
+
+  <div class="game__bar">
+    @if (state() === 'ask') {
+      <button type="button" class="btn btn--small" [disabled]="!canHelp()" (click)="help()">
+        <span aria-hidden="true">💡</span> Pomoč
+      </button>
+      <button type="button" class="btn btn--small" (click)="skip()">Preskoči <span aria-hidden="true">⏭️</span></button>
+    } @else {
+      <button type="button" class="btn btn--primary btn--small" (click)="next()">Naprej <span aria-hidden="true">→</span></button>
+    }
+  </div>
+</div>

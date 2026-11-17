@@ -1,0 +1,64 @@
+@let r = round();
+
+<div class="game" [class.game--upper]="upper()">
+  <div class="game__ask">
+    <p class="game__question" aria-live="polite">{{ question() }}</p>
+    <button type="button" class="speak" (click)="readQuestion()" aria-label="Preberi vprašanje na glas">
+      <span aria-hidden="true">🔊</span>
+    </button>
+  </div>
+
+  <div class="game__picture">
+    <img [src]="imgOf(r.shown)" [alt]="'Risba: ' + r.shown.sl" width="200" height="200" />
+  </div>
+
+  <div class="yn">
+    <button
+      type="button"
+      class="yn__btn yn__btn--yes"
+      [class.is-wrong]="wrong() === 'da'"
+      [class.is-right]="state() !== 'ask' && truth() === 'da'"
+      [disabled]="state() !== 'ask'"
+      (click)="answer('da')"
+    >
+      <span aria-hidden="true">👍</span> Da
+    </button>
+    <button
+      type="button"
+      class="yn__btn yn__btn--no"
+      [class.is-wrong]="wrong() === 'ne'"
+      [class.is-right]="state() !== 'ask' && truth() === 'ne'"
+      [disabled]="state() !== 'ask'"
+      (click)="answer('ne')"
+    >
+      <span aria-hidden="true">👎</span> Ne
+    </button>
+  </div>
+
+  <div class="game__feedback" role="status" aria-live="polite">
+    @switch (state()) {
+      @case ('right') {
+        <p class="fb fb--good">
+          <span aria-hidden="true">🎉</span> Odlično!
+          @if (truth() === 'ne') { To je <strong>{{ r.shown.sl }}</strong>. }
+        </p>
+      }
+      @case ('skipped') {
+        <p class="fb fb--soft">Nič hudega, poglejva: to je <strong>{{ r.shown.sl }}</strong>.</p>
+      }
+      @default {
+        @if (wrong()) {
+          <p class="fb fb--try"><span aria-hidden="true">🔁</span> Poskusi še enkrat</p>
+        }
+      }
+    }
+  </div>
+
+  <div class="game__bar">
+    @if (state() === 'ask') {
+      <button type="button" class="btn btn--small" (click)="skip()">Preskoči <span aria-hidden="true">⏭️</span></button>
+    } @else {
+      <button type="button" class="btn btn--primary btn--small" (click)="next()">Naprej <span aria-hidden="true">→</span></button>
+    }
+  </div>
+</div>

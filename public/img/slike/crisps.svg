@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="104" cy="184" rx="90" ry="9" fill="#000" opacity="0.12"/>
+  <g transform="rotate(-10 76 176)">
+  <!-- inside of the open packet -->
+  <ellipse cx="76" cy="52" rx="44" ry="13" fill="#7A3A10" stroke="#7F1D1D" stroke-width="4"/>
+  <!-- crisps heaped in the opening -->
+  <g transform="translate(52 46) rotate(-20) scale(1)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <g transform="translate(96 44) rotate(25) scale(1)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <g transform="translate(74 36) rotate(8) scale(1.05)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <g transform="translate(108 30) rotate(-30) scale(0.95)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <!-- packet body -->
+  <path d="M30 50 Q76 72 122 50 Q130 108 120 164 H32 Q22 108 30 50 Z" fill="#E53935" stroke="#7F1D1D" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M40 66 Q36 108 42 150" fill="none" stroke="#FF8A80" stroke-width="6" stroke-linecap="round"/>
+  <!-- crimped seal at the bottom -->
+  <path d="M30 160 H122 V172 L114 178 L106 172 L98 178 L90 172 L82 178 L74 172 L66 178 L58 172 L50 178 L42 172 L34 178 L30 172 Z" fill="#C62828" stroke="#7F1D1D" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- label with a potato -->
+  <circle cx="78" cy="112" r="30" fill="#FFE082" stroke="#7F1D1D" stroke-width="3.5"/>
+  <path d="M58 116 Q56 98 74 96 Q90 92 98 104 Q104 118 92 126 Q76 134 64 128 Q58 124 58 116 Z" fill="#C49A5A" stroke="#7A5428" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="72" cy="108" r="2" fill="#7A5428"/>
+  <circle cx="86" cy="104" r="2" fill="#7A5428"/>
+  <circle cx="82" cy="120" r="2" fill="#7A5428"/>
+  </g>
+  <!-- crisps spilled on the ground -->
+  <g transform="translate(138 174) rotate(10) scale(1.05)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <g transform="translate(170 170) rotate(-15) scale(1)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <g transform="translate(152 156) rotate(30) scale(1.05)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <g transform="translate(182 150) rotate(-40) scale(0.9)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <g transform="translate(140 134) rotate(-10) scale(0.95)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+  <g transform="translate(160 112) rotate(40) scale(0.9)">
+    <path d="M-18 -2 Q-16 -14 -3 -14 Q10 -16 16 -7 Q20 2 13 10 Q4 15 -8 13 Q-19 10 -18 -2 Z" fill="#FAD35E" stroke="#B9791C" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M-10 -3 Q-5 -8 0 -3 Q5 2 10 -3" fill="none" stroke="#D99A2B" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M-12 5 Q-6 1 0 5 Q6 9 11 4" fill="none" stroke="#D99A2B" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="8" cy="5" r="1.8" fill="#C9822A"/>
+  </g>
+</svg>

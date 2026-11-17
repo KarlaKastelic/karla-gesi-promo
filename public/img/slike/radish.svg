@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="178" rx="80" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <g id="leaf">
+      <path d="M0 0 Q-4 -24 -14 -40 Q-30 -46 -28 -62 Q-34 -76 -20 -84 Q-16 -98 -2 -96 Q12 -100 14 -86 Q28 -80 22 -66 Q28 -52 14 -46 Q6 -30 2 0 Z" fill="#5FA84C" stroke="#2F6B25" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M1 0 Q0 -50 -2 -90 M-1 -50 L-16 -60 M-1 -66 L12 -76" fill="none" stroke="#2F6B25" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+    <g id="rad">
+      <path d="M0 -26 Q-30 -26 -30 2 Q-30 26 -4 32 L0 48 L4 32 Q30 26 30 2 Q30 -26 0 -26 Z" fill="#E0284A" stroke="#8A1028" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M-16 24 Q-6 31 0 33 Q6 31 16 24 Q12 30 4 32 L0 48 L-4 32 Q-12 30 -16 24 Z" fill="#FAF6EC" stroke="#8A1028" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M0 47 L1 56" stroke="#C8BFA8" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="-14" cy="-8" rx="6" ry="9" fill="#FF8AA0" opacity="0.8" transform="rotate(30 -14 -8)"/>
+    </g>
+  </defs>
+  <!-- tops -->
+  <g fill="none" stroke="#7A9A3A" stroke-width="4" stroke-linecap="round">
+    <path d="M60 108 Q66 96 74 86"/><path d="M100 112 Q100 98 100 86"/><path d="M140 108 Q134 96 126 86"/>
+  </g>
+  <use href="#leaf" transform="translate(74 88) rotate(-32) scale(0.85)"/>
+  <use href="#leaf" transform="translate(126 88) rotate(32) scale(-0.85 0.85)"/>
+  <use href="#leaf" transform="translate(100 88) scale(0.9)"/>
+  <!-- radishes -->
+  <use href="#rad" transform="translate(58 126) rotate(18)"/>
+  <use href="#rad" transform="translate(142 126) rotate(-18)"/>
+  <use href="#rad" transform="translate(100 130) scale(1.1)"/>
+</svg>

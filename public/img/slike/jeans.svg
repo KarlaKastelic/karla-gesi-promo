@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="188" rx="74" ry="7" fill="#000" opacity="0.12"/>
+  <!-- legs -->
+  <path d="M52 34 H148 L160 182 H110 L100 88 L90 182 H40 Z" fill="#3F7CC4" stroke="#1A3F6E" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- side seams -->
+  <g fill="none" stroke="#2F67A8" stroke-width="3" stroke-linecap="round">
+    <path d="M66 96 L64 166"/>
+    <path d="M134 96 L136 166"/>
+  </g>
+  <!-- turned-up hems -->
+  <path d="M41 168 H91 V182 H40 Z" fill="#5B93D3" stroke="#1A3F6E" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M109 168 H159 L160 182 H110 Z" fill="#5B93D3" stroke="#1A3F6E" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- front pockets -->
+  <path d="M53 62 Q74 62 78 48" fill="none" stroke="#1A3F6E" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M147 62 Q126 62 122 48" fill="none" stroke="#1A3F6E" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- small coin pocket -->
+  <path d="M128 50 H140 V58 H128" fill="none" stroke="#F2A33A" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <!-- fly with J stitching -->
+  <path d="M100 48 V84" stroke="#1A3F6E" stroke-width="3" stroke-linecap="round"/>
+  <path d="M110 48 V74 Q110 84 100 86" fill="none" stroke="#F2A33A" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <!-- orange stitching -->
+  <g fill="none" stroke="#F2A33A" stroke-width="2.5" stroke-dasharray="4 3">
+    <path d="M56 66 Q77 66 82 48"/>
+    <path d="M144 66 Q123 66 118 48"/>
+    <path d="M44 172 H89 M111 172 H156"/>
+  </g>
+  <!-- waistband -->
+  <rect x="50" y="30" width="100" height="18" rx="3" fill="#2F67A8" stroke="#1A3F6E" stroke-width="4"/>
+  <path d="M54 36 H146" fill="none" stroke="#F2A33A" stroke-width="2.5" stroke-dasharray="4 3"/>
+  <!-- belt loops -->
+  <g fill="#3F7CC4" stroke="#1A3F6E" stroke-width="3">
+    <rect x="58" y="26" width="8" height="24" rx="2"/>
+    <rect x="86" y="26" width="8" height="24" rx="2"/>
+    <rect x="134" y="26" width="8" height="24" rx="2"/>
+  </g>
+  <!-- copper button -->
+  <circle cx="110" cy="39" r="6" fill="#D49A3A" stroke="#7A4E12" stroke-width="3"/>
+</svg>

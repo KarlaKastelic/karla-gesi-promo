@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="kranj-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="150">
+      <stop offset="0" stop-color="#5FA6DE"/>
+      <stop offset="0.5" stop-color="#A9D2EE"/>
+      <stop offset="0.82" stop-color="#FFE3AE"/>
+      <stop offset="1" stop-color="#FFCB84"/>
+    </linearGradient>
+    <linearGradient id="kranj-water" gradientUnits="userSpaceOnUse" x1="0" y1="140" x2="0" y2="250">
+      <stop offset="0" stop-color="#8DD3C4"/>
+      <stop offset="1" stop-color="#3A9EA6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- warm late-afternoon sky -->
+  <rect x="0" y="0" width="400" height="250" fill="url(#kranj-sky)"/>
+
+  <!-- the sun getting low -->
+  <g data-part="sun">
+  <circle cx="56" cy="80" r="30" fill="#FFF0C4" opacity="0.6"/>
+  <circle cx="56" cy="80" r="18" fill="#FFCF5A" stroke="#E5A23A" stroke-width="3.5"/>
+  </g>
+
+  <!-- a cloud -->
+  <g data-part="cloud" transform="translate(150 34) scale(0.7)">
+    <g fill="#FFFFFF" stroke="#A9BFD0" stroke-width="3.5">
+      <circle cx="-22" cy="11" r="13"/>
+      <circle cx="0" cy="0" r="17"/>
+      <circle cx="22" cy="11" r="13"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="-22" cy="11" r="11"/>
+      <circle cx="0" cy="0" r="15"/>
+      <circle cx="22" cy="11" r="11"/>
+      <rect x="-22" y="5" width="44" height="17"/>
+    </g>
+    <line x1="-34" y1="24" x2="34" y2="24" stroke="#A9BFD0" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- two birds -->
+  <g data-part="birds">
+  <rect x="324" y="12" width="60" height="30" fill="transparent"/>
+  <g fill="none" stroke="#37474F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330 34 Q336 28 342 34 Q348 28 354 34"/>
+    <path d="M360 22 Q364.5 17.5 369 22 Q373.5 17.5 378 22"/>
+  </g>
+  </g>
+
+  <!-- Storzic and the Kamnik Alps, faint on the horizon -->
+  <g data-part="mountains">
+  <path d="M-4 130 V112 L30 108 L64 100 L92 86 L120 62 L146 88 L166 96 L196 84 L220 94 L250 86 L280 96 L320 90 L360 98 L404 94 V130 Z" fill="#AAB8D0"/>
+  <polygon points="120,62 146,88 136,130 122,130" fill="#9AA9C4"/>
+  <polyline points="-4,112 30,108 64,100 92,86 120,62 146,88 166,96 196,84 220,94 250,86 280,96 320,90 360,98 404,94" fill="none" stroke="#7F92B0" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+
+  <!-- green hills of the valley -->
+  <path d="M-4 124 Q90 112 190 120 Q300 112 404 118 V160 H-4 Z" fill="#8FC27A" stroke="#6FA25E" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- the river Sava -->
+  <g data-part="river">
+  <rect x="-4" y="142" width="408" height="112" fill="url(#kranj-water)"/>
+  <!-- soft sun glow on the water -->
+  <ellipse cx="80" cy="160" rx="40" ry="4" fill="#FFE9B8" opacity="0.6"/>
+  <ellipse cx="80" cy="170" rx="24" ry="3" fill="#FFE9B8" opacity="0.5"/>
+  </g>
+
+  <!-- trees on the far bank -->
+  <g data-part="trees">
+  <g fill="#3F8F4A" stroke="#1E5631" stroke-width="3">
+    <circle cx="4" cy="138" r="13"/>
+    <circle cx="28" cy="142" r="11"/>
+    <circle cx="120" cy="140" r="12"/>
+    <circle cx="144" cy="144" r="10"/>
+    <circle cx="168" cy="140" r="13"/>
+  </g>
+  <g fill="#4FA35A">
+    <circle cx="0" cy="133" r="5"/>
+    <circle cx="164" cy="135" r="5"/>
+  </g>
+  </g>
+  <path d="M-4 152 Q80 148 186 152" fill="none" stroke="#5DB3B0" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- the old town of Kranj on top of its cliff -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- house on the left -->
+    <g data-part="house">
+    <rect x="198" y="98" width="32" height="30" fill="#FFF3D6" stroke="#6D5D55" stroke-width="3"/>
+    <polygon points="193,101 214,84 235,101" fill="#D0643A" stroke="#7A2E10" stroke-width="3"/>
+    <rect x="205" y="106" width="7" height="8" fill="#A9CDE6" stroke="#6D5D55" stroke-width="2"/>
+    <rect x="217" y="106" width="7" height="8" fill="#A9CDE6" stroke="#6D5D55" stroke-width="2"/>
+    </g>
+
+    <!-- the parish church of St. Cantianus -->
+    <g data-part="church">
+    <rect x="254" y="92" width="78" height="36" fill="#FBF6EC" stroke="#5B5550" stroke-width="3.5"/>
+    <polygon points="248,95 272,50 314,50 338,95" fill="#B5532E" stroke="#6B2A10" stroke-width="3.5"/>
+    <g fill="#A9CDE6" stroke="#5B5550" stroke-width="2.5">
+      <path d="M270 122 V106 L276 98 L282 106 V122 Z"/>
+      <path d="M304 122 V106 L310 98 L316 106 V122 Z"/>
+    </g>
+    </g>
+    <!-- its tall bell tower -->
+    <g data-part="tower">
+    <rect x="232" y="46" width="22" height="82" fill="#FBF6EC" stroke="#5B5550" stroke-width="3.5"/>
+    <rect x="228" y="43" width="30" height="6" rx="2" fill="#E6DED0" stroke="#5B5550" stroke-width="3"/>
+    <path d="M238 68 V58 L243 52 L248 58 V68 Z" fill="#5B4636" stroke="#3E2F24" stroke-width="2.5"/>
+    <polygon points="230,44 243,4 256,44" fill="#55616C" stroke="#2F3A44" stroke-width="3.5"/>
+    </g>
+
+    <!-- houses on the right -->
+    <g data-part="house">
+    <rect x="336" y="100" width="30" height="28" fill="#F6E3B4" stroke="#6D5D55" stroke-width="3"/>
+    <polygon points="331,103 351,86 371,103" fill="#D0643A" stroke="#7A2E10" stroke-width="3"/>
+    <rect x="347" y="108" width="8" height="9" fill="#A9CDE6" stroke="#6D5D55" stroke-width="2"/>
+    <rect x="366" y="94" width="40" height="34" fill="#FFFFFF" stroke="#6D5D55" stroke-width="3"/>
+    <polygon points="361,97 388,76 415,97" fill="#C85A32" stroke="#7A2E10" stroke-width="3"/>
+    <rect x="374" y="104" width="8" height="9" fill="#A9CDE6" stroke="#6D5D55" stroke-width="2"/>
+    <rect x="390" y="104" width="8" height="9" fill="#A9CDE6" stroke="#6D5D55" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- the rocky cliff above the river -->
+  <g data-part="cliff">
+  <path d="M172 176 Q178 150 188 134 Q194 122 206 120 H404 V180 Q300 172 172 176 Z" fill="#CDB896" stroke="#6D5D55" stroke-width="3.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#AE9A7C" stroke-width="2.5" stroke-linecap="round">
+    <path d="M214 140 Q236 136 256 142"/>
+    <path d="M300 150 Q326 146 350 152"/>
+    <path d="M232 162 Q252 158 270 162"/>
+    <path d="M360 136 Q376 134 392 138"/>
+  </g>
+  <g fill="#BBA582">
+    <ellipse cx="282" cy="136" rx="5" ry="3.5"/>
+    <ellipse cx="330" cy="164" rx="5" ry="3.5"/>
+    <ellipse cx="206" cy="156" rx="4" ry="3"/>
+  </g>
+  </g>
+  <!-- bushes on the cliff -->
+  <g data-part="trees" fill="#3F8F4A" stroke="#1E5631" stroke-width="3">
+    <circle cx="186" cy="158" r="12"/>
+    <circle cx="198" cy="168" r="10"/>
+    <circle cx="390" cy="160" r="12"/>
+    <circle cx="292" cy="124" r="7"/>
+  </g>
+  <!-- the cliff mirrored softly in the water -->
+  <path d="M176 178 Q300 174 404 182 V198 Q300 190 196 186 Z" fill="#2F8A8E" opacity="0.3"/>
+
+  <!-- gentle ripples -->
+  <g fill="none" stroke="#D2F1EC" stroke-width="3" stroke-linecap="round">
+    <path d="M150 168 q10 -4 20 0"/>
+    <path d="M260 204 q10 -4 20 0"/>
+    <path d="M330 226 q10 -4 20 0"/>
+    <path d="M232 236 q10 -4 20 0"/>
+  </g>
+
+  <!-- the pebbly bank in front -->
+  <path d="M-4 194 Q50 184 120 194 Q190 204 240 254 H-4 Z" fill="#DCCFB8" stroke="#8D7B68" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#C4B59D">
+    <ellipse cx="30" cy="204" rx="6" ry="3.5"/>
+    <ellipse cx="200" cy="240" rx="6" ry="3.5"/>
+    <ellipse cx="128" cy="246" rx="5" ry="3"/>
+    <ellipse cx="14" cy="242" rx="6" ry="3.5"/>
+  </g>
+  <g fill="#EFE7D8">
+    <ellipse cx="98" cy="202" rx="5" ry="3"/>
+    <ellipse cx="174" cy="232" rx="4.5" ry="3"/>
+  </g>
+
+  <!-- the red kayak pulled up on the shore -->
+  <g data-part="kayak" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="100" cy="234" rx="84" ry="6" fill="#C4B59D"/>
+    <path d="M14 224 Q100 202 190 216 Q100 244 14 224 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="3.5"/>
+    <path d="M20 223 Q100 206 184 216 Q100 213 20 223 Z" fill="#FDD835" stroke="#C49000" stroke-width="2"/>
+    <ellipse cx="100" cy="216" rx="20" ry="5" fill="#263238" stroke="#11181C" stroke-width="2.5"/>
+  </g>
+
+  <!-- the double paddle lying across it -->
+  <g data-part="paddle" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M60 232 L156 198" fill="none" stroke="#263238" stroke-width="6"/>
+    <path d="M60 232 L156 198" fill="none" stroke="#546E7A" stroke-width="2.5"/>
+    <ellipse cx="54" cy="234" rx="16" ry="7" transform="rotate(-19.5 54 234)" fill="#FDD835" stroke="#8D6E00" stroke-width="3"/>
+    <ellipse cx="162" cy="196" rx="16" ry="7" transform="rotate(-19.5 162 196)" fill="#FDD835" stroke="#8D6E00" stroke-width="3"/>
+  </g>
+</svg>

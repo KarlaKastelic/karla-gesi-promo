@@ -1,0 +1,109 @@
+@let d = info();
+
+<section class="page-head">
+  <div class="container">
+    <span class="eyebrow">Preizkusi</span>
+    <h1>Preizkusite GESI kar tukaj</h1>
+    <p class="lead">
+      Štirje koščki aplikacije, s pravimi risbami iz GESI. Napaka ni kazen, nič se ne šteje – in vsako nalogo lahko
+      preskočite. Najlepše deluje na tablici.
+    </p>
+  </div>
+</section>
+
+<div class="container">
+  <div class="demo-tabs" role="tablist" aria-label="Izberite igro">
+    @for (x of demos; track x.id) {
+      <button
+        type="button"
+        role="tab"
+        class="demo-tab"
+        [id]="'tab-' + x.id"
+        [attr.aria-selected]="active() === x.id"
+        aria-controls="demo-panel"
+        (click)="active.set(x.id)"
+      >
+        <span class="demo-tab__icon" aria-hidden="true">{{ x.icon }}</span>
+        <span>{{ x.name }}</span>
+      </button>
+    }
+  </div>
+
+  <div class="demo-layout">
+    <section class="tablet" id="demo-panel" role="tabpanel" [attr.aria-labelledby]="'tab-' + d.id">
+      <div class="tablet__bar">
+        <span class="tablet__home" aria-hidden="true">🏠</span>
+        <h2 class="tablet__title">{{ d.name }}</h2>
+        <span class="tablet__home" aria-hidden="true">⚙️</span>
+      </div>
+      <div class="tablet__screen">
+        @switch (active()) {
+          @case ('da-ne') { <app-yes-no [upper]="upper()" /> }
+          @case ('poisci') { <app-find [upper]="upper()" [count]="pictures()" /> }
+          @case ('povej') { <app-talk-board /> }
+          @case ('dihanje') { <app-breathe /> }
+        }
+      </div>
+    </section>
+
+    <aside class="side">
+      <div class="card">
+        <p class="side__trains">{{ d.trains }}</p>
+        <h2 class="side__title"><span aria-hidden="true">{{ d.icon }}</span> {{ d.name }}</h2>
+        <p>{{ d.text }}</p>
+        <p class="muted">{{ d.inApp }}</p>
+      </div>
+
+      @if (active() === 'da-ne' || active() === 'poisci') {
+        <div class="card settings">
+          <h2 class="settings__title"><span aria-hidden="true">⚙️</span> Hitre nastavitve</h2>
+          <div class="settings__row" role="group" aria-label="Branje na glas">
+            <span>Branje na glas</span>
+            <button type="button" class="pill" [attr.aria-pressed]="speech.autoRead()" (click)="speech.autoRead.set(true)">Vklop</button>
+            <button type="button" class="pill" [attr.aria-pressed]="!speech.autoRead()" (click)="speech.autoRead.set(false)">Izklop</button>
+          </div>
+          <div class="settings__row" role="group" aria-label="Črke">
+            <span>Črke</span>
+            <button type="button" class="pill" [attr.aria-pressed]="upper()" (click)="upper.set(true)">VELIKE</button>
+            <button type="button" class="pill" [attr.aria-pressed]="!upper()" (click)="upper.set(false)">Kot je</button>
+          </div>
+          @if (active() === 'poisci') {
+            <div class="settings__row" role="group" aria-label="Število slik">
+              <span>Število slik</span>
+              @for (n of [2, 4, 6]; track n) {
+                <button type="button" class="pill" [attr.aria-pressed]="pictures() === n" (click)="pictures.set(n)">{{ n }}</button>
+              }
+            </div>
+          }
+        </div>
+      }
+
+      @if (speech.supported() && !speech.hasSlovene()) {
+        <p class="note voice-note">
+          <span aria-hidden="true">🔊</span> Vaš brskalnik nima slovenskega glasu, zato bo branje morda v drugem jeziku.
+          Na računalniku z Windows slovenski glas običajno deluje v brskalniku Microsoft Edge; na Androidu ga prenesete v
+          nastavitvah »Pretvorba besedila v govor«.
+        </p>
+      }
+
+      <div class="card full">
+        <h2 class="settings__title">To je le košček</h2>
+        <p>
+          Cela aplikacija ima 32 iger, skoraj 800 slik, 36 risanih prizorov, izlete, računanje, glasbo in tarok – in deluje tudi
+          brez interneta.
+        </p>
+        <div class="btn-row">
+          <a routerLink="/igre" class="btn btn--small">Vse igre</a>
+          <a [href]="site.appUrl" target="_blank" rel="noopener" class="btn btn--primary btn--small">
+            Odpri GESI <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        @if (site.passwordRequired) {
+          <p class="muted small">Aplikacija ob prvem odprtju vpraša za geslo – <a routerLink="/kontakt">zaprosite zanj tukaj</a>.</p>
+        }
+      </div>
+    </aside>
+  </div>
+</div>
+
+<app-cta-band />

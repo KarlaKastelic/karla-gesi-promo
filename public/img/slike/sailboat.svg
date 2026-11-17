@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- water band -->
+  <path d="M0 150 Q50 144 100 150 Q150 156 200 148 V200 H0 Z" fill="#4FA8E0" stroke="#1E5E8C" stroke-width="3"/>
+  <!-- mast -->
+  <line x1="96" y1="16" x2="96" y2="146" stroke="#37474F" stroke-width="5" stroke-linecap="round"/>
+  <!-- mainsail -->
+  <path d="M101 20 Q122 70 166 128 H101 Z" fill="#FFFFFF" stroke="#8A9AA8" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M104 64 Q120 66 132 74 M104 98 Q128 100 148 106" fill="none" stroke="#C9D4DD" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- boom -->
+  <line x1="96" y1="131" x2="170" y2="131" stroke="#37474F" stroke-width="5" stroke-linecap="round"/>
+  <!-- jib -->
+  <path d="M91 28 L91 128 Q58 128 30 134 Q66 84 91 28 Z" fill="#FFFFFF" stroke="#8A9AA8" stroke-width="4" stroke-linejoin="round"/>
+  <!-- hull -->
+  <path d="M18 136 H184 Q180 152 166 162 H46 Q28 152 18 136 Z" fill="#FFFFFF" stroke="#5E6B75" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M24 144 H180" stroke="#1F4E79" stroke-width="5"/>
+  <g fill="#BFE3FA" stroke="#5E6B75" stroke-width="2.5">
+    <circle cx="70" cy="152" r="3.5"/><circle cx="90" cy="152" r="3.5"/><circle cx="110" cy="152" r="3.5"/>
+  </g>
+  <!-- water in front -->
+  <path d="M-2 158 Q50 152 100 158 Q150 164 202 156 V202 H-2 Z" fill="#4FA8E0" opacity="0.85"/>
+  <path d="M-2 158 Q50 152 100 158 Q150 164 202 156" fill="none" stroke="#1E5E8C" stroke-width="2.5"/>
+  <g fill="none" stroke="#E6F6FF" stroke-width="3" stroke-linecap="round">
+    <path d="M12 174 Q24 170 36 174"/><path d="M84 184 Q96 180 108 184"/><path d="M150 176 Q162 172 174 176"/>
+  </g>
+</svg>

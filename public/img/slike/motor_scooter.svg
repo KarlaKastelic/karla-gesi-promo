@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="172" rx="88" ry="7" fill="#000" opacity="0.12"/>
+  <!-- wheels -->
+  <g stroke="#1E1E1E" stroke-width="4">
+    <circle cx="56" cy="148" r="20" fill="#333"/>
+    <circle cx="156" cy="148" r="20" fill="#333"/>
+  </g>
+  <circle cx="56" cy="148" r="8" fill="#C9C9C9"/>
+  <circle cx="156" cy="148" r="8" fill="#C9C9C9"/>
+  <!-- steering column and handlebar -->
+  <path d="M150 104 L146 48" stroke="#455A64" stroke-width="9" stroke-linecap="round"/>
+  <path d="M146 48 L120 44" stroke="#37474F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M128 44 L116 42" stroke="#212121" stroke-width="8" stroke-linecap="round"/>
+  <!-- front fork to wheel -->
+  <path d="M152 112 L156 148" stroke="#455A64" stroke-width="7" stroke-linecap="round"/>
+  <!-- step-through floor -->
+  <path d="M84 124 H138 L142 140 H80 Z" fill="#7FD1C1" stroke="#2E6B5E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M90 128 H134" stroke="#455A64" stroke-width="4" stroke-linecap="round"/>
+  <!-- leg shield rising to the handlebar -->
+  <path d="M120 138 Q126 96 136 56 Q146 48 156 56 Q162 98 162 132 Z" fill="#7FD1C1" stroke="#2E6B5E" stroke-width="4" stroke-linejoin="round"/>
+  <!-- front mudguard -->
+  <path d="M134 146 Q136 120 158 120 Q178 122 180 144 Q172 136 158 134 Q142 134 134 146 Z" fill="#7FD1C1" stroke="#2E6B5E" stroke-width="4" stroke-linejoin="round"/>
+  <!-- rounded rear body over the back wheel -->
+  <path d="M20 136 Q14 92 52 86 L100 86 Q114 88 112 104 L104 132 Q96 140 86 140 L80 140 Q76 118 56 118 Q36 118 32 140 Q22 142 20 136 Z" fill="#7FD1C1" stroke="#2E6B5E" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M40 100 Q60 94 90 96" fill="none" stroke="#B2E8DE" stroke-width="5" stroke-linecap="round"/>
+  <!-- seat -->
+  <path d="M38 88 Q40 72 62 72 H98 Q108 74 106 86 Z" fill="#5D4037" stroke="#3E2723" stroke-width="4" stroke-linejoin="round"/>
+  <!-- tail light -->
+  <rect x="15" y="108" width="9" height="12" rx="3" fill="#EF5350" stroke="#2E6B5E" stroke-width="2.5"/>
+  <!-- handlebar headset with round headlight -->
+  <path d="M130 50 Q132 36 148 36 Q160 38 160 50 Z" fill="#7FD1C1" stroke="#2E6B5E" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="164" cy="44" r="10" fill="#FFF59D" stroke="#90A4AE" stroke-width="4"/>
+  <!-- horn grill -->
+  <path d="M146 80 H152 M146 88 H153" stroke="#2E6B5E" stroke-width="3" stroke-linecap="round"/>
+</svg>

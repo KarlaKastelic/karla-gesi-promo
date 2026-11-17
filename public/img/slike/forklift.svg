@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="170" rx="92" ry="7" fill="#000" opacity="0.12"/>
+  <!-- overhead guard -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 92 L50 38 H128 L124 120" stroke="#263238" stroke-width="9"/>
+    <path d="M44 92 L50 38 H128 L124 120" stroke="#546E7A" stroke-width="4.5"/>
+    <path d="M70 38 V44 M90 38 V44 M110 38 V44" stroke="#263238" stroke-width="4"/>
+  </g>
+  <!-- mast -->
+  <rect x="136" y="24" width="14" height="140" rx="2" fill="#78909C" stroke="#37474F" stroke-width="3.5"/>
+  <line x1="143" y1="28" x2="143" y2="160" stroke="#37474F" stroke-width="2.5"/>
+  <!-- seat and steering wheel -->
+  <path d="M62 116 V92 Q62 86 68 86 H72 V108 H88 V116 Z" fill="#333" stroke="#111" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="114" y1="118" x2="106" y2="96" stroke="#263238" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="105" cy="94" rx="10" ry="3.5" transform="rotate(-20 105 94)" fill="none" stroke="#263238" stroke-width="4"/>
+  <!-- body with high rounded counterweight at the back -->
+  <path d="M16 154 V104 Q16 86 34 86 H56 V116 H132 Q138 116 138 122 V154 Z" fill="#FFA000" stroke="#8A5300" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="18" y="128" width="118" height="6" fill="#263238"/>
+  <!-- carriage -->
+  <rect x="148" y="84" width="10" height="38" rx="2" fill="#455A64" stroke="#263238" stroke-width="3"/>
+  <!-- pallet -->
+  <g fill="#C8975A" stroke="#7A5328" stroke-width="2.5">
+    <rect x="156" y="102" width="42" height="6" rx="1"/>
+    <rect x="157" y="108" width="7" height="12"/>
+    <rect x="174" y="108" width="7" height="12"/>
+    <rect x="190" y="108" width="7" height="12"/>
+    <rect x="156" y="120" width="42" height="6" rx="1"/>
+  </g>
+  <!-- forks through the pallet -->
+  <path d="M150 112 H196 V117 H150 Z" fill="#37474F" stroke="#1E1E1E" stroke-width="2" stroke-linejoin="round"/>
+  <!-- box on the pallet -->
+  <rect x="160" y="70" width="34" height="32" rx="2" fill="#D7B377" stroke="#7A5A2A" stroke-width="3"/>
+  <path d="M177 70 V84" stroke="#7A5A2A" stroke-width="3"/>
+  <!-- wheels -->
+  <circle cx="112" cy="154" r="17" fill="#333" stroke="#1E1E1E" stroke-width="4"/>
+  <circle cx="112" cy="154" r="7" fill="#C9C9C9"/>
+  <circle cx="40" cy="156" r="14" fill="#333" stroke="#1E1E1E" stroke-width="4"/>
+  <circle cx="40" cy="156" r="6" fill="#C9C9C9"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Pinceta: a pair of metal tweezers holding a small wooden splinter -->
+  <circle cx="100" cy="100" r="88" fill="#E3F0F7"/>
+  <g transform="translate(102 96) rotate(40) scale(0.98)" stroke-linejoin="round" stroke-linecap="round">
+    <!-- splinter between the tips -->
+    <path d="M-30 86 L24 79 L26 86 L-28 93 Z" fill="#C49A6C" stroke="#6D4C2E" stroke-width="3"/>
+    <!-- left arm -->
+    <path d="M-15 -80 L-38 2 Q-40 12 -36 22 L-7 90 L0 88 L-20 18 Q-22 10 -20 2 L0 -80 Z" fill="#CFD8DC" stroke="#37474F" stroke-width="4.5"/>
+    <!-- right arm -->
+    <path d="M15 -80 L38 2 Q40 12 36 22 L7 90 L0 88 L20 18 Q22 10 20 2 L0 -80 Z" fill="#E4EAED" stroke="#37474F" stroke-width="4.5"/>
+    <!-- joined end -->
+    <path d="M-15 -74 V-88 Q-15 -102 0 -102 Q15 -102 15 -88 V-74 Z" fill="#B0BEC5" stroke="#37474F" stroke-width="4.5"/>
+    <!-- grip ridges -->
+    <g stroke="#78909C" stroke-width="3.5">
+      <path d="M-24 -36 L-12 -37"/>
+      <path d="M-27 -24 L-15 -25"/>
+      <path d="M-30 -12 L-18 -13"/>
+      <path d="M24 -36 L12 -37"/>
+      <path d="M27 -24 L15 -25"/>
+      <path d="M30 -12 L18 -13"/>
+    </g>
+    <!-- shine -->
+    <path d="M9 -68 L26 -6" stroke="#FFFFFF" stroke-width="4" opacity="0.9"/>
+    <path d="M27 28 L13 64" stroke="#FFFFFF" stroke-width="3.5" opacity="0.8"/>
+  </g>
+</svg>

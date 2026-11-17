@@ -1,0 +1,96 @@
+<section class="page-head">
+  <div class="container">
+    <span class="eyebrow">Igre</span>
+    <h1>32 iger in 5 pripomočkov za težje dni</h1>
+    <p class="lead">
+      Vse igre so zgrajene enako: zgoraj Domov, nastavitve in druga igra, spodaj Pomoč in Preskoči. Število slik
+      oziroma možnosti lahko vedno spremenite kar med igro. Na vrhu začetnega zaslona je <strong>🎲 Mešano</strong> –
+      igre se izmenjujejo same, zato ni treba izbirati.
+    </p>
+  </div>
+</section>
+
+<section class="filters-wrap">
+  <div class="container">
+    <div class="filters" role="group" aria-labelledby="f-vadi">
+      <span id="f-vadi" class="filters__label">Kaj vadi:</span>
+      <button type="button" class="pill" [attr.aria-pressed]="!skill()" (click)="setFilter('vadi', null)">Vse</button>
+      @for (s of skills; track s.id) {
+        <button type="button" class="pill" [attr.aria-pressed]="skill() === s.id" (click)="setFilter('vadi', s.id)">
+          <span aria-hidden="true">{{ s.icon }}</span> {{ s.title }}
+        </button>
+      }
+    </div>
+    <div class="filters" role="group" aria-labelledby="f-za">
+      <span id="f-za" class="filters__label">Posebej primerno za:</span>
+      <button type="button" class="pill" [attr.aria-pressed]="!audience()" (click)="setFilter('za', null)">Vse</button>
+      @for (a of audiences; track a.id) {
+        <button type="button" class="pill" [attr.aria-pressed]="audience() === a.id" (click)="setFilter('za', a.id)">
+          <span aria-hidden="true">{{ a.icon }}</span> {{ a.short }}
+        </button>
+      }
+    </div>
+    <p class="count" aria-live="polite">Prikazanih: {{ count() }}</p>
+  </div>
+</section>
+
+<div class="container">
+  @for (g of groups(); track g.id) {
+    <section class="group" [attr.aria-labelledby]="'skupina-' + g.id">
+      <div class="group__head">
+        <span class="group__icon" aria-hidden="true">{{ g.icon }}</span>
+        <div>
+          <h2 [id]="'skupina-' + g.id">{{ g.title }}</h2>
+          <p class="muted">{{ g.text }}</p>
+        </div>
+      </div>
+      <div class="game-grid">
+        @for (game of g.games; track game.name) {
+          <article class="game">
+            <div class="game__shot" [class.game__shot--none]="!game.screen">
+              @if (game.screen) {
+                <img
+                  [src]="'img/zasloni/' + game.screen + '.jpg'"
+                  [alt]="'Zaslon igre ' + game.name"
+                  width="390"
+                  height="800"
+                  loading="lazy"
+                  decoding="async"
+                />
+              } @else {
+                <span class="game__big-icon" aria-hidden="true">{{ game.icon }}</span>
+              }
+            </div>
+            <div class="game__body">
+              <h3><span aria-hidden="true">{{ game.icon }}</span> {{ game.name }}</h3>
+              <p class="game__tags">
+                @for (t of game.tags; track t) {
+                  <span class="chip">{{ t }}</span>
+                }
+              </p>
+              <p>{{ game.text }}</p>
+              <p class="game__for">
+                <span class="visually-hidden">Posebej primerno za:</span>
+                @for (a of game.audiences; track a.id) {
+                  <span class="game__for-item" [title]="a.short">
+                    <span aria-hidden="true">{{ a.icon }}</span><span class="visually-hidden">{{ a.short }}</span>
+                  </span>
+                }
+              </p>
+            </div>
+          </article>
+        }
+      </div>
+    </section>
+  } @empty {
+    <p class="empty">Za to izbiro ni iger. <button type="button" class="btn btn--small" (click)="clearFilters()">Pokaži vse</button></p>
+  }
+
+  <aside class="note settings-note">
+    <strong>Vse po meri.</strong> V Nastavitvah izberete težavnost »Najmanj«, »Največ« ali »Po meri«, skupine slik
+    (živali, hrana, vozila …), velike ali male črke, hitrost, večje gumbe, visok kontrast in branje na glas. Igre in
+    kategorije, ki igralcu niso blizu, preprosto skrijete. <a routerLink="/kako-zaceti">Več o nastavitvah</a>
+  </aside>
+</div>
+
+<app-cta-band />

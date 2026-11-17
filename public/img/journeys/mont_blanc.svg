@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="mont_blanc-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="170">
+      <stop offset="0" stop-color="#1B4F9C"/>
+      <stop offset="0.45" stop-color="#3F86D0"/>
+      <stop offset="0.75" stop-color="#A9CFEF"/>
+      <stop offset="0.9" stop-color="#FFE3A8"/>
+      <stop offset="1" stop-color="#FFC977"/>
+    </linearGradient>
+  </defs>
+
+  <!-- clear morning sky -->
+  <rect x="0" y="0" width="400" height="250" fill="url(#mont_blanc-sky)"/>
+
+  <!-- the sun just rising -->
+  <ellipse cx="146" cy="154" rx="96" ry="26" fill="#FFE7A8" opacity="0.6"/>
+  <circle cx="146" cy="154" r="18" fill="#FFD25E" stroke="#E8A93A" stroke-width="3.5"/>
+
+  <!-- two birds -->
+  <g fill="none" stroke="#14325E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 40 Q306 34 312 40 Q318 34 324 40"/>
+    <path d="M330 26 Q334.5 21.5 339 26 Q343.5 21.5 348 26"/>
+  </g>
+
+  <!-- peaks poking out of the clouds -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-4 168 L20 140 L42 120 L60 138 L76 132 L100 168 Z" fill="#7D8FB0" stroke="#4A5A78" stroke-width="3"/>
+    <polygon points="42,120 60,138 52,168 44,168" fill="#6A7C9E"/>
+    <polygon points="32.1,129 42,120 51,129 47,127 43,131 39,127 35,130" fill="#FFF6EA" stroke="#C9B8A8" stroke-width="2"/>
+
+    <path d="M190 168 L210 140 L222 134 L232 122 L244 130 L254 126 L268 140 L280 124 L298 100 L310 114 L322 122 L336 150 L350 138 L364 118 L380 132 L404 128 V168 Z" fill="#7D8FB0"/>
+    <g fill="#6A7C9E">
+      <polygon points="232,122 244,130 238,168 232,168"/>
+      <polygon points="298,100 310,114 322,122 312,168 300,168"/>
+      <polygon points="364,118 380,132 374,168 366,168"/>
+    </g>
+    <path d="M190 168 L210 140 L222 134 L232 122 L244 130 L254 126 L268 140 L280 124 L298 100 L310 114 L322 122 L336 150 L350 138 L364 118 L380 132 L404 128" fill="none" stroke="#4A5A78" stroke-width="3"/>
+    <g fill="#FFF6EA" stroke="#C9B8A8" stroke-width="2">
+      <polygon points="227.8,127 232,122 239.5,127 236.5,126 233.5,129.5 230.5,126.5"/>
+      <polygon points="292.7,110 298,100 306.5,110 303,108 300,112 296,108.5"/>
+      <polygon points="358.4,126 364,118 373.1,126 369,124.5 365.5,128.5 362,125"/>
+    </g>
+  </g>
+
+  <!-- sea of clouds -->
+  <path d="M-4 162 Q10 148 30 154 Q46 142 66 152 Q84 145 100 154 Q118 147 136 156 Q156 149 172 158 Q192 150 210 158 Q230 149 250 156 Q272 146 290 155 Q308 147 330 154 Q350 144 368 152 Q388 145 404 151 V240 H-4 Z" fill="#EDF2F9" stroke="#B8C9DA" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="146" cy="164" rx="76" ry="9" fill="#FFF1D6" opacity="0.8"/>
+  <g fill="#DDE7F3">
+    <ellipse cx="170" cy="176" rx="48" ry="5"/>
+    <ellipse cx="330" cy="172" rx="56" ry="5"/>
+  </g>
+
+  <!-- the broad snow dome of the summit -->
+  <path d="M-4 214 Q60 186 130 176 Q180 170 230 178 Q320 192 404 226 V254 H-4 Z" fill="#FFFFFF" stroke="#8098B4" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M250 186 Q330 202 404 232 V254 H340 Q330 214 250 186 Z" fill="#E3EDF7"/>
+  <!-- our ski tracks up to the top -->
+  <g fill="none" stroke="#C9D8E8" stroke-width="3" stroke-linecap="round">
+    <path d="M40 254 Q96 224 160 210"/>
+    <path d="M54 254 Q108 228 166 214"/>
+  </g>
+
+  <!-- rucksack -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="128" cy="210" rx="22" ry="5" fill="#E3EDF7"/>
+    <path d="M118 184 Q112 196 116 208" fill="none" stroke="#1B5E20" stroke-width="4"/>
+    <rect x="114" y="180" width="30" height="31" rx="9" fill="#43A047" stroke="#1B5E20" stroke-width="3.5"/>
+    <path d="M115 190 Q129 184 143 190 L143 194 Q129 189 115 194 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="2.5"/>
+    <rect x="120" y="197" width="18" height="10" rx="3" fill="#66BB6A" stroke="#1B5E20" stroke-width="2.5"/>
+  </g>
+
+  <!-- two touring skis standing in the snow -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <g transform="rotate(10 170 212)">
+      <rect x="164.5" y="82" width="11" height="132" rx="5.5" fill="#E53935" stroke="#7A1E14" stroke-width="3"/>
+      <line x1="170" y1="90" x2="170" y2="204" stroke="#FFCDD2" stroke-width="2"/>
+      <rect x="162.5" y="152" width="15" height="12" rx="2.5" fill="#37474F" stroke="#1C262B" stroke-width="2"/>
+    </g>
+    <g transform="rotate(-10 196 212)">
+      <rect x="190.5" y="82" width="11" height="132" rx="5.5" fill="#E53935" stroke="#7A1E14" stroke-width="3"/>
+      <line x1="196" y1="90" x2="196" y2="204" stroke="#FFCDD2" stroke-width="2"/>
+      <rect x="188.5" y="152" width="15" height="12" rx="2.5" fill="#37474F" stroke="#1C262B" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- poles beside them -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M224 214 L229 112 M242 214 L236 113" fill="none" stroke="#263238" stroke-width="5"/>
+    <path d="M224 214 L229 112 M242 214 L236 113" fill="none" stroke="#90A4AE" stroke-width="2"/>
+    <rect x="225" y="104" width="8" height="18" rx="3.5" fill="#263238"/>
+    <rect x="232" y="105" width="8" height="18" rx="3.5" fill="#263238"/>
+    <g fill="none" stroke="#263238" stroke-width="3">
+      <ellipse cx="224.6" cy="203" rx="7" ry="2.5"/>
+      <ellipse cx="241.4" cy="203" rx="7" ry="2.5"/>
+    </g>
+  </g>
+
+  <!-- snow heaped round them -->
+  <ellipse cx="183" cy="213" rx="28" ry="6" fill="#FFFFFF" stroke="#A9C1D6" stroke-width="2.5"/>
+  <ellipse cx="233" cy="213" rx="18" ry="5" fill="#FFFFFF" stroke="#A9C1D6" stroke-width="2.5"/>
+</svg>

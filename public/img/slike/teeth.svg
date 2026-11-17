@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="teeth-mouth">
+      <path d="M44 92 Q100 82 156 92 Q150 150 100 152 Q50 150 44 92 Z"/>
+    </clipPath>
+  </defs>
+  <!-- neck and T-shirt -->
+  <rect x="70" y="160" width="60" height="44" fill="#F2C9A0" stroke="#B07A50" stroke-width="4"/>
+  <path d="M-4 204 Q2 190 40 186 Q62 184 74 180 Q100 198 126 180 Q138 184 160 186 Q198 190 204 204 Z" fill="#1976D2" stroke="#0D47A1" stroke-width="4" stroke-linejoin="round"/>
+  <!-- lower half of the face -->
+  <path d="M6 -10 Q4 120 52 160 Q76 180 100 180 Q124 180 148 160 Q196 120 194 -10 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="4" stroke-linejoin="round"/>
+  <!-- nose -->
+  <path d="M96 4 V40 Q84 44 86 54 Q90 60 100 58 Q110 60 114 54 Q116 44 104 40" fill="none" stroke="#B07A50" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="92" cy="52" rx="3.5" ry="2.5" fill="#B07A50"/>
+  <ellipse cx="108" cy="52" rx="3.5" ry="2.5" fill="#B07A50"/>
+  <!-- rosy cheeks -->
+  <ellipse cx="34" cy="78" rx="14" ry="9" fill="#EBA58A" opacity="0.6"/>
+  <ellipse cx="166" cy="78" rx="14" ry="9" fill="#EBA58A" opacity="0.6"/>
+  <!-- big open smile -->
+  <path d="M44 92 Q100 82 156 92 Q150 150 100 152 Q50 150 44 92 Z" fill="#7B2A2A"/>
+  <g clip-path="url(#teeth-mouth)" stroke="#B0BEC5" stroke-width="2.5" stroke-linejoin="round">
+    <!-- upper teeth -->
+    <path d="M40 80 H62 V108 Q62 114 56 114 H46 Q40 114 40 108 Z" fill="#FFFFFF"/>
+    <path d="M62 80 H80 V112 Q80 118 74 118 H68 Q62 118 62 112 Z" fill="#FFFFFF"/>
+    <path d="M80 80 H100 V116 Q100 122 94 122 H86 Q80 122 80 116 Z" fill="#FFFFFF"/>
+    <path d="M100 80 H120 V116 Q120 122 114 122 H106 Q100 122 100 116 Z" fill="#FFFFFF"/>
+    <path d="M120 80 H138 V112 Q138 118 132 118 H126 Q120 118 120 112 Z" fill="#FFFFFF"/>
+    <path d="M138 80 H160 V108 Q160 114 154 114 H144 Q138 114 138 108 Z" fill="#FFFFFF"/>
+    <!-- lower teeth -->
+    <path d="M52 160 V136 Q52 130 58 130 H66 Q72 130 72 136 V160 Z" fill="#FFFFFF"/>
+    <path d="M72 160 V134 Q72 128 78 128 H84 Q90 128 90 134 V160 Z" fill="#FFFFFF"/>
+    <path d="M90 160 V134 Q90 128 96 128 H104 Q110 128 110 134 V160 Z" fill="#FFFFFF"/>
+    <path d="M110 160 V134 Q110 128 116 128 H122 Q128 128 128 134 V160 Z" fill="#FFFFFF"/>
+    <path d="M128 160 V136 Q128 130 134 130 H142 Q148 130 148 136 V160 Z" fill="#FFFFFF"/>
+  </g>
+  <!-- lips -->
+  <path d="M44 92 Q100 82 156 92 Q150 150 100 152 Q50 150 44 92 Z" fill="none" stroke="#B5655A" stroke-width="5" stroke-linejoin="round"/>
+  <!-- smile creases and chin -->
+  <path d="M34 86 Q38 98 44 100" fill="none" stroke="#B07A50" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M166 86 Q162 98 156 100" fill="none" stroke="#B07A50" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M88 168 Q100 172 112 168" fill="none" stroke="#B07A50" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <!-- red ring around the teeth -->
+  <ellipse cx="100" cy="118" rx="70" ry="44" fill="none" stroke="#E53935" stroke-width="6"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="0" y="0" width="200" height="200" fill="#DDEFFF"/>
+  <!-- sea -->
+  <rect x="0" y="104" width="200" height="50" fill="#5FA8D8"/>
+  <path d="M0 104 H200" stroke="#3E86B8" stroke-width="3"/>
+  <g fill="none" stroke="#BFE0F4" stroke-width="3" stroke-linecap="round">
+    <path d="M10 118 Q18 114 26 118"/><path d="M170 120 Q178 116 186 120"/><path d="M24 138 Q32 134 40 138"/><path d="M160 140 Q168 136 176 140"/>
+  </g>
+  <!-- sand -->
+  <rect x="0" y="150" width="200" height="50" fill="#EBD9A8"/>
+  <path d="M0 150 Q50 144 100 150 Q150 156 200 150" fill="#EBD9A8" stroke="#C9B077" stroke-width="3"/>
+  <ellipse cx="108" cy="178" rx="56" ry="6" fill="#000" opacity="0.12"/>
+  <!-- yellow legs and webbed feet -->
+  <path d="M104 136 L100 174 M120 136 L124 174" fill="none" stroke="#9A6B10" stroke-width="7" stroke-linecap="round"/>
+  <path d="M104 136 L100 174 M120 136 L124 174" fill="none" stroke="#F2B53A" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M100 174 L88 180 L102 180 Z M124 174 L136 180 L122 180 Z" fill="#F2B53A" stroke="#9A6B10" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- white tail -->
+  <path d="M60 114 L34 126 Q36 132 44 132 L62 128 Z" fill="#FFFFFF" stroke="#7E8A94" stroke-width="3" stroke-linejoin="round"/>
+  <!-- white body -->
+  <path d="M50 118 Q60 90 108 86 Q148 86 156 106 Q150 140 116 142 Q74 142 50 118 Z" fill="#FFFFFF" stroke="#7E8A94" stroke-width="4" stroke-linejoin="round"/>
+  <!-- black wing tips, tapering to a point -->
+  <path d="M70 110 Q46 112 18 120 Q40 124 46 122 L40 128 Q58 126 72 122 Z" fill="#1C1C1C" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="34" cy="120" r="2.2" fill="#FFF"/>
+  <!-- grey wing -->
+  <path d="M52 116 Q70 88 124 90 Q140 106 122 120 Q86 130 52 116 Z" fill="#9EAAB4" stroke="#5F6970" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M70 114 Q94 108 118 108" fill="none" stroke="#C8D0D6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M60 118 Q90 124 120 120" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="148" cy="72" r="22" fill="#FFFFFF" stroke="#7E8A94" stroke-width="4"/>
+  <path d="M130 84 Q138 96 150 94" fill="#FFFFFF" stroke="none"/>
+  <!-- yellow beak with red spot -->
+  <path d="M166 68 L192 70 Q198 72 196 80 Q192 82 186 80 L166 80 Z" fill="#F6C343" stroke="#9A6B10" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M168 75 L190 75" stroke="#9A6B10" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="186" cy="78" r="2.6" fill="#E53935"/>
+  <circle cx="156" cy="66" r="3.6" fill="#111"/>
+  <circle cx="157" cy="65" r="1.2" fill="#FFF"/>
+</svg>

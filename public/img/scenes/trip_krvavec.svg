@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="trip_krvavec-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="150">
+      <stop offset="0" stop-color="#1B4F9C"/>
+      <stop offset="0.5" stop-color="#3F86D0"/>
+      <stop offset="0.85" stop-color="#A9D2F2"/>
+      <stop offset="1" stop-color="#DDEFFB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- clear winter sky -->
+  <rect x="0" y="0" width="400" height="250" fill="url(#trip_krvavec-sky)"/>
+
+  <!-- warm winter sun -->
+  <g data-part="sun"><circle cx="54" cy="38" r="18" fill="#FFD25E" stroke="#E8A93A" stroke-width="3.5"/></g>
+
+  <!-- two alpine choughs -->
+  <g data-part="bird" fill="none" stroke="#14325E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M232 34 Q238 28 244 34 Q250 28 256 34"/>
+    <path d="M262 20 Q266.5 15.5 271 20 Q275.5 15.5 280 20"/>
+    <rect x="226" y="8" width="60" height="32" fill="transparent" stroke="none"/>
+  </g>
+
+  <!-- the snowy Kamnik-Savinja Alps, Grintovec the highest -->
+  <g data-part="mountains" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-4 120 L12 110 L28 98 L42 106 L58 86 L72 94 L100 48 L114 66 L126 62 L140 82 L156 74 L172 92 L188 84 L204 98 L222 92 L240 104 L262 98 L280 110 L300 106 L330 116 L360 112 L404 120 V152 H-4 Z" fill="#F6F9FC"/>
+    <g fill="#CAD9EB">
+      <polygon points="28,98 42,106 45,152 33,152 34,122"/>
+      <polygon points="58,86 72,94 75,152 63,152 65,118"/>
+      <polygon points="100,48 114,66 126,62 140,82 144,152 108,152 111,110 103,78"/>
+      <polygon points="156,74 172,92 176,152 162,152 163,108"/>
+      <polygon points="188,84 204,98 208,152 196,152 194,114"/>
+      <polygon points="222,92 240,104 244,152 232,152 230,118"/>
+    </g>
+    <path d="M-4 120 L12 110 L28 98 L42 106 L58 86 L72 94 L100 48 L114 66 L126 62 L140 82 L156 74 L172 92 L188 84 L204 98 L222 92 L240 104 L262 98 L280 110 L300 106 L330 116 L360 112 L404 120" fill="none" stroke="#5E7898" stroke-width="3"/>
+  </g>
+
+  <!-- the sea of fog over the Ljubljana basin -->
+  <path d="M-4 140 Q18 133 42 138 Q66 131 94 137 Q120 132 152 138 Q180 132 206 137 Q236 131 262 138 Q300 132 330 137 Q366 131 404 136 V254 H-4 Z" fill="#EDF2F9" stroke="#B8C9DA" stroke-width="3" stroke-linejoin="round"/>
+  <!-- dark low hills poking out of the fog -->
+  <g fill="#4E6B62" stroke="#2E4840" stroke-width="3" stroke-linejoin="round">
+    <path d="M2 162 Q14 140 34 142 Q52 144 62 162 Z"/>
+    <path d="M86 164 Q100 147 116 149 Q128 151 136 164 Z"/>
+  </g>
+  <g fill="#5F7E73">
+    <ellipse cx="26" cy="148" rx="9" ry="3.5"/>
+    <ellipse cx="106" cy="153" rx="7" ry="3"/>
+  </g>
+  <path d="M-4 158 Q30 151 66 157 Q104 150 146 156 Q190 150 230 156 Q280 150 330 155 Q370 150 404 154 V254 H-4 Z" fill="#F7FAFD" stroke="#CBD8E6" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="60" cy="168" rx="50" ry="4" fill="#FFF4DA" opacity="0.6"/>
+
+  <!-- the broad snowy top of Krvavec -->
+  <path d="M-4 208 Q80 190 170 182 Q280 172 404 166 V254 H-4 Z" fill="#FFFFFF" stroke="#8098B4" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M-4 230 Q70 214 150 214 Q90 226 70 254 H-4 Z" fill="#E6EEF7"/>
+  <!-- our ski tracks up to the top -->
+  <g fill="none" stroke="#C9D8E8" stroke-width="3" stroke-linecap="round">
+    <path d="M60 254 Q100 222 150 206"/>
+    <path d="M74 254 Q112 226 158 210"/>
+  </g>
+
+  <!-- a snowy fir beside the hut -->
+  <g data-part="tree" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="389" y="150" width="8" height="22" fill="#6D4223" stroke="#3E2410" stroke-width="2.5"/>
+    <polygon points="393,72 412,108 374,108" fill="#2E6B4A" stroke="#1B4332" stroke-width="3"/>
+    <polygon points="393,94 416,134 370,134" fill="#2E6B4A" stroke="#1B4332" stroke-width="3"/>
+    <polygon points="393,118 420,158 366,158" fill="#2E6B4A" stroke="#1B4332" stroke-width="3"/>
+    <g fill="#FFFFFF" stroke="#A9C1D6" stroke-width="2">
+      <path d="M385 88 L393 72 L401 88 Q397 92 393 88 Q389 92 385 88 Z"/>
+      <path d="M380 114 L393 94 L406 114 Q400 118 393 114 Q386 118 380 114 Z"/>
+      <path d="M376 140 L393 118 L410 140 Q402 144 393 140 Q384 144 376 140 Z"/>
+    </g>
+  </g>
+
+  <!-- the mountain hut -->
+  <g data-part="hut" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="320" cy="177" rx="72" ry="6" fill="#E3EDF7"/>
+    <!-- a soft wisp of smoke -->
+    <path d="M343 66 Q336 56 343 46 Q350 36 344 24" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.8"/>
+    <!-- log walls -->
+    <rect x="266" y="126" width="108" height="50" fill="#C68A4A" stroke="#5A3414" stroke-width="3.5"/>
+    <path d="M268 146 H372 M268 162 H372" fill="none" stroke="#A1662F" stroke-width="2"/>
+    <!-- roof -->
+    <polygon points="252,132 280,98 360,98 388,132" fill="#7A3E22" stroke="#4A2410" stroke-width="4"/>
+    <!-- stone chimney -->
+    <rect x="336" y="70" width="15" height="26" fill="#B5ACA0" stroke="#5B5550" stroke-width="3"/>
+    <!-- thick snow on the roof -->
+    <path d="M249 126 Q247 117 258 115 L278 93 Q282 87 290 87 H350 Q358 87 362 93 L382 115 Q393 117 391 126 Q384 132 374 128 Q364 134 352 128 Q338 134 324 128 Q310 134 296 128 Q282 134 270 128 Q258 132 249 126 Z" fill="#FFFFFF" stroke="#8FA8C4" stroke-width="3.5"/>
+    <path d="M262 120 Q300 116 340 118 Q364 119 378 122" fill="none" stroke="#DCE7F2" stroke-width="3"/>
+    <path d="M333 72 Q333 63 343.5 63 Q354 63 354 72 Z" fill="#FFFFFF" stroke="#8FA8C4" stroke-width="3"/>
+    <!-- warm windows -->
+    <g fill="#FFC857" opacity="0.35">
+      <ellipse cx="288" cy="150" rx="20" ry="16"/>
+      <ellipse cx="352" cy="150" rx="20" ry="16"/>
+    </g>
+    <g fill="#FFD54F" stroke="#5A3414" stroke-width="3">
+      <rect x="276" y="140" width="24" height="20"/>
+      <rect x="340" y="140" width="24" height="20"/>
+    </g>
+    <path d="M288 140 V160 M276 150 H300 M352 140 V160 M340 150 H364" fill="none" stroke="#B07A12" stroke-width="2"/>
+    <!-- door -->
+    <path d="M310 176 V151 Q310 143 320 143 Q330 143 330 151 V176 Z" fill="#7A4A26" stroke="#3E2410" stroke-width="3"/>
+    <circle cx="325" cy="162" r="1.8" fill="#F6C945"/>
+    <!-- snow drift along the wall -->
+    <path d="M258 179 Q262 170 276 172 Q290 168 304 174 Q318 176 336 172 Q356 168 372 172 Q386 172 388 179 Z" fill="#FFFFFF" stroke="#A9C1D6" stroke-width="2.5"/>
+  </g>
+
+  <!-- rucksack -->
+  <g data-part="rucksack" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="116" cy="205" rx="22" ry="5" fill="#E3EDF7"/>
+    <path d="M106 179 Q100 191 104 203" fill="none" stroke="#7A1E14" stroke-width="4"/>
+    <rect x="102" y="175" width="30" height="31" rx="9" fill="#E53935" stroke="#7A1E14" stroke-width="3.5"/>
+    <path d="M103 185 Q117 179 131 185 L131 189 Q117 184 103 189 Z" fill="#C62828" stroke="#7A1E14" stroke-width="2.5"/>
+    <rect x="108" y="192" width="18" height="10" rx="3" fill="#EF6C68" stroke="#7A1E14" stroke-width="2.5"/>
+  </g>
+
+  <!-- two touring skis standing in the snow -->
+  <g data-part="skis" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="rotate(9 154 204)">
+      <rect x="148.5" y="74" width="11" height="132" rx="5.5" fill="#FB8C00" stroke="#7A3E00" stroke-width="3"/>
+      <line x1="154" y1="82" x2="154" y2="196" stroke="#FFE0B2" stroke-width="2"/>
+      <rect x="146.5" y="144" width="15" height="12" rx="2.5" fill="#37474F" stroke="#1C262B" stroke-width="2"/>
+    </g>
+    <g transform="rotate(-9 178 204)">
+      <rect x="172.5" y="74" width="11" height="132" rx="5.5" fill="#FB8C00" stroke="#7A3E00" stroke-width="3"/>
+      <line x1="178" y1="82" x2="178" y2="196" stroke="#FFE0B2" stroke-width="2"/>
+      <rect x="170.5" y="144" width="15" height="12" rx="2.5" fill="#37474F" stroke="#1C262B" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- poles beside them -->
+  <g data-part="poles" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="194" y="96" width="26" height="104" fill="transparent" stroke="none"/>
+    <path d="M198 206 L203 106 M216 206 L210 107" fill="none" stroke="#263238" stroke-width="5"/>
+    <path d="M198 206 L203 106 M216 206 L210 107" fill="none" stroke="#90A4AE" stroke-width="2"/>
+    <rect x="199" y="98" width="8" height="18" rx="3.5" fill="#263238"/>
+    <rect x="206" y="99" width="8" height="18" rx="3.5" fill="#263238"/>
+    <g fill="none" stroke="#263238" stroke-width="3">
+      <ellipse cx="198.5" cy="195" rx="7" ry="2.5"/>
+      <ellipse cx="215.5" cy="195" rx="7" ry="2.5"/>
+    </g>
+  </g>
+
+  <!-- snow heaped round them -->
+  <ellipse cx="166" cy="205" rx="26" ry="6" fill="#FFFFFF" stroke="#A9C1D6" stroke-width="2.5"/>
+  <ellipse cx="207" cy="205" rx="16" ry="5" fill="#FFFFFF" stroke="#A9C1D6" stroke-width="2.5"/>
+
+  <!-- little wooden table -->
+  <g data-part="table" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="252" cy="210" rx="32" ry="5" fill="#E3EDF7"/>
+    <path d="M234 188 L228 208 M270 188 L276 208" fill="none" stroke="#4A2E14" stroke-width="8"/>
+    <path d="M234 188 L228 208 M270 188 L276 208" fill="none" stroke="#A1662F" stroke-width="4"/>
+    <polygon points="232,177 272,177 279,182 225,182" fill="#C68A4A" stroke="#5A3414" stroke-width="3"/>
+    <rect x="223" y="181" width="58" height="8" fill="#A1662F" stroke="#5A3414" stroke-width="3"/>
+  </g>
+
+  <!-- steaming enamel mug of tea -->
+  <g data-part="cup" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="none" stroke="#A9BFD6" stroke-width="6">
+      <path d="M245 152 Q240 144 245 136 Q250 128 245 120"/>
+      <path d="M254 152 Q259 144 254 136 Q249 128 254 122"/>
+    </g>
+    <g fill="none" stroke="#FFFFFF" stroke-width="3">
+      <path d="M245 152 Q240 144 245 136 Q250 128 245 120"/>
+      <path d="M254 152 Q259 144 254 136 Q249 128 254 122"/>
+    </g>
+    <path d="M259 163 Q268 163 268 169 Q268 175 259 175" fill="none" stroke="#1E4E8C" stroke-width="4"/>
+    <path d="M239 158 H260 V172 Q260 178 254 178 H245 Q239 178 239 172 Z" fill="#FAFAFA" stroke="#1E4E8C" stroke-width="3"/>
+    <ellipse cx="249.5" cy="158" rx="10.5" ry="3" fill="#B5652A" stroke="#1E4E8C" stroke-width="2.5"/>
+    <path d="M240 175 H259" fill="none" stroke="#1E4E8C" stroke-width="2"/>
+  </g>
+</svg>

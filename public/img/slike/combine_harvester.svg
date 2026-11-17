@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="174" rx="94" ry="7" fill="#000" opacity="0.12"/>
+  <!-- exhaust -->
+  <rect x="164" y="30" width="7" height="26" rx="2" fill="#555" stroke="#222" stroke-width="2.5"/>
+  <!-- grain tank -->
+  <path d="M114 62 L118 38 H172 L176 62 Z" fill="#43A047" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round"/>
+  <!-- unloading auger folded along the side -->
+  <path d="M176 52 L192 52 L192 96" fill="none" stroke="#1B5E20" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176 52 L192 52 L192 96" fill="none" stroke="#66BB6A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- main body -->
+  <path d="M70 62 H180 Q186 62 186 70 V140 H70 Z" fill="#43A047" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="72" y="118" width="112" height="6" fill="#F2C94C"/>
+  <!-- cab -->
+  <path d="M72 64 V30 Q72 24 78 24 H110 Q116 24 116 30 V64 Z" fill="#43A047" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M78 58 V32 H110 V58 Z" fill="#BFE3FA" stroke="#1B5E20" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="68" y="20" width="52" height="7" rx="3" fill="#2E7D32" stroke="#1B5E20" stroke-width="3"/>
+  <!-- feeder house -->
+  <path d="M58 124 L74 110 V140 L58 150 Z" fill="#388E3C" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round"/>
+  <!-- reel arm -->
+  <path d="M74 94 L34 110" stroke="#1B5E20" stroke-width="9" stroke-linecap="round"/>
+  <path d="M74 94 L34 110" stroke="#43A047" stroke-width="4" stroke-linecap="round"/>
+  <!-- reel -->
+  <g stroke="#8C6A1E" stroke-width="3.5" stroke-linecap="round">
+    <line x1="34" y1="110" x2="34" y2="84"/><line x1="34" y1="110" x2="56.5" y2="97"/><line x1="34" y1="110" x2="56.5" y2="123"/>
+    <line x1="34" y1="110" x2="34" y2="136"/><line x1="34" y1="110" x2="11.5" y2="123"/><line x1="34" y1="110" x2="11.5" y2="97"/>
+  </g>
+  <g fill="#F2C94C" stroke="#8C6A1E" stroke-width="2.5">
+    <rect x="26" y="80" width="16" height="7" rx="2"/>
+    <rect x="48.5" y="93" width="16" height="7" rx="2" transform="rotate(60 56.5 96.5)"/>
+    <rect x="48.5" y="119" width="16" height="7" rx="2" transform="rotate(-60 56.5 122.5)"/>
+    <rect x="3.5" y="119" width="16" height="7" rx="2" transform="rotate(60 11.5 122.5)"/>
+    <rect x="3.5" y="93" width="16" height="7" rx="2" transform="rotate(-60 11.5 96.5)"/>
+  </g>
+  <circle cx="34" cy="110" r="5" fill="#555" stroke="#222" stroke-width="2.5"/>
+  <!-- header (cutting platform), in front of the lower reel -->
+  <path d="M4 160 L8 134 Q10 126 18 126 H66 V160 Z" fill="#43A047" stroke="#1B5E20" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M8 142 H64" stroke="#F2C94C" stroke-width="5"/>
+  <path d="M4 160 H64" stroke="#333" stroke-width="5" stroke-linecap="round"/>
+  <!-- wheels -->
+  <circle cx="102" cy="142" r="30" fill="#333" stroke="#1E1E1E" stroke-width="4"/>
+  <circle cx="102" cy="142" r="13" fill="#F2C94C" stroke="#8C6A1E" stroke-width="3"/>
+  <circle cx="166" cy="152" r="18" fill="#333" stroke="#1E1E1E" stroke-width="4"/>
+  <circle cx="166" cy="152" r="7" fill="#F2C94C" stroke="#8C6A1E" stroke-width="3"/>
+</svg>

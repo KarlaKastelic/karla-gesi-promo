@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <g id="a">
+      <path d="M-20 0 Q-22 34 0 46 Q22 34 20 0 Z" fill="#C08A44" stroke="#6B4420" stroke-width="4" stroke-linejoin="round"/>
+      <circle cx="0" cy="47" r="3" fill="#6B4420"/>
+      <path d="M-12 8 Q-13 24 -4 34" fill="none" stroke="#E2B677" stroke-width="4" stroke-linecap="round"/>
+      <path d="M0 -22 Q2 -32 7 -36" fill="none" stroke="#4E3A20" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-26 2 Q-26 -24 0 -24 Q26 -24 26 2 Q0 10 -26 2 Z" fill="#8B6B43" stroke="#4E3A20" stroke-width="4" stroke-linejoin="round"/>
+      <g fill="none" stroke="#5E4628" stroke-width="2" stroke-linecap="round">
+        <path d="M-19 -5 Q-14 -1 -8 -5"/><path d="M-5 -5 Q0 -1 5 -5"/><path d="M8 -5 Q14 -1 19 -5"/>
+        <path d="M-13 -14 Q-8 -10 -2 -14"/><path d="M2 -14 Q8 -10 13 -14"/>
+      </g>
+    </g>
+  </defs>
+  <ellipse cx="104" cy="182" rx="72" ry="8" fill="#000" opacity="0.12"/>
+  <!-- oak leaf -->
+  <g transform="translate(106 72) rotate(-18) scale(1.1)">
+    <path d="M-86 2 L-72 0" stroke="#3B6420" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-72 0 Q-66 -12 -56 -9 Q-54 -24 -40 -19 Q-36 -34 -20 -27 Q-12 -40 0 -31 Q10 -42 21 -29 Q34 -36 38 -21 Q52 -26 53 -11 Q64 -12 68 0 Q64 12 53 11 Q52 26 38 21 Q34 36 21 29 Q10 42 0 31 Q-12 40 -20 27 Q-36 34 -40 19 Q-54 24 -56 9 Q-66 12 -72 0 Z" fill="#6DA544" stroke="#3B6420" stroke-width="3.5" stroke-linejoin="round"/>
+    <g fill="none" stroke="#3B6420" stroke-width="2.5" stroke-linecap="round">
+      <path d="M-72 0 L60 0"/>
+      <path d="M-40 0 L-36 -14"/><path d="M-40 0 L-36 14"/><path d="M-4 0 L0 -22"/><path d="M-4 0 L0 22"/><path d="M30 0 L34 -16"/><path d="M30 0 L34 16"/>
+    </g>
+  </g>
+  <!-- acorns -->
+  <use href="#a" transform="translate(76 124) scale(1.1)"/>
+  <use href="#a" transform="translate(136 132) rotate(22)"/>
+</svg>

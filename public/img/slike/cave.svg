@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="tile"><rect x="4" y="4" width="192" height="192" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#tile)">
+    <!-- sky -->
+    <rect x="0" y="0" width="200" height="200" fill="#DDEFFF"/>
+    <!-- rocky hillside -->
+    <path d="M-4 176 L-4 98 Q14 76 38 70 Q54 48 84 42 Q118 34 142 48 Q170 56 186 80 Q198 96 204 104 V176 Z" fill="#A39280" stroke="#5E5044" stroke-width="4" stroke-linejoin="round"/>
+    <!-- rock blocks -->
+    <g fill="#8C7B6A" stroke="#5E5044" stroke-width="3" stroke-linejoin="round">
+      <path d="M14 112 L24 102 L38 106 L40 120 L28 126 L16 122 Z"/>
+      <path d="M160 98 L172 90 L184 98 L184 112 L170 116 Z"/>
+      <path d="M20 146 L32 138 L42 146 L38 156 L24 156 Z"/>
+      <path d="M164 134 L176 128 L186 138 L182 150 L168 150 Z"/>
+    </g>
+    <g fill="none" stroke="#6E5E50" stroke-width="2.5" stroke-linecap="round">
+      <path d="M56 72 Q64 78 60 88"/><path d="M146 64 Q154 70 156 80"/>
+    </g>
+    <!-- grass cap -->
+    <path d="M30 74 Q54 48 84 42 Q118 34 142 48 Q160 54 172 64 Q160 70 150 64 Q140 72 128 64 Q116 70 104 62 Q92 70 80 62 Q66 72 56 64 Q44 76 30 74 Z" fill="#7CC36B" stroke="#3F7A32" stroke-width="3.5" stroke-linejoin="round"/>
+    <!-- small tree on top -->
+    <rect x="135" y="34" width="7" height="16" fill="#8B5A2B" stroke="#4A2E14" stroke-width="3"/>
+    <circle cx="138" cy="30" r="14" fill="#5DA34B" stroke="#2F6B25" stroke-width="3.5"/>
+    <!-- cave opening, irregular -->
+    <path d="M44 172 Q40 150 50 136 Q52 118 64 110 Q70 96 88 96 Q100 86 116 92 Q134 92 140 108 Q154 118 152 140 Q160 156 156 172 Z" fill="#2A221E" stroke="#4A3E34" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M64 172 Q62 146 76 130 Q90 116 108 120 Q126 118 134 138 Q142 156 138 172 Z" fill="#1A1512"/>
+    <!-- a few short rock drips inside -->
+    <g fill="#7A6A5A" stroke="#4A3E34" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M82 98 Q83 110 87 112 Q91 109 92 96 Z"/>
+      <path d="M128 98 Q129 105 132 106 Q135 104 135 100 Z"/>
+    </g>
+    <!-- grass in front -->
+    <path d="M-4 204 V170 Q30 164 52 170 L150 170 Q176 162 204 168 V204 Z" fill="#7CC36B" stroke="#3F7A32" stroke-width="3.5" stroke-linejoin="round"/>
+    <!-- rocky floor at the mouth -->
+    <path d="M52 172 L150 172 Q132 182 104 179 Q76 184 52 172 Z" fill="#8C7B6A" stroke="#5E5044" stroke-width="3" stroke-linejoin="round"/>
+    <g fill="#A39280" stroke="#5E5044" stroke-width="2.5"><ellipse cx="84" cy="190" rx="6" ry="4"/><ellipse cx="122" cy="191" rx="5" ry="3.5"/></g>
+    <!-- boulders by the entrance -->
+    <g fill="#9A8977" stroke="#5E5044" stroke-width="3.5" stroke-linejoin="round">
+      <path d="M22 178 L26 162 L38 156 L52 160 L56 178 Z"/>
+      <path d="M150 178 L154 166 L164 164 L172 170 L172 178 Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Musnica: three fly agaric mushrooms (red caps with white dots, white stems with a skirt ring) on forest moss with a few leaves -->
+  <rect x="0" y="0" width="200" height="200" fill="#DDECD3"/>
+  <!-- soft tree trunks in the background -->
+  <rect x="14" y="0" width="22" height="150" fill="#BCA78E"/>
+  <rect x="164" y="0" width="26" height="150" fill="#BCA78E"/>
+  <!-- moss mound -->
+  <path d="M-4 200 V160 Q20 140 60 146 Q100 136 140 146 Q180 140 204 156 V200 Z" fill="#7CB342" stroke="#33691E" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#9CCC65">
+    <ellipse cx="40" cy="168" rx="16" ry="6"/><ellipse cx="150" cy="172" rx="18" ry="6"/><ellipse cx="96" cy="186" rx="22" ry="6"/>
+  </g>
+
+  <!-- fallen leaves -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M14 182 Q24 166 44 170 Q34 186 14 182 Z" fill="#E59A3C" stroke="#A35F12" stroke-width="3"/>
+    <path d="M16 181 L42 171" stroke="#A35F12" stroke-width="2"/>
+    <path d="M160 188 Q172 172 192 178 Q180 194 160 188 Z" fill="#D9714A" stroke="#8C3F1E" stroke-width="3"/>
+    <path d="M162 187 L190 179" stroke="#8C3F1E" stroke-width="2"/>
+  </g>
+
+  <!-- small mushroom at the back right -->
+  <g stroke-linejoin="round">
+    <path d="M140 156 Q138 132 142 116 H158 Q162 132 160 156 Q150 160 140 156 Z" fill="#FAFAFA" stroke="#8A8A8A" stroke-width="3.5"/>
+    <path d="M140 124 Q150 130 160 124 L158 132 Q150 136 142 132 Z" fill="#FFFFFF" stroke="#8A8A8A" stroke-width="2.5"/>
+    <path d="M118 118 Q118 86 150 86 Q182 86 182 118 Q150 124 118 118 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="4"/>
+    <g fill="#FFFFFF" stroke="#C9C9C9" stroke-width="1.5">
+      <ellipse cx="136" cy="102" rx="5" ry="4"/><ellipse cx="154" cy="94" rx="5.5" ry="4"/><ellipse cx="170" cy="106" rx="4.5" ry="3.5"/><ellipse cx="150" cy="110" rx="4" ry="3"/>
+    </g>
+  </g>
+
+  <!-- big mushroom in front -->
+  <g stroke-linejoin="round">
+    <path d="M64 176 Q52 172 58 158 Q64 150 66 120 L68 82 H94 L96 120 Q98 150 104 158 Q110 172 98 176 Z" fill="#FAFAFA" stroke="#8A8A8A" stroke-width="4"/>
+    <path d="M60 162 Q80 168 102 162" fill="none" stroke="#B0B0B0" stroke-width="3" stroke-linecap="round"/>
+    <!-- skirt ring -->
+    <path d="M66 94 Q80 100 96 94 L102 110 Q92 116 80 116 Q68 116 60 110 Z" fill="#FFFFFF" stroke="#8A8A8A" stroke-width="3.5"/>
+    <path d="M68 110 Q72 104 72 100 M80 113 V102 M92 110 Q88 104 88 100" fill="none" stroke="#C9C9C9" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- big red cap -->
+    <path d="M18 84 Q16 26 80 22 Q144 26 142 84 Q112 94 80 94 Q48 94 18 84 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="4.5"/>
+    <path d="M30 80 Q80 90 130 80" fill="none" stroke="#C62828" stroke-width="3" stroke-linecap="round"/>
+    <g fill="#FFFFFF" stroke="#C9C9C9" stroke-width="1.5">
+      <ellipse cx="50" cy="44" rx="8" ry="6"/>
+      <ellipse cx="80" cy="34" rx="9" ry="6"/>
+      <ellipse cx="112" cy="44" rx="8" ry="6"/>
+      <ellipse cx="34" cy="66" rx="6" ry="5"/>
+      <ellipse cx="64" cy="62" rx="7.5" ry="5.5"/>
+      <ellipse cx="98" cy="64" rx="7" ry="5.5"/>
+      <ellipse cx="128" cy="68" rx="6" ry="5"/>
+    </g>
+  </g>
+
+  <!-- young button mushroom at the front left -->
+  <g stroke-linejoin="round">
+    <path d="M24 186 Q20 172 26 162 H44 Q50 172 46 186 Z" fill="#FAFAFA" stroke="#8A8A8A" stroke-width="3.5"/>
+    <path d="M18 164 Q16 140 35 140 Q54 140 52 164 Q35 170 18 164 Z" fill="#E53935" stroke="#8E1B1B" stroke-width="3.5"/>
+    <g fill="#FFFFFF" stroke="#C9C9C9" stroke-width="1.2">
+      <ellipse cx="28" cy="150" rx="3.5" ry="2.8"/><ellipse cx="40" cy="148" rx="4" ry="3"/><ellipse cx="35" cy="159" rx="3" ry="2.4"/>
+    </g>
+  </g>
+</svg>

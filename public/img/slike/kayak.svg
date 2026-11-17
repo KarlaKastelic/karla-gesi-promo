@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- water -->
+  <path d="M0 116 Q50 110 100 116 Q150 122 200 114 V200 H0 Z" fill="#4FA8E0" stroke="#1E5E8C" stroke-width="3"/>
+
+  <!-- long narrow kayak: hull side and deck -->
+  <path d="M6 108 Q100 112 194 92 Q170 126 104 132 Q40 134 6 108 Z" fill="#C62828" stroke="#7A1414" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M6 108 Q96 72 194 92 Q100 112 6 108 Z" fill="#EF5350" stroke="#7A1414" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M28 100 Q90 80 170 88" fill="none" stroke="#FF9E9B" stroke-width="3" stroke-linecap="round"/>
+  <!-- deck cords in front -->
+  <path d="M136 92 L156 99 M136 99 L156 92" stroke="#263238" stroke-width="2" stroke-linecap="round"/>
+  <!-- cockpit opening -->
+  <ellipse cx="90" cy="98" rx="24" ry="8" transform="rotate(-6 90 98)" fill="#37474F" stroke="#11181C" stroke-width="3.5"/>
+  <ellipse cx="90" cy="99" rx="17" ry="4.5" transform="rotate(-6 90 99)" fill="#11181C"/>
+
+  <!-- water in front hides the bottom of the hull -->
+  <path d="M-2 124 Q50 118 100 125 Q150 132 202 120 V202 H-2 Z" fill="#4FA8E0" opacity="0.85"/>
+  <path d="M-2 124 Q50 118 100 125 Q150 132 202 120" fill="none" stroke="#1E5E8C" stroke-width="2.5"/>
+  <g fill="none" stroke="#E6F6FF" stroke-width="3" stroke-linecap="round">
+    <path d="M14 140 Q26 136 38 140"/><path d="M60 160 Q72 156 84 160"/><path d="M110 144 Q122 140 134 144"/>
+    <path d="M30 184 Q42 180 54 184"/><path d="M96 186 Q108 182 120 186"/><path d="M168 176 Q180 172 192 176"/>
+  </g>
+
+  <!-- double-bladed paddle lying across the kayak -->
+  <path d="M78 58 L166 144" stroke="#263238" stroke-width="6" stroke-linecap="round"/>
+  <path d="M78 58 L166 144" stroke="#78909C" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="72" cy="52" rx="19" ry="8" transform="rotate(44 72 52)" fill="#FDD835" stroke="#8D6E00" stroke-width="3.5"/>
+  <ellipse cx="172" cy="150" rx="19" ry="8" transform="rotate(44 172 150)" fill="#FDD835" stroke="#8D6E00" stroke-width="3.5"/>
+</svg>

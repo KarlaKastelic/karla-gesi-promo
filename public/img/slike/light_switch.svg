@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="0" y="0" width="200" height="200" fill="#F5E6CC"/>
+  <rect x="0" y="0" width="200" height="8" fill="#FFFFFF"/>
+  <line x1="0" y1="8" x2="200" y2="8" stroke="#D7C3A0" stroke-width="3"/>
+  <!-- lamp -->
+  <line x1="100" y1="8" x2="100" y2="22" stroke="#455A64" stroke-width="3"/>
+  <g stroke="#FFB300" stroke-width="4" stroke-linecap="round">
+    <line x1="100" y1="64" x2="100" y2="80"/><line x1="78" y1="58" x2="68" y2="70"/><line x1="122" y1="58" x2="132" y2="70"/>
+    <line x1="58" y1="44" x2="44" y2="48"/><line x1="142" y1="44" x2="156" y2="48"/>
+  </g>
+  <circle cx="100" cy="50" r="11" fill="#FFF176" stroke="#F9A825" stroke-width="3"/>
+  <path d="M72 46 Q72 22 100 22 Q128 22 128 46 Z" fill="#FFFFFF" stroke="#90A4AE" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- switch -->
+  <rect x="64" y="104" width="68" height="68" rx="8" fill="#FFFFFF" stroke="#9E9E9E" stroke-width="4"/>
+  <rect x="80" y="116" width="36" height="44" rx="4" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="3"/>
+  <rect x="83" y="119" width="30" height="18" rx="2" fill="#E0E0E0"/>
+  <!-- arm and hand from the right -->
+  <rect x="168" y="114" width="40" height="48" rx="4" fill="#1976D2" stroke="#0D47A1" stroke-width="4"/>
+  <path d="M110 128 H150" stroke="#B07A50" stroke-width="16" stroke-linecap="round"/>
+  <path d="M110 128 H150" stroke="#F2C9A0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140 122 Q138 118 146 118 H166 Q174 118 174 128 V150 Q174 160 164 160 H146 Q138 160 138 150 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="none" stroke="#B07A50" stroke-width="3" stroke-linecap="round"><path d="M142 140 H154"/><path d="M142 150 H154"/></g>
+  <path d="M166 122 L150 136" stroke="#B07A50" stroke-width="13" stroke-linecap="round"/>
+  <path d="M166 122 L150 136" stroke="#F2C9A0" stroke-width="7" stroke-linecap="round"/>
+</svg>

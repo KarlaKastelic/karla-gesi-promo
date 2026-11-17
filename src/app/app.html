@@ -1,0 +1,135 @@
+<a class="skip-link" href="#vsebina">Preskoči na vsebino</a>
+
+<div class="topbar no-print">
+  <div class="container topbar__inner">
+    <p class="topbar__note">
+      <span aria-hidden="true">🤍</span> Igre s slikami za vse, ki vadijo besede, razumevanje in pozornost
+    </p>
+    <div class="display-controls" role="group" aria-label="Prikaz strani">
+      <span class="display-controls__label" aria-hidden="true">Besedilo</span>
+      @for (s of sizes; track s.id) {
+        <button
+          type="button"
+          class="size-btn"
+          [class.is-active]="display.textSize() === s.id"
+          [attr.aria-pressed]="display.textSize() === s.id"
+          [attr.aria-label]="s.name"
+          (click)="display.textSize.set(s.id)"
+        >
+          {{ s.label }}
+        </button>
+      }
+      <button
+        type="button"
+        class="contrast-btn"
+        [attr.aria-pressed]="display.highContrast()"
+        (click)="display.highContrast.set(!display.highContrast())"
+      >
+        <span aria-hidden="true">◐</span> Visok kontrast
+      </button>
+    </div>
+  </div>
+</div>
+
+<header class="header no-print">
+  <div class="container header__inner">
+    <a routerLink="/" class="brand" aria-label="GESI – domov">
+      <img src="img/ikone/icon-96x96.png" alt="" width="48" height="48" />
+      <span class="brand__name">GESI</span>
+    </a>
+
+    <button
+      type="button"
+      class="menu-toggle"
+      [attr.aria-expanded]="menuOpen()"
+      aria-controls="glavni-meni"
+      (click)="menuOpen.set(!menuOpen())"
+    >
+      <span class="menu-toggle__bars" aria-hidden="true"></span>
+      {{ menuOpen() ? 'Zapri' : 'Meni' }}
+    </button>
+
+    <nav id="glavni-meni" class="nav" [class.is-open]="menuOpen()" aria-label="Glavni meni">
+      <ul class="nav__list">
+        <li class="nav__item nav__item--has-sub">
+          <button
+            type="button"
+            class="nav__link nav__sub-toggle"
+            [attr.aria-expanded]="audienceOpen()"
+            aria-controls="za-koga-meni"
+            (click)="audienceOpen.set(!audienceOpen())"
+          >
+            Za koga <span aria-hidden="true" class="caret">▾</span>
+          </button>
+          <ul id="za-koga-meni" class="subnav" [class.is-open]="audienceOpen()">
+            @for (a of audiences; track a.id) {
+              <li>
+                <a [routerLink]="['/za', a.id]" routerLinkActive="is-active" class="subnav__link">
+                  <span aria-hidden="true" class="subnav__icon">{{ a.icon }}</span>
+                  {{ a.short }}
+                </a>
+              </li>
+            }
+          </ul>
+        </li>
+        <li><a routerLink="/igre" routerLinkActive="is-active" class="nav__link">Igre</a></li>
+        <li><a routerLink="/preizkusi" routerLinkActive="is-active" class="nav__link">Preizkusi</a></li>
+        <li><a routerLink="/zgodba" routerLinkActive="is-active" class="nav__link">Zgodba</a></li>
+        <li><a routerLink="/kako-zaceti" routerLinkActive="is-active" class="nav__link">Kako začeti</a></li>
+        <li><a routerLink="/gradiva" routerLinkActive="is-active" class="nav__link">Gradiva</a></li>
+        <li class="nav__cta">
+          <a routerLink="/kontakt" class="btn btn--primary btn--small">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="vsebina" tabindex="-1">
+  <router-outlet />
+</main>
+
+<footer class="footer no-print">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a routerLink="/" class="brand brand--footer">
+        <img src="img/ikone/icon-96x96.png" alt="" width="40" height="40" />
+        <span class="brand__name">GESI</span>
+      </a>
+      <p>Učimo se besede – igre s slikami. Nastalo doma, iz potrebe in z ljubeznijo.</p>
+      <a class="btn btn--small" [href]="site.appUrl" target="_blank" rel="noopener">
+        Odpri aplikacijo <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <nav aria-label="Za koga">
+      <h2 class="footer__title">Za koga</h2>
+      <ul class="footer__list">
+        @for (a of audiences; track a.id) {
+          <li><a [routerLink]="['/za', a.id]">{{ a.short }}</a></li>
+        }
+      </ul>
+    </nav>
+
+    <nav aria-label="Več o GESI">
+      <h2 class="footer__title">Več o GESI</h2>
+      <ul class="footer__list">
+        <li><a routerLink="/igre">Vse igre</a></li>
+        <li><a routerLink="/preizkusi">Preizkusi kar tukaj</a></li>
+        <li><a routerLink="/zgodba">Kako je nastal</a></li>
+        <li><a routerLink="/kako-zaceti">Kako začeti</a></li>
+        <li><a routerLink="/gradiva">Letaki za tisk</a></li>
+        <li><a [href]="site.guideUrl" target="_blank" rel="noopener">Navodila za uporabo</a></li>
+        <li><a routerLink="/kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>
+      <strong>GESI je pripomoček za vadbo in ni medicinski pripomoček.</strong>
+      Ne nadomešča dela logopeda, terapevta ali specialnega pedagoga – lahko pa ga lepo dopolni.
+    </p>
+    <p class="muted">© {{ year }} GESI · Risbe so narejene posebej za GESI.</p>
+  </div>
+</footer>

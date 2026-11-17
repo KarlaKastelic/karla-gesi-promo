@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Zapestje: the man's forearm and hand lying palm down, seen from above, with a red ring round the wrist -->
+  <rect x="0" y="0" width="200" height="200" fill="#F6EEDC"/>
+  <g transform="translate(98 112) rotate(-38) scale(1.05)">
+    <!-- soft shadow -->
+    <path d="M-170 -21 Q-80 -20 0 -13 Q40 -21 96 -14 Q106 6 96 32 L40 34 Q0 28 -170 37 Z" fill="#000" opacity="0.08"/>
+    <!-- forearm -->
+    <path d="M-176 -28 Q-80 -27 -2 -19 L-2 19 Q-12 23 -18 24 Q-80 27 -176 31 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="4" stroke-linejoin="round"/>
+    <!-- thumb lying along the side -->
+    <path d="M4 -20 Q18 -42 44 -43 Q57 -43 57 -35 Q57 -28 46 -28 Q30 -27 22 -20 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M44 -40 Q51 -40 52 -35" fill="none" stroke="#B07A50" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- back of the hand with four fingers together -->
+    <path d="M-6 -19 Q14 -26 36 -27 L84 -27 Q93 -27 93 -20 Q93 -14 88 -13 Q99 -13 99 -6 Q99 1 90 1 Q97 2 97 8 Q97 14 88 14 Q91 15 91 20 Q91 26 82 26 L40 26 Q14 26 -6 19 Z" fill="#F2C9A0" stroke="#B07A50" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M54 -13 H88 M52 1 H90 M50 14 H86" fill="none" stroke="#B07A50" stroke-width="3" stroke-linecap="round"/>
+    <!-- knuckles -->
+    <path d="M40 -22 Q44 -18 40 -15 M40 -8 Q44 -4 40 -1 M39 6 Q43 9 39 12" fill="none" stroke="#B07A50" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <!-- wrist bone bump -->
+    <path d="M-16 16 Q-10 12 -4 16" fill="none" stroke="#B07A50" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+    <!-- blue sleeve -->
+    <path d="M-210 -38 L-122 -34 Q-116 0 -122 36 L-210 42 Z" fill="#1976D2" stroke="#0D47A1" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+  <!-- red ring around the wrist -->
+  <circle cx="97" cy="113" r="30" fill="none" stroke="#E53935" stroke-width="6"/>
+</svg>

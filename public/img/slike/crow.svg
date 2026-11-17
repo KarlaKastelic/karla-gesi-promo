@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="104" cy="178" rx="72" ry="7" fill="#000" opacity="0.12"/>
+  <!-- grass tufts -->
+  <path d="M20 178 L24 166 L28 178 M168 178 L172 164 L176 178 L180 168 L182 178" fill="none" stroke="#6A9E3A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- tail -->
+  <path d="M66 120 L16 140 Q12 150 22 152 L74 138 Z" fill="#1A1A1E" stroke="#000" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- strong legs -->
+  <path d="M108 134 L104 174 M124 134 L128 174" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  <path d="M104 174 L92 176 M104 174 L114 176 M128 174 L116 177 M128 174 L140 176" fill="none" stroke="#111" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- big bulky body -->
+  <path d="M60 116 Q66 70 116 66 Q152 66 158 96 Q156 130 124 140 Q84 144 60 116 Z" fill="#1E1E24" stroke="#000" stroke-width="4" stroke-linejoin="round"/>
+  <!-- folded wing -->
+  <path d="M62 114 Q78 78 124 84 Q132 108 112 128 Q86 134 62 114 Z" fill="#26283A" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M76 112 Q94 104 118 104 M70 120 Q92 116 112 118 M90 92 Q106 88 122 92" fill="none" stroke="#4A5578" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- big head -->
+  <circle cx="148" cy="66" r="26" fill="#1E1E24" stroke="#000" stroke-width="4"/>
+  <!-- shaggy throat -->
+  <path d="M138 90 L142 98 L146 90 L150 99 L154 90 L158 96 L160 86" fill="#1E1E24" stroke="#000" stroke-width="3" stroke-linejoin="round"/>
+  <!-- massive black beak -->
+  <path d="M166 54 Q184 52 198 70 Q186 76 166 80 Z" fill="#2A2A2E" stroke="#000" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M168 68 Q182 68 196 70" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M170 58 Q182 58 190 64" fill="none" stroke="#6A6A72" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- dark eye -->
+  <circle cx="152" cy="60" r="5" fill="#3A2A1A" stroke="#000" stroke-width="1.5"/>
+  <circle cx="153.5" cy="58.5" r="1.8" fill="#FFF"/>
+  <path d="M130 52 Q140 44 152 44" fill="none" stroke="#4A5578" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

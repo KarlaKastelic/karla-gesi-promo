@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="100" cy="182" rx="50" ry="8" fill="#000" opacity="0.12"/>
+  <rect x="94" y="10" width="12" height="22" rx="4" fill="#7A4E26" stroke="#3E2610" stroke-width="3.5"/>
+  <path d="M100 26 Q148 40 150 100 Q148 160 100 180 Q52 160 50 100 Q52 40 100 26 Z" fill="#8B5A2B" stroke="#3E2610" stroke-width="4" stroke-linejoin="round"/>
+  <defs>
+    <path id="sc" d="M-14 -6 Q0 -14 14 -6 Q14 8 0 12 Q-14 8 -14 -6 Z" fill="#B5793C" stroke="#3E2610" stroke-width="3" stroke-linejoin="round"/>
+  </defs>
+  <g>
+    <use href="#sc" x="100" y="40"/>
+    <use href="#sc" x="86" y="56"/><use href="#sc" x="114" y="56"/>
+    <use href="#sc" x="72" y="74"/><use href="#sc" x="100" y="72"/><use href="#sc" x="128" y="74"/>
+    <use href="#sc" x="64" y="94"/><use href="#sc" x="86" y="90"/><use href="#sc" x="114" y="90"/><use href="#sc" x="136" y="94"/>
+    <use href="#sc" x="72" y="112"/><use href="#sc" x="100" y="108"/><use href="#sc" x="128" y="112"/>
+    <use href="#sc" x="64" y="130"/><use href="#sc" x="86" y="126"/><use href="#sc" x="114" y="126"/><use href="#sc" x="136" y="130"/>
+    <use href="#sc" x="76" y="146"/><use href="#sc" x="100" y="144"/><use href="#sc" x="124" y="146"/>
+    <use href="#sc" x="88" y="162"/><use href="#sc" x="112" y="162"/>
+  </g>
+</svg>

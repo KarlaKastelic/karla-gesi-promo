@@ -1,0 +1,104 @@
+<section class="page-head">
+  <div class="container contact-head">
+    <div>
+      <span class="eyebrow">Kontakt</span>
+      <h1>{{ site.passwordRequired ? 'Zaprosite za dostop ali nam pišite' : 'Pišite nam' }}</h1>
+      <p class="lead">
+        Bi GESI radi uporabljali v šoli, domu, pri terapiji ali doma? Imate vprašanje ali predlog za novo igro? Z veseljem
+        odgovorimo.
+      </p>
+      <ul class="check-list reasons">
+        @if (site.passwordRequired) {
+          <li>Geslo za aplikacijo</li>
+        }
+        <li>Predstavitev za vašo ustanovo</li>
+        <li>Pomoč pri nastavitvah za posameznega igralca</li>
+        <li>Predlogi in ideje – vedno dobrodošli</li>
+      </ul>
+    </div>
+    <img class="contact-art" src="img/slike/puppy.svg" alt="" width="200" height="200" />
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="card form-card">
+      @if (status() === 'sent') {
+        <div class="sent" role="status">
+          <p class="sent__icon" aria-hidden="true">🎉</p>
+          <h2>Hvala! Sporočilo je poslano.</h2>
+          <p>Odgovorimo vam v nekaj dneh. Medtem lahko <a routerLink="/preizkusi">preizkusite igre</a>.</p>
+          <button type="button" class="btn" (click)="status.set('idle')">Pošlji še eno sporočilo</button>
+        </div>
+      } @else {
+        <form
+          name="dostop"
+          method="POST"
+          action="/kontakt"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          (submit)="send($event)"
+        >
+          <input type="hidden" name="form-name" value="dostop" />
+          <p class="visually-hidden">
+            <label>Tega polja ne izpolnjujte: <input name="bot-field" tabindex="-1" autocomplete="off" /></label>
+          </p>
+
+          <div class="fields">
+            <div class="field">
+              <label for="ime">Ime in priimek</label>
+              <input id="ime" name="ime" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">E-pošta</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="vrsta">Kje bi GESI uporabljali?</label>
+              <select id="vrsta" name="vrsta" required>
+                <option value="" [selected]="!preselected()">Izberite …</option>
+                @for (a of audiences; track a.id) {
+                  <option [value]="a.id" [selected]="preselected() === a.id">{{ a.short }}</option>
+                }
+                <option value="jezik">Učenje jezika</option>
+                <option value="drugo">Drugo</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="ustanova">Ustanova <span class="optional">(neobvezno)</span></label>
+              <input id="ustanova" name="ustanova" type="text" autocomplete="organization" />
+            </div>
+          </div>
+
+          <fieldset class="field wants">
+            <legend>Kaj želite?</legend>
+            @if (site.passwordRequired) {
+              <label class="check"><input type="checkbox" name="zelim" value="geslo" checked /> Geslo za aplikacijo</label>
+            }
+            <label class="check"><input type="checkbox" name="zelim" value="predstavitev" /> Predstavitev v živo ali na daljavo</label>
+            <label class="check"><input type="checkbox" name="zelim" value="vprasanje" /> Imam vprašanje ali predlog</label>
+          </fieldset>
+
+          <div class="field">
+            <label for="sporocilo">Sporočilo</label>
+            <textarea id="sporocilo" name="sporocilo" rows="5" placeholder="Za koga bi GESI uporabljali, kaj vas zanima …"></textarea>
+          </div>
+
+          <p class="privacy muted">
+            Vaše podatke uporabimo samo za odgovor na to sporočilo in jih ne posredujemo naprej.
+          </p>
+
+          @if (status() === 'error') {
+            <p class="note error" role="alert">
+              Sporočila žal ni bilo mogoče poslati. Preverite povezavo in poskusite znova čez nekaj minut.
+            </p>
+          }
+
+          <button type="submit" class="btn btn--primary submit" [disabled]="status() === 'sending'">
+            {{ status() === 'sending' ? 'Pošiljam …' : 'Pošlji sporočilo' }}
+          </button>
+        </form>
+      }
+    </div>
+  </div>
+</section>

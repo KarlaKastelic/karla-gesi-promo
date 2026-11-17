@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <defs>
+    <linearGradient id="pag-sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="142">
+      <stop offset="0" stop-color="#7FA6D6"/>
+      <stop offset="0.42" stop-color="#E6D7CA"/>
+      <stop offset="0.72" stop-color="#FBD49A"/>
+      <stop offset="1" stop-color="#FFB164"/>
+    </linearGradient>
+    <linearGradient id="pag-sea" gradientUnits="userSpaceOnUse" x1="0" y1="142" x2="0" y2="215">
+      <stop offset="0" stop-color="#2E6DAC"/>
+      <stop offset="0.45" stop-color="#2E9EC2"/>
+      <stop offset="1" stop-color="#62DCD2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- golden evening sky -->
+  <rect x="0" y="0" width="400" height="250" fill="url(#pag-sky)"/>
+
+  <!-- the sun low over the sea -->
+  <ellipse cx="250" cy="128" rx="92" ry="22" fill="#FFE7A8" opacity="0.6"/>
+  <circle cx="250" cy="124" r="18" fill="#FFCF5A" stroke="#E8963A" stroke-width="3.5"/>
+
+  <!-- two gulls -->
+  <g fill="none" stroke="#5A4E5E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 54 Q306 48 312 54 Q318 48 324 54"/>
+    <path d="M332 40 Q336.5 35.5 341 40 Q345.5 35.5 350 40"/>
+  </g>
+
+  <!-- the sea, deep blue far out, turquoise in the cove -->
+  <rect x="-4" y="142" width="408" height="112" fill="url(#pag-sea)"/>
+  <!-- a far island -->
+  <path d="M292 143 Q318 132 346 134 Q376 130 404 136 V143 Z" fill="#C3B4C2" stroke="#9A8A9E" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="-4" y1="143" x2="404" y2="143" stroke="#2A5E92" stroke-width="2.5"/>
+
+  <!-- soft reflection of the sun -->
+  <g fill="#FFD98A" opacity="0.85">
+    <ellipse cx="250" cy="150" rx="30" ry="3"/>
+    <ellipse cx="250" cy="161" rx="21" ry="2.6"/>
+    <ellipse cx="250" cy="173" rx="13" ry="2.2"/>
+  </g>
+
+  <!-- a small white sailing boat resting far out -->
+  <g stroke="#37474F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M322 150 V126" fill="none"/>
+    <path d="M324 128 L336 148 H324 Z" fill="#FFFFFF"/>
+    <path d="M320 131 L310 148 H320 Z" fill="#FFFFFF"/>
+    <path d="M306 150 H338 L333 156 H311 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- the pale stony hill of Pag -->
+  <path d="M-4 78 Q34 70 72 88 Q112 106 150 132 Q178 152 194 176 Q204 194 186 204 H-4 Z" fill="#EAE2D2" stroke="#8F8576" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M96 104 Q140 128 170 156 Q190 178 188 200 Q170 168 136 140 Q112 120 96 104 Z" fill="#D9CFBC"/>
+  <!-- dry-stone walls zig-zagging across it -->
+  <g fill="none" stroke="#A89C88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-4 112 L34 102 L62 120 L100 114"/>
+    <path d="M-4 160 L40 146 L78 166 L122 156 L160 180"/>
+  </g>
+  <!-- a couple of little olive trees -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M48 140 Q46 132 50 126" fill="none" stroke="#6D4C2F" stroke-width="4"/>
+    <ellipse cx="50" cy="122" rx="15" ry="9" fill="#9AAE74" stroke="#5E7044" stroke-width="3"/>
+    <path d="M128 176 Q126 168 130 162" fill="none" stroke="#6D4C2F" stroke-width="4"/>
+    <ellipse cx="130" cy="158" rx="12" ry="7.5" fill="#9AAE74" stroke="#5E7044" stroke-width="3"/>
+  </g>
+  <g fill="#7E9458">
+    <ellipse cx="88" cy="134" rx="5" ry="3"/>
+    <ellipse cx="20" cy="186" rx="6" ry="3.5"/>
+  </g>
+
+  <!-- the low rocky point on the right -->
+  <path d="M322 196 Q352 174 404 170 V206 Q360 206 322 196 Z" fill="#E2D9C8" stroke="#8F8576" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="380" cy="176" rx="7" ry="4" fill="#9AAE74" stroke="#5E7044" stroke-width="2.5"/>
+
+  <!-- gentle ripples -->
+  <g fill="none" stroke="#A8E8F0" stroke-width="3" stroke-linecap="round">
+    <path d="M206 186 q10 -4 20 0"/>
+    <path d="M286 178 q10 -4 20 0"/>
+  </g>
+
+  <!-- clear shallow water at the edge -->
+  <path d="M-4 206 Q120 194 220 200 Q320 208 404 200" fill="none" stroke="#A4EEE4" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- the white pebble beach -->
+  <path d="M-4 208 Q120 198 220 204 Q320 212 404 204 V254 H-4 Z" fill="#F4EFE5" stroke="#B9AD99" stroke-width="3" stroke-linejoin="round"/>
+  <g fill="#E0D7C8">
+    <ellipse cx="146" cy="236" rx="6" ry="3.5"/>
+    <ellipse cx="360" cy="224" rx="6" ry="3.5"/>
+    <ellipse cx="14" cy="226" rx="5" ry="3"/>
+    <ellipse cx="380" cy="244" rx="5" ry="3"/>
+  </g>
+
+  <!-- beach towel with a straw hat -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="34,214 118,212 128,244 24,246" fill="#FF8A65" stroke="#A8452A" stroke-width="3"/>
+    <path d="M44 214 L37 246 M108 212 L115 244" fill="none" stroke="#FFD3C2" stroke-width="3"/>
+    <ellipse cx="76" cy="230" rx="24" ry="8" fill="#EBC777" stroke="#9A7A30" stroke-width="3"/>
+    <path d="M63 230 Q62 215 76 214 Q90 215 89 230 Z" fill="#F3D78E" stroke="#9A7A30" stroke-width="3"/>
+    <path d="M64 225 Q76 229 88 225" fill="none" stroke="#3F7FC0" stroke-width="4"/>
+  </g>
+
+  <!-- the yellow sea kayak pulled up on the pebbles -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="248" cy="238" rx="94" ry="6" fill="#E0D7C8"/>
+    <path d="M152 228 Q246 206 346 222 Q246 250 152 228 Z" fill="#FDD835" stroke="#8D6E00" stroke-width="3.5"/>
+    <path d="M158 227 Q246 211 340 222 Q246 218 158 227 Z" fill="#FFFFFF" stroke="#C49000" stroke-width="2"/>
+    <ellipse cx="246" cy="221" rx="21" ry="5" fill="#263238" stroke="#11181C" stroke-width="2.5"/>
+  </g>
+
+  <!-- its paddle -->
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <path d="M200 238 L296 206" fill="none" stroke="#263238" stroke-width="6"/>
+    <path d="M200 238 L296 206" fill="none" stroke="#546E7A" stroke-width="2.5"/>
+    <ellipse cx="194" cy="240" rx="16" ry="7" transform="rotate(-18.4 194 240)" fill="#E53935" stroke="#8E1B1B" stroke-width="3"/>
+    <ellipse cx="302" cy="204" rx="16" ry="7" transform="rotate(-18.4 302 204)" fill="#E53935" stroke="#8E1B1B" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- snow -->
+  <path d="M6 164 Q14 140 60 140 Q110 132 160 140 Q196 146 194 168 Q190 186 100 186 Q10 186 6 164 Z" fill="#EEF5FA" stroke="#B0C4D2" stroke-width="3.5" stroke-linejoin="round"/>
+  <ellipse cx="96" cy="160" rx="80" ry="7" fill="#90A4AE" opacity="0.25"/>
+  <g fill="#FFFFFF" stroke="#B0C4D2" stroke-width="2">
+    <circle cx="30" cy="40" r="4"/>
+    <circle cx="170" cy="30" r="4"/>
+    <circle cx="120" cy="20" r="3"/>
+    <circle cx="60" cy="74" r="3"/>
+    <circle cx="186" cy="88" r="3"/>
+  </g>
+  <!-- far runner -->
+  <path d="M42 140 H150 Q180 140 178 116 Q176 102 162 106" fill="none" stroke="#5D3A1A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 140 H150 Q180 140 178 116 Q176 102 162 106" fill="none" stroke="#A0703C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- far posts -->
+  <g stroke="#5D3A1A" stroke-width="10" stroke-linecap="round">
+    <path d="M62 104 V138 M102 104 V138 M142 104 V138"/>
+  </g>
+  <g stroke="#A0703C" stroke-width="5" stroke-linecap="round">
+    <path d="M62 104 V138 M102 104 V138 M142 104 V138"/>
+  </g>
+  <!-- seat slats -->
+  <path d="M30 116 L46 98 H166 L150 116 Z" fill="#C68A4C" stroke="#5D3A1A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M36 110 H156 M42 104 H162" stroke="#8B5A2B" stroke-width="3"/>
+  <path d="M30 116 H150 V124 H30 Z" fill="#A0703C" stroke="#5D3A1A" stroke-width="4" stroke-linejoin="round"/>
+  <!-- near posts -->
+  <g stroke="#5D3A1A" stroke-width="12" stroke-linecap="round">
+    <path d="M48 122 V150 M88 122 V150 M128 122 V150"/>
+  </g>
+  <g stroke="#C68A4C" stroke-width="6" stroke-linecap="round">
+    <path d="M48 122 V150 M88 122 V150 M128 122 V150"/>
+  </g>
+  <!-- near runner curling up at the front -->
+  <path d="M26 152 H136 Q168 152 166 126 Q164 110 148 114" fill="none" stroke="#5D3A1A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M26 152 H136 Q168 152 166 126 Q164 110 148 114" fill="none" stroke="#C68A4C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- pulling rope -->
+  <path d="M160 116 Q186 120 188 146 Q190 166 170 168" fill="none" stroke="#C62828" stroke-width="5" stroke-linecap="round"/>
+</svg>

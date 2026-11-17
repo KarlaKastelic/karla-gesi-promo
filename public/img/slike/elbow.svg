@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Komolec: the man leans forward at a table, side view, his elbow on the table and his chin on his fist -->
+  <rect x="0" y="0" width="200" height="200" fill="#F6EEDC"/>
+  <!-- table: one leg and the top -->
+  <rect x="176" y="164" width="14" height="40" fill="#8C6A3E" stroke="#5A4630" stroke-width="3.5"/>
+  <rect x="104" y="154" width="104" height="14" rx="3" fill="#D7B98E" stroke="#8C6A3E" stroke-width="4"/>
+  <!-- neck + T-shirt body, leaning forward -->
+  <path d="M84 90 L100 72" stroke="#B07A50" stroke-width="20" stroke-linecap="round"/>
+  <path d="M84 90 L100 72" stroke="#F2C9A0" stroke-width="13" stroke-linecap="round"/>
+  <path d="M22 204 Q16 146 40 110 Q54 90 80 86 Q98 86 102 100 Q108 122 100 150 L94 204 Z" fill="#1976D2" stroke="#0D47A1" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M22 186 H96 V204 H22 Z" fill="#455A64" stroke="#263238" stroke-width="4" stroke-linejoin="round"/>
+  <!-- head, three-quarter view, resting on his fist -->
+  <g transform="translate(112 50) rotate(10) scale(0.72)">
+    <ellipse cx="0" cy="0" rx="33" ry="38" fill="#F2C9A0" stroke="#B07A50" stroke-width="5.5"/>
+    <path d="M-34 10 Q-40 -40 2 -40 Q34 -40 34 -8 Q24 -24 6 -24 Q-12 -22 -16 -2 Q-22 10 -34 10 Z" fill="#6D4C41" stroke="#4E342E" stroke-width="4.5" stroke-linejoin="round"/>
+    <ellipse cx="-20" cy="6" rx="7" ry="10" fill="#F2C9A0" stroke="#B07A50" stroke-width="4.5"/>
+    <circle cx="6" cy="2" r="5" fill="#3E2723"/>
+    <circle cx="24" cy="2" r="5" fill="#3E2723"/>
+    <path d="M18 6 V15" stroke="#B07A50" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M8 24 Q15 22 22 24" fill="none" stroke="#8D4A3A" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+  <!-- near arm: upper arm forward and down to the elbow on the table, forearm straight up to the chin -->
+  <path d="M58 114 L142 140 L130 92" fill="none" stroke="#B07A50" stroke-width="23" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 114 L142 140 L130 92" fill="none" stroke="#F2C9A0" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- the blue sleeve on the upper arm -->
+  <path d="M56 112 L80 120" fill="none" stroke="#0D47A1" stroke-width="30" stroke-linecap="round"/>
+  <path d="M56 112 L79.5 119.8" fill="none" stroke="#1976D2" stroke-width="23" stroke-linecap="round"/>
+  <path d="M88 110 Q93 122 86 134" fill="none" stroke="#0D47A1" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- fist under the chin -->
+  <ellipse cx="128" cy="84" rx="14" ry="12" fill="#F2C9A0" stroke="#B07A50" stroke-width="4"/>
+  <path d="M118 80 Q128 76 138 80 M118 88 Q128 84 138 88" fill="none" stroke="#B07A50" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- red ring around the elbow -->
+  <circle cx="140" cy="138" r="23" fill="none" stroke="#E53935" stroke-width="6"/>
+</svg>

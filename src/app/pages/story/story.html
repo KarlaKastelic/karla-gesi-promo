@@ -1,0 +1,121 @@
+<article>
+  <header class="page-head">
+    <div class="container story-head">
+      <div>
+        <span class="eyebrow">Zgodba</span>
+        <h1>Nastal je doma, iz potrebe in z ljubeznijo</h1>
+        <p class="lead">
+          GESI ni nastal v podjetju. Nastal je doma, za vsakodnevno vadbo odraslega po možganski kapi – za človeka, ki
+          mu iskanje besed, branje in zbranost ne gredo več samoumevno.
+        </p>
+      </div>
+      <img
+        class="story-head__img"
+        src="img/scenes/grandma_cottage.svg"
+        alt="Risba »Pri babici« – vsa družina zbrana v koči na Javorniškem rovtu"
+        width="480"
+        height="360"
+      />
+    </div>
+  </header>
+
+  <div class="container prose">
+    <section>
+      <h2>Igre, ki ne priganjajo</h2>
+      <p>
+        Mnoge igre za vadbo spomina in besed merijo čas, štejejo točke in rdeče obarvajo napake. Za nekoga, ki se po možganski
+        kapi znova uči poimenovati skodelico, je to prej ovira kot pomoč. Zato so igre v GESI drugačne:
+        <strong>preproste, mirne in prijazne, a ne otročje.</strong>
+      </p>
+      <p>
+        Nič ne teče in nič se ne sešteva. Napačen odgovor se le nežno označi – »Poskusi še enkrat«. Vsako nalogo je mogoče
+        preskočiti brez slabe vesti, aplikacija pa pokaže rešitev: »Nič hudega, poglejva«. Napredek vidi le spremljevalec
+        ali terapevt, med igro pa se ne pokaže, da igralec ne čuti pritiska.
+      </p>
+    </section>
+
+    <section>
+      <h2>Za težje dni</h2>
+      <p>
+        Vsakodnevna vadba ni vedno lahka. Pridejo dnevi, ko besede ne pridejo, ko narašča jeza ali nemir. Zanje je v GESI
+        pet strani, ki niso igre: <strong>Povej mi</strong>, ki pove namesto igralca, <strong>Mirni kotiček</strong> za
+        skupno dihanje, <strong>Izlet</strong> korak za korakom na znani hrib, <strong>Pobarvanka</strong> in
+        <strong>Moja glasba</strong>. Kot piše v navodilih: glasba odpira vrata, ki jih besede ne morejo.
+      </p>
+    </section>
+  </div>
+
+  <section class="section section--surface">
+    <div class="container">
+      <div class="section-head">
+        <h2>Domači kraji in družinski spomini</h2>
+        <p class="lead">
+          Ker je osebno najmočnejše, so v GESI narisani kraji, ki jih družina pozna in ima rada. Izleti gredo po znanih
+          poteh, na cilju pa vedno čaka slika kraja.
+        </p>
+      </div>
+      <ul class="places">
+        @for (p of places; track p.name) {
+          <li class="place">
+            <img [src]="p.img" [alt]="'Risba: ' + p.name" width="480" height="360" loading="lazy" />
+            <div>
+              <h3>{{ p.name }}</h3>
+              <p>{{ p.text }}</p>
+            </div>
+          </li>
+        }
+      </ul>
+    </div>
+  </section>
+
+  <div class="container prose">
+    <section class="scene-row">
+      <img
+        src="img/scenes/rovte_meadow.svg"
+        alt="Risba »Travnik v Rovtah« – družinski ljubljenčki na sončnem travniku"
+        width="480"
+        height="360"
+        loading="lazy"
+      />
+      <div>
+        <h2>Travnik v Rovtah</h2>
+        <p>
+          V igri »Kje je?« so tudi prizori iz domačega življenja. Na sončnem nebeškem travniku v Rovtah so zbrani vsi
+          družinski ljubljenčki – Sanchi, Lord, Alma, Snežka, Kim, Bebo s papigo Jako, Capi, Luna in mačke iz Rovt. Pri
+          babici je vsa družina zbrana v koči na Javorniškem rovtu, pri frizerki pa teče kava in klepet.
+        </p>
+      </div>
+    </section>
+
+    <section class="scene-row scene-row--reverse">
+      <img src="img/scenes/park.svg" alt="Risba parka, kjer se v porednem načinu vse premika" width="480" height="360" loading="lazy" />
+      <div>
+        <h2>Poredni način – ideja sestre dvojčice</h2>
+        <p>
+          Kdor vadi vsak dan, ve, da je smeh enako pomemben kot vaja. Zato je Karlina sestra dvojčica predlagala
+          poredni način: nič se ne sprašuje, kar koli tapneš, pa naredi kaj smešnega – se prevrne, poskoči, zamaje kot
+          žele ali odplava. Gibi so mehki in nič ne utripa.
+        </p>
+      </div>
+    </section>
+
+    <section class="lesson card">
+      <h2>Kar je pomagalo nam, lahko pomaga tudi drugim</h2>
+      <p>
+        Igre, ki so nastale za enega človeka, enako dobro služijo vsem, ki vadijo besedišče, razumevanje in pozornost:
+        odraslim po možganski poškodbi, otrokom s posebnimi potrebami, starejšim, ki želijo ostati bistri, in tistim, ki se
+        učijo novega jezika.
+      </p>
+      <p>
+        In vsak lahko GESI naredi za svojega: z <strong>Mojimi slikami</strong> (družina, prijatelji, domača hiša,
+        najljubša skodelica), <strong>Mojimi besedami</strong> (imena domačih, »Dober dan!«, ime ulice) in najljubšimi
+        izvajalci v igri <strong>Glasba</strong>.
+      </p>
+      <p class="muted">
+        GESI še vedno nastaja doma. Predlogi in ideje so vedno dobrodošli – <a routerLink="/kontakt">pišite nam</a>.
+      </p>
+    </section>
+  </div>
+</article>
+
+<app-cta-band title="Bi GESI preizkusili pri sebi?" />

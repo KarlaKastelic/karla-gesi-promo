@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <ellipse cx="102" cy="170" rx="84" ry="10" fill="#000" opacity="0.12"/>
+  <path d="M28 156 Q20 112 52 80 Q84 50 128 54 Q172 62 180 108 Q186 150 160 166 Q100 176 46 170 Q30 166 28 156 Z" fill="#9E9E9E" stroke="#5A5A5A" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M34 150 Q70 162 120 160 Q160 156 178 134 Q176 156 160 166 Q100 176 46 170 Q32 164 34 150 Z" fill="#858585"/>
+  <path d="M56 98 Q74 74 104 66 Q86 82 74 104 Q64 108 56 98 Z" fill="#C2C2C2"/>
+  <g fill="none" stroke="#6A6A6A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M124 88 L134 106 L130 122"/><path d="M80 130 L96 136"/>
+  </g>
+  <g fill="#7A7A7A"><circle cx="150" cy="96" r="3"/><circle cx="62" cy="140" r="2.5"/><circle cx="110" cy="146" r="3"/></g>
+  <!-- moss -->
+  <path d="M58 88 Q54 76 66 72 Q70 60 84 60 Q90 50 104 53 Q116 46 128 53 Q142 50 150 60 Q162 62 164 74 Q152 72 142 78 Q130 72 120 80 Q108 74 98 84 Q86 80 78 92 Q66 96 58 88 Z" fill="#7CB342" stroke="#4E7A2A" stroke-width="3" stroke-linejoin="round"/>
+  <!-- grass tufts -->
+  <g fill="none" stroke="#4E9A3E" stroke-width="3" stroke-linecap="round">
+    <path d="M26 170 L20 156"/><path d="M30 170 L32 154"/><path d="M34 170 L40 158"/>
+    <path d="M168 170 L162 156"/><path d="M172 170 L174 152"/><path d="M176 170 L184 158"/>
+  </g>
+</svg>
